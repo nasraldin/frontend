@@ -19,7 +19,7 @@ export default defineConfig({
   },
   server: {
     prerender: {
-      crawlLinks: true,
+      crawlLinks: false,
     },
   },
   middleware: 'src/middleware.ts',
