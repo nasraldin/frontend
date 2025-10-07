@@ -23,13 +23,13 @@ export default createMiddleware({
       script-src ${
         isProd
           ? // Allow self for built JS files, nonce for inline scripts, and strict-dynamic for dynamic loading
-            `'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval'`
+            `'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https://static.cloudflareinsights.com`
           : "'self' 'unsafe-inline' 'unsafe-eval' https: http:"
       };
       style-src ${isProd ? `'self' 'unsafe-inline'` : "'self' 'unsafe-inline'"};
       style-src-attr ${isProd ? `'unsafe-inline'` : "'unsafe-inline'"};
       img-src 'self' data:;
-      connect-src ${isProd ? "'self'" : "'self' ws: wss: localhost:*"};
+      connect-src ${isProd ? "'self' https://static.cloudflareinsights.com" : "'self' ws: wss: localhost:*"};
       object-src 'none';
       base-uri 'none';
       frame-ancestors 'none';
