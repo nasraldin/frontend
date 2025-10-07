@@ -47,4 +47,4 @@ EXPOSE 3000
 ENTRYPOINT ["dumb-init", "--"]
 CMD ["pnpm", "start"]
 HEALTHCHECK --interval=30s --timeout=30s --retries=3 \
-  CMD wget --spider --quiet http://localhost:3000/api/healthy || exit 1
+  CMD wget --spider --quiet http://localhost:3000/api/health || exit 1
