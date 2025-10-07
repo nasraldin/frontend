@@ -14,6 +14,7 @@ WORKDIR /app
 # Copy necessary configuration files and lock file for package installation
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml app.config.ts tsconfig.json ./
 COPY .husky/* ./.husky/
+COPY scripts/patch-vinxi-robust.js ./scripts/patch-vinxi-robust.js
 
 # Install app dependencies using pnpm
 RUN pnpm install

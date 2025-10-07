@@ -12,6 +12,7 @@ ENV NODE_ENV=production
 WORKDIR /app
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 COPY .husky/install.mjs ./.husky/install.mjs
+COPY scripts/patch-vinxi-robust.js ./scripts/patch-vinxi-robust.js
 RUN pnpm install
 
 # Rebuild the source code only when needed
