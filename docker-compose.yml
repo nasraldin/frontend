@@ -1,0 +1,24 @@
+services:
+  frontend:
+    container_name: frontend
+    image: frontend
+    build:
+      context: .
+      dockerfile: Dockerfile.development
+    restart: always
+    env_file: .env.development
+    ports:
+      - ${PORT:-3000}:3000
+    volumes:
+      - ./public:/app/public
+      - ./scripts:/app/scripts
+      - ./src:/app/src
+      - ./types:/app/types
+      - ./app.config.ts:/app/app.config.ts
+    networks:
+      - frontend-network
+
+networks:
+  frontend-network:
+    name: frontend-network
+    driver: bridge

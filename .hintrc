@@ -1,0 +1,16 @@
+{
+  "extends": ["web-recommended"],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "font-synthesis-weight: none",
+          "scrollbar-width: none",
+          "scrollbar-width: thin",
+          "scrollbar-color"
+        ]
+      }
+    ]
+  }
+}

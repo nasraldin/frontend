@@ -1,0 +1,73 @@
+# Proprietary License – AJRLY
+
+Copyright © 2025 AJRLY. All rights reserved.
+
+This software and all associated source code, configuration files, documentation,
+assets, and other components (collectively, the “Software”) are the confidential and
+proprietary property of **AJRLY** ("the Company"). The Software is intended solely
+for internal use by authorized personnel or contractors bound by a confidentiality
+agreement. The Software is licensed, not sold. By accessing, copying, or using the
+Software, you agree to the terms below.
+
+## Authorized Use
+
+You are permitted to:
+
+- Use the Software solely for internal development, testing, or deployment within
+  AJRLY or by authorized contractors acting on behalf of AJRLY.
+- Modify the Software for internal purposes, provided such modifications remain
+  within the private AJRLY ecosystem.
+
+## Permissions
+
+The following are permitted **only with prior written consent from AJRLY**:
+
+- Use of the Software for any commercial, public, or client-facing purposes.
+- Copying, distributing, sublicensing, or modifying the Software.
+- Deployment of the Software outside of approved infrastructure owned or controlled
+  by AJRLY.
+
+## Restrictions
+
+Without prior written consent from AJRLY, you may not:
+
+- Distribute, sublicense, publish, or share the Software or any of its parts.
+- Use the Software for any commercial, public, or third-party purposes.
+- Reverse engineer, decompile, or disassemble any part of the Software.
+- Remove or alter any proprietary notices or disclaimers.
+
+## Third-Party Software
+
+This Software may include dependencies or libraries licensed under separate open
+source licenses. All such third-party components retain their original licenses and
+intellectual property rights. Refer to the [`LICENSE.md`](./LICENSE.md) or specific
+documentation within the repository for attribution and license details.
+
+Use of third-party software is subject to the respective open source licenses, which
+may include permissive licenses such as MIT, Apache-2.0, or others.
+
+## Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+AJRLY DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+**AJRLY** assumes no responsibility for any loss or damages resulting from the use
+of this Software.
+
+## Limitation of Liability
+
+IN NO EVENT SHALL AJRLY BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR
+CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE,
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+## Contact
+
+For inquiries related to licensing, permissions, or legal use, contact:
+
+**AJRLY Legal Department**
+
+- 📧 Email: info@ajrly.com
+- 🌐 Website: [https://ajrly.com](https://ajrly.com)
+
+---

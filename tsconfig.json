@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    // ✨ Language and Module Support
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "allowArbitraryExtensions": true,
+    "downlevelIteration": true,
+    // 📁 Project Structure and Build
+    "baseUrl": ".",
+    "incremental": false,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    // 🚨 Code Quality and Strictness
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    // 🔁 Module Interop
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    // ✂️ Output Control
+    "noEmit": true,
+    "newLine": "lf",
+    "inlineSources": false,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "isolatedModules": true,
+    "types": ["vinxi/types/client", "vitest/globals", "@testing-library/jest-dom"],
+    // 🔌 Plugins and Paths
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules"
+      }
+    ],
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

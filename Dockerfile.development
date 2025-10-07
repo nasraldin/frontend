@@ -1,0 +1,23 @@
+FROM node:lts-alpine AS nextjs-fe
+
+# Set environment variables for development
+ENV NODE_ENV=development
+
+# Install necessary certificates and update system (combine apk commands for optimization)
+RUN apk update && apk upgrade && \
+  apk add --no-cache libc6-compat ca-certificates dumb-init && update-ca-certificates && \
+  npm install -g npm && npm i -g pnpm && rm -rf /root/.npm && rm -rf /var/lib/apt/lists/*
+
+# Set working directory in the container
+WORKDIR /app
+
+# Copy necessary configuration files and lock file for package installation
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml app.config.ts tsconfig.json ./
+COPY .husky/* ./.husky/
+
+# Install app dependencies using pnpm
+RUN pnpm install
+
+# Expose port
+EXPOSE 3000
+CMD ["pnpm", "dev"]

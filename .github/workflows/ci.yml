@@ -1,0 +1,18 @@
+name: Build CI
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev, main]
+
+jobs:
+  call-workflow:
+    name: Trigger Pnpm Build CI
+    uses: ajrly/gh-workflow-template/.github/workflows/pnpm-ci.yml@main
+    with:
+      nvmrc-path: '.nvmrc'
+
+  verify-commits:
+    name: Trigger Verify Commits
+    uses: ajrly/gh-workflow-template/.github/workflows/verify-commits.yml@main

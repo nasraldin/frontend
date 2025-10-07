@@ -1,0 +1,33 @@
+# humanstxt.org
+# The humans responsible & technology
+
+# TEAM
+
+    Nasr Aldin -- Full Stack Engineer -- https://nasraldin.com
+
+# THANKS
+
+    Open Source Community
+
+# TECHNOLOGY
+
+    Node.js
+    Docker
+
+/* SITE */
+Site name:    Ajrly
+Site URL:     https://ajrly.com
+Founder:      Nasr Aldin
+Facebook:     https://facebook.com/ajrlyapp
+X:            https://x.com/ajrlyapp
+LinkedIn:     https://linkedin.com/company/ajrlyapp
+Contact:      https://ajrly.com/contact
+Location:     UAE
+Launched:     2025
+Last update:  06/10/2025
+Standards:    TypeScript (TSLint), REST APIs, Security (OWASP)
+Components:   REST APIs, NodeJS, SolidJS, Docker, CI/CD
+Software:     VS Code, Cursor AI, Docker
+
+JOIN US!
+jobs.ajrly.com

@@ -1,0 +1,17 @@
+name: Cleanup Caches
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    types: [closed, reopened]
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    name: Trigger Caches Cleanup
+    uses: ajrly/gh-workflow-template/.github/workflows/cleanup-caches.yml@main
+    permissions:
+      contents: read
+      actions: write

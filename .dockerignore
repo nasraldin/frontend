@@ -1,0 +1,22 @@
+# directories
+.cursor
+.github
+.history
+.husky
+.trash
+.vscode
+node_modules
+prompt
+coverage
+playwright*
+*.lock*
+*.log*
+logs/*
+*.md
+*.d.json.ts
+Dockerfile*
+docker-compose.*
+.gitignore
+.env*
+!.env.production
+!.husky/install.mjs

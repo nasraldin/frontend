@@ -1,0 +1,7 @@
+echo "🔍 Running pre-push checks..."
+pnpm lint:check
+# pnpm test:all
+pnpm security:audit
+pnpm build:check
+pnpm build
+echo "✅ Pre-push checks completed successfully!"

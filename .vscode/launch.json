@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach",
+      "type": "node",
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "port": 9229
+    },
+    {
+      "name": "Server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm dev",
+      "autoAttachChildProcesses": true,
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Client",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Full Stack",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "pnpm dev:turbo",
+      "serverReadyAction": {
+        "pattern": "started server on .+, url: (http?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    }
+  ]
+}

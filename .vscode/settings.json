@@ -1,0 +1,55 @@
+{
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript][typescript][typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed"
+  },
+  "[json][jsonc][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "editor.formatOnSave": false,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll": "never",
+  //   "source.fixAll.eslint": "explicit",
+  //   "source.organizeImports": "never"
+  // },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "javascript.preferences.quoteStyle": "single",
+  "terminal.integrated.fontSize": 18,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "css.lint.unknownAtRules": "ignore",
+  "css.customData": [".vscode/tailwind.json"],
+  "tailwindCSS.classAttributes": ["class", "className", "theme"],
+  "tailwindCSS.experimental.classRegex": [
+    ["twMerge\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["createTheme\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "search.exclude": {
+    ".history": true,
+    ".trash": true,
+    ".vscode": true,
+    ".husky": true,
+    "pnpm-lock.yaml": true
+  }
+}

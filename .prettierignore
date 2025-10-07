@@ -1,0 +1,7 @@
+.trash/docs
+ar.json
+en.json
+ar-AE.json
+en-US.json
+docs
+*.d.json.ts

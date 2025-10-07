@@ -1,0 +1,9 @@
+{
+  "hooks": {
+    "pre-commit": "pretty-quick --staged && lint-staged",
+    "commit-msg": "commitlint --edit",
+    "pre-push": "pnpm lint:check && pnpm security:audit",
+    "post-merge": "pnpm install",
+    "post-checkout": "pnpm install"
+  }
+}

@@ -1,0 +1,16 @@
+allowedDeprecatedVersions:
+  unist: 0.0.1
+  lodash.get: 4.4.2
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@tailwindcss/oxide'
+  - env-x-utils
+  - esbuild
+  - sharp
+
+overrides:
+  '@mdx-js/mdx': ^3
+  'cookie': '>=0.7.0'
+  'esbuild': '>=0.25.0'
+  vite: ^7

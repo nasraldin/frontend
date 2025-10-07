@@ -1,0 +1,49 @@
+# Copyright
+
+© 2025 AJRLY. All rights reserved.
+
+This repository, including all source code, documentation, configuration files, and
+related materials, is the proprietary and confidential property of **AJRLY**.
+
+Unauthorized reproduction, distribution, or modification of this software in any
+form is strictly prohibited and may result in civil and/or criminal penalties.
+
+---
+
+## License
+
+This project is governed by a **Proprietary License**. Please refer to
+[`LICENSE.md`](./LICENSE.md) for the full terms and conditions.
+
+---
+
+## Contributors
+
+This project may include contributions from authorized AJRLY employees and
+contractors. All contributions are the intellectual property of AJRLY unless
+otherwise agreed in writing.
+
+---
+
+## Third-Party Software
+
+This repository includes third-party libraries and dependencies that are separately
+licensed under various open source licenses.
+
+These components retain their respective authors’ copyrights and license terms.
+
+Details of these dependencies, along with their licenses, can be found in:
+
+- The [`LICENSE.md`](./LICENSE.md) file (if present)
+- The [`package.json`](./package.json) and lock files
+- Directly in the respective source repositories
+
+AJRLY respects and complies with all open source licensing obligations.
+
+---
+
+## Trademarks
+
+AJRLY, the AJRLY logo, and any related branding are trademarks or registered
+trademarks of AJRLY. All other trademarks are the property of their respective
+owners.
