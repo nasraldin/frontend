@@ -22,12 +22,12 @@ export default createMiddleware({
       default-src 'self';
       script-src ${
         isProd
-          ? // Note: The `https:` and `'unsafe-inline'` directives do not reduce the effectiveness of the CSP.
-            // They are only fallbacks for older browsers that don't support `'strict-dynamic'`.
-            `'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' https: 'unsafe-inline'`
+          ? // Allow self for built JS files, nonce for inline scripts, and strict-dynamic for dynamic loading
+            `'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval'`
           : "'self' 'unsafe-inline' 'unsafe-eval' https: http:"
       };
-      style-src ${isProd ? `'nonce-${nonce}'` : "'self' 'unsafe-inline'"};
+      style-src ${isProd ? `'self' 'unsafe-inline'` : "'self' 'unsafe-inline'"};
+      style-src-attr ${isProd ? `'unsafe-inline'` : "'unsafe-inline'"};
       img-src 'self' data:;
       connect-src ${isProd ? "'self'" : "'self' ws: wss: localhost:*"};
       object-src 'none';
