@@ -1,16 +1,9 @@
-import { randomBytes } from 'crypto';
 import { createMiddleware } from '@solidjs/start/middleware';
 
 const isProd = import.meta.env.PROD;
 
 export default createMiddleware({
   onRequest: (event) => {
-    const nonce = randomBytes(16).toString('base64');
-
-    if (isProd) {
-      event.locals.nonce = nonce;
-    }
-
     // Notes:
     // 1. SolidStart uses `eval` for data serialization, which may require you to include the 'unsafe-eval' directive in your CSP.
     //    For more information, see: https://github.com/solidjs/solid-start/issues/1825
@@ -22,8 +15,8 @@ export default createMiddleware({
       default-src 'self';
       script-src ${
         isProd
-          ? // Allow self for built JS files, nonce for inline scripts, and strict-dynamic for dynamic loading
-            `'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' https:`
+          ? // Allow self for built JS files and unsafe-inline for inline scripts
+            `'self' 'unsafe-inline' 'unsafe-eval' https:`
           : "'self' 'unsafe-inline' 'unsafe-eval' https: http:"
       };
       style-src ${isProd ? `'self' 'unsafe-inline'` : "'self' 'unsafe-inline'"};
