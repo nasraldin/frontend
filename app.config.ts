@@ -22,5 +22,5 @@ export default defineConfig({
       crawlLinks: true,
     },
   },
-  middleware: 'src/middleware.ts',
+  // middleware: 'src/middleware.ts',
 });
