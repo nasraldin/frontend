@@ -1,6 +1,5 @@
 allowedDeprecatedVersions:
   unist: 0.0.1
-  lodash.get: 4.4.2
 
 onlyBuiltDependencies:
   - '@parcel/watcher'

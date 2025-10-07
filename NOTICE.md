@@ -11,21 +11,13 @@ are provided.
 
 ## Notable Open Source Dependencies
 
-| Package                     | License    | Source / Repository                                      |
-| --------------------------- | ---------- | -------------------------------------------------------- |
-| `react`                     | MIT        | https://github.com/facebook/react                        |
-| `next`                      | MIT        | https://github.com/vercel/next.js                        |
-| `tailwindcss`               | MIT        | https://github.com/tailwindlabs/tailwindcss              |
-| `twin.macro`                | MIT        | https://github.com/ben-rogerson/twin.macro               |
-| `@tailwindcss/forms`        | MIT        | https://github.com/tailwindlabs/tailwindcss-forms        |
-| `@tailwindcss/typography`   | MIT        | https://github.com/tailwindlabs/tailwindcss-typography   |
-| `@tailwindcss/aspect-ratio` | MIT        | https://github.com/tailwindlabs/tailwindcss-aspect-ratio |
-| `nestjs/core`               | MIT        | https://github.com/nestjs/nest                           |
-| `class-variance-authority`  | MIT        | https://github.com/joe-bell/cva                          |
-| `zod`                       | MIT        | https://github.com/colinhacks/zod                        |
-| `eslint`                    | MIT        | https://github.com/eslint/eslint                         |
-| `typescript`                | Apache-2.0 | https://github.com/microsoft/TypeScript                  |
-| `pnpm`                      | MIT        | https://github.com/pnpm/pnpm                             |
+| Package       | License    | Source / Repository                         |
+| ------------- | ---------- | ------------------------------------------- |
+| `solidjs`     | MIT        | https://github.com/solidjs/solid            |
+| `tailwindcss` | MIT        | https://github.com/tailwindlabs/tailwindcss |
+| `eslint`      | MIT        | https://github.com/eslint/eslint            |
+| `typescript`  | Apache-2.0 | https://github.com/microsoft/TypeScript     |
+| `pnpm`        | MIT        | https://github.com/pnpm/pnpm                |
 
 ---
 
