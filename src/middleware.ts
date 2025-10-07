@@ -16,7 +16,7 @@ export default createMiddleware({
       script-src ${
         isProd
           ? // Allow self for built JS files and unsafe-inline for inline scripts
-            `'self' 'unsafe-inline' 'unsafe-eval' https:`
+            `'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com`
           : "'self' 'unsafe-inline' 'unsafe-eval' https: http:"
       };
       style-src ${isProd ? `'self' 'unsafe-inline'` : "'self' 'unsafe-inline'"};
