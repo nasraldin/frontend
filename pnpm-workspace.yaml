@@ -1,10 +1,8 @@
-allowedDeprecatedVersions:
-  unist: 0.0.1
+# allowedDeprecatedVersions:
 
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - '@tailwindcss/oxide'
-  - env-x-utils
   - esbuild
   - sharp
 
