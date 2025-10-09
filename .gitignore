@@ -1,5 +1,6 @@
 # Compiled
 dist
+dev-dist
 .cache
 .output
 .history

@@ -139,6 +139,7 @@ const eslintConfig = [
       'node_modules/**',
       'out/**',
       'dist/**',
+      'dev-dist/**',
       '.vinxi/**',
       '.output/**',
       '.history/**',

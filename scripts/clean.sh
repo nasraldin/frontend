@@ -12,7 +12,7 @@ for dir in .history .husky/_; do
 done
 
 # Remove all matching directories recursively (root and nested)
-for dir in .cache .vinxi .output .million build dist coverage out node_modules temp; do
+for dir in .cache .vinxi .output .million build dist coverage out node_modules temp dev-dist; do
   echo "Removing all '$dir' directories recursively..."
   find . -type d -name "$dir" -prune -exec rm -rf '{}' +
 done

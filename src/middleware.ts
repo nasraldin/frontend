@@ -1,9 +1,24 @@
 import { createMiddleware } from '@solidjs/start/middleware';
 
+import { createRequestLogger } from '~/utils/logger';
+
 const isProd = import.meta.env.PROD;
 
 export default createMiddleware({
   onRequest: (event) => {
+    // Create request logger with unique ID
+    const requestId = crypto.randomUUID();
+    const logger = createRequestLogger(requestId);
+
+    // Log request
+    logger.info(
+      {
+        method: event.request.method,
+        url: event.request.url,
+        userAgent: event.request.headers.get('user-agent'),
+      },
+      'Incoming request',
+    );
     // Notes:
     // 1. SolidStart uses `eval` for data serialization, which may require you to include the 'unsafe-eval' directive in your CSP.
     //    For more information, see: https://github.com/solidjs/solid-start/issues/1825
@@ -30,5 +45,14 @@ export default createMiddleware({
     `.replace(/\s+/g, ' ');
 
     event.response.headers.set('Content-Security-Policy', csp);
+
+    // Log response
+    logger.info(
+      {
+        status: event.response.status,
+        responseTime: Date.now(),
+      },
+      'Request completed',
+    );
   },
 });

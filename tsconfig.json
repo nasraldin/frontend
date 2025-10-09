@@ -37,7 +37,12 @@
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "isolatedModules": true,
-    "types": ["vinxi/types/client", "vitest/globals", "@testing-library/jest-dom"],
+    "types": [
+      "vinxi/types/client",
+      "vitest/globals",
+      "@testing-library/jest-dom",
+      "vite-plugin-pwa/solid"
+    ],
     // 🔌 Plugins and Paths
     "plugins": [
       {
