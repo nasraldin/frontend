@@ -1,0 +1,32 @@
+{
+  "contactPage": {
+    "metadata": {
+      "title": "تواصل معنا"
+    },
+    "title": "تواصل معنا",
+    "subtitle": "لا تتردد في التواصل معنا لأي استفسار أو مساعدة.",
+    "liveChat": "الدردشة",
+    "feedback": "الملاحظات",
+    "requestSupport": "إنشاء طلب مساعدة",
+    "reportBug": "الإبلاغ عن خطأ تقني",
+    "faq": "الأسئلة الشائعة",
+    "contactInformation": "معلومات الاتصال",
+    "email": "البريد الإلكتروني",
+    "headOffice": "المقر الرئيسي",
+    "phoneNumber": "رقم الهاتف",
+    "socialMedia": "وسائل التواصل الاجتماعي",
+    "getInTouch": "تواصل معنا",
+    "contactForm": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phoneNumber": "رقم الهاتف",
+      "country": "الدولة",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "sendMessage": "إرسال",
+      "successMessage": "تم إرسال رسالتك بنجاح!",
+      "errorMessage": "حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى لاحقًا."
+    },
+    "acknowledgement": "بإرسال النموذج، فإنك تقر بأن {appName} ستعالج بياناتك الشخصية وفقًا لـ {privacyNotice}."
+  }
+}

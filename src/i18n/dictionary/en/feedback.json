@@ -1,0 +1,31 @@
+{
+  "feedbackPage": {
+    "metadata": {
+      "title": "Feedback"
+    },
+    "title": "Share Your Feedback",
+    "subtitle": "Your feedback helps us improve our services and provide a better experience.",
+    "formTitle": "Tell Us What You Think",
+    "productFeedback": "Product Feedback",
+    "productFeedbackDesc": "Share your thoughts about our products and services",
+    "websiteFeedback": "Website Feedback",
+    "websiteFeedbackDesc": "Help us improve your online experience",
+    "generalFeedback": "General Feedback",
+    "generalFeedbackDesc": "Any other comments or suggestions",
+    "category": "Feedback Category",
+    "categoryRequired": "Category is required",
+    "selectCategory": "Select a category",
+    "rating": "Rating",
+    "ratingRequired": "Rating is required",
+    "selectRating": "Select a rating",
+    "excellent": "Excellent (5)",
+    "good": "Good (4)",
+    "average": "Average (3)",
+    "fair": "Fair (2)",
+    "poor": "Poor (1)",
+    "messageTooShort": "Message is too short",
+    "submitFeedback": "Submit Feedback",
+    "thankYou": "Thank you for your feedback!",
+    "errorSubmitting": "Error submitting feedback. Please try again."
+  }
+}

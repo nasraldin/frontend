@@ -1,0 +1,50 @@
+{
+  "calendar": {
+    "views": {
+      "day": "Day view",
+      "week": "Week view",
+      "month": "Month view",
+      "year": "Year view"
+    },
+    "navigation": {
+      "today": "Today",
+      "previous": "Previous",
+      "next": "Next",
+      "addEvent": "Add event"
+    },
+    "weekdays": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "time": {
+      "am": "AM",
+      "pm": "PM",
+      "allDay": "All day"
+    },
+    "events": {
+      "noEvents": "No events",
+      "addEvent": "Add event",
+      "editEvent": "Edit event",
+      "deleteEvent": "Delete event"
+    }
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "accessibilitySR": {
+    "appLogo": "شعار {appName}",
+    "changeCountry": "تغيير الدولة",
+    "changeCurrency": "تغيير العملة",
+    "changeLanguage": "تغيير اللغة",
+    "closeMenu": "إغلاق القائمة",
+    "goBack": "العودة إلى الصفحة السابقة",
+    "goToHome": "الذهاب إلى الصفحة الرئيسية",
+    "createNewAccount": "إنشاء حساب جديد على {appName}",
+    "loginToYourAccount": "تسجيل الدخول إلى حسابك",
+    "continueWithGoogle": "المتابعه بإستخدام حساب جوجل",
+    "continueWithMicrosoft": "المتابعه بإستخدام حساب مايكروسوفت",
+    "continueWithFacebook": "المتابعه بإستخدام حساب فيسبوك",
+    "continueWithX": "المتابعه بإستخدام حساب إكس",
+    "contactEmail": "التواصل معنا عبر البريد الإلكتروني",
+    "contactNumber": "التواصل معنا عن طريق رقم الهاتف",
+    "facebook": "{appName} علي فيسبوك",
+    "instagram": "{appName} علي انستجرام",
+    "linkedin": "{appName} علي لينكدإن",
+    "telegram": "{appName} علي تيليجرام",
+    "whatsApp": "{appName} علي واتساب",
+    "x": "{appName} على إكس",
+    "openMobileMenu": "فتح القائمة الرئيسية",
+    "scrollToTop": "التمرير إلى الأعلى",
+    "resetToDefault": "استعادة الإعدادات الافتراضية",
+    "footerAriaLabel": "أسفل الصفحة",
+    "footerNavAriaLabel": "التنقل في الجزء السفلي",
+    "homeLogoAriaLabel": "العودة إلى الصفحة الرئيسية",
+    "termsAriaLabel": "عرض الشروط والأحكام",
+    "privacyPolicyAriaLabel": "عرض سياسة الخصوصية",
+    "cookiesPolicyAriaLabel": "عرض سياسة ملفات تعريف الارتباط",
+    "copyrightAriaLabel": "معلومات حقوق النشر",
+    "googlePlayAriaLabel": "احصل عليه على جوجل بلاي",
+    "appStoreAriaLabel": "قم بالتنزيل من متجر التطبيقات",
+    "automaticallyAdjustsAppearance": "سنقوم بضبط العرض تلقائيًا استنادًا إلى إعدادات نظام جهازك.",
+    "useLightAppearance": "استخدم مظهرًا فاتحًا.",
+    "useDarkAppearance": "استخدم مظهرًا مظلم."
+  },
+  "authPage": {
+    "metadata": {
+      "title": "ابدأ الآن",
+      "description": "سجل الدخول أو أنشئ حسابًا للوصول إلى أفضل العروض على الفور!"
+    },
+    "slug": "ابدأ الآن",
+    "description": "أنشئ حسابًا للبدء، أو سجل الدخول إلى حسابك الحالي.",
+    "checkingAuth": "يتم التحقق من المصادقة...",
+    "redirectingMessage": "يتم التحويل إلى الصفحة الرئيسية..."
+  },
+  "signInPage": {
+    "metadata": {
+      "title": "تسجيل الدخول",
+      "description": "سجل الدخول إلى حسابك للوصول إلى جميع الميزات."
+    },
+    "title": "تسجيل الدخول إلى {appName}",
+    "signInButton": "تسجيل الدخول",
+    "signInButtonLoading": "جاري تسجيل الدخول...",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "emailInputPlaceholder": "اسم المستخدم أو البريد الإلكتروني",
+    "passwordInputPlaceholder": "أدخل كلمة المرور",
+    "createNewAccount": "إنشاء حساب جديد",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "signInWith": "سجل الدخول باستخدام",
+    "continueWithGoogle": "تسجيل الدخول باستخدام جوجل",
+    "continueWithMicrosoft": "تسجيل الدخول باستخدام مايكروسوفت",
+    "continueWithApple": "تسجيل الدخول باستخدام أبل",
+    "continueWithX": "تسجيل الدخول باستخدام إكس (تويتر)",
+    "continueWithFacebook": "تسجيل الدخول باستخدام فيسبوك",
+    "continueWithInstagram": "تسجيل الدخول باستخدام إنستجرام",
+    "tooltip": {
+      "usernameOrEmail": "يرجى إدخال اسم المستخدم أو البريد الإلكتروني لتسجيل الدخول.",
+      "password": "يرجى إدخال كلمة المرور الخاصة بك للمتابعة."
+    }
+  },
+  "signUpPage": {
+    "metadata": {
+      "title": "إنشاء حساب جديد"
+    },
+    "title": "إنشاء حساب",
+    "signUpButton": "موافقة & التسجيل",
+    "signUpButtonLoading": "جارِ إرسال البريد الإلكتروني للتفعيل...",
+    "firstName": "الاسم الأول",
+    "lastName": "الاسم الأخير",
+    "username": "اسم المستخدم",
+    "emailInputPlaceholder": "البريد الإلكتروني",
+    "mobileNumberInputPlaceholder": "رقم الهاتف المحمول",
+    "passwordInputPlaceholder": "إنشاء كلمة مرور",
+    "confirmPasswordInputPlaceholder": "تأكيد كلمة المرور",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "agreementNotice": "بالنقر على 'موافقة & التسجيل'، فإنك توافق على {appName} {userAgreement} و{privacyPolicy} و{cookiePolicy}.",
+    "allowContactForMarketing": "أوافق على تلقي رسائل تسويقية وترويجية من {appName} عبر البريد الإلكتروني، والرسائل القصيرة، والقنوات الأخرى."
+  },
+  "emailConfirmationPage": {
+    "metadata": {
+      "title": "تأكيد البريد الإلكتروني"
+    },
+    "title": "تحقق من بريدك الإلكتروني",
+    "subtitle": "لقد أرسلنا رابط التحقق إلى بريدك الإلكتروني",
+    "successMessage": "تم إرسال البريد الإلكتروني بنجاح!",
+    "sentTo": "تم الإرسال إلى:",
+    "resendButton": "إعادة إرسال البريد الإلكتروني",
+    "resendButtonLoading": "جاري الإرسال...",
+    "tryAgainButton": "تسجيل الدخول",
+    "backToHome": "العودة للرئيسية",
+    "resendCount": "تم إعادة الإرسال {count} مرة",
+    "resendCountSingular": "تم إعادة الإرسال {count} مرة",
+    "resendCountPlural": "تم إعادة الإرسال {count} مرات",
+    "rateLimited": "محدود المعدل",
+    "rateLimitMessage": "يمكنك إعادة الإرسال 3 مرات فقط في الساعة. يرجى الانتظار قبل المحاولة مرة أخرى.",
+    "helpfulTips": "نصائح مفيدة:",
+    "tipSpamFolder": "تحقق من مجلد الرسائل غير المرغوب فيها",
+    "tipVerifyEmail": "تأكد من صحة عنوان البريد الإلكتروني",
+    "tipWaitMinutes": "انتظر بضع دقائق قبل إعادة المحاولة",
+    "notReceived": "لم تستلم البريد الإلكتروني؟ تحقق من مجلد البريد العشوائي.",
+    "lostAccess": "فقدت الوصول إلى بريدك الإلكتروني؟ {identityVerification}"
+  },
+  "forgetPasswordPage": {
+    "metadata": {
+      "title": "أعد تعيين كلمة المرور"
+    },
+    "title": "نسيت كلمة المرور؟",
+    "subtitle": "أعد تعيين كلمة المرور في خطوتين سريعتيْن",
+    "emailInputPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+    "resetPasswordButton": "إعادة تعيين كلمة المرور",
+    "forgetPasswordButtonLoading": "جارِ إرسال رابط إعادة التعيين...",
+    "successMessage": "تم إرسال رابط إعادة التعيين!",
+    "successDescription": "يرجى التحقق من بريدك الإلكتروني والنقر على رابط إعادة التعيين لتغيير كلمة المرور.",
+    "emailSentTo": "تم إرسال البريد الإلكتروني إلى",
+    "sendAnotherEmail": "إرسال بريد إلكتروني آخر",
+    "errorTitle": "فشل في إرسال رابط إعادة التعيين",
+    "errorMessage": "تعذر إرسال رابط إعادة تعيين كلمة المرور. يرجى المحاولة مرة أخرى.",
+    "unexpectedError": "حدث خطأ غير متوقع. يرجى المحاولة لاحقًا."
+  },
+  "resendVerificationPage": {
+    "metadata": {
+      "title": "إعادة إرسال رابط التحقق",
+      "description": "إعادة إرسال رابط التحقق عبر البريد الإلكتروني لتفعيل حسابك"
+    },
+    "title": "إعادة إرسال رابط التحقق",
+    "subtitle": "أدخل عنوان بريدك الإلكتروني لاستلام رابط تحقق جديد",
+    "emailLabel": "عنوان البريد الإلكتروني",
+    "emailPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+    "button": "إعادة إرسال رابط التحقق",
+    "buttonLoading": "جارِ إرسال رابط التحقق...",
+    "successMessage": "تم إرسال رابط التحقق!",
+    "successDescription": "يرجى التحقق من بريدك الإلكتروني والنقر على رابط التحقق لتفعيل حسابك.",
+    "errorTitle": "فشل في إرسال رابط التحقق",
+    "errorMessage": "تعذر إرسال رابط التحقق. يرجى المحاولة مرة أخرى.",
+    "unexpectedError": "حدث خطأ غير متوقع. يرجى المحاولة لاحقًا.",
+    "userDisabled": "الحساب معطل",
+    "userDisabledMessage": "تم تعطيل هذا الحساب. يرجى الاتصال بالدعم للمساعدة.",
+    "noEmailAddress": "لا يوجد عنوان بريد إلكتروني",
+    "noEmailAddressMessage": "هذا الحساب لا يحتوي على عنوان بريد إلكتروني للتحقق منه.",
+    "emailVerificationNotRequired": "التحقق من البريد الإلكتروني غير مطلوب",
+    "emailVerificationNotRequiredMessage": "التحقق من البريد الإلكتروني غير مطلوب لهذا الحساب.",
+    "userAlreadyVerified": "الحساب محقق بالفعل",
+    "userAlreadyVerifiedMessage": "هذا الحساب محقق بالفعل وجاهز للاستخدام.",
+    "emailSendingFailed": "فشل في إرسال البريد الإلكتروني",
+    "emailSendingFailedMessage": "تعذر إرسال رابط التحقق. قد يكون هذا بسبب مشاكل في تكوين البريد الإلكتروني. يرجى المحاولة لاحقًا أو الاتصال بالدعم.",
+    "backToSignIn": "تذكرت كلمة المرور؟",
+    "signInLink": "تسجيل الدخول"
+  },
+  "passwordValidation": {
+    "title": "قوة كلمة المرور",
+    "strength": "القوة",
+    "requirements": "متطلبات كلمة المرور:",
+    "criteria": {
+      "length": "على الأقل 8 أحرف",
+      "maxLength": "الحد الأقصى 64 حرف",
+      "uppercase": "حرف كبير واحد على الأقل",
+      "lowercase": "حرف صغير واحد على الأقل",
+      "number": "رقم واحد على الأقل",
+      "special": "رمز خاص واحد على الأقل"
+    },
+    "strengthLabels": {
+      "veryWeak": "ضعيفة جداً",
+      "weak": "ضعيفة",
+      "fair": "متوسطة",
+      "good": "جيدة",
+      "strong": "قوية"
+    }
+  },
+  "emailValidation": {
+    "error": "خطأ في البريد الإلكتروني",
+    "helpText": {
+      "email": "أدخل عنوان بريد إلكتروني صحيح من نطاق مسموح به"
+    }
+  },
+  "usernameValidation": {
+    "error": "خطأ في اسم المستخدم",
+    "helpText": {
+      "email": "• أدخل عنوان بريد إلكتروني صحيح من نطاق مسموح به",
+      "username": "• أو استخدم اسم مستخدم (2-30 حرف، أحرف، أرقام، شرطة سفلية، شرطة)"
+    }
+  },
+  "authErrors": {
+    "authenticationError": "خطأ في المصادقة",
+    "configuration": "حدث خطأ في الشبكة قبل الوصول إلى الخادم.",
+    "accessDenied": "ليس لديك إذن لتسجيل الدخول.",
+    "verification": "رابط التحقق غير صالح أو انتهت صلاحيته.",
+    "default": "تعذر تسجيل الدخول.",
+    "returnToLogin": "الرجوع لتسجيل الدخول"
+  },
+  "authMessages": {
+    "firstNameRequired": "الاسم الأول مطلوب.",
+    "lastNameRequired": "الاسم الأخير مطلوب.",
+    "emailRequired": "عنوان البريد الإلكتروني مطلوب.",
+    "usernameRequired": "اسم المستخدم مطلوب.",
+    "usernameInvalid": "يرجى إدخال اسم مستخدم صحيح (2-30 حرف، أحرف، أرقام، شرطة سفلية، شرطة، نقطة).",
+    "usernameExists": "اسم المستخدم هذا مستخدم بالفعل. يرجى اختيار اسم آخر.",
+    "emailExists": "عنوان البريد الإلكتروني هذا مسجل بالفعل. يرجى استخدام بريد إلكتروني مختلف أو محاولة تسجيل الدخول.",
+    "usernameOrEmailRequired": "يرجى إدخال اسم المستخدم أو البريد الإلكتروني.",
+    "usernameOrEmailInvalid": "يرجى إدخال اسم مستخدم أو بريد إلكتروني صحيح.",
+    "domainNotAllowed": "نطاق البريد الإلكتروني الذي أدخلته غير مدعوم. يرجى استخدام عنوان بريد إلكتروني من مزود مدعوم.",
+    "passwordRequired": "يرجى إدخال كلمة المرور.",
+    "passwordInvalid": "يجب أن تكون كلمة المرور على الأقل 8 أحرف.",
+    "passwordTooLong": "يجب أن تكون كلمة المرور أقل من 64 حرف.",
+    "passwordCriteriaNotMet": "كلمة المرور لا تستوفي جميع المتطلبات.",
+    "passwordCriteria": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل وتشمل مزيجًا من الأرقام والحروف والرموز.",
+    "passwordCriteria1": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل.",
+    "passwordCriteria2": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.",
+    "passwordCriteria3": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل (مثل @، $، !، %، إلخ).",
+    "unableToSignin": "تعذر تسجيل الدخول. يرجى التحقق من بيانات الدخول والمحاولة مرة أخرى.",
+    "forgotCredentials": "نسيت بيانات الدخول؟ يمكنك إعادة تعيين كلمة المرور.",
+    "signInSuccess": "تم تسجيل الدخول بنجاح! مرحبًا بك.",
+    "unexpectedError": "حدث خطأ غير متوقع. يرجى المحاولة لاحقًا.",
+    "successfullySignedOut": "تم تسجيل الخروج بنجاح",
+    "signInForAdvancedFeatures": "سجل الدخول للوصول إلى الميزات المتقدمة"
+  },
+  "signOutPage": {
+    "title": "تسجيل الخروج",
+    "subtitle": "يرجى الانتظار بينما نقوم بتسجيل خروجك بأمان",
+    "redirectingMessage": "جاري توجيهك إلى الصفحة الرئيسية...",
+    "goHome": "اذهب للرئيسية",
+    "steps": {
+      "session": "مسح الجلسة",
+      "sessionDescription": "إنهاء جلسة تسجيل الدخول بأمان",
+      "cookies": "مسح ملفات تعريف الارتباط",
+      "cookiesDescription": "إزالة ملفات تعريف الارتباط من المتصفح",
+      "cache": "مسح التخزين المؤقت",
+      "cacheDescription": "مسح البيانات المؤقتة والمعلومات المخزنة مؤقتًا",
+      "storage": "مسح التخزين المحلي",
+      "storageDescription": "إزالة تفضيلات المستخدم والبيانات المخزنة محليًا",
+      "complete": "اكتمل تسجيل الخروج",
+      "completeDescription": "تم مسح جميع البيانات وتم تسجيل خروجك بأمان"
+    },
+    "progressTitle": "تقدم تسجيل الخروج",
+    "progressSubtitle": "مسح جلستك وبياناتك بأمان",
+    "progressText": "الخطوة {current} من {total}",
+    "directAccessTitle": "الوصول المباشر غير مسموح",
+    "directAccessMessage": "يمكن الوصول إلى هذه الصفحة فقط من خلال عملية تسجيل الخروج في التطبيق. سيتم توجيهك إلى الصفحة الرئيسية.",
+    "completionTitle": "اكتمل تسجيل الخروج!",
+    "completionMessage": "تم مسح جميع بياناتك بأمان وتم تسجيل خروجك بنجاح.",
+    "accountDisabled": "الحساب معطل. يرجى التحقق من بريدك الإلكتروني لتفعيل حسابك.",
+    "verifyEmailToActivate": "يرجى التحقق من بريدك الإلكتروني والنقر على رابط التحقق لتفعيل حسابك.",
+    "contactSupport": "اتصل بالدعم"
+  },
+  "appName": "{appName}",
+  "account": "الحساب",
+  "back": "عودة",
+  "backToHome": "العودة إلى الرئيسية",
+  "moreFilters": "المزيد من خيارات البحث",
+  "brandName": {
+    "apple": "أبل",
+    "facebook": "فيسبوك",
+    "github": "جيتهب",
+    "google": "جوجل",
+    "instagram": "انستجرام",
+    "linkedIn": "لينكدإن",
+    "microsoft": "مايكروسوفت",
+    "telegram": "تيليجرام",
+    "twitter": "تويتر",
+    "whatsApp": "واتساب",
+    "x": "إكس",
+    "youtube": "يوتيوب"
+  },
+  "cancel": "إلغاء",
+  "close": "إغلاق",
+  "create": "إنشاء",
+  "createNewAccount": "إنشاء حساب",
+  "dashboard": "لوحة التحكم",
+  "dismiss": "رفض",
+  "downloadApp": {
+    "appStore": "متجر تطبيقات أبل",
+    "downloadOnThe": "تحميل من",
+    "getItOn": "تحميل من",
+    "googlePlay": "متجر جوجل بلاي"
+  },
+  "edit": "تعديل",
+  "email": "البريد الإلكتروني",
+  "faqs": "الأسئلة المتكررة",
+  "favorites": "المفضلات",
+  "feedback": "ردود الفعل",
+  "fontSize": {
+    "large": "كبير",
+    "larger": "أكبر",
+    "largest": "الأكبر",
+    "medium": "متوسط",
+    "small": "صغير",
+    "smaller": "أصغر",
+    "smallest": "الأصغر"
+  },
+  "goBack": "العودة",
+  "help": "مساعدة",
+  "helpAndSettings": "المساعدة والإعدادات",
+  "helpCenter": "مركز المساعدة",
+  "history": "سجل",
+  "date": "التاريخ",
+  "home": "الرئيسية",
+  "language": "اللغة",
+  "learnMore": "تعرف على المزيد",
+  "list": "قائمة",
+  "signIn": "تسجيل الدخول",
+  "signUpOrSignIn": "تسجيل الدخول او إنشاء حساب",
+  "switchAccount": "تبديل الحساب",
+  "signUp": "إنشاء حساب",
+  "signOut": "تسجيل الخروج",
+  "signingOut": "جاري تسجيل الخروج...",
+  "mobileNumber": "رقم الهاتف المحمول",
+  "new": "جديد",
+  "no": "لا",
+  "notifications": "الإشعارات",
+  "upgradePlan": "تحديث الخطة",
+  "ok": "حسناً",
+  "or": "أو",
+  "pagination": {
+    "first": "الأول",
+    "last": "الأخير",
+    "next": "التالي",
+    "previous": "السابق",
+    "showing": "<p className='text-sm text-gray-700'>عرض <span className='font-medium'>{page}</span> إلى <span className='font-medium'>{current}</span> من <span className='font-medium'>{total}</span> نتائج</p>"
+  },
+  "password": "كلمة المرور",
+  "showPassword": "عرض كلمة المرور",
+  "hidePassword": "إخفاء كلمة المرور",
+  "quickSettingsSidbar": {
+    "appearance": "المظهر",
+    "color": "اللون",
+    "description": "اختر نمطًا ولونًا. اجعلها لك.",
+    "language": "اللغة",
+    "fontSize": "حجم الخط",
+    "radius": "حجم التدوير للعناصر",
+    "resetToDefault": "الإعدادات الافتراضية",
+    "style": "النمط",
+    "title": "الإعدادات السريعة"
+  },
+  "radiusSize": {
+    "large": "كبير",
+    "medium": "متوسط",
+    "none": "لا شيء",
+    "small": "صغير",
+    "xLarge": "كبير جدًا"
+  },
+  "readMore": "قراءة المزيد",
+  "report": "أبلغ",
+  "reset": "إعادة تعيين",
+  "search": "بحث",
+  "searchPlaceholder": "ابدأ الكتابة للبحث: ",
+  "searchPlaceholder1": "ابحث عن استوديو حسب السعر في أبوظبي",
+  "searchPlaceholder2": "شقة 2 غرفة نوم في العين حتى 4 ألف/شهريًا",
+  "searchPlaceholder3": "ابحث عن مكتب للايجار",
+  "searchPlaceholder4": "ابحث عن الاعلانات الجديدة للبيع",
+  "searchPlaceholder5": "شقة 1 غرفة نوم في جيه إل تي بأقل من 50 ألف",
+  "searchPlaceholder6": "شقة 2 غرفة نوم في مارينا دبي",
+  "searchPlaceholder7": "يمكنك البحث عن العقارات أو المواقع أو المرافق...",
+  "selectLanguage": "اختر اللغة",
+  "noLanguageFound": "لا يوجد لغات",
+  "searchLanguage": "ابحث عن لغة",
+  "sendMessage": "أرسل رسالة",
+  "send": "أرسال",
+  "services": "الخدمات",
+  "settings": "الإعدادات",
+  "status": "الحالة",
+  "submit": "إرسال",
+  "success": "ناجح",
+  "themeColors": {
+    "default": "افتراضي",
+    "blue": "أزرق",
+    "gray": "رمادي",
+    "green": "أخضر",
+    "neutral": "محايد",
+    "orange": "برتقالي",
+    "red": "أحمر",
+    "rose": "وردي",
+    "slate": "لوح",
+    "stone": "حجر",
+    "violet": "بنفسجي",
+    "yellow": "أصفر",
+    "zinc": "زنك"
+  },
+  "themeMode": {
+    "system": "تلقائي",
+    "dark": "مظلم",
+    "light": "فاتح"
+  },
+  "toggleNavigation": "قائمة التنقل",
+  "toggleThemeMode": "تبديل المظهر",
+  "tryAgain": "حاول مرة أخرى",
+  "uiStyle": {
+    "default": "افتراضي"
+  },
+  "username": "اسم المستخدم",
+  "view": "عرض",
+  "viewAll": "عرض الكل",
+  "viewMore": "عرض المزيد",
+  "viewAsGrid": "عرض كشبكة",
+  "viewAsList": "عرض كقائمة",
+  "yes": "نعم",
+  "clearFilters": "إلغاء تطبيق عامل التصفية",
+  "routes": {
+    "company": "الشركة",
+    "account": "الحساب",
+    "otherCountries": "دول أخرى",
+    "letUsHelpYou": "دعنا نساعدك",
+    "signInOrSignUp": "تسجيل الدخول أو التسجيل",
+    "yourAccount": "حسابك",
+    "retrieveYourAccount": "استرجاع حسابك",
+    "seeMore": "شاهد المزيد",
+    "guestControls": "إعدادات الضيف",
+    "contactUs": "اتصل بنا",
+    "sendFeedback": "إرسال ملاحظات",
+    "home": "الصفحة الرئيسية",
+    "lookingFor": "أبحث عن",
+    "sale": "للبيع",
+    "rent": "للايجار",
+    "buy": "للشراء",
+    "holidays": "عطلات",
+    "newProjects": "مشاريع جديدة",
+    "find": "البحث عن وسيط",
+    "findAgent": "ابحث عن وكيل",
+    "findBroker": "ابحث عن سمسار",
+    "explore": "استكشاف",
+    "trends": "اتجاهات السوق",
+    "pricing": "التسعير",
+    "mortgage": "الرهن العقاري",
+    "events": "الفعاليات",
+    "blog": "المدونة",
+    "search": "بحث",
+    "property": "عقار",
+    "agent": "وكيل",
+    "reviews": "التعليقات",
+    "faqs": "الأسئلة الشائعة",
+    "countries": "الدول",
+    "about": "معلومات عنا",
+    "becomePartner": "كن شريكاً",
+    "jobs": "الوظائف",
+    "contact": "اتصل بنا",
+    "feedback": "التعليقات",
+    "advertising": "الإعلانات",
+    "policiesCenter": "مركز السياسات",
+    "terms": "شروط الاستخدام",
+    "privacyPolicy": "سياسة الخصوصية",
+    "cookiesPolicy": "سياسة ملفات تعريف الارتباط",
+    "dataPrivacy": "خصوصية البيانات",
+    "userAgreement": "اتفاقية المستخدم",
+    "accessibility": "إمكانية الوصول",
+    "siteMap": "خريطة الموقع",
+    "helpCenter": "مركز المساعدة"
+  },
+  "countryList": {
+    "egypt": "مصر",
+    "saudiArabia": "السعودية"
+  },
+  "contactPage": {
+    "metadata": {
+      "title": "تواصل معنا"
+    },
+    "title": "تواصل معنا",
+    "subtitle": "لا تتردد في التواصل معنا لأي استفسار أو مساعدة.",
+    "liveChat": "الدردشة",
+    "feedback": "الملاحظات",
+    "requestSupport": "إنشاء طلب مساعدة",
+    "reportBug": "الإبلاغ عن خطأ تقني",
+    "faq": "الأسئلة الشائعة",
+    "contactInformation": "معلومات الاتصال",
+    "email": "البريد الإلكتروني",
+    "headOffice": "المقر الرئيسي",
+    "phoneNumber": "رقم الهاتف",
+    "socialMedia": "وسائل التواصل الاجتماعي",
+    "getInTouch": "تواصل معنا",
+    "contactForm": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phoneNumber": "رقم الهاتف",
+      "country": "الدولة",
+      "subject": "الموضوع",
+      "message": "الرسالة",
+      "sendMessage": "إرسال",
+      "successMessage": "تم إرسال رسالتك بنجاح!",
+      "errorMessage": "حدث خطأ أثناء إرسال رسالتك. يرجى المحاولة مرة أخرى لاحقًا."
+    },
+    "acknowledgement": "بإرسال النموذج، فإنك تقر بأن {appName} ستعالج بياناتك الشخصية وفقًا لـ {privacyNotice}."
+  },
+  "invalidArgument": {
+    "error": "INVALID_ARGUMENT",
+    "message": "الحجة غير صالحة"
+  },
+  "failedPrecondition": {
+    "error": "FAILED_PRECONDITION",
+    "message": "شرط مسبق غير صالح"
+  },
+  "outOfRange": {
+    "error": "OUT_OF_RANGE",
+    "message": "خارج النطاق"
+  },
+  "unauthenticated": {
+    "error": "UNAUTHENTICATED",
+    "message": "بيانات الاعتماد غير صالحة"
+  },
+  "unAuthorized": {
+    "error": "UNAUTHORIZED",
+    "message": "عذرًا ليس لديك الصلاحية للوصول لهذا الطلب {resourceName}."
+  },
+  "permissionDenied": {
+    "error": "PERMISSION_DENIED",
+    "message": "الإذن مرفوض"
+  },
+  "invalidHmac": {
+    "error": "INVALID_HMAC",
+    "message": "عذرًا، كود مصادقة الرسالة المشفرة الذي تم تقديمه غير صالح. يرجى التأكد من أن لديك رمز مصادقة صالح."
+  },
+  "expiredToken": {
+    "error": "TOKEN_EXPIRED",
+    "message": "عذرًا، انتهت صلاحية رمز المصادقة الخاص بك. يرجى إعادة المصادقة للوصول إلى هذا المورد."
+  },
+  "invalidToken": {
+    "error": "INVALID_TOKEN",
+    "message": "الرمز الذي قدمته للمصادقة غير صالح. يرجى التأكد من أن لديك رمز صالح لإتمام عملية المصادقة بنجاح."
+  },
+  "notFound": {
+    "error": "NOT_FOUND",
+    "title": "عذرًا! لم نتمكن من العثور على هذه الصفحة",
+    "message": "غير موجود"
+  },
+  "routeNotFound": {
+    "error": "NOT_FOUND",
+    "message": "المسار {method}:{url} غير موجود"
+  },
+  "urlNotFound": {
+    "error": "NOT_FOUND",
+    "message": "المسار {url} غير موجود"
+  },
+  "notFoundStrapi": {
+    "error": "NOT_FOUND",
+    "message": "المسار ({endpoint}) ليس متاح في إدارة المحتوي."
+  },
+  "alreadyExists": {
+    "error": "ALREADY_EXISTS",
+    "message": "موجود مسبقاً"
+  },
+  "resourceExhausted": {
+    "error": "RESOURCE_EXHAUSTED",
+    "message": "لقد تجاوزت الحد المسموح به لطلب هذه الخدمة. تم قفل الوصول الخاص بك مؤقتًا لضمان الاستخدام العادل واستقرار النظام. يرجى المحاولة مرة أخرى في وقت لاحق. نشكرك على تفهمك."
+  },
+  "cancelled": {
+    "error": "CANCELLED",
+    "message": "الطلب ألغي من قبل العميل"
+  },
+  "dataLoss": {
+    "error": "DATA_LOSS",
+    "message": "فقدان البيانات غير القابل للتعافي أو تلف البيانات"
+  },
+  "unknown": {
+    "error": "UNKNOWN",
+    "message": "خطأ غير معروف في الخادم"
+  },
+  "internal": {
+    "error": "INTERNAL",
+    "message": "خطأ داخلي في الخادم"
+  },
+  "notImplemented": {
+    "error": "NOT_IMPLEMENTED",
+    "message": "طريقة API غير مطبقة من قبل الخادم"
+  },
+  "na": {
+    "error": "NA",
+    "message": "حدث خطأ في الشبكة قبل الوصول إلى الخادم"
+  },
+  "unavailable": {
+    "error": "UNAVAILABLE",
+    "message": "الخدمة غير متوفرة"
+  },
+  "deadlineExceeded": {
+    "error": "DEADLINE_EXCEEDED",
+    "message": "تجاوز الموعد النهائي للطلب"
+  },
+  "imageNotAvailable": {
+    "code": "404",
+    "message": "Image Not Available"
+  },
+  "noResultError": {
+    "code": "400",
+    "title": "لم يتم العثور على نتيجة!",
+    "cannotFindProperty": "لا يمكن العثور على أي عقار يتناسب مع هذه المعايير!",
+    "message": "حاول البحث بكلمات رئيسية أبسط أو أقل، أو جرب كلمات رئيسية أكثر عمومية."
+  },
+  "notAvailable": {
+    "code": "404",
+    "title": "غير متاح",
+    "message": "العنصر المطلوب غير متاح حالياً. يرجى المحاولة مرة أخرى لاحقاً أو الاتصال بالدعم."
+  },
+  "notFoundError": {
+    "code": "404",
+    "title": "عذرًا! لم نتمكن من العثور على هذه الصفحة",
+    "message": "حاول البحث عن كلمات رئيسية أبسط او أقل أو جرب كلمات أكثر عمومية."
+  },
+  "serverError": {
+    "code": "500",
+    "title": "خطأ في الخادم!",
+    "message": "عذرًا! حدث خطأ ما في خوادمنا."
+  },
+  "forbiddenError": {
+    "code": "403",
+    "title": "403 الوصول محظور",
+    "message": "عذرًا، ليس لديك الصلاحية للوصول إلى هذه الصفحة."
+  },
+  "unAuthorizedError": {
+    "title": "401 غير مصرح",
+    "message": "ليس لديك التفويض اللازم للوصول إلى هذا المورد."
+  },
+  "badRequestError": {
+    "title": "400 طلب غير صحيح",
+    "message": "لم يتمكن النظام من معالجة الطلب بسبب معلمات غير صالحة."
+  },
+  "accessDenied": "تم رفض الوصول",
+  "actionConfirmed": "تم تأكيد الإجراء بنجاح",
+  "actionUnconfirmed": "لم يتم تأكيد الإجراء",
+  "badRequest": "هذا ليس طلبًا صالحًا. يرجى التأكد من أن الطلب صالح وحاول مرة أخرى.",
+  "changesApplied": "تم تطبيق التغييرات بنجاح",
+  "changesNotSaved": "لم يتم حفظ التغييرات",
+  "dataLoaded": "تم تحميل البيانات بنجاح",
+  "dataNotAvailable": "البيانات غير متاحة بعد",
+  "dataUnavailable": "البيانات غير متاحة",
+  "error": "خطأ",
+  "fetchFailed": "غير قادر على جلب البيانات",
+  "itemAdded": "تم إضافة العنصر بنجاح",
+  "itemNotAdded": "فشل في إضافة العنصر",
+  "itemNotFound": "لم يتم العثور على العنصر {name}",
+  "noResult": "لم يتم العثور على نتائج",
+  "oops": "عفوًا!",
+  "operationCompleted": "تمت العملية بنجاح",
+  "operationFailed": "فشلت العملية",
+  "pageNotFound": "الصفحة غير موجودة!",
+  "pageNotFoundMsg": "نأسف، لم نتمكن من العثور على الصفحة التي طلبتها. يرجى الذهاب إلى الصفحة الرئيسية أو الاتصال بنا على",
+  "registrationComplete": "تم التسجيل بنجاح",
+  "registrationFailed": "فشل التسجيل",
+  "requestProcessed": "تم معالجة طلبك",
+  "requestUnprocessed": "غير قادر على معالجة الطلب",
+  "saveSuccess": "تم الحفظ بنجاح",
+  "transactionComplete": "تمت المعاملة بنجاح",
+  "transactionFailed": "فشلت المعاملة",
+  "unexpectedError": "حدث خطأ غير متوقع",
+  "unspecific": "حدث خطأ ما.",
+  "updateFailed": "فشل التحديث",
+  "updateSuccessful": "تم التحديث بنجاح",
+  "uploadFailed": "فشل التحميل",
+  "uploadSuccessful": "تم التحميل بنجاح",
+  "alphaNumeric": "'{fieldName}' يجب أن يكون ألفبائي رقمي.",
+  "alphaOnly": "'{fieldName}' يجب أن يحتوي على أحرف فقط.",
+  "belowMinLength": "يجب أن تكون الطول على الأقل {min} حرف. الحالي: {actual}.",
+  "dateInvalid": "تنسيق التاريخ غير صالح في '{fieldName}'.",
+  "emailInvalid": "تنسيق البريد الإلكتروني غير صالح في '{fieldName}'.",
+  "exceedsMaxLength": "الطول يتجاوز الحد الأقصى المسموح به وهو {length} حرف.",
+  "fieldNotUnique": "'{fieldName}' يجب أن يكون فريدًا. القيمة المدخلة موجودة بالفعل.",
+  "fieldTooLong": "'{fieldName}' يتجاوز الحد المسموح به من الأحرف.",
+  "fieldTooShort": "'{fieldName}' لا يفي بمتطلبات الحد الأدنى من الأحرف.",
+  "fileFormatInvalid": "تنسيق الملف غير صالح لـ '{fieldName}'.",
+  "fileSizeExceeded": "حجم الملف يتجاوز الحد الأقصى.",
+  "invalidInput": "الإدخال في '{fieldName}' غير صالح.",
+  "numberOutOfRange": "'{fieldName}' يجب أن يكون بين {min} و {max}.",
+  "numericRequired": "'{fieldName}' يجب أن يحتوي على أرقام فقط.",
+  "passwordMismatch": "كلمات المرور غير متطابقة.",
+  "patternMismatch": "'{fieldName}' لا يتطابق مع النمط المطلوب.",
+  "refreshToken": "لا يمكن أن يكون رمز التحديث فارغًا أو صفريًا. يرجى تقديم رمز تحديث صالح لتجديد جلستك.",
+  "requiredField": "الحقل '{fieldName}' إلزامي.",
+  "urlInvalid": "رابط غير صالح في '{fieldName}'.",
+  "validationError": "البيانات لا تتطابق مع الهيكل المتوقع للبيانات.",
+  "valueTooHigh": "القيمة تتجاوز الحد الأقصى البالغ {max}. الحالي: {actual}.",
+  "valueTooLow": "يجب أن تكون القيمة على الأقل {min}. الحالي: {actual}.",
+  "calendar": {
+    "views": {
+      "day": "عرض اليوم",
+      "week": "عرض الأسبوع",
+      "month": "عرض الشهر",
+      "year": "عرض السنة"
+    },
+    "navigation": {
+      "today": "اليوم",
+      "previous": "السابق",
+      "next": "التالي",
+      "addEvent": "إضافة حدث"
+    },
+    "weekdays": {
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد"
+    },
+    "months": {
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "مارس",
+      "april": "أبريل",
+      "may": "مايو",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر"
+    },
+    "time": {
+      "am": "ص",
+      "pm": "م",
+      "allDay": "طوال اليوم"
+    },
+    "events": {
+      "noEvents": "لا توجد أحداث",
+      "addEvent": "إضافة حدث",
+      "editEvent": "تعديل الحدث",
+      "deleteEvent": "حذف الحدث"
+    }
+  }
+}

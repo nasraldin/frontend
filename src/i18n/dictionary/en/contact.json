@@ -1,0 +1,32 @@
+{
+  "contactPage": {
+    "metadata": {
+      "title": "Let's Connect Together"
+    },
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for any inquiries or assistance.",
+    "liveChat": "Live Chat",
+    "feedback": "Feedback",
+    "requestSupport": "Support",
+    "reportBug": "Report a Bug",
+    "faq": "FAQ",
+    "contactInformation": "Contact Information",
+    "email": "Email",
+    "headOffice": "Head Office",
+    "phoneNumber": "Phone Number",
+    "socialMedia": "Social Media",
+    "getInTouch": "Get in Touch",
+    "contactForm": {
+      "name": "Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "country": "Country",
+      "subject": "Phone Number",
+      "message": "Message",
+      "sendMessage": "Send Message",
+      "successMessage": "Your message has been sent successfully!",
+      "errorMessage": "An error occurred while sending your message. Please try again later."
+    },
+    "acknowledgement": "By submitting the form, you acknowledge that {appName} will process your personal data in accordance with its {privacyNotice}."
+  }
+}

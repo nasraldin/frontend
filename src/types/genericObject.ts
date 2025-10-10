@@ -1,3 +1,5 @@
+import { JSX } from 'solid-js';
+
 /**
  * Represents an object with string keys and values of unknown type.
  *
@@ -126,3 +128,12 @@ export type NonEmptyString<T> = T extends '' ? never : T;
 export type TranslationKey = {
   [K in string as NonEmptyString<K>]: TranslationValue;
 };
+
+export type SolidNode =
+  | JSX.Element
+  | string
+  | number
+  | boolean
+  | null
+  | undefined
+  | SolidNode[];

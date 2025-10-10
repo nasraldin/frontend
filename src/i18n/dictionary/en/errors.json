@@ -1,0 +1,134 @@
+{
+  "invalidArgument": {
+    "error": "INVALID_ARGUMENT",
+    "message": "Invalid argument"
+  },
+  "failedPrecondition": {
+    "error": "FAILED_PRECONDITION",
+    "message": "Invalid precondition"
+  },
+  "outOfRange": {
+    "error": "OUT_OF_RANGE",
+    "message": "Invalid range"
+  },
+  "unauthenticated": {
+    "error": "UNAUTHENTICATED",
+    "message": "Invalid credentials"
+  },
+  "unAuthorized": {
+    "error": "UNAUTHORIZED",
+    "message": "You do not have the necessary authorization to access the {resourceName} resource."
+  },
+  "permissionDenied": {
+    "error": "PERMISSION_DENIED",
+    "message": "Permission denied"
+  },
+  "invalidHmac": {
+    "error": "INVALID_HMAC",
+    "message": "The provided HMAC hash token is invalid. Please ensure that you have a valid hashing token for HMAC."
+  },
+  "expiredToken": {
+    "error": "TOKEN_EXPIRED",
+    "message": "Your authentication token has expired. Please reauthenticate to access the resources."
+  },
+  "invalidToken": {
+    "error": "INVALID_TOKEN",
+    "message": "The provided authentication token is invalid. Please ensure that you have a valid token for authentication."
+  },
+  "notFound": {
+    "error": "NOT_FOUND",
+    "title": "Sorry we couldn't find this page.",
+    "message": "Not Found"
+  },
+  "routeNotFound": {
+    "error": "NOT_FOUND",
+    "message": "Route not found."
+  },
+  "urlNotFound": {
+    "error": "NOT_FOUND",
+    "message": "The requested URL {url} was not found on this server."
+  },
+  "notFoundStrapi": {
+    "error": "NOT_FOUND",
+    "message": "Endpoint ({endpoint}) is not available in strapi collection."
+  },
+  "alreadyExists": {
+    "error": "ALREADY_EXISTS",
+    "message": "Already exists"
+  },
+  "resourceExhausted": {
+    "error": "RESOURCE_EXHAUSTED",
+    "message": "You have exceeded the allowed rate limit for this service. Your access has been temporarily restricted to ensure fair usage and system stability. Please wait for the specified time or check the 'Retry-After' header for the duration of the lockout. Thank you for your understanding."
+  },
+  "cancelled": {
+    "error": "CANCELLED",
+    "message": "Request cancelled by the client"
+  },
+  "dataLoss": {
+    "error": "DATA_LOSS",
+    "message": "Unrecoverable data loss or data corruption"
+  },
+  "unknown": {
+    "error": "UNKNOWN",
+    "message": "An unknown server error occurred. Please try again later or contact support for assistance."
+  },
+  "internal": {
+    "error": "INTERNAL",
+    "message": "Internal server error"
+  },
+  "notImplemented": {
+    "error": "NOT_IMPLEMENTED",
+    "message": "API method not implemented by the server"
+  },
+  "na": {
+    "error": "NA",
+    "message": "Network error occurred before reaching the server"
+  },
+  "unavailable": {
+    "error": "UNAVAILABLE",
+    "message": "Service unavailable"
+  },
+  "deadlineExceeded": {
+    "error": "DEADLINE_EXCEEDED",
+    "message": "Request deadline exceeded"
+  },
+  "useBreadcrumbsError": "useBreadcrumbs must be used within a BreadcrumbProvider.",
+  "imageNotAvailable": {
+    "code": "404",
+    "message": "Image Not Available"
+  },
+  "noResultError": {
+    "code": "400",
+    "title": "No result found!",
+    "cannotFindProperty": "Can't find any property fitting these criteria!",
+    "message": "Try to search for simpler/fewer keywords or try more general keywords."
+  },
+  "notAvailable": {
+    "code": "404",
+    "title": "Not Available",
+    "message": "The requested item is currently unavailable. Please check again later or contact support."
+  },
+  "notFoundError": {
+    "code": "404",
+    "title": "Sorry we couldn't find this page.",
+    "message": "Try to search for simpler/fewer keywords or try more general keywords"
+  },
+  "serverError": {
+    "code": "500",
+    "title": "Server Error!",
+    "message": "Whoops, something has gone wrong with our servers."
+  },
+  "forbiddenError": {
+    "code": "403",
+    "title": "403 Access Forbidden",
+    "message": "Sorry, you don't have permission to access this resource."
+  },
+  "unAuthorizedError": {
+    "title": "401 Unauthorized",
+    "message": "You do not have the necessary authorization to access this resource."
+  },
+  "badRequestError": {
+    "title": "400 Bad Request",
+    "message": "The request could not be processed due to invalid parameters."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "calendar": {
+    "views": {
+      "day": "عرض اليوم",
+      "week": "عرض الأسبوع",
+      "month": "عرض الشهر",
+      "year": "عرض السنة"
+    },
+    "navigation": {
+      "today": "اليوم",
+      "previous": "السابق",
+      "next": "التالي",
+      "addEvent": "إضافة حدث"
+    },
+    "weekdays": {
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "sunday": "الأحد"
+    },
+    "months": {
+      "january": "يناير",
+      "february": "فبراير",
+      "march": "مارس",
+      "april": "أبريل",
+      "may": "مايو",
+      "june": "يونيو",
+      "july": "يوليو",
+      "august": "أغسطس",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر"
+    },
+    "time": {
+      "am": "ص",
+      "pm": "م",
+      "allDay": "طوال اليوم"
+    },
+    "events": {
+      "noEvents": "لا توجد أحداث",
+      "addEvent": "إضافة حدث",
+      "editEvent": "تعديل الحدث",
+      "deleteEvent": "حذف الحدث"
+    }
+  }
+}

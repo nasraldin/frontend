@@ -1,0 +1,133 @@
+{
+  "invalidArgument": {
+    "error": "INVALID_ARGUMENT",
+    "message": "الحجة غير صالحة"
+  },
+  "failedPrecondition": {
+    "error": "FAILED_PRECONDITION",
+    "message": "شرط مسبق غير صالح"
+  },
+  "outOfRange": {
+    "error": "OUT_OF_RANGE",
+    "message": "خارج النطاق"
+  },
+  "unauthenticated": {
+    "error": "UNAUTHENTICATED",
+    "message": "بيانات الاعتماد غير صالحة"
+  },
+  "unAuthorized": {
+    "error": "UNAUTHORIZED",
+    "message": "عذرًا ليس لديك الصلاحية للوصول لهذا الطلب {resourceName}."
+  },
+  "permissionDenied": {
+    "error": "PERMISSION_DENIED",
+    "message": "الإذن مرفوض"
+  },
+  "invalidHmac": {
+    "error": "INVALID_HMAC",
+    "message": "عذرًا، كود مصادقة الرسالة المشفرة الذي تم تقديمه غير صالح. يرجى التأكد من أن لديك رمز مصادقة صالح."
+  },
+  "expiredToken": {
+    "error": "TOKEN_EXPIRED",
+    "message": "عذرًا، انتهت صلاحية رمز المصادقة الخاص بك. يرجى إعادة المصادقة للوصول إلى هذا المورد."
+  },
+  "invalidToken": {
+    "error": "INVALID_TOKEN",
+    "message": "الرمز الذي قدمته للمصادقة غير صالح. يرجى التأكد من أن لديك رمز صالح لإتمام عملية المصادقة بنجاح."
+  },
+  "notFound": {
+    "error": "NOT_FOUND",
+    "title": "عذرًا! لم نتمكن من العثور على هذه الصفحة",
+    "message": "غير موجود"
+  },
+  "routeNotFound": {
+    "error": "NOT_FOUND",
+    "message": "المسار {method}:{url} غير موجود"
+  },
+  "urlNotFound": {
+    "error": "NOT_FOUND",
+    "message": "المسار {url} غير موجود"
+  },
+  "notFoundStrapi": {
+    "error": "NOT_FOUND",
+    "message": "المسار ({endpoint}) ليس متاح في إدارة المحتوي."
+  },
+  "alreadyExists": {
+    "error": "ALREADY_EXISTS",
+    "message": "موجود مسبقاً"
+  },
+  "resourceExhausted": {
+    "error": "RESOURCE_EXHAUSTED",
+    "message": "لقد تجاوزت الحد المسموح به لطلب هذه الخدمة. تم قفل الوصول الخاص بك مؤقتًا لضمان الاستخدام العادل واستقرار النظام. يرجى المحاولة مرة أخرى في وقت لاحق. نشكرك على تفهمك."
+  },
+  "cancelled": {
+    "error": "CANCELLED",
+    "message": "الطلب ألغي من قبل العميل"
+  },
+  "dataLoss": {
+    "error": "DATA_LOSS",
+    "message": "فقدان البيانات غير القابل للتعافي أو تلف البيانات"
+  },
+  "unknown": {
+    "error": "UNKNOWN",
+    "message": "خطأ غير معروف في الخادم"
+  },
+  "internal": {
+    "error": "INTERNAL",
+    "message": "خطأ داخلي في الخادم"
+  },
+  "notImplemented": {
+    "error": "NOT_IMPLEMENTED",
+    "message": "طريقة API غير مطبقة من قبل الخادم"
+  },
+  "na": {
+    "error": "NA",
+    "message": "حدث خطأ في الشبكة قبل الوصول إلى الخادم"
+  },
+  "unavailable": {
+    "error": "UNAVAILABLE",
+    "message": "الخدمة غير متوفرة"
+  },
+  "deadlineExceeded": {
+    "error": "DEADLINE_EXCEEDED",
+    "message": "تجاوز الموعد النهائي للطلب"
+  },
+  "imageNotAvailable": {
+    "code": "404",
+    "message": "Image Not Available"
+  },
+  "noResultError": {
+    "code": "400",
+    "title": "لم يتم العثور على نتيجة!",
+    "cannotFindProperty": "لا يمكن العثور على أي عقار يتناسب مع هذه المعايير!",
+    "message": "حاول البحث بكلمات رئيسية أبسط أو أقل، أو جرب كلمات رئيسية أكثر عمومية."
+  },
+  "notAvailable": {
+    "code": "404",
+    "title": "غير متاح",
+    "message": "العنصر المطلوب غير متاح حالياً. يرجى المحاولة مرة أخرى لاحقاً أو الاتصال بالدعم."
+  },
+  "notFoundError": {
+    "code": "404",
+    "title": "عذرًا! لم نتمكن من العثور على هذه الصفحة",
+    "message": "حاول البحث عن كلمات رئيسية أبسط او أقل أو جرب كلمات أكثر عمومية."
+  },
+  "serverError": {
+    "code": "500",
+    "title": "خطأ في الخادم!",
+    "message": "عذرًا! حدث خطأ ما في خوادمنا."
+  },
+  "forbiddenError": {
+    "code": "403",
+    "title": "403 الوصول محظور",
+    "message": "عذرًا، ليس لديك الصلاحية للوصول إلى هذه الصفحة."
+  },
+  "unAuthorizedError": {
+    "title": "401 غير مصرح",
+    "message": "ليس لديك التفويض اللازم للوصول إلى هذا المورد."
+  },
+  "badRequestError": {
+    "title": "400 طلب غير صحيح",
+    "message": "لم يتمكن النظام من معالجة الطلب بسبب معلمات غير صالحة."
+  }
+}

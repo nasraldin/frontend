@@ -1,4 +1,4 @@
-import { LOCALES } from '@lib/i18n';
+import { LOCALES } from '~/i18n/locales';
 
 declare global {
   /**
