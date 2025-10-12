@@ -1,0 +1,252 @@
+/* Smooth typing cursor animation */
+@keyframes typing-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Enhanced stagger animation classes */
+.stagger-container {
+  perspective: 1000px;
+}
+
+.stagger-child {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Smooth magnetic button effects */
+.magnetic-button {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Enhanced parallax performance */
+.parallax-container {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Smooth scale animations */
+.scale-container {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Enhanced slide animations */
+.slide-container {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Fade animation enhancements */
+.fade-container {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+/* Offer animation keyframes */
+@keyframes offer-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}
+
+@keyframes offer-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 215, 0, 1);
+    transform: scale(1.02);
+  }
+}
+
+@keyframes offer-wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+@keyframes offer-float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes offer-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes offer-wave {
+  0% {
+    background-position: 0% 50%;
+    transform: scale(1);
+  }
+  25% {
+    background-position: 100% 50%;
+    transform: scale(1.02);
+  }
+  50% {
+    background-position: 200% 50%;
+    transform: scale(1.05);
+  }
+  75% {
+    background-position: 300% 50%;
+    transform: scale(1.02);
+  }
+  100% {
+    background-position: 400% 50%;
+    transform: scale(1);
+  }
+}
+
+@keyframes offer-rainbow {
+  0% {
+    background-position: 0% 50%;
+    filter: hue-rotate(0deg);
+  }
+  25% {
+    background-position: 100% 50%;
+    filter: hue-rotate(90deg);
+  }
+  50% {
+    background-position: 200% 50%;
+    filter: hue-rotate(180deg);
+  }
+  75% {
+    background-position: 300% 50%;
+    filter: hue-rotate(270deg);
+  }
+  100% {
+    background-position: 400% 50%;
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes offer-flow {
+  0% {
+    background-position: 0% 0%;
+    transform: translateX(0px);
+  }
+  25% {
+    background-position: 100% 0%;
+    transform: translateX(5px);
+  }
+  50% {
+    background-position: 200% 0%;
+    transform: translateX(0px);
+  }
+  75% {
+    background-position: 300% 0%;
+    transform: translateX(-5px);
+  }
+  100% {
+    background-position: 400% 0%;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes offer-ocean {
+  0% {
+    background-position: 0% 50%;
+    transform: scale(1);
+  }
+  25% {
+    background-position: 100% 50%;
+    transform: scale(1.01);
+  }
+  50% {
+    background-position: 200% 50%;
+    transform: scale(1.02);
+  }
+  75% {
+    background-position: 300% 50%;
+    transform: scale(1.01);
+  }
+  100% {
+    background-position: 400% 50%;
+    transform: scale(1);
+  }
+}
+
+@keyframes offer-aurora {
+  0% {
+    background-position: 0% 0%;
+    filter: hue-rotate(0deg);
+  }
+  25% {
+    background-position: 100% 0%;
+    filter: hue-rotate(90deg);
+  }
+  50% {
+    background-position: 200% 0%;
+    filter: hue-rotate(180deg);
+  }
+  75% {
+    background-position: 300% 0%;
+    filter: hue-rotate(270deg);
+  }
+  100% {
+    background-position: 400% 0%;
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes offer-bounce-glow {
+  0%,
+  100% {
+    transform: translateY(0px) scale(1);
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+  }
+  25% {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.8);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 40px rgba(255, 105, 180, 1);
+  }
+  75% {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.8);
+  }
+}
+
+/* Offer animation container */
+.offer-animation {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
