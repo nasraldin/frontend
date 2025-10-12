@@ -23,32 +23,48 @@ export function withCSP(event: FetchEvent) {
   const logger = createRequestLogger('middleware');
 
   try {
+    // Create request logger with unique ID
+    const requestId = crypto.randomUUID();
+    const logger = createRequestLogger(requestId);
+
+    // Log request
+    logger.info(
+      {
+        method: event.request.method,
+        url: event.request.url,
+        userAgent: event.request.headers.get('user-agent'),
+      },
+      'Incoming request',
+    );
+
     const csp = `
-      default-src 'self';
-      script-src ${
-        isProd
-          ? // Allow self for built JS files and unsafe-inline for inline scripts
-            `'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com`
-          : "'self' 'unsafe-inline' 'unsafe-eval' https: http:"
-      };
-      style-src ${isProd ? `'self' 'unsafe-inline'` : "'self' 'unsafe-inline'"};
-      style-src-attr ${isProd ? `'unsafe-inline'` : "'unsafe-inline'"};
-      img-src 'self' data: https:;
-      connect-src ${isProd ? "'self' https:" : "'self' ws: wss: localhost:*"};
-      object-src 'none';
-      base-uri 'none';
-      frame-ancestors 'none';
-      form-action 'self';
-    `.replace(/\s+/g, ' ');
+          default-src 'self';
+          script-src ${
+            isProd
+              ? // Allow self for built JS files and unsafe-inline for inline scripts
+                `'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com`
+              : "'self' 'unsafe-inline' 'unsafe-eval' https: http:"
+          };
+          style-src ${isProd ? `'self' 'unsafe-inline'` : "'self' 'unsafe-inline'"};
+          style-src-attr ${isProd ? `'unsafe-inline'` : "'unsafe-inline'"};
+          img-src 'self' data: https:;
+          connect-src ${isProd ? "'self' https:" : "'self' ws: wss: localhost:*"};
+          object-src 'none';
+          base-uri 'none';
+          frame-ancestors 'none';
+          form-action 'self';
+        `.replace(/\s+/g, ' ');
 
     event.response.headers.set(HttpHeaderName.ContentSecurityPolicy, csp);
 
+    // Log response
     logger.info(
       {
-        csp: csp.substring(0, 100) + '...',
+        status: event.response.status,
+        responseTime: Date.now(),
         isProd,
       },
-      'Set Content-Security-Policy header',
+      'Request completed',
     );
   } catch (error) {
     logger.warn(
