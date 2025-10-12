@@ -35,4 +35,5 @@ export const HttpHeaderName = {
   ReferrerPolicy: 'referrer-policy',
   PermissionsPolicy: 'permissions-policy',
   StrictTransportSecurity: 'strict-transport-security',
+  ContentSecurityPolicy: 'content-security-policy',
 } as const;
