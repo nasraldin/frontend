@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 139,
+      "name": "Akkar",
+      "code": "LB-AK",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 34.5958,
+      "longitude": 36.0791,
+      "translations": { "ar": { "name": "عكار" } }
+    },
+    {
+      "id": 140,
+      "name": "Baalbek-Hermel",
+      "code": "LB-BH",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 34.0058,
+      "longitude": 36.2181,
+      "translations": { "ar": { "name": "بعلبك - الهرمل" } }
+    },
+    {
+      "id": 141,
+      "name": "Beirut",
+      "code": "LB-BA",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 33.8889,
+      "longitude": 35.4955,
+      "translations": { "ar": { "name": "بيروت" } }
+    },
+    {
+      "id": 142,
+      "name": "Beqaa",
+      "code": "LB-BE",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 33.8333,
+      "longitude": 35.8333,
+      "translations": { "ar": { "name": "البقاع" } }
+    },
+    {
+      "id": 143,
+      "name": "Mount Lebanon",
+      "code": "LB-JL",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 33.8333,
+      "longitude": 35.5833,
+      "translations": { "ar": { "name": "جبل لبنان" } }
+    },
+    {
+      "id": 144,
+      "name": "Nabatieh",
+      "code": "LB-NA",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 33.3785,
+      "longitude": 35.4839,
+      "translations": { "ar": { "name": "النبطية" } }
+    },
+    {
+      "id": 145,
+      "name": "North Lebanon",
+      "code": "LB-AS",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 34.404,
+      "longitude": 35.6594,
+      "translations": { "ar": { "name": "الشمال" } }
+    },
+    {
+      "id": 146,
+      "name": "South Lebanon",
+      "code": "LB-JA",
+      "countryCode": "LB",
+      "country": 121,
+      "latitude": 33.2722,
+      "longitude": 35.2033,
+      "translations": { "ar": { "name": "الجنوب" } }
+    }
+  ]
+}

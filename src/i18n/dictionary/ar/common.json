@@ -72,7 +72,7 @@
     "last": "الأخير",
     "next": "التالي",
     "previous": "السابق",
-    "showing": "<p className='text-sm text-gray-700'>عرض <span className='font-medium'>{page}</span> إلى <span className='font-medium'>{current}</span> من <span className='font-medium'>{total}</span> نتائج</p>"
+    "showing": "<p class='text-sm text-gray-700'>عرض <span class='font-medium'>{page}</span> إلى <span class='font-medium'>{current}</span> من <span class='font-medium'>{total}</span> نتائج</p>"
   },
   "password": "كلمة المرور",
   "showPassword": "عرض كلمة المرور",

@@ -32,11 +32,7 @@ export default defineConfig({
           globIgnores: ['**/*'],
         },
         workbox: {
-          globPatterns: [
-            '**/*.{js,css,ico,png,svg,woff2,woff,ttf,eot}',
-            '**/*.{jpg,jpeg,gif,webp,avif}',
-            '**/*.{xml,txt,json}',
-          ],
+          globPatterns: ['**/*.{js,css,ico,png,jpg,jpeg,svg,woff2,woff,ttf,eot}'],
           navigateFallback: null,
           navigateFallbackDenylist: [/^\/api\//],
           cleanupOutdatedCaches: true,

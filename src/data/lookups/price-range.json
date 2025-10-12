@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "priceRange",
+  "queryField": "key",
+  "data": [
+    {
+      "groupKey": ["0"],
+      "value": 500
+    },
+    {
+      "groupKey": ["0"],
+      "value": 600
+    },
+    {
+      "groupKey": ["0"],
+      "value": 700
+    },
+    {
+      "groupKey": ["0"],
+      "value": 800
+    },
+    {
+      "groupKey": ["0"],
+      "value": 900
+    },
+    {
+      "groupKey": ["0"],
+      "value": 1000
+    },
+    {
+      "groupKey": ["0"],
+      "value": 1500
+    },
+    {
+      "groupKey": ["0"],
+      "value": 2000
+    },
+    {
+      "groupKey": ["0"],
+      "value": 2500
+    },
+    {
+      "groupKey": ["0", "1"],
+      "value": 3000
+    },
+    {
+      "groupKey": ["0", "1"],
+      "value": 4000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 5000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 6000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 7000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 8000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 9000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 10000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 12000
+    },
+    {
+      "groupKey": ["0", "1", "3"],
+      "value": 13000
+    },
+    {
+      "groupKey": ["0", "1", "3", "6"],
+      "value": 15000
+    },
+    {
+      "groupKey": ["1", "6"],
+      "value": 17000
+    },
+    {
+      "groupKey": ["1", "6"],
+      "value": 20000
+    },
+    {
+      "groupKey": ["1", "6"],
+      "value": 25000
+    },
+    {
+      "groupKey": ["1", "6"],
+      "value": 30000
+    },
+    {
+      "groupKey": ["1", "6"],
+      "value": 40000
+    },
+    {
+      "groupKey": ["1", "6"],
+      "value": 50000
+    },
+    {
+      "groupKey": ["12", "6"],
+      "value": 60000
+    },
+    {
+      "groupKey": ["12", "6"],
+      "value": 70000
+    },
+    {
+      "groupKey": ["12", "6"],
+      "value": 80000
+    },
+    {
+      "groupKey": ["12", "6"],
+      "value": 90000
+    },
+    {
+      "groupKey": ["12", "6"],
+      "value": 1000000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 110000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 120000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 130000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 140000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 150000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 160000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 170000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 180000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 190000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 200000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 250000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 300000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 350000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 400000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 500000
+    },
+    {
+      "groupKey": ["12"],
+      "value": 1000000
+    }
+  ]
+}

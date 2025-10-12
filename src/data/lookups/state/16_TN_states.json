@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 205,
+      "name": "Ariana",
+      "code": "TN-12",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.8665,
+      "longitude": 10.1647,
+      "translations": { "ar": { "name": "أريانة" } }
+    },
+    {
+      "id": 206,
+      "name": "Beja",
+      "code": "TN-31",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.7333,
+      "longitude": 9.1833,
+      "translations": { "ar": { "name": "باجة" } }
+    },
+    {
+      "id": 207,
+      "name": "Ben Arous",
+      "code": "TN-13",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.7435,
+      "longitude": 10.2314,
+      "translations": { "ar": { "name": "بن عروس" } }
+    },
+    {
+      "id": 208,
+      "name": "Bizerte",
+      "code": "TN-23",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 37.2744,
+      "longitude": 9.8739,
+      "translations": { "ar": { "name": "بنزرت" } }
+    },
+    {
+      "id": 209,
+      "name": "Gabes",
+      "code": "TN-81",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 33.8815,
+      "longitude": 10.0982,
+      "translations": { "ar": { "name": "قابس" } }
+    },
+    {
+      "id": 210,
+      "name": "Gafsa",
+      "code": "TN-71",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 34.425,
+      "longitude": 8.7842,
+      "translations": { "ar": { "name": "قفصة" } }
+    },
+    {
+      "id": 211,
+      "name": "Jendouba",
+      "code": "TN-32",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.5011,
+      "longitude": 8.7794,
+      "translations": { "ar": { "name": "جندوبة" } }
+    },
+    {
+      "id": 212,
+      "name": "Kairouan",
+      "code": "TN-41",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 35.6781,
+      "longitude": 10.0963,
+      "translations": { "ar": { "name": "القيروان" } }
+    },
+    {
+      "id": 213,
+      "name": "Kasserine",
+      "code": "TN-42",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 35.1676,
+      "longitude": 8.8365,
+      "translations": { "ar": { "name": "القصرين" } }
+    },
+    {
+      "id": 214,
+      "name": "Kebili",
+      "code": "TN-73",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 33.7044,
+      "longitude": 8.969,
+      "translations": { "ar": { "name": "قبلي" } }
+    },
+    {
+      "id": 215,
+      "name": "Kef",
+      "code": "TN-33",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.1826,
+      "longitude": 8.7148,
+      "translations": { "ar": { "name": "الكاف" } }
+    },
+    {
+      "id": 216,
+      "name": "Mahdia",
+      "code": "TN-53",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 35.5047,
+      "longitude": 11.0622,
+      "translations": { "ar": { "name": "المهدية" } }
+    },
+    {
+      "id": 217,
+      "name": "Manouba",
+      "code": "TN-14",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.8072,
+      "longitude": 10.1011,
+      "translations": { "ar": { "name": "منوبة" } }
+    },
+    {
+      "id": 218,
+      "name": "Medenine",
+      "code": "TN-82",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 33.3549,
+      "longitude": 10.5055,
+      "translations": { "ar": { "name": "مدنين" } }
+    },
+    {
+      "id": 219,
+      "name": "Monastir",
+      "code": "TN-52",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 35.7643,
+      "longitude": 10.8113,
+      "translations": { "ar": { "name": "المنستير" } }
+    },
+    {
+      "id": 220,
+      "name": "Nabeul",
+      "code": "TN-21",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.4561,
+      "longitude": 10.7376,
+      "translations": { "ar": { "name": "نابل" } }
+    },
+    {
+      "id": 221,
+      "name": "Sfax",
+      "code": "TN-61",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 34.7406,
+      "longitude": 10.7603,
+      "translations": { "ar": { "name": "صفاقس" } }
+    },
+    {
+      "id": 222,
+      "name": "Sidi Bouzid",
+      "code": "TN-43",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 35.0382,
+      "longitude": 9.4849,
+      "translations": { "ar": { "name": "سيدي بوزيد" } }
+    },
+    {
+      "id": 223,
+      "name": "Siliana",
+      "code": "TN-34",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.0833,
+      "longitude": 9.3667,
+      "translations": { "ar": { "name": "سليانة" } }
+    },
+    {
+      "id": 224,
+      "name": "Sousse",
+      "code": "TN-51",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 35.8254,
+      "longitude": 10.637,
+      "translations": { "ar": { "name": "سوسة" } }
+    },
+    {
+      "id": 225,
+      "name": "Tataouine",
+      "code": "TN-83",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 32.9297,
+      "longitude": 10.4518,
+      "translations": { "ar": { "name": "تطاوين" } }
+    },
+    {
+      "id": 226,
+      "name": "Tozeur",
+      "code": "TN-72",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 33.9204,
+      "longitude": 8.1335,
+      "translations": { "ar": { "name": "توزر" } }
+    },
+    {
+      "id": 227,
+      "name": "Tunis",
+      "code": "TN-11",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.8065,
+      "longitude": 10.1815,
+      "translations": { "ar": { "name": "تونس" } }
+    },
+    {
+      "id": 228,
+      "name": "Zaghouan",
+      "code": "TN-22",
+      "countryCode": "TN",
+      "country": 224,
+      "latitude": 36.4091,
+      "longitude": 10.1423,
+      "translations": { "ar": { "name": "زغوان" } }
+    }
+  ]
+}

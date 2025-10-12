@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "state",
+  "queryField": "name",
+  "data": [
+    {
+      "id": 1,
+      "name": "Abu Dhabi",
+      "code": "AE-AD",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 24.453884,
+      "longitude": 54.377344,
+      "translations": { "ar": { "name": "أبوظبي" } }
+    },
+    {
+      "id": 2,
+      "name": "Ajman",
+      "code": "AE-AJ",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.405217,
+      "longitude": 55.513643,
+      "translations": { "ar": { "name": "عجمان" } }
+    },
+    {
+      "id": 3,
+      "name": "Dubai",
+      "code": "AE-DU",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.276987,
+      "longitude": 55.296249,
+      "translations": { "ar": { "name": "دبي" } }
+    },
+    {
+      "id": 4,
+      "name": "Fujairah",
+      "code": "AE-FU",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.12881,
+      "longitude": 56.326485,
+      "translations": { "ar": { "name": "الفجيرة" } }
+    },
+    {
+      "id": 5,
+      "name": "Ras Al Khaimah",
+      "code": "AE-RK",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.674134,
+      "longitude": 55.980417,
+      "translations": { "ar": { "name": "رأس الخيمة" } }
+    },
+    {
+      "id": 6,
+      "name": "Sharjah",
+      "code": "AE-SH",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.075397,
+      "longitude": 55.75784,
+      "translations": { "ar": { "name": "الشارقة" } }
+    },
+    {
+      "id": 7,
+      "name": "Umm Al Quwain",
+      "code": "AE-UQ",
+      "countryCode": "AE",
+      "country": "United Arab Emirates",
+      "latitude": 25.542632,
+      "longitude": 55.547535,
+      "translations": { "ar": { "name": "أم القيوين" } }
+    }
+  ]
+}

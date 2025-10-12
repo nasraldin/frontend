@@ -1,0 +1,20 @@
+{
+  "ar": {
+    "title": "تابع آخر التحديثات",
+    "description": "سجل لتصلك أحدث الإعلانات والعروض الحصرية مباشرة إلى بريدك.",
+    "placeholder": "أدخل بريدك الإلكتروني",
+    "button": "سجل الآن",
+    "subscribing": "جارٍ التسجيل...",
+    "success": "شكرًا لانضمامك إلينا!",
+    "error": "عذرًا، يرجى إدخال بريد إلكتروني صالح."
+  },
+  "en": {
+    "title": "Stay Updated",
+    "description": "Sign up to get the latest listings and special offers straight to your inbox.",
+    "placeholder": "Enter your email",
+    "button": "Sign Up",
+    "subscribing": "Signing you up...",
+    "success": "Thanks for joining us!",
+    "error": "Oops! Please enter a valid email address."
+  }
+}

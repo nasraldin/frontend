@@ -11,7 +11,7 @@ import pluginTailwind from 'eslint-plugin-tailwindcss';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import noDirectProcessEnv from './scripts/no-direct-process-env.mjs';
+import noDirectProcess from './scripts/no-direct-process.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -23,12 +23,12 @@ const compat = new FlatCompat({
   allConfig: js.configs.all,
 });
 
-const tsConfig = tseslint.config(
+const tsConfig = [
   js.configs.recommended,
   ...tseslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
-);
+];
 
 const eslintConfig = [
   ...tsConfig,
@@ -48,7 +48,7 @@ const eslintConfig = [
       solid: pluginSolid,
       'custom-rules': {
         rules: {
-          'no-direct-process-env': noDirectProcessEnv,
+          'no-direct-process': noDirectProcess,
         },
       },
     },
@@ -83,24 +83,26 @@ const eslintConfig = [
         },
       ],
       'no-restricted-globals': ['error', 'process'],
-      'custom-rules/no-direct-process-env': 'error',
+      'custom-rules/no-direct-process': 'error',
     },
   },
   {
     // Allow process.env in environment configuration files
     files: [
-      'src/env/**/*.{js,mjs,ts,tsx}',
-      'src/lib/env-utils/**/*.ts',
       'scripts/**/*.{js,mjs,ts,tsx}',
+      'src/env/**/*.{js,mjs,ts,tsx}',
       'public/sw.js',
       '*.config.{js,mjs,ts}',
       '**/__tests__/__fixtures__/**/*.{js,mjs,ts,tsx}',
       '**/__tests__/__mocks__/**/*.{js,mjs,ts,tsx}',
+      'src/lib/hello.ts',
+      'src/utils/env.ts',
+      'src/utils/error/initializeErrorHandlers.ts',
     ],
     rules: {
       'no-console': 'off',
       'no-restricted-globals': 'off',
-      'custom-rules/no-direct-process-env': 'off',
+      'custom-rules/no-direct-process': 'off',
       '@typescript-eslint/no-misused-promises': 'off',
     },
   },
@@ -109,7 +111,7 @@ const eslintConfig = [
       tailwindcss: {
         config: `${__dirname}/src/styles/app.css`,
         callees: [
-          'classnames',
+          'classs',
           'clsx',
           'ctl',
           'cva',

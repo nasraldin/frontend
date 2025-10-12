@@ -46,7 +46,6 @@ yarn.lock
 # Environment
 .env*
 !.env.development
-!.env.production
 
 # typescript
 *.tsbuildinfo

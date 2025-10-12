@@ -1,0 +1,175 @@
+{
+  "ar": {
+    "plans": [
+      {
+        "code": "free",
+        "name": "الخطة المجانية",
+        "description": "ابدأ باستخدام الميزات الأساسية لاستكشاف منصتنا.",
+        "features": [
+          { "code": "listings", "name": "قوائم العقارات" },
+          { "code": "email_support", "name": "دعم عبر البريد الإلكتروني" }
+        ],
+        "price": { "monthly": 0, "yearly": 0 },
+        "discount": 0,
+        "currency": "USD",
+        "isFree": true,
+        "isNew": false,
+        "markAsPopular": false
+      },
+      {
+        "code": "starter",
+        "name": "الخطة المبدئية",
+        "description": "مثالية للشركات الصغيرة وأصحاب العقارات مع الأدوات الأساسية.",
+        "features": [
+          { "code": "listings", "name": "قوائم العقارات" },
+          { "code": "advanced_search", "name": "بحث وتصفية متقدمة" },
+          { "code": "map_view", "name": "عرض الخريطة والخدمات القريبة" },
+          { "code": "virtual_tours", "name": "جولات افتراضية" },
+          { "code": "visit_booking", "name": "الحجز عبر الإنترنت وجدولة المواعيد" },
+          { "code": "role_based", "name": "إدارة الصلاحيات حسب الدور" },
+          { "code": "email_support", "name": "دعم عبر البريد الإلكتروني" }
+        ],
+        "price": { "monthly": 29, "yearly": 299 },
+        "discount": 15,
+        "currency": "USD",
+        "isFree": false,
+        "isNew": true,
+        "markAsPopular": true
+      },
+      {
+        "code": "professional",
+        "name": "الخطة الاحترافية",
+        "description": "أدوات متقدمة للشركات النامية ومديري العقارات.",
+        "features": [
+          {
+            "code": "all_starter_features",
+            "name": "تتضمن جميع ميزات الخطة المبدئية"
+          },
+          { "code": "team_management", "name": "إدارة الفريق للشركات" },
+          { "code": "lease_management", "name": "إدارة عقود الإيجار" },
+          { "code": "payments", "name": "دفع الإيجار عبر الإنترنت" },
+          { "code": "maintenance", "name": "تتبع طلبات الصيانة" },
+          { "code": "custom_reports", "name": "تقارير ولوحات بيانات مخصصة" },
+          { "code": "priority_support", "name": "دعم أولوي" }
+        ],
+        "price": { "monthly": 79, "yearly": 799 },
+        "discount": 20,
+        "currency": "USD",
+        "isFree": false,
+        "isNew": false,
+        "markAsPopular": false
+      },
+      {
+        "code": "enterprise",
+        "name": "الخطة المؤسسية",
+        "description": "تحكم كامل مع الذكاء الاصطناعي المتقدم والتكاملات والتخصيص.",
+        "features": [
+          {
+            "code": "all_professional_features",
+            "name": "تتضمن جميع ميزات الخطة الاحترافية"
+          },
+          { "code": "ai_insights", "name": "تحليلات ورؤى الذكاء الاصطناعي" },
+          { "code": "ai_chat", "name": "مساعد الدردشة الذكي" },
+          {
+            "code": "ai_request_routing",
+            "name": "توجيه الطلبات تلقائياً بالذكاء الاصطناعي"
+          },
+          { "code": "mcp_server", "name": "استخدام خوادم MCP" },
+          { "code": "crm_integrations", "name": "تكامل مع أنظمة CRM خارجية" },
+          { "code": "sla_monitoring", "name": "مراقبة اتفاقيات مستوى الخدمة (SLA)" }
+        ],
+        "price": { "monthly": 199, "yearly": 1999 },
+        "discount": 25,
+        "currency": "USD",
+        "isFree": false,
+        "isNew": false,
+        "markAsPopular": false
+      }
+    ]
+  },
+  "en": {
+    "plans": [
+      {
+        "code": "free",
+        "name": "Free Plan",
+        "description": "Get started with essential features to explore our platform.",
+        "features": [
+          { "code": "listings", "name": "Property Listings" },
+          { "code": "email_support", "name": "Email Support" }
+        ],
+        "price": { "monthly": 0, "yearly": 0 },
+        "discount": 0,
+        "currency": "USD",
+        "isFree": true,
+        "isNew": false,
+        "markAsPopular": false
+      },
+      {
+        "code": "starter",
+        "name": "Starter Plan",
+        "description": "Perfect for small agencies and owners with essential tools.",
+        "features": [
+          { "code": "listings", "name": "Property Listings" },
+          { "code": "advanced_search", "name": "Advanced Search & Filtering" },
+          { "code": "map_view", "name": "Map View & Nearby Services" },
+          { "code": "virtual_tours", "name": "Virtual Tours" },
+          { "code": "visit_booking", "name": "Online Booking & Scheduling" },
+          { "code": "role_based", "name": "Role-Based Access Control" },
+          { "code": "email_support", "name": "Email Support" }
+        ],
+        "price": { "monthly": 29, "yearly": 299 },
+        "discount": 15,
+        "currency": "USD",
+        "isFree": false,
+        "isNew": true,
+        "markAsPopular": true
+      },
+      {
+        "code": "professional",
+        "name": "Professional Plan",
+        "description": "Advanced tools for growing agencies and property managers.",
+        "features": [
+          {
+            "code": "all_starter_features",
+            "name": "Includes all Starter features"
+          },
+          { "code": "team_management", "name": "Team Management for Agencies" },
+          { "code": "lease_management", "name": "Lease Agreement Management" },
+          { "code": "payments", "name": "Online Rent Payment" },
+          { "code": "maintenance", "name": "Maintenance Request Tracking" },
+          { "code": "custom_reports", "name": "Custom Reports & Dashboards" },
+          { "code": "priority_support", "name": "Priority Support" }
+        ],
+        "price": { "monthly": 79, "yearly": 799 },
+        "discount": 20,
+        "currency": "USD",
+        "isFree": false,
+        "isNew": false,
+        "markAsPopular": false
+      },
+      {
+        "code": "enterprise",
+        "name": "Enterprise Plan",
+        "description": "Complete control with advanced AI, integrations, and customization.",
+        "features": [
+          {
+            "code": "all_professional_features",
+            "name": "Includes all Professional features"
+          },
+          { "code": "ai_insights", "name": "AI Insights & Analytics" },
+          { "code": "ai_chat", "name": "AI-powered Chat Assistant" },
+          { "code": "ai_request_routing", "name": "AI Auto-routing for Requests" },
+          { "code": "mcp_server", "name": "MCP Server Usage" },
+          { "code": "crm_integrations", "name": "External CRM Integrations" },
+          { "code": "sla_monitoring", "name": "SLA Monitoring" }
+        ],
+        "price": { "monthly": 199, "yearly": 1999 },
+        "discount": 25,
+        "currency": "USD",
+        "isFree": false,
+        "isNew": false,
+        "markAsPopular": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 65,
+      "name": "Ad Dakhiliyah",
+      "code": "OM-DA",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 23.0368,
+      "longitude": 57.2808,
+      "translations": { "ar": { "name": "الداخلية" } }
+    },
+    {
+      "id": 66,
+      "name": "Ad Dhahirah",
+      "code": "OM-ZA",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 23.7854,
+      "longitude": 56.4634,
+      "translations": { "ar": { "name": "الظاهرة" } }
+    },
+    {
+      "id": 67,
+      "name": "Al Batinah North",
+      "code": "OM-BS",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 24.1726,
+      "longitude": 56.8883,
+      "translations": { "ar": { "name": "شمال الباطنة" } }
+    },
+    {
+      "id": 68,
+      "name": "Al Batinah South",
+      "code": "OM-BJ",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 23.6139,
+      "longitude": 57.6344,
+      "translations": { "ar": { "name": "جنوب الباطنة" } }
+    },
+    {
+      "id": 69,
+      "name": "Al Buraimi",
+      "code": "OM-BU",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 24.2509,
+      "longitude": 55.7933,
+      "translations": { "ar": { "name": "البريمي" } }
+    },
+    {
+      "id": 70,
+      "name": "Al Wusta",
+      "code": "OM-WU",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 20.6093,
+      "longitude": 58.8854,
+      "translations": { "ar": { "name": "الوسطى" } }
+    },
+    {
+      "id": 71,
+      "name": "Ash Sharqiyah North",
+      "code": "OM-SJ",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 22.5667,
+      "longitude": 59.5289,
+      "translations": { "ar": { "name": "شمال الشرقية" } }
+    },
+    {
+      "id": 72,
+      "name": "Ash Sharqiyah South",
+      "code": "OM-SS",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 22.9333,
+      "longitude": 58.7,
+      "translations": { "ar": { "name": "جنوب الشرقية" } }
+    },
+    {
+      "id": 73,
+      "name": "Dhofar",
+      "code": "OM-ZU",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 17.0344,
+      "longitude": 54.1225,
+      "translations": { "ar": { "name": "ظفار" } }
+    },
+    {
+      "id": 74,
+      "name": "Musandam",
+      "code": "OM-MU",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 26.0495,
+      "longitude": 56.2482,
+      "translations": { "ar": { "name": "مسندم" } }
+    },
+    {
+      "id": 75,
+      "name": "Muscat",
+      "code": "OM-MA",
+      "countryCode": "OM",
+      "country": 166,
+      "latitude": 23.588,
+      "longitude": 58.3829,
+      "translations": { "ar": { "name": "مسقط" } }
+    }
+  ]
+}

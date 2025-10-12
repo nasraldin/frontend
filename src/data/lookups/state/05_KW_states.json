@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 52,
+      "name": "Al Ahmadi",
+      "code": "KW-AH",
+      "countryCode": "KW",
+      "country": 117,
+      "latitude": 29.0875,
+      "longitude": 48.0839,
+      "translations": { "ar": { "name": "الأحمدي" } }
+    },
+    {
+      "id": 53,
+      "name": "Al Asimah",
+      "code": "KW-AS",
+      "countryCode": "KW",
+      "country": 117,
+      "latitude": 29.3759,
+      "longitude": 47.9774,
+      "translations": { "ar": { "name": "العاصمة" } }
+    },
+    {
+      "id": 54,
+      "name": "Al Farwaniyah",
+      "code": "KW-FA",
+      "countryCode": "KW",
+      "country": 117,
+      "latitude": 29.2775,
+      "longitude": 47.9586,
+      "translations": { "ar": { "name": "الفروانية" } }
+    },
+    {
+      "id": 55,
+      "name": "Al Jahra",
+      "code": "KW-JA",
+      "countryCode": "KW",
+      "country": 117,
+      "latitude": 29.3375,
+      "longitude": 47.6581,
+      "translations": { "ar": { "name": "الجهراء" } }
+    },
+    {
+      "id": 56,
+      "name": "Hawalli",
+      "code": "KW-HA",
+      "countryCode": "KW",
+      "country": 117,
+      "latitude": 29.3328,
+      "longitude": 48.0286,
+      "translations": { "ar": { "name": "حولي" } }
+    },
+    {
+      "id": 57,
+      "name": "Mubarak Al Kabeer",
+      "code": "KW-MU",
+      "countryCode": "KW",
+      "country": 117,
+      "latitude": 29.2225,
+      "longitude": 48.0989,
+      "translations": { "ar": { "name": "مبارك الكبير" } }
+    }
+  ]
+}

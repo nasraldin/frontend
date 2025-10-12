@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 76,
+      "name": "Abyan",
+      "code": "YE-AB",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 13.8292,
+      "longitude": 45.835,
+      "translations": { "ar": { "name": "أبين" } }
+    },
+    {
+      "id": 77,
+      "name": "Ad Dali'",
+      "code": "YE-DA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 14.5844,
+      "longitude": 44.3819,
+      "translations": { "ar": { "name": "الضالع" } }
+    },
+    {
+      "id": 78,
+      "name": "Aden",
+      "code": "YE-AD",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 12.8,
+      "longitude": 45.0333,
+      "translations": { "ar": { "name": "عدن" } }
+    },
+    {
+      "id": 79,
+      "name": "Al Bayda'",
+      "code": "YE-BA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 14.2078,
+      "longitude": 45.4735,
+      "translations": { "ar": { "name": "البيضاء" } }
+    },
+    {
+      "id": 80,
+      "name": "Al Hudaydah",
+      "code": "YE-HU",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 14.7978,
+      "longitude": 42.9545,
+      "translations": { "ar": { "name": "الحديدة" } }
+    },
+    {
+      "id": 81,
+      "name": "Al Jawf",
+      "code": "YE-JA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 16.1917,
+      "longitude": 45.4481,
+      "translations": { "ar": { "name": "الجوف" } }
+    },
+    {
+      "id": 82,
+      "name": "Al Mahrah",
+      "code": "YE-MR",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 16.94,
+      "longitude": 51.58,
+      "translations": { "ar": { "name": "المهرة" } }
+    },
+    {
+      "id": 83,
+      "name": "Al Mahwit",
+      "code": "YE-MW",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 15.4701,
+      "longitude": 43.5448,
+      "translations": { "ar": { "name": "المحويت" } }
+    },
+    {
+      "id": 84,
+      "name": "Amran",
+      "code": "YE-AM",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 15.6594,
+      "longitude": 43.9439,
+      "translations": { "ar": { "name": "عمران" } }
+    },
+    {
+      "id": 85,
+      "name": "Dhamar",
+      "code": "YE-DH",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 14.5427,
+      "longitude": 44.4051,
+      "translations": { "ar": { "name": "ذمار" } }
+    },
+    {
+      "id": 86,
+      "name": "Hadhramaut",
+      "code": "YE-HD",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 15.945,
+      "longitude": 48.7873,
+      "translations": { "ar": { "name": "حضرموت" } }
+    },
+    {
+      "id": 87,
+      "name": "Hajjah",
+      "code": "YE-HJ",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 16.1955,
+      "longitude": 43.2583,
+      "translations": { "ar": { "name": "حجة" } }
+    },
+    {
+      "id": 88,
+      "name": "Ibb",
+      "code": "YE-IB",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 13.9667,
+      "longitude": 44.1833,
+      "translations": { "ar": { "name": "إب" } }
+    },
+    {
+      "id": 89,
+      "name": "Lahij",
+      "code": "YE-LA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 13.0567,
+      "longitude": 44.8819,
+      "translations": { "ar": { "name": "لحج" } }
+    },
+    {
+      "id": 90,
+      "name": "Marib",
+      "code": "YE-MA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 15.47,
+      "longitude": 45.3228,
+      "translations": { "ar": { "name": "مأرب" } }
+    },
+    {
+      "id": 91,
+      "name": "Raymah",
+      "code": "YE-RA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 14.5692,
+      "longitude": 43.6889,
+      "translations": { "ar": { "name": "ريمة" } }
+    },
+    {
+      "id": 92,
+      "name": "Sa'dah",
+      "code": "YE-SA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 16.95,
+      "longitude": 43.7667,
+      "translations": { "ar": { "name": "صعدة" } }
+    },
+    {
+      "id": 93,
+      "name": "Sana'a",
+      "code": "YE-SN",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 15.3694,
+      "longitude": 44.191,
+      "translations": { "ar": { "name": "صنعاء" } }
+    },
+    {
+      "id": 94,
+      "name": "Shabwah",
+      "code": "YE-SH",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 14.5412,
+      "longitude": 46.8362,
+      "translations": { "ar": { "name": "شبوة" } }
+    },
+    {
+      "id": 95,
+      "name": "Socotra",
+      "code": "YE-SU",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 12.5,
+      "longitude": 53.8333,
+      "translations": { "ar": { "name": "سقطرى" } }
+    },
+    {
+      "id": 96,
+      "name": "Taiz",
+      "code": "YE-TA",
+      "countryCode": "YE",
+      "country": 245,
+      "latitude": 13.5795,
+      "longitude": 44.0209,
+      "translations": { "ar": { "name": "تعز" } }
+    }
+  ]
+}

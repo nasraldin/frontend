@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 326,
+      "name": "Ali Sabieh",
+      "code": "DJ-AS",
+      "countryCode": "DJ",
+      "country": 60,
+      "latitude": 11.1558,
+      "longitude": 42.7125,
+      "translations": { "ar": { "name": "علي صبيح" } }
+    },
+    {
+      "id": 327,
+      "name": "Arta",
+      "code": "DJ-AR",
+      "countryCode": "DJ",
+      "country": 60,
+      "latitude": 11.5229,
+      "longitude": 42.8419,
+      "translations": { "ar": { "name": "أرتا" } }
+    },
+    {
+      "id": 328,
+      "name": "Dikhil",
+      "code": "DJ-DI",
+      "countryCode": "DJ",
+      "country": 60,
+      "latitude": 11.1085,
+      "longitude": 42.3736,
+      "translations": { "ar": { "name": "دخيل" } }
+    },
+    {
+      "id": 329,
+      "name": "Djibouti",
+      "code": "DJ-DJ",
+      "countryCode": "DJ",
+      "country": 60,
+      "latitude": 11.589,
+      "longitude": 43.145,
+      "translations": { "ar": { "name": "جيبوتي" } }
+    },
+    {
+      "id": 330,
+      "name": "Obock",
+      "code": "DJ-OB",
+      "countryCode": "DJ",
+      "country": 60,
+      "latitude": 11.9631,
+      "longitude": 43.2905,
+      "translations": { "ar": { "name": "أوبوك" } }
+    },
+    {
+      "id": 331,
+      "name": "Tadjourah",
+      "code": "DJ-TA",
+      "countryCode": "DJ",
+      "country": 60,
+      "latitude": 11.7853,
+      "longitude": 42.8847,
+      "translations": { "ar": { "name": "تاجورة" } }
+    }
+  ]
+}

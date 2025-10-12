@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 166,
+      "name": "Al Jazirah",
+      "code": "SD-GZ",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 14.4059,
+      "longitude": 33.2288,
+      "translations": { "ar": { "name": "الجزيرة" } }
+    },
+    {
+      "id": 167,
+      "name": "Al Qadarif",
+      "code": "SD-GD",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 14.0349,
+      "longitude": 35.3834,
+      "translations": { "ar": { "name": "القضارف" } }
+    },
+    {
+      "id": 168,
+      "name": "Blue Nile",
+      "code": "SD-BN",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 11.2333,
+      "longitude": 34.8333,
+      "translations": { "ar": { "name": "النيل الأزرق" } }
+    },
+    {
+      "id": 169,
+      "name": "Central Darfur",
+      "code": "SD-DC",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 12.7,
+      "longitude": 23.5,
+      "translations": { "ar": { "name": "وسط دارفور" } }
+    },
+    {
+      "id": 170,
+      "name": "East Darfur",
+      "code": "SD-DE",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 11.4688,
+      "longitude": 26.1258,
+      "translations": { "ar": { "name": "شرق دارفور" } }
+    },
+    {
+      "id": 171,
+      "name": "Kassala",
+      "code": "SD-KA",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 15.4558,
+      "longitude": 36.3988,
+      "translations": { "ar": { "name": "كسلا" } }
+    },
+    {
+      "id": 172,
+      "name": "Khartoum",
+      "code": "SD-KH",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 15.5501,
+      "longitude": 32.5324,
+      "translations": { "ar": { "name": "الخرطوم" } }
+    },
+    {
+      "id": 173,
+      "name": "North Darfur",
+      "code": "SD-DN",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 15.0,
+      "longitude": 24.5,
+      "translations": { "ar": { "name": "شمال دارفور" } }
+    },
+    {
+      "id": 174,
+      "name": "North Kordofan",
+      "code": "SD-KN",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 13.1833,
+      "longitude": 30.2167,
+      "translations": { "ar": { "name": "شمال كردفان" } }
+    },
+    {
+      "id": 175,
+      "name": "Northern",
+      "code": "SD-NO",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 18.05,
+      "longitude": 30.0,
+      "translations": { "ar": { "name": "الشمالية" } }
+    },
+    {
+      "id": 176,
+      "name": "Red Sea",
+      "code": "SD-RS",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 20.0,
+      "longitude": 37.3333,
+      "translations": { "ar": { "name": "البحر الأحمر" } }
+    },
+    {
+      "id": 177,
+      "name": "River Nile",
+      "code": "SD-NR",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 17.6333,
+      "longitude": 33.9667,
+      "translations": { "ar": { "name": "نهر النيل" } }
+    },
+    {
+      "id": 178,
+      "name": "Sennar",
+      "code": "SD-SE",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 13.5518,
+      "longitude": 33.5928,
+      "translations": { "ar": { "name": "سنار" } }
+    },
+    {
+      "id": 179,
+      "name": "South Darfur",
+      "code": "SD-DS",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 12.0,
+      "longitude": 24.6667,
+      "translations": { "ar": { "name": "جنوب دارفور" } }
+    },
+    {
+      "id": 180,
+      "name": "South Kordofan",
+      "code": "SD-KS",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 11.4672,
+      "longitude": 29.2,
+      "translations": { "ar": { "name": "جنوب كردفان" } }
+    },
+    {
+      "id": 181,
+      "name": "West Darfur",
+      "code": "SD-DW",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 12.8869,
+      "longitude": 22.3596,
+      "translations": { "ar": { "name": "غرب دارفور" } }
+    },
+    {
+      "id": 182,
+      "name": "West Kordofan",
+      "code": "SD-KW",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 12.15,
+      "longitude": 29.0,
+      "translations": { "ar": { "name": "غرب كردفان" } }
+    },
+    {
+      "id": 183,
+      "name": "White Nile",
+      "code": "SD-NW",
+      "countryCode": "SD",
+      "country": 209,
+      "latitude": 13.1728,
+      "longitude": 32.6634,
+      "translations": { "ar": { "name": "النيل الأبيض" } }
+    }
+  ]
+}

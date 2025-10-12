@@ -1,0 +1,119 @@
+{
+  "header": {
+    "title": "Filters"
+  },
+  "priceRange": {
+    "label": "Price range",
+    "description": "Trip price, includes all fees",
+    "minLabel": "Minimum",
+    "maxLabel": "Maximum"
+  },
+  "bedsAndBaths": {
+    "beds": "Beds",
+    "bathrooms": "Bathrooms",
+    "any": "Any"
+  },
+  "amenities": {
+    "label": "Amenities",
+    "essentials": {
+      "label": "Essentials",
+      "items": [
+        { "id": "wifi", "label": "Wifi" },
+        { "id": "kitchen", "label": "Kitchen" },
+        { "id": "private_bathroom", "label": "Private attached bathroom" },
+        { "id": "washer", "label": "Washer" },
+        { "id": "dryer", "label": "Dryer" },
+        { "id": "air_conditioning", "label": "Air conditioning" },
+        { "id": "heating", "label": "Heating" },
+        { "id": "workspace", "label": "Dedicated workspace" },
+        { "id": "tv", "label": "TV" },
+        { "id": "hair_dryer", "label": "Hair dryer" },
+        { "id": "iron", "label": "Iron" }
+      ]
+    },
+    "features": {
+      "label": "Features",
+      "items": [
+        { "id": "pool", "label": "Pool" },
+        { "id": "hot_tub", "label": "Hot tub" },
+        { "id": "free_parking", "label": "Free parking" },
+        { "id": "ev_charger", "label": "EV charger" },
+        { "id": "crib", "label": "Crib" },
+        { "id": "king_bed", "label": "King bed" },
+        { "id": "gym", "label": "Gym" },
+        { "id": "bbq_grill", "label": "BBQ grill" },
+        { "id": "breakfast", "label": "Breakfast" },
+        { "id": "indoor_fireplace", "label": "Indoor fireplace" },
+        { "id": "smoking_allowed", "label": "Smoking allowed" }
+      ]
+    }
+  },
+  "bookingOptions": {
+    "label": "Booking options",
+    "items": [
+      { "id": "instant_book", "label": "Instant Book" },
+      { "id": "self_checkin", "label": "Self check-in" },
+      { "id": "allows_pets", "label": "Allows pets" }
+    ]
+  },
+  "standoutStays": {
+    "label": "Standout stays",
+    "items": [
+      {
+        "id": "guest_favorite",
+        "label": "Guest favorite",
+        "description": "The most loved homes on Airbnb"
+      }
+    ]
+  },
+  "propertyType": {
+    "label": "Property type",
+    "items": [
+      { "id": "house", "label": "House" },
+      { "id": "apartment", "label": "Apartment" },
+      { "id": "guesthouse", "label": "Guesthouse" }
+    ]
+  },
+  "accessibility": {
+    "label": "Accessibility features",
+    "groups": [
+      {
+        "label": "Guest entrance and parking",
+        "items": [
+          { "id": "step_free_access", "label": "Step-free access" },
+          { "id": "disabled_parking", "label": "Disabled parking spot" },
+          {
+            "id": "entrance_wider_32",
+            "label": "Guest entrance wider than 32 inches"
+          }
+        ]
+      },
+      {
+        "label": "Bedroom",
+        "items": [
+          { "id": "step_free_bedroom", "label": "Step-free bedroom access" },
+          {
+            "id": "bedroom_wider_32",
+            "label": "Bedroom entrance wider than 32 inches"
+          }
+        ]
+      },
+      {
+        "label": "Bathroom",
+        "items": [
+          { "id": "step_free_bathroom", "label": "Step-free bathroom access" },
+          {
+            "id": "bathroom_wider_32",
+            "label": "Bathroom entrance wider than 32 inches"
+          },
+          { "id": "toilet_grab_bar", "label": "Toilet grab bar" },
+          { "id": "shower_grab_bar", "label": "Shower grab bar" }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "clearAll": "Clear all",
+    "showResults": "Show {count} places"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 289,
+      "name": "Adrar",
+      "code": "MR-07",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 20.5022,
+      "longitude": -10.0711,
+      "translations": { "ar": { "name": "آدرار" } }
+    },
+    {
+      "id": 290,
+      "name": "Assaba",
+      "code": "MR-03",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 16.6622,
+      "longitude": -11.8333,
+      "translations": { "ar": { "name": "العصابة" } }
+    },
+    {
+      "id": 291,
+      "name": "Brakna",
+      "code": "MR-05",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 17.5334,
+      "longitude": -14.5189,
+      "translations": { "ar": { "name": "براكنة" } }
+    },
+    {
+      "id": 292,
+      "name": "Dakhlet Nouadhibou",
+      "code": "MR-08",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 20.9333,
+      "longitude": -17.0333,
+      "translations": { "ar": { "name": "داخلت نواذيبو" } }
+    },
+    {
+      "id": 293,
+      "name": "Gorgol",
+      "code": "MR-04",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 16.25,
+      "longitude": -12.5,
+      "translations": { "ar": { "name": "كركول" } }
+    },
+    {
+      "id": 294,
+      "name": "Guidimaka",
+      "code": "MR-10",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 15.25,
+      "longitude": -12.75,
+      "translations": { "ar": { "name": "كيديماغه" } }
+    },
+    {
+      "id": 295,
+      "name": "Hodh Ech Chargui",
+      "code": "MR-01",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 16.2333,
+      "longitude": -8.1667,
+      "translations": { "ar": { "name": "الحوض الشرقي" } }
+    },
+    {
+      "id": 296,
+      "name": "Hodh El Gharbi",
+      "code": "MR-02",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 15.2333,
+      "longitude": -10.5,
+      "translations": { "ar": { "name": "الحوض الغربي" } }
+    },
+    {
+      "id": 297,
+      "name": "Inchiri",
+      "code": "MR-12",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 20.25,
+      "longitude": -15.8333,
+      "translations": { "ar": { "name": "إنشيري" } }
+    },
+    {
+      "id": 298,
+      "name": "Nouakchott Nord",
+      "code": "MR-NKCN",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 18.0858,
+      "longitude": -15.9785,
+      "translations": { "ar": { "name": "نواكشوط الشمالية" } }
+    },
+    {
+      "id": 299,
+      "name": "Nouakchott Ouest",
+      "code": "MR-NKCQ",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 18.1,
+      "longitude": -16.0,
+      "translations": { "ar": { "name": "نواكشوط الغربية" } }
+    },
+    {
+      "id": 300,
+      "name": "Nouakchott Sud",
+      "code": "MR-NKCS",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 18.0667,
+      "longitude": -15.9667,
+      "translations": { "ar": { "name": "نواكشوط الجنوبية" } }
+    },
+    {
+      "id": 301,
+      "name": "Tagant",
+      "code": "MR-09",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 18.55,
+      "longitude": -11.4167,
+      "translations": { "ar": { "name": "تكانت" } }
+    },
+    {
+      "id": 302,
+      "name": "Tiris Zemmour",
+      "code": "MR-11",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 25.2333,
+      "longitude": -11.5833,
+      "translations": { "ar": { "name": "تيرس زمور" } }
+    },
+    {
+      "id": 303,
+      "name": "Trarza",
+      "code": "MR-06",
+      "countryCode": "MR",
+      "country": 139,
+      "latitude": 18.0167,
+      "longitude": -15.9833,
+      "translations": { "ar": { "name": "ترارزة" } }
+    }
+  ]
+}

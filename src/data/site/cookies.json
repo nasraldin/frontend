@@ -1,0 +1,16 @@
+{
+  "ar": {
+    "title": "🍪 ملفات تعريف الارتباط",
+    "content": "يقوم أجرلي باستخدام ملفات تعريف الارتباط للتأكد من أننا نقدم لك أفضل تجربة على موقعنا.",
+    "cookiesPolicies": "اقرأ المزيد حول سياسات ملفات تعريف الارتباط.",
+    "accept": "موافق",
+    "link": "/ar/cookies-policy"
+  },
+  "en": {
+    "title": "🍪 Cookie Notice",
+    "content": "We use cookies to ensure that we give you the best experience on our website.",
+    "cookiesPolicies": "Read cookies policies.",
+    "accept": "Accept",
+    "link": "/en/cookies-policy"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 58,
+      "name": "Al Daayen",
+      "code": "QA-DA",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 25.4077,
+      "longitude": 51.4338,
+      "translations": { "ar": { "name": "الضعاين" } }
+    },
+    {
+      "id": 59,
+      "name": "Al Khor",
+      "code": "QA-KH",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 25.6846,
+      "longitude": 51.5058,
+      "translations": { "ar": { "name": "الخور" } }
+    },
+    {
+      "id": 60,
+      "name": "Al Rayyan",
+      "code": "QA-RA",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 25.2919,
+      "longitude": 51.4244,
+      "translations": { "ar": { "name": "الريان" } }
+    },
+    {
+      "id": 61,
+      "name": "Al Shamal",
+      "code": "QA-SM",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 26.1293,
+      "longitude": 51.2009,
+      "translations": { "ar": { "name": "الشمال" } }
+    },
+    {
+      "id": 62,
+      "name": "Al Wakrah",
+      "code": "QA-WA",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 25.1715,
+      "longitude": 51.6031,
+      "translations": { "ar": { "name": "الوكرة" } }
+    },
+    {
+      "id": 63,
+      "name": "Doha",
+      "code": "QA-DO",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 25.276987,
+      "longitude": 51.520008,
+      "translations": { "ar": { "name": "الدوحة" } }
+    },
+    {
+      "id": 64,
+      "name": "Umm Salal",
+      "code": "QA-US",
+      "countryCode": "QA",
+      "country": 179,
+      "latitude": 25.4697,
+      "longitude": 51.3973,
+      "translations": { "ar": { "name": "أم صلال" } }
+    }
+  ]
+}

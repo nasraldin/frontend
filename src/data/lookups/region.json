@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "region",
+  "queryField": "code",
+  "data": [
+    {
+      "name": "Africa",
+      "code": "AF",
+      "isActive": true,
+      "translations": { "ar": { "name": "إفريقيا" } }
+    },
+    {
+      "name": "Americas",
+      "code": "AM",
+      "isActive": true,
+      "translations": { "ar": { "name": "أمريكا" } }
+    },
+    {
+      "name": "Asia",
+      "code": "AS",
+      "isActive": true,
+      "translations": { "ar": { "name": "آسيا" } }
+    },
+    {
+      "name": "Europe",
+      "code": "EU",
+      "isActive": true,
+      "translations": { "ar": { "name": "أوروبا" } }
+    },
+    {
+      "name": "Oceania",
+      "code": "OC",
+      "isActive": true,
+      "translations": { "ar": { "name": "أوقيانوسيا" } }
+    },
+    {
+      "name": "Polar",
+      "code": "PO",
+      "isActive": true,
+      "translations": { "ar": { "name": "المناطق القطبية" } }
+    }
+  ]
+}

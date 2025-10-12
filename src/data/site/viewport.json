@@ -1,0 +1,16 @@
+{
+  "colorScheme": "light dark",
+  "themeColor": [
+    {
+      "color": "#1E2226",
+      "media": "(prefers-color-scheme: dark)"
+    },
+    {
+      "color": "#ffffff",
+      "media": "(prefers-color-scheme: light)"
+    }
+  ],
+  "width": "device-width",
+  "height": "device-height",
+  "viewportFit": "cover"
+}

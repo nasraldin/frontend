@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 48,
+      "name": "Capital",
+      "code": "BH-13",
+      "countryCode": "BH",
+      "country": 18,
+      "latitude": 26.2285,
+      "longitude": 50.586,
+      "translations": { "ar": { "name": "محافظة العاصمة" } }
+    },
+    {
+      "id": 49,
+      "name": "Muharraq",
+      "code": "BH-15",
+      "countryCode": "BH",
+      "country": 18,
+      "latitude": 26.2572,
+      "longitude": 50.6119,
+      "translations": { "ar": { "name": "محافظة المحرق" } }
+    },
+    {
+      "id": 50,
+      "name": "Northern",
+      "code": "BH-17",
+      "countryCode": "BH",
+      "country": 18,
+      "latitude": 26.2725,
+      "longitude": 50.6206,
+      "translations": { "ar": { "name": "المحافظة الشمالية" } }
+    },
+    {
+      "id": 51,
+      "name": "Southern",
+      "code": "BH-14",
+      "countryCode": "BH",
+      "country": 18,
+      "latitude": 25.7906,
+      "longitude": 50.6075,
+      "translations": { "ar": { "name": "المحافظة الجنوبية" } }
+    }
+  ]
+}

@@ -11,43 +11,59 @@
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      // App environment
       readonly NODE_ENV: 'development' | 'production' | 'test' | 'staging' | 'uat';
       readonly HOST: string;
       readonly PORT: number;
+
+      //
+      // Client environment
+      //
+
+      // App
+      readonly VITE_LOG_LEVEL: string;
       readonly VITE_APP_URL: string;
       readonly VITE_API_URL: string;
       readonly VITE_APP_DOMAIN: string;
-      // Auth environment
-      readonly AUTH_URL: string;
-      readonly AUTH_SECRET: string;
-      readonly AUTH_KEYCLOAK_ID: string;
-      readonly AUTH_KEYCLOAK_SECRET: string;
-      readonly AUTH_KEYCLOAK_ISSUER: string;
-      readonly AUTH_KEYCLOAK_REALM: string;
-      readonly AUTH_KEYCLOAK_ADMIN_CLIENT_ID: string;
-      readonly AUTH_KEYCLOAK_ADMIN_CLIENT_SECRET: string;
-      readonly AUTH_KEYCLOAK_SCOPE: string;
+      // Auth
+      readonly VITE_AUTH_KEYCLOAK_CLIENT_ID: string;
+      readonly VITE_AUTH_KEYCLOAK_ISSUER: string;
       readonly VITE_KEYCLOAK_URL: string;
-      readonly AUTH_TRUST_HOST: boolean;
-      readonly AUTH_DEBUG: boolean;
-      // Backend environment
+      // Backend
       readonly VITE_BACKEND_URL: string;
       readonly VITE_X_API_KEY_NAME: string;
-      readonly X_API_KEY: string;
       readonly VITE_API_TIMEOUT: number;
-      // CMS
-      readonly VITE_STRAPI_GQL_URL: string;
-      readonly STRAPI_API_KEY: string;
-      readonly STRAPI_PREVIEW_SECRET: string;
       // Google Maps
       readonly VITE_GOOGLE_MAPS_API_KEY: string;
       readonly VITE_GOOGLE_MAP_ID: string;
+      // Rate limits
+      readonly VITE_RATE_LIMIT_TOKENS: number;
+      readonly VITE_RATE_LIMIT_DURATION: string;
+      // Analytics
+      readonly VITE_ANALYTICS_ID: string;
+      readonly VITE_GTM_ID: string;
+      readonly VITE_GTM_AUTH: string;
+      readonly VITE_GTM_PREVIEW: string;
+      // PWA
+      readonly VITE_VAPID_PUBLIC_KEY: string;
+
+      //
+      // Server environment
+      //
+
+      // Auth
+      readonly AUTH_URL: string;
+      readonly AUTH_SECRET: string;
+      readonly AUTH_KEYCLOAK_REALM: string;
+      readonly AUTH_KEYCLOAK_CLIENT_SECRET: string;
+      readonly AUTH_KEYCLOAK_ADMIN_CLIENT_ID: string;
+      readonly AUTH_KEYCLOAK_ADMIN_CLIENT_SECRET: string;
+      readonly AUTH_KEYCLOAK_SCOPE: string;
+      readonly AUTH_TRUST_HOST: boolean;
+      readonly AUTH_DEBUG: boolean;
+      // Backend
+      readonly X_API_KEY: string;
       // Cache
       readonly CACHE_ADAPTER: string;
-      readonly REDIS_ENDPOINT: string;
-      readonly REDIS_USERNAME: string;
-      readonly REDIS_PASSWORD: string;
       readonly UPSTASH_REDIS_REST_URL: string;
       readonly UPSTASH_REDIS_REST_TOKEN: string;
       // Email
@@ -57,25 +73,17 @@ declare global {
       readonly SMTP_PASSWORD: string;
       readonly EMAIL_FROM: string;
       readonly EMAIL_REPLY_TO: string;
+      readonly RESEND_API_KEY: string;
       // Body limits
       readonly JSON_BODY_LIMIT: string;
       readonly FORM_BODY_LIMIT: string;
       readonly TEXT_BODY_LIMIT: string;
-      // Rate limits
-      readonly VITE_RATE_LIMIT_TOKENS: number;
-      readonly VITE_RATE_LIMIT_DURATION: string;
-      // Analytics
-      readonly VITE_ANALYTICS_ID: string;
-      readonly VITE_GTM_ID: string;
-      readonly VITE_GTM_AUTH: string;
-      readonly VITE_GTM_PREVIEW: string;
       // CORS
       readonly CORS_WHITELIST: string;
       readonly ALLOWED_DOMAINS: string;
       readonly ALLOWED_METHODS: string;
       readonly ALLOWED_HEADERS: string;
       // PWA
-      readonly VITE_VAPID_PUBLIC_KEY: string;
       readonly VAPID_PRIVATE_KEY: string;
       // CSP
       readonly CSP_REPORT_URI: string;

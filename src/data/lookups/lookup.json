@@ -1,0 +1,2989 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "lookup",
+  "queryField": "key",
+  "data": [
+    {
+      "name": "Mr.",
+      "key": "title_mr",
+      "value": "Mr",
+      "groupKey": "Titles",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "السيد"
+        }
+      }
+    },
+    {
+      "name": "Mrs.",
+      "key": "title_mrs",
+      "value": "Mrs",
+      "groupKey": "Titles",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "السيدة"
+        }
+      }
+    },
+    {
+      "name": "Ms.",
+      "key": "title_ms",
+      "value": "Ms",
+      "groupKey": "Titles",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الآنسة/السيدة"
+        }
+      }
+    },
+    {
+      "name": "Dr.",
+      "key": "title_dr",
+      "value": "Dr",
+      "groupKey": "Titles",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الدكتور/الدكتورة"
+        }
+      }
+    },
+    {
+      "name": "Prof.",
+      "key": "title_prof",
+      "value": "Prof",
+      "groupKey": "Titles",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "البروفيسور/البروفيسورة"
+        }
+      }
+    },
+    {
+      "name": "C-Level",
+      "key": "job_title_c_level",
+      "value": "C",
+      "groupKey": "JobTitle",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الإدارة العليا"
+        }
+      }
+    },
+    {
+      "name": "Vice President",
+      "key": "job_title_vice_president",
+      "value": "VP",
+      "groupKey": "JobTitle",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "نائب المدير"
+        }
+      }
+    },
+    {
+      "name": "Director",
+      "key": "job_title_director",
+      "value": "Director",
+      "groupKey": "JobTitle",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مدير تنفيذي"
+        }
+      }
+    },
+    {
+      "name": "Manager",
+      "key": "job_title_manager",
+      "value": "Manager",
+      "groupKey": "JobTitle",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مدير"
+        }
+      }
+    },
+    {
+      "name": "Consultant",
+      "key": "job_title_consultant",
+      "value": "Consultant",
+      "groupKey": "JobTitle",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "استشاري"
+        }
+      }
+    },
+    {
+      "name": "Individual Contributor",
+      "key": "job_title_individual_contributor",
+      "value": "Individual",
+      "groupKey": "JobTitle",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "المساهم الفردي"
+        }
+      }
+    },
+    {
+      "name": "Sales",
+      "key": "job_function_sales",
+      "value": "Sales",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "المبيعات"
+        }
+      }
+    },
+    {
+      "name": "Marketing",
+      "key": "job_function_marketing",
+      "value": "Marketing",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "التسويق"
+        }
+      }
+    },
+    {
+      "name": "Finance",
+      "key": "job_function_finance",
+      "value": "Finance",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "المالية"
+        }
+      }
+    },
+    {
+      "name": "Human Resources (HR)",
+      "key": "job_function_hr",
+      "value": "HR",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الموارد البشرية"
+        }
+      }
+    },
+    {
+      "name": "Operations",
+      "key": "job_function_operations",
+      "value": "Operations",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "العمليات"
+        }
+      }
+    },
+    {
+      "name": "Information Technology (IT)",
+      "key": "job_function_it",
+      "value": "IT",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تكنولوجيا المعلومات"
+        }
+      }
+    },
+    {
+      "name": "Customer Service",
+      "key": "job_function_customer_service",
+      "value": "Customer Service",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "خدمة العملاء"
+        }
+      }
+    },
+    {
+      "name": "Engineering",
+      "key": "job_function_engineering",
+      "value": "Engineering",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الهندسة"
+        }
+      }
+    },
+    {
+      "name": "Research and Development (R&D)",
+      "key": "job_function_rd",
+      "value": "RD",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "البحث والتطوير"
+        }
+      }
+    },
+    {
+      "name": "Administration",
+      "key": "job_function_administration",
+      "value": "Administration",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الإدارة"
+        }
+      }
+    },
+    {
+      "name": "Supply Chain and Logistics",
+      "key": "job_function_supply_chain_and_logistics",
+      "value": "SCL",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "التوريد واللوجستيات"
+        }
+      }
+    },
+    {
+      "name": "Legal",
+      "key": "job_function_legal",
+      "value": "Legal",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "القانونية"
+        }
+      }
+    },
+    {
+      "name": "Consulting",
+      "key": "job_function_consulting",
+      "value": "Consulting",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الاستشارات"
+        }
+      }
+    },
+    {
+      "name": "Project Management",
+      "key": "job_function_project_management",
+      "value": "PM",
+      "groupKey": "JobFunction",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "إدارة المشاريع"
+        }
+      }
+    },
+    {
+      "name": "Pre-Primary Education",
+      "key": "education_level_pre_primary_education",
+      "value": "Pre-Primary",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "التعليم ما قبل الابتدائي"
+        }
+      }
+    },
+    {
+      "name": "Primary Education",
+      "key": "education_level_primary_education",
+      "value": "Primary",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تعليم أساسي"
+        }
+      }
+    },
+    {
+      "name": "Lower Secondary Education",
+      "key": "education_level_lower_secondary_education",
+      "value": "Secondary",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تعليم متوسط"
+        }
+      }
+    },
+    {
+      "name": "Upper Secondary Education",
+      "key": "education_level_upper_secondary_education",
+      "value": "Upper Secondary",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تعليم ثانوي"
+        }
+      }
+    },
+    {
+      "name": "Vocational Education/Technical Diploma",
+      "key": "education_level_vocational",
+      "value": "Vocational",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "التعليم المهني/الدبلوم التقني"
+        }
+      }
+    },
+    {
+      "name": "Associate Degree",
+      "key": "education_level_associate",
+      "value": "Associate",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "درجة الزمالة"
+        }
+      }
+    },
+    {
+      "name": "Bachelor's",
+      "key": "education_level_bachelor",
+      "value": "Bachelor",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "بكالوريوس"
+        }
+      }
+    },
+    {
+      "name": "Licentiate",
+      "key": "education_level_licentiate",
+      "value": "Licentiate",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ليسانس"
+        }
+      }
+    },
+    {
+      "name": "Master's",
+      "key": "education_level_master",
+      "value": "Master",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ماجستير"
+        }
+      }
+    },
+    {
+      "name": "Doctoral",
+      "key": "education_level_doctoral",
+      "value": "Doctoral",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "دكتوراه"
+        }
+      }
+    },
+    {
+      "name": "Postdoctoral",
+      "key": "education_level_postdoctoral",
+      "value": "Postdoctoral",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ما بعد الدكتوراه"
+        }
+      }
+    },
+    {
+      "name": "Non-degree Holder",
+      "key": "education_level_none",
+      "value": "Non-degree",
+      "groupKey": "EducationLevels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "غير حاصل على درجة علمية"
+        }
+      }
+    },
+    {
+      "name": "Website",
+      "key": "channel_type_website",
+      "value": "Website",
+      "groupKey": "ChannelType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الموقع الإلكتروني"
+        }
+      }
+    },
+    {
+      "name": "Mobile Apps",
+      "key": "channel_type_mobile_apps",
+      "value": "Mobile Apps",
+      "groupKey": "ChannelType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تطبيقات الهواتف الذكية"
+        }
+      }
+    },
+    {
+      "name": "Phone Call",
+      "key": "channel_type_phone_call",
+      "value": "Phone Call",
+      "groupKey": "ChannelType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الاتصال الهاتفي"
+        }
+      }
+    },
+    {
+      "name": "Customer Service",
+      "key": "channel_type_customer_service",
+      "value": "Customer Service",
+      "groupKey": "ChannelType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "خدمة العملاء"
+        }
+      }
+    },
+    {
+      "name": "Service Center",
+      "key": "channel_type_service_center",
+      "value": "Service Center",
+      "groupKey": "ChannelType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مركز الخدمة"
+        }
+      }
+    },
+    {
+      "name": "Social Media Channels",
+      "key": "channel_type_social_media_channels",
+      "value": "Social Media Channels",
+      "groupKey": "ChannelType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "قنوات التواصل الإجتماعي"
+        }
+      }
+    },
+    {
+      "name": "Email",
+      "key": "communication_channel_email",
+      "value": "Email",
+      "groupKey": "CommunicationChannels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "البريد الإلكتروني"
+        }
+      }
+    },
+    {
+      "name": "SMS",
+      "key": "communication_channel_sms",
+      "value": "SMS",
+      "groupKey": "CommunicationChannels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الرسائل النصية القصيرة"
+        }
+      }
+    },
+    {
+      "name": "Phone Call",
+      "key": "communication_channel_phone_call",
+      "value": "Phone Call",
+      "groupKey": "CommunicationChannels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الاتصال الهاتفي"
+        }
+      }
+    },
+    {
+      "name": "Notifications via the website or mobile application",
+      "key": "communication_channel_notifications",
+      "value": "Notifications via the website or mobile application",
+      "groupKey": "CommunicationChannels",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "من خلال إشعارات الموقع أو التطبيق"
+        }
+      }
+    },
+    {
+      "name": "Passport",
+      "key": "identity_document_passport",
+      "value": "Passport",
+      "groupKey": "IdentityDocument",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "جواز السفر"
+        }
+      }
+    },
+    {
+      "name": "National Id",
+      "key": "identity_document_national_id",
+      "value": "National Id",
+      "groupKey": "IdentityDocument",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الهوية الوطنية"
+        }
+      }
+    },
+    {
+      "name": "Emirates Id",
+      "key": "identity_document_eid",
+      "value": "EId",
+      "groupKey": "IdentityDocument",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الهوية الاماراتية"
+        }
+      }
+    },
+    {
+      "name": "Normal",
+      "key": "passport_type_normal",
+      "value": "Normal",
+      "groupKey": "PassportType",
+      "parentKey": "passport",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "عادي"
+        }
+      }
+    },
+    {
+      "name": "Diplomatic",
+      "key": "passport_type_diplomatic",
+      "value": "Diplomatic",
+      "groupKey": "PassportType",
+      "parentKey": "passport",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "دبلوماسي"
+        }
+      }
+    },
+    {
+      "name": "Travel Certificate",
+      "key": "passport_type_travel_certificate",
+      "value": "Travel Certificate",
+      "groupKey": "PassportType",
+      "parentKey": "passport",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "وثيقة سفر"
+        }
+      }
+    },
+    {
+      "name": "Temporary",
+      "key": "passport_type_temporary",
+      "value": "Temporary",
+      "groupKey": "PassportType",
+      "parentKey": "passport",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مؤقت"
+        }
+      }
+    },
+    {
+      "name": "Credit/Debit Card",
+      "key": "payment_method_credit_or_debit_card",
+      "value": "CR_DR Card",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "بطاقة خصم/إئتمان"
+        }
+      }
+    },
+    {
+      "name": "Prepaid Cards",
+      "key": "payment_method_prepaid_cards",
+      "value": "Prepaid Cards",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "بطاقات مسبقة الدفع"
+        }
+      }
+    },
+    {
+      "name": "Bank Transfer",
+      "key": "payment_method_bank_transfer",
+      "value": "Bank Transfer",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "تحويل بنكي"
+        }
+      }
+    },
+    {
+      "name": "Check",
+      "key": "payment_method_check",
+      "value": "Check",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "شيك"
+        }
+      }
+    },
+    {
+      "name": "Cash",
+      "key": "payment_method_cash",
+      "value": "Cash",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "نقداً"
+        }
+      }
+    },
+    {
+      "name": "Direct Debit",
+      "key": "payment_method_direct_debit",
+      "value": "Direct Debit",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "الخصم المباشر"
+        }
+      }
+    },
+    {
+      "name": "Digital Wallet",
+      "key": "payment_method_digital_wallet",
+      "value": "Digital Wallet",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "محفظة رقمية"
+        }
+      }
+    },
+    {
+      "name": "Apple Pay",
+      "key": "payment_method_apple_pay",
+      "value": "Apple Pay",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "آبل باي"
+        }
+      }
+    },
+    {
+      "name": "Google Pay",
+      "key": "payment_method_google_pay",
+      "value": "Google Pay",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "جوجل باي"
+        }
+      }
+    },
+    {
+      "name": "Samsung Pay",
+      "key": "payment_method_samsung_pay",
+      "value": "Samsung Pay",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "سامسونج باي"
+        }
+      }
+    },
+    {
+      "name": "PayPal",
+      "key": "payment_method_paypal",
+      "value": "PayPal",
+      "groupKey": "PaymentMethod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "باي بال"
+        }
+      }
+    },
+    {
+      "name": "Cryptocurrencies",
+      "key": "payment_method_cryptocurrencies",
+      "value": "Cryptocurrencies",
+      "groupKey": "PaymentMethod",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "عملات رقمية"
+        }
+      }
+    },
+    {
+      "name": "Bitcoin (BTC)",
+      "key": "crypto_btc",
+      "value": "BTC",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(BTC) بيتكوين"
+        }
+      }
+    },
+    {
+      "name": "Bitcoin Cash (BCH)",
+      "key": "crypto_bch",
+      "value": "BCH",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(BCH) بيتكوين كاش"
+        }
+      }
+    },
+    {
+      "name": "Ethereum (ETH)",
+      "key": "crypto_eth",
+      "value": "ETH",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(ETH) إيثيريوم"
+        }
+      }
+    },
+    {
+      "name": "Dogecoin (DOGE)",
+      "key": "crypto_doge",
+      "value": "DOGE",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(DOGE) دوج كوين"
+        }
+      }
+    },
+    {
+      "name": "Binance Coin (BNB)",
+      "key": "crypto_bnb",
+      "value": "BNB",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(BNB) بينانس كوين"
+        }
+      }
+    },
+    {
+      "name": "Solana (SOL)",
+      "key": "crypto_sol",
+      "value": "SOL",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(SOL) سولانا"
+        }
+      }
+    },
+    {
+      "name": "Ripple (XRP)",
+      "key": "crypto_xrp",
+      "value": "XRP",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(XRP) ريبل"
+        }
+      }
+    },
+    {
+      "name": "Cardano (ADA)",
+      "key": "crypto_ada",
+      "value": "ADA",
+      "groupKey": "Cryptocurrencies",
+      "parentKey": "payment_method_cryptocurrencies",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "nam": "(ADA) كاردانو"
+        }
+      }
+    },
+    {
+      "name": "New",
+      "key": "payment_request_status_new",
+      "value": "New",
+      "groupKey": "PaymentRequestStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "جديد"
+        }
+      }
+    },
+    {
+      "name": "Pending",
+      "key": "payment_request_status_pending",
+      "value": "Pending",
+      "groupKey": "PaymentRequestStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "قيد الانتظار"
+        }
+      }
+    },
+    {
+      "name": "Declined",
+      "key": "payment_request_status_declined",
+      "value": "Declined",
+      "groupKey": "PaymentRequestStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم الرفض"
+        }
+      }
+    },
+    {
+      "name": "Cancelled",
+      "key": "payment_request_status_cancelled",
+      "value": "Cancelled",
+      "groupKey": "PaymentRequestStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم الإلغاء"
+        }
+      }
+    },
+    {
+      "name": "Paid",
+      "key": "payment_request_status_paid",
+      "value": "Paid",
+      "groupKey": "PaymentRequestStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم الدفع"
+        }
+      }
+    },
+    {
+      "name": "Partially Paid",
+      "key": "payment_request_status_partially_paid",
+      "value": "Partially Paid",
+      "groupKey": "PaymentRequestStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم الدفع جزئياً"
+        }
+      }
+    },
+    {
+      "name": "Ready",
+      "key": "payment_status_ready",
+      "value": "Ready",
+      "groupKey": "PaymentStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "جاهز لدفع"
+        }
+      }
+    },
+    {
+      "name": "In Progress",
+      "key": "payment_status_in_progress",
+      "value": "In Progress",
+      "groupKey": "PaymentStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "قيد التنفيذ"
+        }
+      }
+    },
+    {
+      "name": "Expired",
+      "key": "payment_status_expired",
+      "value": "Expired",
+      "groupKey": "PaymentStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "منتهي الصلاحية"
+        }
+      }
+    },
+    {
+      "name": "Declined",
+      "key": "payment_status_declined",
+      "value": "Declined",
+      "groupKey": "PaymentStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم الرفض"
+        }
+      }
+    },
+    {
+      "name": "Confirmed",
+      "key": "payment_status_confirmed",
+      "value": "Confirmed",
+      "groupKey": "PaymentStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم التأكيد"
+        }
+      }
+    },
+    {
+      "name": "Closed",
+      "key": "payment_status_closed",
+      "value": "Closed",
+      "groupKey": "PaymentStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم الإغلاق"
+        }
+      }
+    },
+    {
+      "name": "Visa",
+      "key": "supported_network_visa",
+      "value": "Visa",
+      "groupKey": "SupportedNetworks",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "فيزا"
+        }
+      }
+    },
+    {
+      "name": "MasterCard",
+      "key": "supported_network_mastercard",
+      "value": "MasterCard",
+      "groupKey": "SupportedNetworks",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ماستركارد"
+        }
+      }
+    },
+    {
+      "name": "American Express",
+      "key": "supported_network_amex",
+      "value": "AMEX",
+      "groupKey": "SupportedNetworks",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أمريكان إكسبريس"
+        }
+      }
+    },
+    {
+      "name": "Discover",
+      "key": "supported_network_discover",
+      "value": "Discover",
+      "groupKey": "SupportedNetworks",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ديسكفر"
+        }
+      }
+    },
+    {
+      "name": "Draft",
+      "key": "cms_status_draft",
+      "value": "Draft",
+      "groupKey": "CmsStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مسودة"
+        }
+      }
+    },
+    {
+      "name": "Under Review",
+      "key": "cms_status_under_review",
+      "value": "Under Review",
+      "groupKey": "CmsStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "قيد المراجعة"
+        }
+      }
+    },
+    {
+      "name": "Published",
+      "key": "cms_status_published",
+      "value": "Published",
+      "groupKey": "CmsStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تم النشر"
+        }
+      }
+    },
+    {
+      "name": "Archived",
+      "key": "cms_status_archived",
+      "value": "Archived",
+      "groupKey": "CmsStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مؤرشف"
+        }
+      }
+    },
+    {
+      "name": "Monday",
+      "key": "week_day_monday",
+      "value": "Monday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الاثنين"
+        }
+      }
+    },
+    {
+      "name": "Tuesday",
+      "key": "week_day_tuesday",
+      "value": "Tuesday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الثلاثاء"
+        }
+      }
+    },
+    {
+      "name": "Wednesday",
+      "key": "week_day_wednesday",
+      "value": "Wednesday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الأربعاء"
+        }
+      }
+    },
+    {
+      "name": "Thursday",
+      "key": "week_day_thursday",
+      "value": "Thursday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الخميس"
+        }
+      }
+    },
+    {
+      "name": "Friday",
+      "key": "week_day_friday",
+      "value": "Friday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الجمعة"
+        }
+      }
+    },
+    {
+      "name": "Saturday",
+      "key": "week_day_saturday",
+      "value": "Saturday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "السبت"
+        }
+      }
+    },
+    {
+      "name": "Sunday",
+      "key": "week_day_sunday",
+      "value": "Sunday",
+      "groupKey": "WeekDays",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الأحد"
+        }
+      }
+    },
+    {
+      "name": "January",
+      "key": "month_january",
+      "value": "January",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "يناير"
+        }
+      }
+    },
+    {
+      "name": "February",
+      "key": "month_february",
+      "value": "February",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "فبراير"
+        }
+      }
+    },
+    {
+      "name": "March",
+      "key": "month_march",
+      "value": "March",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مارس"
+        }
+      }
+    },
+    {
+      "name": "April",
+      "key": "month_april",
+      "value": "April",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أبريل"
+        }
+      }
+    },
+    {
+      "name": "May",
+      "key": "month_may",
+      "value": "May",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مايو"
+        }
+      }
+    },
+    {
+      "name": "June",
+      "key": "month_june",
+      "value": "June",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "يونيو"
+        }
+      }
+    },
+    {
+      "name": "July",
+      "key": "month_july",
+      "value": "July",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "يوليو"
+        }
+      }
+    },
+    {
+      "name": "August",
+      "key": "month_august",
+      "value": "August",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أغسطس"
+        }
+      }
+    },
+    {
+      "name": "September",
+      "key": "month_september",
+      "value": "September",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سبتمبر"
+        }
+      }
+    },
+    {
+      "name": "October",
+      "key": "month_october",
+      "value": "October",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أكتوبر"
+        }
+      }
+    },
+    {
+      "name": "November",
+      "key": "month_november",
+      "value": "November",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "نوفمبر"
+        }
+      }
+    },
+    {
+      "name": "December",
+      "key": "month_december",
+      "value": "December",
+      "groupKey": "Months",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ديسمبر"
+        }
+      }
+    },
+    {
+      "name": "Marital Status",
+      "key": "marital_status",
+      "value": "NULL",
+      "groupKey": "MaritalStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الحالة الاجتماعية"
+        }
+      }
+    },
+    {
+      "name": "Single",
+      "key": "marital_status_single",
+      "value": "Single",
+      "groupKey": "MaritalStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أعزب",
+          "feminine": "عزباء"
+        }
+      }
+    },
+    {
+      "name": "Married",
+      "key": "marital_status_married",
+      "value": "Married",
+      "groupKey": "MaritalStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "متزوج",
+          "feminine": "متزوجة"
+        }
+      }
+    },
+    {
+      "name": "Divorced",
+      "key": "marital_status_divorced",
+      "value": "Divorced",
+      "groupKey": "MaritalStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مطلق",
+          "feminine": "مطلقة"
+        }
+      }
+    },
+    {
+      "name": "Widowed",
+      "key": "marital_status_widowed",
+      "value": "Widowed",
+      "groupKey": "MaritalStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ارمل",
+          "feminine": "أرملة"
+        }
+      }
+    },
+    {
+      "name": "Religion",
+      "key": "religion",
+      "value": "NULL",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الديانة"
+        }
+      }
+    },
+    {
+      "name": "Muslim",
+      "key": "religion_muslim",
+      "value": "Muslim",
+      "groupKey": "Religion",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مسلم",
+          "feminine": "مسلمة"
+        }
+      }
+    },
+    {
+      "name": "Christian",
+      "key": "religion_christian",
+      "value": "Christian",
+      "groupKey": "Religion",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مسيحي",
+          "feminine": "مسيحية"
+        }
+      }
+    },
+    {
+      "name": "Jewish",
+      "key": "religion_jewish",
+      "value": "Jewish",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "يهودي",
+          "feminine": "يهودية"
+        }
+      }
+    },
+    {
+      "name": "Hindu",
+      "key": "religion_hindu",
+      "value": "Hindu",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "هندوسي",
+          "feminine": "هندوسية"
+        }
+      }
+    },
+    {
+      "name": "Buddhist",
+      "key": "religion_buddhist",
+      "value": "Buddhist",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "بوذي",
+          "feminine": "بوذية"
+        }
+      }
+    },
+    {
+      "name": "Sikh",
+      "key": "religion_sikh",
+      "value": "Sikh",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سيخ",
+          "feminine": "سيخية"
+        }
+      }
+    },
+    {
+      "name": "Qadyani",
+      "key": "religion_qadyani",
+      "value": "Qadyani",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "قادياني",
+          "feminine": "قاديانية"
+        }
+      }
+    },
+    {
+      "name": "Bahai",
+      "key": "religion_bahai",
+      "value": "Bahai",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "بهائي",
+          "feminine": "بهائية"
+        }
+      }
+    },
+    {
+      "name": "Non Religious",
+      "key": "religion_non",
+      "value": "Non",
+      "groupKey": "Religion",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "غير ديني"
+        }
+      }
+    },
+    {
+      "name": "Religion Sects",
+      "key": "religion_sects",
+      "value": "NULL",
+      "groupKey": "ReligionSects",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الطائفة الدينية"
+        }
+      }
+    },
+    {
+      "name": "Sunni",
+      "key": "religion_sects_sunni",
+      "value": "Sunni",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سني",
+          "feminine": "سنية"
+        }
+      }
+    },
+    {
+      "name": "Shiite",
+      "key": "religion_sects_shiite",
+      "value": "Shiite",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "شيعي",
+          "feminine": "شيعية"
+        }
+      }
+    },
+    {
+      "name": "Sunni Shafi",
+      "key": "religion_sects_sunni_shafi",
+      "value": "Sunni Shafi",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سني شافعي",
+          "feminine": "سنية شافعي"
+        }
+      }
+    },
+    {
+      "name": "Sunni Hanafi",
+      "key": "religion_sects_sunni_hanafi",
+      "value": "Sunni Hanafi",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سني حنفي",
+          "feminine": "سنية حنفي"
+        }
+      }
+    },
+    {
+      "name": "Sunni Malik",
+      "key": "religion_sects_sunni_malik",
+      "value": "Sunni Malik",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سني مالك",
+          "feminine": "سنية مالك"
+        }
+      }
+    },
+    {
+      "name": "Sunni Hanbali",
+      "key": "religion_sects_sunni_hanbali",
+      "value": "Sunni Hanbali",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سني حنبلي",
+          "feminine": "سنية حنبلي"
+        }
+      }
+    },
+    {
+      "name": "Ibadi",
+      "key": "religion_sects_ibadi",
+      "value": "Ibadi",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_muslim",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الاباضي",
+          "feminine": "الإباضية"
+        }
+      }
+    },
+    {
+      "name": "Catholic",
+      "key": "religion_sects_catholic",
+      "value": "Catholic",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_christian",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "كاثوليكي",
+          "feminine": "كاثوليكية"
+        }
+      }
+    },
+    {
+      "name": "Orthodox",
+      "key": "religion_sects_orthodox",
+      "value": "Orthodox",
+      "groupKey": "ReligionSects",
+      "parentKey": "religion_christian",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ارثوذكس",
+          "feminine": "أرثوذكسية"
+        }
+      }
+    },
+    {
+      "name": "Amenities",
+      "key": "amenities",
+      "value": "NULL",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "المزايا"
+        }
+      }
+    },
+    {
+      "name": "Central A/C",
+      "key": "amenities_ac",
+      "value": "AC",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تكييف مركزي"
+        }
+      }
+    },
+    {
+      "name": "Maids Room",
+      "key": "amenities_maidroom",
+      "value": "Maids Room",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "غرفة خادمة"
+        }
+      }
+    },
+    {
+      "name": "Balcony",
+      "key": "amenities_balcony",
+      "value": "Balcony",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "شرفة"
+        }
+      }
+    },
+    {
+      "name": "Shared Pool",
+      "key": "amenities_shared_pool",
+      "value": "Shared Pool",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مسبح مشترك"
+        }
+      }
+    },
+    {
+      "name": "Shared Spa",
+      "key": "amenities_shared_spa",
+      "value": "Shared Spa",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "نادي صحي مشترك"
+        }
+      }
+    },
+    {
+      "name": "Shared Gym",
+      "key": "amenities_shared_gym",
+      "value": "Shared Gym",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "صالة رياضة مشتركة"
+        }
+      }
+    },
+    {
+      "name": "Concierge Service",
+      "key": "amenities_concierge_service",
+      "value": "Concierge Service",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "خدمة بواب"
+        }
+      }
+    },
+    {
+      "name": "Parking",
+      "key": "amenities_parking",
+      "value": "Parking",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مواقف"
+        }
+      }
+    },
+    {
+      "name": "Covered Parking",
+      "key": "amenities_covered_parking",
+      "value": "Covered Parking",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "موقف مغطى"
+        }
+      }
+    },
+    {
+      "name": "View of Water",
+      "key": "amenities_view_water",
+      "value": "View of Water",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مطل على بحيرات"
+        }
+      }
+    },
+    {
+      "name": "View of Landmark",
+      "key": "amenities_view_landmark",
+      "value": "View of Landmark",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مطل على معلم رئيسي"
+        }
+      }
+    },
+    {
+      "name": "Pets Allowed",
+      "key": "amenities_pets_allowed",
+      "value": "Pets Allowed",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مسموح لتربية حيوانات"
+        }
+      }
+    },
+    {
+      "name": "Study",
+      "key": "amenities_study_room",
+      "value": "Study Room",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "غرفة دراسة"
+        }
+      }
+    },
+    {
+      "name": "Private Garden",
+      "key": "amenities_private_garden",
+      "value": "Private Garden",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "حديقة خاصة"
+        }
+      }
+    },
+    {
+      "name": "Private Pool",
+      "key": "amenities_private_pool",
+      "value": "Private Pool",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مسبح خاص"
+        }
+      }
+    },
+    {
+      "name": "Private Gym",
+      "key": "amenities_private_gym",
+      "value": "Private Gym",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "صالة رياضة خاصة"
+        }
+      }
+    },
+    {
+      "name": "Private Jacuzzi",
+      "key": "amenities_private_jacuzzi",
+      "value": "Private Jacuzzi",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "جاكوزي خاص"
+        }
+      }
+    },
+    {
+      "name": "Built in Wardrobes",
+      "key": "amenities_built_in_wardrobes",
+      "value": "Built in Wardrobes",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "خزائن حائط"
+        }
+      }
+    },
+    {
+      "name": "Walk-in Closet",
+      "key": "amenities_walk_in_closet",
+      "value": "Walk in Closet",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "غرفة للملابس"
+        }
+      }
+    },
+    {
+      "name": "Built in Kitchen Appliances",
+      "key": "amenities_built_in_kitchen_appliances",
+      "value": "Built in Kitchen Appliances",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تجهيزات مطبخ"
+        }
+      }
+    },
+    {
+      "name": "Maid Service",
+      "key": "amenities_maid_service",
+      "value": "Maid Service",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "خدمة تنظيف"
+        }
+      }
+    },
+    {
+      "name": "Children's Play Area",
+      "key": "amenities_children_play_area",
+      "value": "Children Play Area",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "منطقة لعب للأطفال"
+        }
+      }
+    },
+    {
+      "name": "Children's Pool",
+      "key": "amenities_children_pool",
+      "value": "Children Pool",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "بركة سباحة للأطفال"
+        }
+      }
+    },
+    {
+      "name": "Barbecue Area",
+      "key": "amenities_barbecue_area",
+      "value": "Barbecue Area",
+      "groupKey": "Amenities",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "منطقة الشواء"
+        }
+      }
+    },
+    {
+      "name": "Bathrooms",
+      "key": "bathrooms",
+      "value": "NULL",
+      "groupKey": "Bathroom",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "عدد الحمامات"
+        }
+      }
+    },
+    {
+      "code": "1bth",
+      "name": "1",
+      "key": "bathroom_1bth",
+      "value": "1",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "code": "2bth",
+      "name": "2",
+      "key": "bathroom_2bth",
+      "value": "2",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "code": "3bth",
+      "name": "3",
+      "key": "bathroom_3bth",
+      "value": "3",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "code": "4bth",
+      "name": "4",
+      "key": "bathroom_4bth",
+      "value": "4",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "code": "5bth",
+      "name": "5",
+      "key": "bathroom_5bth",
+      "value": "5",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "code": "6bth",
+      "name": "6",
+      "key": "bathroom_6bth",
+      "value": "6",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "code": "nbth",
+      "name": "6+",
+      "key": "bathroom_nbth",
+      "value": "6+",
+      "groupKey": "Bathroom",
+      "isActive": true
+    },
+    {
+      "name": "Bedrooms",
+      "key": "bedrooms",
+      "value": "NULL",
+      "groupKey": "Bedroom",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "عدد الغرف"
+        }
+      }
+    },
+    {
+      "name": "Master",
+      "key": "bedroom_master",
+      "value": "Master",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "Studio",
+      "key": "bedroom_studio",
+      "value": "Studio",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "Shared",
+      "key": "bedroom_shared_room",
+      "value": "Shared Room",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "1",
+      "key": "bedroom_1bhk",
+      "value": "1",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "2",
+      "key": "bedroom_2bhk",
+      "value": "2",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "3",
+      "key": "bedroom_3bhk",
+      "value": "3",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "4",
+      "key": "bedroom_4bhk",
+      "value": "4",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "5",
+      "key": "bedroom_5bhk",
+      "value": "5",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "6",
+      "key": "bedroom_6bhk",
+      "value": "6",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "6+",
+      "key": "bedroom_nbhk",
+      "value": "nbhk",
+      "groupKey": "Bedroom",
+      "isActive": true
+    },
+    {
+      "name": "All",
+      "key": "completion_status_all",
+      "value": "NULL",
+      "groupKey": "CompletionStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الكل"
+        }
+      }
+    },
+    {
+      "name": "Ready",
+      "key": "completion_status_ready",
+      "value": "Ready",
+      "groupKey": "CompletionStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "جاهز"
+        }
+      }
+    },
+    {
+      "name": "Off-Plan",
+      "key": "completion_status_Off_plan",
+      "value": "Off-Plan",
+      "groupKey": "CompletionStatus",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تحت الإنشاء"
+        }
+      }
+    },
+    {
+      "name": "All Furnishings",
+      "key": "furnishing_all",
+      "value": "NULL",
+      "groupKey": "Furnishing",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الكل"
+        }
+      }
+    },
+    {
+      "name": "Furnished",
+      "key": "furnishing_furnished",
+      "value": "Furnished",
+      "groupKey": "Furnishing",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مفروش"
+        }
+      }
+    },
+    {
+      "name": "Partly Furnished",
+      "key": "furnishing_partly_furnished",
+      "value": "Partly Furnished",
+      "groupKey": "Furnishing",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مفروش جزئياً"
+        }
+      }
+    },
+    {
+      "name": "Unfurnished",
+      "key": "furnishing_unfurnished",
+      "value": "Unfurnished",
+      "groupKey": "Furnishing",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "غير مفروش"
+        }
+      }
+    },
+    {
+      "name": "Property type",
+      "key": "property_type",
+      "value": "NULL",
+      "groupKey": "PropertyType",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "نوع العقار"
+        }
+      }
+    },
+    {
+      "name": "Residential",
+      "key": "property_type_residential",
+      "value": "Residential",
+      "groupKey": "PropertyType",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سكني"
+        }
+      }
+    },
+    {
+      "name": "Commercial",
+      "key": "property_type_commercial",
+      "value": "Commercial",
+      "groupKey": "PropertyType",
+      "isParent": true,
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تجاري"
+        }
+      }
+    },
+    {
+      "name": "Apartment",
+      "key": "property_type_apartment",
+      "value": "Apartment",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "شقة"
+        }
+      }
+    },
+    {
+      "name": "Villa",
+      "key": "property_type_villa",
+      "value": "Villa",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "فيلا"
+        }
+      }
+    },
+    {
+      "name": "Townhouse",
+      "key": "property_type_townhouse",
+      "value": "Townhouse",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "تاون هاوس"
+        }
+      }
+    },
+    {
+      "name": "Penthouse",
+      "key": "property_type_penthouse",
+      "value": "Penthouse",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "بنتهاوس"
+        }
+      }
+    },
+    {
+      "name": "Compound",
+      "key": "property_type_compound",
+      "value": "Compound",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مجمع سكني"
+        }
+      }
+    },
+    {
+      "name": "Duplex",
+      "key": "property_type_duplex",
+      "value": "Duplex",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "دوبلكس"
+        }
+      }
+    },
+    {
+      "name": "Full Floor",
+      "key": "property_type_full_floor",
+      "value": "Full Floor",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "طابق كامل"
+        }
+      }
+    },
+    {
+      "name": "Half Floor",
+      "key": "property_type_half_floor",
+      "value": "Half Floor",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "نصف طابق"
+        }
+      }
+    },
+    {
+      "name": "Whole Building",
+      "key": "property_type_whole_building",
+      "value": "Whole Building",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مبنى كامل"
+        }
+      }
+    },
+    {
+      "name": "Bulk Rent Unit",
+      "key": "property_type_bulk_rent_unit",
+      "value": "Bulk Rent Unit",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مجمعات للإيجار"
+        }
+      }
+    },
+    {
+      "name": "Bungalow",
+      "key": "property_type_bungalow",
+      "value": "Bungalow",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "بيت من طابق واحد"
+        }
+      }
+    },
+    {
+      "name": "Hotel & Hotel Apartment",
+      "key": "property_type_hotel_apartment",
+      "value": "Hotel Apartment",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "النزل والشقق فندقية"
+        }
+      }
+    },
+    {
+      "name": "Residential Plot",
+      "key": "property_type_residential_plot",
+      "value": "ResidentialPlot",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ارض سكنية"
+        }
+      }
+    },
+    {
+      "name": "Other Residential",
+      "key": "property_type_other_residential",
+      "value": "Other Residential",
+      "groupKey": "Residential",
+      "parentKey": "property_type_residential",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "عقارات سكنية اخرى"
+        }
+      }
+    },
+    {
+      "name": "Office",
+      "key": "property_type_office",
+      "value": "Office",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مكتب"
+        }
+      }
+    },
+    {
+      "name": "Warehouse",
+      "key": "property_type_warehouse",
+      "value": "Warehouse",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مستودع"
+        }
+      }
+    },
+    {
+      "name": "Commercial Villa",
+      "key": "property_type_commercial_villa",
+      "value": "Commercial Villa",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "فيلا تجارية"
+        }
+      }
+    },
+    {
+      "name": "Commercial Plot",
+      "key": "property_type_commercial_plot",
+      "value": "Commercial Plot",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ارض تجارية"
+        }
+      }
+    },
+    {
+      "name": "Commercial Building",
+      "key": "property_type_commercial_building",
+      "value": "Commercial Building",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مبني تجاري"
+        }
+      }
+    },
+    {
+      "name": "Industrial Land",
+      "key": "property_type_industrial_land",
+      "value": "Industrial Land",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ارض صناعية"
+        }
+      }
+    },
+    {
+      "name": "Showroom",
+      "key": "property_type_showroom",
+      "value": "Showroom",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "معرض تجاري"
+        }
+      }
+    },
+    {
+      "name": "Shop",
+      "key": "property_type_shop",
+      "value": "Shop",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "محل تجاري"
+        }
+      }
+    },
+    {
+      "name": "Labour Camp",
+      "key": "property_type_labour_camp",
+      "value": "Labour Camp",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سكن عمال"
+        }
+      }
+    },
+    {
+      "name": "Bulk Sale Unit",
+      "key": "property_type_bulk_sale_unit",
+      "value": "Bulk Sale Unit",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مجمع للبيع"
+        }
+      }
+    },
+    {
+      "name": "Commercial Floor",
+      "key": "property_type_commercial_floor",
+      "value": "Commercial Floor",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "طابق تجاري"
+        }
+      }
+    },
+    {
+      "name": "Factory",
+      "key": "property_type_factory",
+      "value": "Factory",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مصنع"
+        }
+      }
+    },
+    {
+      "name": "Mixed Use Land",
+      "key": "property_type_mixed_use_land",
+      "value": "Mixed Use Land",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ارض استخدام متعدد"
+        }
+      }
+    },
+    {
+      "name": "Farm",
+      "key": "property_type_farm",
+      "value": "Farm",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مزرعة"
+        }
+      }
+    },
+    {
+      "name": "Co-Working Space",
+      "key": "property_type_co-working_space",
+      "value": "Co-Working Space",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مكتب عمل جماعي"
+        }
+      }
+    },
+    {
+      "name": "Retail",
+      "key": "property_type_retail",
+      "value": "Retail",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "محل"
+        }
+      }
+    },
+    {
+      "name": "Land",
+      "key": "property_type_land",
+      "value": "Land",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أرض"
+        }
+      }
+    },
+    {
+      "name": "Staff Accommodation",
+      "key": "property_type_staff_accommodation",
+      "value": "StaffAccommodation",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سكن الموظفين"
+        }
+      }
+    },
+    {
+      "name": "Business Centre",
+      "key": "property_type_business_centre",
+      "value": "BusinessCentre",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "مركز أعمال"
+        }
+      }
+    },
+    {
+      "name": "Other Commercial",
+      "key": "property_type_other_commercial",
+      "value": "Other Commercial",
+      "groupKey": "Commercial",
+      "parentKey": "property_type_commercial",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "عقارات تجارية اخرى"
+        }
+      }
+    },
+    {
+      "name": "All",
+      "key": "rental_period_all",
+      "value": "NULL",
+      "groupKey": "RentalPeriod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "الكل"
+        }
+      }
+    },
+    {
+      "name": "Weekly",
+      "key": "rental_period_weekly",
+      "value": "Weekly",
+      "groupKey": "RentalPeriod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "أسبوعي"
+        }
+      }
+    },
+    {
+      "name": "Monthly",
+      "key": "rental_period_monthly",
+      "value": "1",
+      "groupKey": "RentalPeriod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "شهري"
+        }
+      }
+    },
+    {
+      "name": "Quarter",
+      "key": "rental_period_quarter",
+      "value": "3",
+      "groupKey": "RentalPeriod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "ربع سنوي"
+        }
+      }
+    },
+    {
+      "name": "Half Yearly",
+      "key": "rental_period_half_yearly",
+      "value": "6",
+      "groupKey": "RentalPeriod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "نصف سنوي"
+        }
+      }
+    },
+    {
+      "name": "Yearly",
+      "key": "rental_period_yearly",
+      "value": "12",
+      "groupKey": "RentalPeriod",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "سنوي"
+        }
+      }
+    },
+    {
+      "name": "Rent",
+      "key": "search_type_rent",
+      "value": "Rent",
+      "groupKey": "SearchType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "للايجار"
+        }
+      }
+    },
+    {
+      "name": "Buy",
+      "key": "search_type_buy",
+      "value": "Buy",
+      "groupKey": "SearchType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "للبيع"
+        }
+      }
+    },
+    {
+      "name": "Hotel Apartment",
+      "key": "search_type_hotel_apartment",
+      "value": "Hotel Apartment",
+      "groupKey": "SearchType",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "النزل والشقق فندقية"
+        }
+      }
+    },
+    {
+      "name": "None (Prefer Not to Say)",
+      "key": "none",
+      "value": "None",
+      "groupKey": "Other",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "(أفضل عدم القول) لا شيء"
+        }
+      }
+    },
+    {
+      "name": "Other",
+      "key": "other",
+      "value": "Other",
+      "groupKey": "Other",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "آخر"
+        }
+      }
+    },
+    {
+      "name": "Service Fee",
+      "key": "service_fee",
+      "value": "ServiceFee",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "رسوم الخدمة"
+        }
+      }
+    },
+    {
+      "name": "Brokerage Fee",
+      "key": "brokerage_fee",
+      "value": "BrokerageFee",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "رسوم الوساطة"
+        }
+      }
+    },
+    {
+      "name": "Real Estate Agency Fee",
+      "key": "real_estate_agency_fee",
+      "value": "RealEstateAgencyFee",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "رسوم وكالة العقارات"
+        }
+      },
+      "metadata": {
+        "description": {
+          "en": "Typically 5% of the annual rent + 5% VAT.",
+          "ar": "عادة ما تكون 5% من تكلفة الإيجار السنوي + 5% ضريبة القيمة المضافة."
+        }
+      }
+    },
+    {
+      "name": "Security Deposit",
+      "key": "security_deposit",
+      "value": "SecurityDeposit",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "وديعة التأمين"
+        }
+      },
+      "metadata": {
+        "description": {
+          "en": "Refundable deposit which is typically 5% of the annual rent for unfurnished properties and 10% of annual rent for furnished properties.",
+          "ar": "وديعة قابلة للاسترداد، عادةً ما تكون 5% من تكلفة الإيجار السنوي للعقار غير المفروش، و10% من تكلفة الإيجار السنوي للعقار المفروش."
+        }
+      }
+    },
+    {
+      "name": "TAQA Deposit",
+      "key": "taqa_deposit",
+      "value": "TAQADeposit",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "وديعة طاقة للتوزيع"
+        }
+      },
+      "metadata": {
+        "description": {
+          "en": "TAQA refundable security deposit fee and this is refundable.",
+          "ar": "رسوم وديعة التأمين القابلة للاسترداد لدى شركة طاقة للتوزيع (TAQA)."
+        }
+      }
+    },
+    {
+      "name": "DEWA Deposit",
+      "key": "dewa_deposit",
+      "value": "DEWADeposit",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "وديعة هيئة كهرباء ومياه دبي"
+        }
+      },
+      "metadata": {
+        "description": {
+          "en": "Dubai Electricity and Water Authority (DEWA) refundable security deposit fee, which is AED 2,000 for apartments + AED 130 admin fee.",
+          "ar": "رسوم وديعة التأمين القابلة للاسترداد لدى هيئة كهرباء ومياه دبي (DEWA)، وهي 2000 درهم إماراتي للشقق + رسوم إدارية 130 درهمًا إماراتيًا."
+        }
+      }
+    },
+    {
+      "name": "Tawtheeq Service Fee",
+      "key": "tawtheeq_service_fee",
+      "value": "TawtheeqServiceFee",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "رسوم خدمة توثيق"
+        }
+      },
+      "metadata": {
+        "description": {
+          "en": "This is a tenancy contract services fee to verify the lease contract in order to obtain services provided by government entities.",
+          "ar": "رسوم خدمة التحقق من عقد الإيجار لضمان أهلية التعامل مع الهيئات الحكومية والحصول على خدماتها."
+        }
+      }
+    },
+    {
+      "name": "Ejari Fee",
+      "key": "ejari_fee",
+      "value": "EjariFee",
+      "groupKey": "UpFrontCosts",
+      "isActive": true,
+      "translations": {
+        "ar": {
+          "name": "رسوم نظام إيجاري"
+        }
+      },
+      "metadata": {
+        "description": {
+          "en": "To be legally binding, all tenancy contracts must be registered with the Ejari system, a contract registration platform administered by the Dubai Land Department (DLD).",
+          "ar": "لكي تكون عقود الإيجار مُلزِمة قانونًا، يجب تسجيلها جميعًا لدى نظام إيجاري، منصة تسجيل العقود التي تديرها دائرة الأراضي والأملاك في دبي."
+        }
+      }
+    }
+  ]
+}

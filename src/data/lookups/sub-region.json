@@ -1,0 +1,206 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "sub-region",
+  "queryField": "code",
+  "data": [
+    {
+      "id": 1,
+      "name": "Northern Africa",
+      "code": "NAF",
+      "region": "Africa",
+      "regionCode": "AF",
+      "isActive": true,
+      "translations": { "ar": { "name": "شمال أفريقيا" } }
+    },
+    {
+      "id": 2,
+      "name": "Central Africa",
+      "code": "CAF",
+      "region": "Africa",
+      "regionCode": "AF",
+      "isActive": true,
+      "translations": { "ar": { "name": "وسط أفريقيا" } }
+    },
+    {
+      "id": 3,
+      "name": "Western Africa",
+      "code": "WAF",
+      "region": "Africa",
+      "regionCode": "AF",
+      "isActive": true,
+      "translations": { "ar": { "name": "غرب أفريقيا" } }
+    },
+    {
+      "id": 4,
+      "name": "Eastern Africa",
+      "code": "EAF",
+      "region": "Africa",
+      "regionCode": "AF",
+      "isActive": true,
+      "translations": { "ar": { "name": "شرق أفريقيا" } }
+    },
+    {
+      "id": 5,
+      "name": "Southern Africa",
+      "code": "SAF",
+      "region": "Africa",
+      "regionCode": "AF",
+      "isActive": true,
+      "translations": { "ar": { "name": "جنوب أفريقيا" } }
+    },
+    {
+      "id": 6,
+      "name": "North America",
+      "code": "NA",
+      "region": "Americas",
+      "regionCode": "AM",
+      "isActive": true,
+      "translations": { "ar": { "name": "أمريكا الشمالية" } }
+    },
+    {
+      "id": 7,
+      "name": "Caribbean",
+      "code": "CAR",
+      "region": "Americas",
+      "regionCode": "AM",
+      "isActive": true,
+      "translations": { "ar": { "name": "الكاريبي" } }
+    },
+    {
+      "id": 8,
+      "name": "South America",
+      "code": "SA",
+      "region": "Americas",
+      "regionCode": "AM",
+      "isActive": true,
+      "translations": { "ar": { "name": "أمريكا الجنوبية" } }
+    },
+    {
+      "id": 9,
+      "name": "Central America",
+      "code": "CA",
+      "region": "Americas",
+      "regionCode": "AM",
+      "isActive": true,
+      "translations": { "ar": { "name": "أمريكا الوسطى" } }
+    },
+    {
+      "id": 10,
+      "name": "Central Asia",
+      "code": "CAS",
+      "region": "Asia",
+      "regionCode": "AS",
+      "isActive": true,
+      "translations": { "ar": { "name": "آسيا الوسطى" } }
+    },
+    {
+      "id": 11,
+      "name": "Western Asia (Middle East)",
+      "code": "WAS",
+      "region": "Asia",
+      "regionCode": "AS",
+      "isActive": true,
+      "translations": { "ar": { "name": "غرب آسيا (الشرق الأوسط)" } }
+    },
+    {
+      "id": 12,
+      "name": "Eastern Asia",
+      "code": "EAS",
+      "region": "Asia",
+      "regionCode": "AS",
+      "isActive": true,
+      "translations": { "ar": { "name": "شرق آسيا" } }
+    },
+    {
+      "id": 13,
+      "name": "South-Eastern Asia",
+      "code": "SEAS",
+      "region": "Asia",
+      "regionCode": "AS",
+      "isActive": true,
+      "translations": { "ar": { "name": "جنوب شرق آسيا" } }
+    },
+    {
+      "id": 14,
+      "name": "Southern Asia",
+      "code": "SAS",
+      "region": "Asia",
+      "regionCode": "AS",
+      "isActive": true,
+      "translations": { "ar": { "name": "جنوب آسيا" } }
+    },
+    {
+      "id": 15,
+      "name": "Eastern Europe",
+      "code": "EEU",
+      "region": "Europe",
+      "regionCode": "EU",
+      "isActive": true,
+      "translations": { "ar": { "name": "أوروبا الشرقية" } }
+    },
+    {
+      "id": 16,
+      "name": "Southern Europe",
+      "code": "SEU",
+      "region": "Europe",
+      "regionCode": "EU",
+      "isActive": true,
+      "translations": { "ar": { "name": "جنوب أوروبا" } }
+    },
+    {
+      "id": 17,
+      "name": "Western Europe",
+      "code": "WEU",
+      "region": "Europe",
+      "regionCode": "EU",
+      "isActive": true,
+      "translations": { "ar": { "name": "أوروبا الغربية" } }
+    },
+    {
+      "id": 18,
+      "name": "Northern Europe",
+      "code": "NEU",
+      "region": "Europe",
+      "regionCode": "EU",
+      "isActive": true,
+      "translations": { "ar": { "name": "أوروبا الشمالية" } }
+    },
+    {
+      "id": 19,
+      "name": "Australia and New Zealand",
+      "code": "AUSNZ",
+      "region": "Oceania",
+      "regionCode": "OC",
+      "isActive": true,
+      "translations": { "ar": { "name": "أستراليا ونيوزيلندا" } }
+    },
+    {
+      "id": 20,
+      "name": "Melanesia",
+      "code": "MEL",
+      "region": "Oceania",
+      "regionCode": "OC",
+      "isActive": true,
+      "translations": { "ar": { "name": "ميلانيزيا" } }
+    },
+    {
+      "id": 21,
+      "name": "Micronesia",
+      "code": "MIC",
+      "region": "Oceania",
+      "regionCode": "OC",
+      "isActive": true,
+      "translations": { "ar": { "name": "ميكرونيزيا" } }
+    },
+    {
+      "id": 22,
+      "name": "Polynesia",
+      "code": "POL",
+      "region": "Oceania",
+      "regionCode": "OC",
+      "isActive": true,
+      "translations": { "ar": { "name": "بولينيزيا" } }
+    }
+  ]
+}

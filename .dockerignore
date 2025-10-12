@@ -18,5 +18,4 @@ Dockerfile*
 docker-compose.*
 .gitignore
 .env*
-!.env.production
 !.husky/install.mjs

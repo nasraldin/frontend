@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 97,
+      "name": "Aleppo",
+      "code": "SY-HL",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 36.2155,
+      "longitude": 37.1593,
+      "translations": { "ar": { "name": "حلب" } }
+    },
+    {
+      "id": 98,
+      "name": "Damascus",
+      "code": "SY-DI",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 33.5138,
+      "longitude": 36.2765,
+      "translations": { "ar": { "name": "دمشق" } }
+    },
+    {
+      "id": 99,
+      "name": "Daraa",
+      "code": "SY-DR",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 32.625,
+      "longitude": 36.1052,
+      "translations": { "ar": { "name": "درعا" } }
+    },
+    {
+      "id": 100,
+      "name": "Deir ez-Zor",
+      "code": "SY-DY",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 35.3359,
+      "longitude": 40.135,
+      "translations": { "ar": { "name": "دير الزور" } }
+    },
+    {
+      "id": 101,
+      "name": "Hama",
+      "code": "SY-HM",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 35.1318,
+      "longitude": 36.7575,
+      "translations": { "ar": { "name": "حماة" } }
+    },
+    {
+      "id": 102,
+      "name": "Hasakah",
+      "code": "SY-HA",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 36.5,
+      "longitude": 40.75,
+      "translations": { "ar": { "name": "الحسكة" } }
+    },
+    {
+      "id": 103,
+      "name": "Homs",
+      "code": "SY-HI",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 34.7324,
+      "longitude": 36.7137,
+      "translations": { "ar": { "name": "حمص" } }
+    },
+    {
+      "id": 104,
+      "name": "Idlib",
+      "code": "SY-ID",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 35.9302,
+      "longitude": 36.6339,
+      "translations": { "ar": { "name": "إدلب" } }
+    },
+    {
+      "id": 105,
+      "name": "Latakia",
+      "code": "SY-LA",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 35.5187,
+      "longitude": 35.7922,
+      "translations": { "ar": { "name": "اللاذقية" } }
+    },
+    {
+      "id": 106,
+      "name": "Quneitra",
+      "code": "SY-QU",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 33.1257,
+      "longitude": 35.8236,
+      "translations": { "ar": { "name": "القنيطرة" } }
+    },
+    {
+      "id": 107,
+      "name": "Raqqa",
+      "code": "SY-RA",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 35.9594,
+      "longitude": 38.9981,
+      "translations": { "ar": { "name": "الرقة" } }
+    },
+    {
+      "id": 108,
+      "name": "Rif Dimashq",
+      "code": "SY-RD",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 33.5131,
+      "longitude": 36.2913,
+      "translations": { "ar": { "name": "ريف دمشق" } }
+    },
+    {
+      "id": 109,
+      "name": "Sweida",
+      "code": "SY-SW",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 32.7081,
+      "longitude": 36.5665,
+      "translations": { "ar": { "name": "السويداء" } }
+    },
+    {
+      "id": 110,
+      "name": "Tartus",
+      "code": "SY-TA",
+      "countryCode": "SY",
+      "country": 215,
+      "latitude": 34.889,
+      "longitude": 35.8866,
+      "translations": { "ar": { "name": "طرطوس" } }
+    }
+  ]
+}

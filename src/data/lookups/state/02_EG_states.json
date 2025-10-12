@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 8,
+      "name": "Alexandria",
+      "code": "EG-ALX",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.2001,
+      "longitude": 29.9187,
+      "translations": { "ar": { "name": "الإسكندرية" } }
+    },
+    {
+      "id": 9,
+      "name": "Aswan",
+      "code": "EG-ASN",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 24.0889,
+      "longitude": 32.8998,
+      "translations": { "ar": { "name": "أسوان" } }
+    },
+    {
+      "id": 10,
+      "name": "Asyut",
+      "code": "EG-AST",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 27.1809,
+      "longitude": 31.1837,
+      "translations": { "ar": { "name": "أسيوط" } }
+    },
+    {
+      "id": 11,
+      "name": "Beheira",
+      "code": "EG-BH",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.5877,
+      "longitude": 30.4422,
+      "translations": { "ar": { "name": "البحيرة" } }
+    },
+    {
+      "id": 12,
+      "name": "Beni Suef",
+      "code": "EG-BNS",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 29.0744,
+      "longitude": 31.0979,
+      "translations": { "ar": { "name": "بني سويف" } }
+    },
+    {
+      "id": 13,
+      "name": "Cairo",
+      "code": "EG-C",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.0444,
+      "longitude": 31.2357,
+      "translations": { "ar": { "name": "القاهرة" } }
+    },
+    {
+      "id": 14,
+      "name": "Dakahlia",
+      "code": "EG-DK",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.0335,
+      "longitude": 31.3803,
+      "translations": { "ar": { "name": "الدقهلية" } }
+    },
+    {
+      "id": 15,
+      "name": "Damietta",
+      "code": "EG-DT",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.4175,
+      "longitude": 31.8144,
+      "translations": { "ar": { "name": "دمياط" } }
+    },
+    {
+      "id": 16,
+      "name": "Faiyum",
+      "code": "EG-FYM",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 29.3099,
+      "longitude": 30.8428,
+      "translations": { "ar": { "name": "الفيوم" } }
+    },
+    {
+      "id": 17,
+      "name": "Gharbia",
+      "code": "EG-GH",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.7865,
+      "longitude": 31.0004,
+      "translations": { "ar": { "name": "الغربية" } }
+    },
+    {
+      "id": 18,
+      "name": "Giza",
+      "code": "EG-GZ",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.0131,
+      "longitude": 31.2089,
+      "translations": { "ar": { "name": "الجيزة" } }
+    },
+    {
+      "id": 19,
+      "name": "Ismailia",
+      "code": "EG-IS",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.5965,
+      "longitude": 32.2715,
+      "translations": { "ar": { "name": "الإسماعيلية" } }
+    },
+    {
+      "id": 20,
+      "name": "Kafr El Sheikh",
+      "code": "EG-KFS",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.1096,
+      "longitude": 30.8508,
+      "translations": { "ar": { "name": "كفر الشيخ" } }
+    },
+    {
+      "id": 21,
+      "name": "Luxor",
+      "code": "EG-LX",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 25.6872,
+      "longitude": 32.6396,
+      "translations": { "ar": { "name": "الأقصر" } }
+    },
+    {
+      "id": 22,
+      "name": "Matruh",
+      "code": "EG-MT",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.3543,
+      "longitude": 27.2373,
+      "translations": { "ar": { "name": "مطروح" } }
+    },
+    {
+      "id": 23,
+      "name": "Minya",
+      "code": "EG-MN",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 28.1099,
+      "longitude": 30.7503,
+      "translations": { "ar": { "name": "المنيا" } }
+    },
+    {
+      "id": 24,
+      "name": "Monufia",
+      "code": "EG-MNF",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.5972,
+      "longitude": 31.0079,
+      "translations": { "ar": { "name": "المنوفية" } }
+    },
+    {
+      "id": 25,
+      "name": "New Valley",
+      "code": "EG-WAD",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 25.4514,
+      "longitude": 30.5463,
+      "translations": { "ar": { "name": "الوادي الجديد" } }
+    },
+    {
+      "id": 26,
+      "name": "North Sinai",
+      "code": "EG-SIN",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.1249,
+      "longitude": 33.8031,
+      "translations": { "ar": { "name": "شمال سيناء" } }
+    },
+    {
+      "id": 27,
+      "name": "Port Said",
+      "code": "EG-PTS",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 31.2653,
+      "longitude": 32.3019,
+      "translations": { "ar": { "name": "بورسعيد" } }
+    },
+    {
+      "id": 28,
+      "name": "Qalyubia",
+      "code": "EG-KB",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.4591,
+      "longitude": 31.1786,
+      "translations": { "ar": { "name": "القليوبية" } }
+    },
+    {
+      "id": 29,
+      "name": "Qena",
+      "code": "EG-KN",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 26.1551,
+      "longitude": 32.716,
+      "translations": { "ar": { "name": "قنا" } }
+    },
+    {
+      "id": 30,
+      "name": "Red Sea",
+      "code": "EG-BA",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 25.0666,
+      "longitude": 34.2805,
+      "translations": { "ar": { "name": "البحر الأحمر" } }
+    },
+    {
+      "id": 31,
+      "name": "Sharqia",
+      "code": "EG-SHR",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 30.7142,
+      "longitude": 31.6741,
+      "translations": { "ar": { "name": "الشرقية" } }
+    },
+    {
+      "id": 32,
+      "name": "Sohag",
+      "code": "EG-SHG",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 26.5569,
+      "longitude": 31.6948,
+      "translations": { "ar": { "name": "سوهاج" } }
+    },
+    {
+      "id": 33,
+      "name": "South Sinai",
+      "code": "EG-JS",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 28.5367,
+      "longitude": 34.4338,
+      "translations": { "ar": { "name": "جنوب سيناء" } }
+    },
+    {
+      "id": 34,
+      "name": "Suez",
+      "code": "EG-SUZ",
+      "countryCode": "EG",
+      "country": 65,
+      "latitude": 29.9737,
+      "longitude": 32.5263,
+      "translations": { "ar": { "name": "السويس" } }
+    }
+  ]
+}

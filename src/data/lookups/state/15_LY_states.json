@@ -1,0 +1,220 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 184,
+      "name": "Al Butnan",
+      "code": "LY-BU",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.75,
+      "longitude": 22.25,
+      "translations": { "ar": { "name": "البطنان" } }
+    },
+    {
+      "id": 185,
+      "name": "Benghazi",
+      "code": "LY-BA",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.1167,
+      "longitude": 20.0667,
+      "translations": { "ar": { "name": "بنغازي" } }
+    },
+    {
+      "id": 186,
+      "name": "Derna",
+      "code": "LY-DR",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.76,
+      "longitude": 22.64,
+      "translations": { "ar": { "name": "درنة" } }
+    },
+    {
+      "id": 187,
+      "name": "Ghat",
+      "code": "LY-GT",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 24.9644,
+      "longitude": 10.1728,
+      "translations": { "ar": { "name": "غات" } }
+    },
+    {
+      "id": 188,
+      "name": "Jabal al Akhdar",
+      "code": "LY-JA",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.9489,
+      "longitude": 21.8622,
+      "translations": { "ar": { "name": "الجبل الأخضر" } }
+    },
+    {
+      "id": 189,
+      "name": "Jabal al Gharbi",
+      "code": "LY-JG",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 31.95,
+      "longitude": 12.0167,
+      "translations": { "ar": { "name": "الجبل الغربي" } }
+    },
+    {
+      "id": 190,
+      "name": "Jafara",
+      "code": "LY-JI",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.65,
+      "longitude": 13.0,
+      "translations": { "ar": { "name": "الجفارة" } }
+    },
+    {
+      "id": 191,
+      "name": "Jufra",
+      "code": "LY-JU",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 29.1667,
+      "longitude": 16.1333,
+      "translations": { "ar": { "name": "الجفرة" } }
+    },
+    {
+      "id": 192,
+      "name": "Kufra",
+      "code": "LY-KF",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 24.25,
+      "longitude": 23.25,
+      "translations": { "ar": { "name": "الكفرة" } }
+    },
+    {
+      "id": 193,
+      "name": "Marj",
+      "code": "LY-MJ",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.5,
+      "longitude": 20.8333,
+      "translations": { "ar": { "name": "المرج" } }
+    },
+    {
+      "id": 194,
+      "name": "Misrata",
+      "code": "LY-MI",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.3783,
+      "longitude": 15.0906,
+      "translations": { "ar": { "name": "مصراتة" } }
+    },
+    {
+      "id": 195,
+      "name": "Murqub",
+      "code": "LY-MB",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.5,
+      "longitude": 14.0,
+      "translations": { "ar": { "name": "المرقب" } }
+    },
+    {
+      "id": 196,
+      "name": "Nalut",
+      "code": "LY-NL",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 31.8667,
+      "longitude": 10.9833,
+      "translations": { "ar": { "name": "نالوت" } }
+    },
+    {
+      "id": 197,
+      "name": "Nuqat al Khams",
+      "code": "LY-NQ",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.9333,
+      "longitude": 12.0833,
+      "translations": { "ar": { "name": "نقاط الخمس" } }
+    },
+    {
+      "id": 198,
+      "name": "Sabha",
+      "code": "LY-SB",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 27.0333,
+      "longitude": 14.4333,
+      "translations": { "ar": { "name": "سبها" } }
+    },
+    {
+      "id": 199,
+      "name": "Sirte",
+      "code": "LY-SR",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 31.2089,
+      "longitude": 16.5887,
+      "translations": { "ar": { "name": "سرت" } }
+    },
+    {
+      "id": 200,
+      "name": "Southern Libya",
+      "code": "LY-SL",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 25.0,
+      "longitude": 17.0,
+      "translations": { "ar": { "name": "فزان" } }
+    },
+    {
+      "id": 201,
+      "name": "Tripoli",
+      "code": "LY-TB",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.8872,
+      "longitude": 13.1913,
+      "translations": { "ar": { "name": "طرابلس" } }
+    },
+    {
+      "id": 202,
+      "name": "Wadi al Hayaa",
+      "code": "LY-WD",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 26.5497,
+      "longitude": 12.7805,
+      "translations": { "ar": { "name": "وادي الحياة" } }
+    },
+    {
+      "id": 203,
+      "name": "Wadi al Shatii",
+      "code": "LY-WS",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 27.7333,
+      "longitude": 12.5,
+      "translations": { "ar": { "name": "وادي الشاطئ" } }
+    },
+    {
+      "id": 204,
+      "name": "Zawiya",
+      "code": "LY-ZA",
+      "countryCode": "LY",
+      "country": 124,
+      "latitude": 32.7634,
+      "longitude": 12.7151,
+      "translations": { "ar": { "name": "الزاوية" } }
+    }
+  ]
+}

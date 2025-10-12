@@ -1,0 +1,30 @@
+{
+  "ar": {
+    "title": "متواجدين دائمًا لمساعدتك",
+    "subTitle": "تواصل معنا من خلال أي من قنوات الدعم التالية:",
+    "help": {
+      "title": "مركز اسعاد المتعاملين",
+      "link": "https://help.ajrly.com",
+      "email": "help@ajrly.com"
+    },
+    "support": {
+      "title": "الدعم عبر الإيميل",
+      "link": "https://support.noon.com",
+      "email": "care@ajrly.com"
+    }
+  },
+  "en": {
+    "title": "We're Always Here To Help",
+    "subTitle": "Reach out to us through any of these support channels",
+    "help": {
+      "title": "Customer Happiness Center",
+      "link": "https://help.ajrly.com",
+      "email": "help@ajrly.com"
+    },
+    "support": {
+      "title": "Email Support",
+      "link": "https://support.noon.com",
+      "email": "care@ajrly.com"
+    }
+  }
+}

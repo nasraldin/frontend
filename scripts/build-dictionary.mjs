@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 // Check if minification is requested
 const shouldMinify = process.argv.includes('--minify');
 
-const dictionaryDir = join(__dirname, '..', 'src', 'dictionary');
+const dictionaryDir = join(__dirname, '..', 'src', 'i18n', 'dictionary');
 
 // Get all language directories
 const langDirs = readdirSync(dictionaryDir, { withFileTypes: true })
@@ -35,7 +35,7 @@ langDirs.forEach((lang) => {
         // combinedDictionary[fileName] = content;
         Object.assign(combinedDictionary, content);
       } catch (error) {
-        console.error(`Error processing ${filePath}:`, error.message);
+        console.error(`❌ Error processing ${filePath}:`, error.message);
       }
     }
   });
@@ -46,13 +46,15 @@ langDirs.forEach((lang) => {
     // Minify by removing whitespace
     const minifiedJson = JSON.stringify(combinedDictionary);
     writeFileSync(outputPath, minifiedJson);
-    console.log(`Minified combined dictionary for ${lang} created successfully.`);
+    console.log(
+      `🗒️ Minified combined dictionary for ${lang} created successfully.`,
+    );
   } else {
     // Pretty print with 2 spaces indentation
     const prettyJson = JSON.stringify(combinedDictionary, null, 2);
     writeFileSync(outputPath, prettyJson);
-    console.log(`Combined dictionary for ${lang} created successfully.`);
+    console.log(`🗒️ Combined dictionary for ${lang} created successfully.`);
   }
 });
 
-console.log('All combined dictionaries created successfully.');
+console.log('✅ All combined dictionaries created successfully.');

@@ -1,0 +1,96 @@
+{
+  "ar": {
+    "title": "الأسئلة الشائعة",
+    "description": "ابحث عن إجابات للأسئلة الأكثر شيوعًا حول تطبيق {appName}.",
+    "faqItems": [
+      {
+        "question": "ما هو {appName}؟",
+        "answer": "{appName} هو منصة شاملة للبحث وإدارة العقارات، تم تصميمها خصيصًا للمستثمرين في العقارات، والوكلاء، ومالكي العقارات. نقدم خدمة شاملة للإعلانات العقارية تتيح للوكلاء تسويق عقاراتهم بسهولة لقاعدة كبيرة من العملاء. سواء كنت تبحث عن شراء، تأجير، أو استثمار، يقدم لك {appName} مجموعة واسعة من العقارات السكنية والتجارية، مع إمكانية البحث المتقدم للعثور على العقار المثالي.\n\n بالإضافة إلى الإعلانات العقارية، يقدم {appName} أيضًا نظام إدارة عقارات قوي لمساعدة مالكي العقارات والمديرين في إدارة محفظاتهم العقارية بكفاءة. يتيح لك نظامنا إدارة التواصل مع المستأجرين، تتبع المدفوعات الإيجارية، التعامل مع طلبات الصيانة، ومتابعة جميع المهام المتعلقة بالعقارات - كل ذلك في منصة واحدة مريحة. مع الوصول المباشر إلى مالكي العقارات وأدوات الإدارة السلسة، يسهل {appName} اكتشاف العقارات وإدارتها بفعالية."
+      },
+      {
+        "question": "كيف أبحث عن عقارات للإيجار؟",
+        "answer": "يمكنك البحث عن عقارات للإيجار على {appName} باستخدام فلاتر البحث المتقدمة. ببساطة، أدخل الموقع المطلوب، والميزانية، ونوع العقار (مثل شقة، منزل، أو مساحة تجارية) لاستعراض الإعلانات المتاحة. يمكنك أيضًا تصفية النتائج وفقًا لمعايير إضافية مثل عدد الغرف، والمرافق، والمزيد."
+      },
+      {
+        "question": "كيف يمكنني التواصل مع مالك العقار أو الوكيل؟",
+        "answer": "بمجرد العثور على عقار يثير اهتمامك، يمكنك التواصل مباشرة مع مالك العقار أو الوكيل عبر المنصة. يوفر كل إعلان عقاري تفاصيل الاتصال مثل أرقام الهاتف والبريد الإلكتروني للتواصل للحصول على مزيد من المعلومات أو تحديد موعد لزيارة العقار."
+      },
+      {
+        "question": "كيف يمكنني التقدم بطلب لاستئجار عقار؟",
+        "answer": "سيحتوي كل إعلان للإيجار على تعليمات محددة حول كيفية التقديم. عادةً ما تحتاج إلى تقديم إثبات الدخل، وتوثيق الهوية، وربما بعض المراجع. تسمح العديد من الإعلانات بتقديم الطلبات مباشرة من خلال المنصة لتسهيل العملية."
+      },
+      {
+        "question": "هل يمكنني تحديد موعد لزيارة العقار؟",
+        "answer": "نعم، يمكنك تحديد موعد لزيارة العقار مباشرة مع المالك أو الوكيل من خلال منصتنا. يمكنك التواصل معهم عبر الهاتف أو البريد الإلكتروني المقدم أو استخدام ميزة الرسائل على صفحة الإعلان لتحديد موعد مناسب للزيارة."
+      },
+      {
+        "question": "كيف تتم عملية دفع الإيجار عادة؟",
+        "answer": "عادةً ما تكون المدفوعات الإيجارية مستحقة على أساس شهري. من خلال نظام إدارة العقارات في {appName}، يمكن لكل من المستأجرين ومالكي العقارات تتبع المدفوعات الإيجارية، وإرسال التذكيرات، وإتمام المدفوعات بأمان عبر الإنترنت، مما يضمن عملية سلسة وآمنة."
+      },
+      {
+        "question": "هل توجد رسوم إضافية عند استئجار عقار؟",
+        "answer": "تختلف الرسوم الإضافية حسب العقار والموقع. قد تشمل الرسوم المعتادة إيداع الأمان، ورسوم الصيانة، ورسوم المرافق. يرجى الرجوع إلى الإعلان الخاص بالعقار للحصول على تفاصيل حول أي رسوم إضافية."
+      },
+      {
+        "question": "كيف يمكنني تقديم طلب صيانة لعقاري المستأجر؟",
+        "answer": "إذا كنت مستأجرًا، يمكنك بسهولة تقديم طلبات صيانة عبر نظام إدارة العقارات لدينا. فقط قم بتسجيل الدخول، وحدد المشكلة التي تواجهها، وقدم الطلب. سيتم إخطار المالك أو المدير واتخاذ الإجراءات اللازمة."
+      },
+      {
+        "question": "كم من الوقت يستغرق الحصول على الموافقة على استئجار العقار؟",
+        "answer": "عادةً ما تستغرق عملية الموافقة بين 1 إلى 5 أيام عمل، حسب متطلبات المالك أو الوكيل. هذه الفترة تسمح لهم بمراجعة طلبك، وإجراء الفحوصات اللازمة، وتأكيد التفاصيل قبل منح الموافقة."
+      },
+      {
+        "question": "هل يمكنني تجديد عقد الإيجار من خلال {appName}؟",
+        "answer": "إذا كنت مستأجرًا حاليًا، يمكنك التواصل مع مالك العقار عبر {appName} لمناقشة تجديد أو تمديد عقد الإيجار. تسهل منصتنا إدارة الاتفاقيات الإيجارية وتحديثاتها."
+      }
+    ],
+    "viewAllFaqs": "عرض جميع الأسئلة الشائعة"
+  },
+  "en": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to the most frequently asked questions about {appName}.",
+    "faqItems": [
+      {
+        "question": "What is {appName}?",
+        "answer": "{appName} is a comprehensive property research and management platform designed for real estate investors, agents, and property owners. We provide an extensive property listings service, allowing agents to easily market their properties to a wide audience. Whether you're buying, renting, or investing, {appName} gives you access to a vast inventory of residential and commercial properties, all searchable with advanced filters to help you find the perfect match.\n\nIn addition to property listings, {appName} also offers a powerful property management system to help property owners and managers efficiently handle their portfolios. Our system allows you to manage tenant communications, track rent payments, handle maintenance requests, and stay on top of all property-related tasks — all in one convenient platform. With direct access to property owners and seamless management tools, {appName} streamlines both property discovery and ongoing management."
+      },
+      {
+        "question": "How do I find properties for rent?",
+        "answer": "You can search for rental properties on {appName} by using our advanced search filters. Simply enter your desired location, budget, and property type (e.g., apartment, house, commercial space) to browse available listings. You can also filter results based on additional criteria like the number of bedrooms, amenities, and more."
+      },
+      {
+        "question": "How do I contact the property owner or agent?",
+        "answer": "Once you find a property you're interested in, you can directly contact the property owner or agent through the platform. Each property listing provides contact details, including phone numbers and email addresses, so you can reach out for more information or schedule a viewing."
+      },
+      {
+        "question": "How can I apply for a rental property?",
+        "answer": "Each rental listing will have specific instructions on how to apply. Typically, you'll need to provide proof of income, identification, and possibly references. Many listings allow you to submit applications directly through the platform for convenience."
+      },
+      {
+        "question": "Can I schedule a property viewing?",
+        "answer": "Yes, you can schedule a property viewing directly with the property owner or agent through our platform. You can either contact them via the provided phone or email or use the messaging feature on the listing page to arrange a convenient time for the viewing."
+      },
+      {
+        "question": "What is the typical rental payment process?",
+        "answer": "Rental payments are usually due on a monthly basis. Through {appName}'s property management system, both tenants and property owners can track rent payments, send reminders, and securely process payments online, ensuring a smooth transaction process."
+      },
+      {
+        "question": "Are there any additional fees when renting a property?",
+        "answer": "Additional fees vary depending on the property and location. Common fees may include security deposits, maintenance fees, and utilities. Please refer to the specific property listing for detailed information about any extra charges."
+      },
+      {
+        "question": "How do I request maintenance for my rental property?",
+        "answer": "If you're a tenant, you can easily submit maintenance requests through our property management system. Simply log in, select the issue you're experiencing, and submit the request. The property owner or manager will be notified and take appropriate action."
+      },
+      {
+        "question": "How long does it take to get approved for a rental?",
+        "answer": "The approval process typically takes between 1-5 business days, depending on the property owner's or agent's requirements. This time allows them to review your application, conduct background checks, and confirm details before offering approval."
+      },
+      {
+        "question": "Can I renew my lease through {appName}?",
+        "answer": "If you're a current tenant, you can communicate with your property owner through {appName} to discuss lease renewals or extensions. Our platform facilitates easy management of lease agreements and updates."
+      }
+    ],
+    "viewAllFaqs": "View all FAQs"
+  }
+}

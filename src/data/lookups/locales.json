@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "locale",
+  "queryField": "code",
+  "data": [
+    {
+      "name": "Arabic",
+      "nativeName": "العربية",
+      "locale": "ar",
+      "isActive": true,
+      "flag": "🇦🇪"
+    },
+    {
+      "name": "English",
+      "nativeName": "English",
+      "locale": "en",
+      "isActive": true,
+      "flag": "🇺🇸"
+    }
+  ]
+}

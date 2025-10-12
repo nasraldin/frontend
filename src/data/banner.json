@@ -1,0 +1,24 @@
+{
+  "ar": {
+    "content": "سجل اليوم للبقاء على اطلاع بأحدث قوائم العقارات والعروض الحصرية.",
+    "endDate": "2025-03-30T23:00:00.001Z",
+    "image": {
+      "alt": "شعار أجرلي",
+      "src": "https://cms.ajrly.com/logo.svg"
+    },
+    "link": "https://ajrly.com/announcment/get-new-offer",
+    "mobileContent": "التسجيل مفتوح الآن!",
+    "title": "🎉 التسجيل مفتوح الآن!"
+  },
+  "en": {
+    "content": "Register today to stay updated with the latest property listings and exclusive offers.",
+    "endDate": "2025-03-30T23:00:00.001Z",
+    "image": {
+      "alt": "Ajrly logo",
+      "src": "https://cms.ajrly.com/logo.svg"
+    },
+    "link": "https://ajrly.com/announcment/get-new-offer",
+    "mobileContent": "Registration is Now Open!",
+    "title": "🎉 Registration is Now Open!"
+  }
+}

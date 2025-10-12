@@ -5,7 +5,7 @@ import { Suspense } from 'solid-js';
 
 import ReloadPrompt from '~/components/ReloadPrompt';
 
-import './styles/app.css';
+import './app.css';
 
 export default function App() {
   return (

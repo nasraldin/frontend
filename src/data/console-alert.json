@@ -1,0 +1,20 @@
+{
+  "ar": {
+    "title": "!مرحباً بك في أجرلي",
+    "helloMessage": ".هل هناك شيء يمكننا تحسينه؟ تساعدنا ملاحظاتك في تحسين تطبيق أجرلي للجميع، فلا تتردد في التواصل معنا",
+    "supportTicket": "https://support.ajrly.com/new :قدم تذكرة دعم هنا",
+    "feedbackLink": "https://ajrly.com/feedback :رأيك مهم بالنسبة لنا! شارك أفكارك لمساعدتنا في تحسين أجرلي للجميع",
+    "joinUs": "https://ajrly.com/join :نحن نحب فضولك! انضم إلى فريقنا وساهم في تشكيل مستقبل أجرلي",
+    "selfXssTitle": "تحذير!",
+    "selfXss": "قد يسمح استخدام وحدة التحكم هذه للمهاجمين بانتحال شخصيتك وسرقة معلوماتك باستخدام هجوم يسمى Self-XSS.\n لا تقم بإدخال أو لصق رمز لا تفهمه."
+  },
+  "en": {
+    "title": "Welcome to Ajrly!",
+    "helloMessage": "Is there something we can improve? Help us make Ajrly even better by creating a support ticket.",
+    "supportTicket": "Submit a support ticket here: https://support.ajrly.com/new",
+    "feedbackLink": "Your feedback matters! Share your thoughts to help us improve Ajrly for everyone: https://ajrly.com/feedback",
+    "joinUs": "We love your curiosity! Join our team and help shape the future of Ajrly: https://ajrly.com/join",
+    "selfXssTitle": "WARNING!",
+    "selfXss": "Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.Do not enter or paste code that you do not understand."
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 147,
+      "name": "Al Anbar",
+      "code": "IQ-AN",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 33.3547,
+      "longitude": 43.6861,
+      "translations": { "ar": { "name": "الأنبار" } }
+    },
+    {
+      "id": 148,
+      "name": "Babil",
+      "code": "IQ-BB",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 32.5019,
+      "longitude": 44.4192,
+      "translations": { "ar": { "name": "بابل" } }
+    },
+    {
+      "id": 149,
+      "name": "Baghdad",
+      "code": "IQ-BG",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 33.3152,
+      "longitude": 44.3661,
+      "translations": { "ar": { "name": "بغداد" } }
+    },
+    {
+      "id": 150,
+      "name": "Basra",
+      "code": "IQ-BA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 30.508,
+      "longitude": 47.7804,
+      "translations": { "ar": { "name": "البصرة" } }
+    },
+    {
+      "id": 151,
+      "name": "Dhi Qar",
+      "code": "IQ-DQ",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 31.0,
+      "longitude": 46.0,
+      "translations": { "ar": { "name": "ذي قار" } }
+    },
+    {
+      "id": 152,
+      "name": "Diyala",
+      "code": "IQ-DI",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 33.7458,
+      "longitude": 44.6054,
+      "translations": { "ar": { "name": "ديالى" } }
+    },
+    {
+      "id": 153,
+      "name": "Dohuk",
+      "code": "IQ-DA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 36.8606,
+      "longitude": 42.9879,
+      "translations": { "ar": { "name": "دهوك" } }
+    },
+    {
+      "id": 154,
+      "name": "Erbil",
+      "code": "IQ-AR",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 36.1911,
+      "longitude": 44.0094,
+      "translations": { "ar": { "name": "أربيل" } }
+    },
+    {
+      "id": 155,
+      "name": "Halabja",
+      "code": "IQ-HA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 35.1779,
+      "longitude": 45.9861,
+      "translations": { "ar": { "name": "حلبجة" } }
+    },
+    {
+      "id": 156,
+      "name": "Karbala",
+      "code": "IQ-KA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 32.6149,
+      "longitude": 44.0243,
+      "translations": { "ar": { "name": "كربلاء" } }
+    },
+    {
+      "id": 157,
+      "name": "Kirkuk",
+      "code": "IQ-KI",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 35.4681,
+      "longitude": 44.3922,
+      "translations": { "ar": { "name": "كركوك" } }
+    },
+    {
+      "id": 158,
+      "name": "Maysan",
+      "code": "IQ-MA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 31.8461,
+      "longitude": 47.1753,
+      "translations": { "ar": { "name": "ميسان" } }
+    },
+    {
+      "id": 159,
+      "name": "Muthanna",
+      "code": "IQ-MU",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 29.9689,
+      "longitude": 45.5554,
+      "translations": { "ar": { "name": "المثنى" } }
+    },
+    {
+      "id": 160,
+      "name": "Najaf",
+      "code": "IQ-NA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 32.0003,
+      "longitude": 44.3354,
+      "translations": { "ar": { "name": "النجف" } }
+    },
+    {
+      "id": 161,
+      "name": "Nineveh",
+      "code": "IQ-NI",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 36.34,
+      "longitude": 43.13,
+      "translations": { "ar": { "name": "نينوى" } }
+    },
+    {
+      "id": 162,
+      "name": "Qadisiyah",
+      "code": "IQ-QA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 31.99,
+      "longitude": 44.93,
+      "translations": { "ar": { "name": "القادسية" } }
+    },
+    {
+      "id": 163,
+      "name": "Saladin",
+      "code": "IQ-SD",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 34.5953,
+      "longitude": 43.6768,
+      "translations": { "ar": { "name": "صلاح الدين" } }
+    },
+    {
+      "id": 164,
+      "name": "Sulaymaniyah",
+      "code": "IQ-SU",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 35.5613,
+      "longitude": 45.4375,
+      "translations": { "ar": { "name": "السليمانية" } }
+    },
+    {
+      "id": 165,
+      "name": "Wasit",
+      "code": "IQ-WA",
+      "countryCode": "IQ",
+      "country": 104,
+      "latitude": 32.508,
+      "longitude": 45.8209,
+      "translations": { "ar": { "name": "واسط" } }
+    }
+  ]
+}

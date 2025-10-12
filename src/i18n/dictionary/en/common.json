@@ -72,7 +72,7 @@
     "last": "Last",
     "next": "Next",
     "previous": "Previous",
-    "showing": "<p className='text-sm text-gray-700'>Showing <span className='font-medium'>{page}</span> to <span className='font-medium'>{current}</span> of <span className='font-medium'>{total}</span> results</p>"
+    "showing": "<p class='text-sm text-gray-700'>Showing <span class='font-medium'>{page}</span> to <span class='font-medium'>{current}</span> of <span class='font-medium'>{total}</span> results</p>"
   },
   "password": "Password",
   "showPassword": "Show password",

@@ -1,12 +1,14 @@
 import pino from 'pino';
 
-// Create logger instance
-const isDevelopment = import.meta.env.DEV;
-const isProduction = import.meta.env.PROD;
+import { isDev } from '~/utils/env';
 
-const logger = pino({
-  level: isProduction ? 'info' : 'debug',
-  transport: isDevelopment
+/**
+ * App logger instance
+ * @returns The logger
+ */
+export const logger = pino({
+  level: import.meta.env.VITE_LOG_LEVEL,
+  transport: isDev
     ? {
         target: 'pino-pretty',
         options: {

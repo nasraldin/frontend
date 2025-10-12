@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 277,
+      "name": "Tanger-Tetouan-Al Hoceima",
+      "code": "MA-01",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 35.7667,
+      "longitude": -5.8,
+      "translations": { "ar": { "name": "طنجة-تطوان-الحسيمة" } }
+    },
+    {
+      "id": 278,
+      "name": "Oriental",
+      "code": "MA-02",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 34.6833,
+      "longitude": -1.9167,
+      "translations": { "ar": { "name": "الشرق" } }
+    },
+    {
+      "id": 279,
+      "name": "Fès-Meknès",
+      "code": "MA-03",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 34.0333,
+      "longitude": -5.0,
+      "translations": { "ar": { "name": "فاس-مكناس" } }
+    },
+    {
+      "id": 280,
+      "name": "Rabat-Salé-Kénitra",
+      "code": "MA-04",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 34.0209,
+      "longitude": -6.8417,
+      "translations": { "ar": { "name": "الرباط-سلا-القنيطرة" } }
+    },
+    {
+      "id": 281,
+      "name": "Béni Mellal-Khénifra",
+      "code": "MA-05",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 32.3342,
+      "longitude": -6.3536,
+      "translations": { "ar": { "name": "بني ملال-خنيفرة" } }
+    },
+    {
+      "id": 282,
+      "name": "Casablanca-Settat",
+      "code": "MA-06",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 33.5731,
+      "longitude": -7.5898,
+      "translations": { "ar": { "name": "الدار البيضاء-سطات" } }
+    },
+    {
+      "id": 283,
+      "name": "Marrakech-Safi",
+      "code": "MA-07",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 31.6295,
+      "longitude": -7.9811,
+      "translations": { "ar": { "name": "مراكش-آسفي" } }
+    },
+    {
+      "id": 284,
+      "name": "Drâa-Tafilalet",
+      "code": "MA-08",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 31.9314,
+      "longitude": -4.4267,
+      "translations": { "ar": { "name": "درعة-تافيلالت" } }
+    },
+    {
+      "id": 285,
+      "name": "Souss-Massa",
+      "code": "MA-09",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 30.4278,
+      "longitude": -9.5981,
+      "translations": { "ar": { "name": "سوس-ماسة" } }
+    },
+    {
+      "id": 286,
+      "name": "Guelmim-Oued Noun",
+      "code": "MA-10",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 28.9864,
+      "longitude": -10.0576,
+      "translations": { "ar": { "name": "كلميم-واد نون" } }
+    },
+    {
+      "id": 287,
+      "name": "Laâyoune-Sakia El Hamra",
+      "code": "MA-11",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 27.1253,
+      "longitude": -13.1625,
+      "translations": { "ar": { "name": "العيون-الساقية الحمراء" } }
+    },
+    {
+      "id": 288,
+      "name": "Dakhla-Oued Ed-Dahab",
+      "code": "MA-12",
+      "countryCode": "MA",
+      "country": 149,
+      "latitude": 23.6848,
+      "longitude": -15.9574,
+      "translations": { "ar": { "name": "الداخلة-وادي الذهب" } }
+    }
+  ]
+}

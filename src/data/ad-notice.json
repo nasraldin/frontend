@@ -1,0 +1,16 @@
+{
+  "ar": {
+    "agreementNotice": "بالنقر فوق إنشاء عقار ، فإنك توافق على سياسة الخصوصية الخاصة بنا لإنشاء قائمة عقارات جديدة.",
+    "buttonLabel": "إنشاء اعلان",
+    "inputPlaceholder": "إسم الوحدة",
+    "link": "/en/cookie-policy",
+    "title": "هل لديك شيء تريد بيعه أو تأجيره؟ أعلن معنا مجانًا."
+  },
+  "en": {
+    "agreementNotice": "By clicking Create a Property, you agree to our Privacy Policy to create a new property listing.",
+    "buttonLabel": "Create Property",
+    "inputPlaceholder": "Property name",
+    "link": "/en/cookie-policy",
+    "title": "Do you have something that you want to sell or rent? Advertise it with us for free."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "title": "2BHK Apartment in Dubai Marina",
+      "type": "Apartment",
+      "price": 120000,
+      "bedrooms": 2,
+      "location": "Dubai"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Villa in Palm Jumeirah",
+      "type": "Villa",
+      "price": 500000,
+      "bedrooms": 4,
+      "location": "Dubai"
+    },
+    {
+      "id": 3,
+      "title": "Studio Apartment in Downtown",
+      "type": "Apartment",
+      "price": 80000,
+      "bedrooms": 1,
+      "location": "Abu Dhabi"
+    },
+    {
+      "id": 4,
+      "title": "3BHK Penthouse in Burj Vista",
+      "type": "Penthouse",
+      "price": 350000,
+      "bedrooms": 3,
+      "location": "Dubai"
+    },
+    {
+      "id": 5,
+      "title": "Beachfront Villa in Saadiyat Island",
+      "type": "Villa",
+      "price": 450000,
+      "bedrooms": 5,
+      "location": "Abu Dhabi"
+    },
+    {
+      "id": 6,
+      "title": "1BHK Apartment in JVC",
+      "type": "Apartment",
+      "price": 95000,
+      "bedrooms": 1,
+      "location": "Dubai"
+    },
+    {
+      "id": 7,
+      "title": "4BHK Villa in Emirates Hills",
+      "type": "Villa",
+      "price": 480000,
+      "bedrooms": 4,
+      "location": "Dubai"
+    },
+    {
+      "id": 8,
+      "title": "2BHK Apartment in Al Reem Island",
+      "type": "Apartment",
+      "price": 110000,
+      "bedrooms": 2,
+      "location": "Abu Dhabi"
+    },
+    {
+      "id": 9,
+      "title": "Luxury Penthouse in Marina Gate",
+      "type": "Penthouse",
+      "price": 420000,
+      "bedrooms": 3,
+      "location": "Dubai"
+    },
+    {
+      "id": 10,
+      "title": "3BHK Villa in Al Raha Gardens",
+      "type": "Villa",
+      "price": 380000,
+      "bedrooms": 3,
+      "location": "Abu Dhabi"
+    }
+  ]
+}

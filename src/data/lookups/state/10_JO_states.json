@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 111,
+      "name": "Ajloun",
+      "code": "JO-AJ",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 32.3336,
+      "longitude": 35.7517,
+      "translations": { "ar": { "name": "عجلون" } }
+    },
+    {
+      "id": 112,
+      "name": "Amman",
+      "code": "JO-AM",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 31.9539,
+      "longitude": 35.9106,
+      "translations": { "ar": { "name": "عمان" } }
+    },
+    {
+      "id": 113,
+      "name": "Aqaba",
+      "code": "JO-AQ",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 29.5321,
+      "longitude": 35.0063,
+      "translations": { "ar": { "name": "العقبة" } }
+    },
+    {
+      "id": 114,
+      "name": "Balqa",
+      "code": "JO-BA",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 32.0347,
+      "longitude": 35.7272,
+      "translations": { "ar": { "name": "البلقاء" } }
+    },
+    {
+      "id": 115,
+      "name": "Irbid",
+      "code": "JO-IR",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 32.556,
+      "longitude": 35.8479,
+      "translations": { "ar": { "name": "إربد" } }
+    },
+    {
+      "id": 116,
+      "name": "Jerash",
+      "code": "JO-JA",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 32.2723,
+      "longitude": 35.8916,
+      "translations": { "ar": { "name": "جرش" } }
+    },
+    {
+      "id": 117,
+      "name": "Karak",
+      "code": "JO-KA",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 31.1845,
+      "longitude": 35.7047,
+      "translations": { "ar": { "name": "الكرك" } }
+    },
+    {
+      "id": 118,
+      "name": "Ma'an",
+      "code": "JO-MA",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 30.1962,
+      "longitude": 35.734,
+      "translations": { "ar": { "name": "معان" } }
+    },
+    {
+      "id": 119,
+      "name": "Madaba",
+      "code": "JO-MD",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 31.7152,
+      "longitude": 35.7936,
+      "translations": { "ar": { "name": "مادبا" } }
+    },
+    {
+      "id": 120,
+      "name": "Mafraq",
+      "code": "JO-MF",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 32.3426,
+      "longitude": 36.208,
+      "translations": { "ar": { "name": "المفرق" } }
+    },
+    {
+      "id": 121,
+      "name": "Tafilah",
+      "code": "JO-TA",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 30.8344,
+      "longitude": 35.6044,
+      "translations": { "ar": { "name": "الطفيلة" } }
+    },
+    {
+      "id": 122,
+      "name": "Zarqa",
+      "code": "JO-ZA",
+      "countryCode": "JO",
+      "country": 111,
+      "latitude": 32.0683,
+      "longitude": 36.0878,
+      "translations": { "ar": { "name": "الزرقاء" } }
+    }
+  ]
+}

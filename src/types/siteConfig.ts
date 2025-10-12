@@ -9,11 +9,14 @@ export interface SiteConfig {
     en: string;
   };
   lastUpdated: Date;
-  ui: {
+  defaultTheme: {
     theme: Theme;
     color: ColorScheme;
     fontSize: FontSize;
     radius: BorderRadius;
+    disableTransitionOnChange: boolean;
+    enableColorScheme: boolean;
+    storageKey: string;
   };
   mainNav: MainNavItem[];
   sidebarNav: SidebarNavItem[];
@@ -69,5 +72,5 @@ export interface SiteConfig {
     };
   };
   copyright(locale: AppLocale): string;
-  // config: typeof import('~/config/config.json');
+  // config: typeof import('~/config/app.config.json');
 }

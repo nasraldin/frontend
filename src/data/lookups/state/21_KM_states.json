@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 323,
+      "name": "Anjouan",
+      "code": "KM-A",
+      "countryCode": "KM",
+      "country": 49,
+      "latitude": -12.2155,
+      "longitude": 44.4379,
+      "translations": { "ar": { "name": "أنجوان" } }
+    },
+    {
+      "id": 324,
+      "name": "Grande Comore",
+      "code": "KM-G",
+      "countryCode": "KM",
+      "country": 49,
+      "latitude": -11.6455,
+      "longitude": 43.3333,
+      "translations": { "ar": { "name": "القمر الكبرى" } }
+    },
+    {
+      "id": 325,
+      "name": "Mohéli",
+      "code": "KM-M",
+      "countryCode": "KM",
+      "country": 49,
+      "latitude": -12.2983,
+      "longitude": 43.7425,
+      "translations": { "ar": { "name": "موهيلي" } }
+    }
+  ]
+}

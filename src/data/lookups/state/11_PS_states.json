@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 123,
+      "name": "Jenin",
+      "code": "PS-JEN",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 32.4564,
+      "longitude": 35.2868,
+      "translations": { "ar": { "name": "جنين" } }
+    },
+    {
+      "id": 124,
+      "name": "Tubas",
+      "code": "PS-TBS",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 32.3215,
+      "longitude": 35.3622,
+      "translations": { "ar": { "name": "طوباس" } }
+    },
+    {
+      "id": 125,
+      "name": "Tulkarm",
+      "code": "PS-TKM",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 32.3086,
+      "longitude": 35.0286,
+      "translations": { "ar": { "name": "طولكرم" } }
+    },
+    {
+      "id": 126,
+      "name": "Nablus",
+      "code": "PS-NBS",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 32.2211,
+      "longitude": 35.2544,
+      "translations": { "ar": { "name": "نابلس" } }
+    },
+    {
+      "id": 127,
+      "name": "Qalqilya",
+      "code": "PS-QQA",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 32.1922,
+      "longitude": 34.9742,
+      "translations": { "ar": { "name": "قلقيلية" } }
+    },
+    {
+      "id": 128,
+      "name": "Salfit",
+      "code": "PS-SLT",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 32.0856,
+      "longitude": 35.1714,
+      "translations": { "ar": { "name": "سلفيت" } }
+    },
+    {
+      "id": 129,
+      "name": "Ramallah and Al Bireh",
+      "code": "PS-RBH",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.9073,
+      "longitude": 35.2062,
+      "translations": { "ar": { "name": "رام الله والبيرة" } }
+    },
+    {
+      "id": 130,
+      "name": "Jericho and Al Aghwar",
+      "code": "PS-JRH",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.8564,
+      "longitude": 35.4688,
+      "translations": { "ar": { "name": "أريحا والأغوار" } }
+    },
+    {
+      "id": 131,
+      "name": "Al Quds",
+      "code": "PS-JEM",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.7683,
+      "longitude": 35.2137,
+      "translations": { "ar": { "name": "القدس" } }
+    },
+    {
+      "id": 132,
+      "name": "Bethlehem",
+      "code": "PS-BTH",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.7058,
+      "longitude": 35.2024,
+      "translations": { "ar": { "name": "بيت لحم" } }
+    },
+    {
+      "id": 133,
+      "name": "Hebron",
+      "code": "PS-HBN",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.5326,
+      "longitude": 35.0956,
+      "translations": { "ar": { "name": "الخليل" } }
+    },
+    {
+      "id": 134,
+      "name": "Gaza Strip",
+      "code": "PS-GZA",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.3547,
+      "longitude": 34.3088,
+      "translations": { "ar": { "name": "قطاع غزة" } }
+    },
+    {
+      "id": 135,
+      "name": "North Gaza",
+      "code": "PS-NGZ",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.5155,
+      "longitude": 34.4356,
+      "translations": { "ar": { "name": "شمال غزة" } }
+    },
+    {
+      "id": 136,
+      "name": "Deir Al-Balah",
+      "code": "PS-DEB",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.4152,
+      "longitude": 34.3456,
+      "translations": { "ar": { "name": "دير البلح" } }
+    },
+    {
+      "id": 137,
+      "name": "Khan Yunis",
+      "code": "PS-KYS",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.3462,
+      "longitude": 34.3032,
+      "translations": { "ar": { "name": "خان يونس" } }
+    },
+    {
+      "id": 138,
+      "name": "Rafah",
+      "code": "PS-RFH",
+      "countryCode": "PS",
+      "country": 169,
+      "latitude": 31.2972,
+      "longitude": 34.2455,
+      "translations": { "ar": { "name": "رفح" } }
+    }
+  ]
+}

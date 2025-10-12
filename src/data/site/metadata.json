@@ -1,0 +1,153 @@
+{
+  "default": {
+    "generator": "APP_NAME",
+    "applicationName": "APP_NAME",
+    "publisher": "APP_NAME",
+    "referrer": "origin-when-cross-origin",
+    "alternates": {
+      "canonical": "APP_BASE_URL",
+      "languages": "LOCALES",
+      "media": {
+        "only screen and (max-width: 600px)": "APP_BASE_URL/mobile"
+      },
+      "types": {
+        "application/rss+xml": "APP_BASE_URL/rss"
+      }
+    },
+    "appLinks": {
+      "android": {
+        "app_name": "APP_NAME",
+        "package": "com.ajrly",
+        "url": "APP_BASE_URL"
+      },
+      "ios": {
+        "app_name": "APP_NAME",
+        "app_store_id": "",
+        "url": "APP_BASE_URL"
+      },
+      "web": {
+        "url": "APP_BASE_URL"
+      }
+    },
+    "itunes": {
+      "appId": "com.ajrly",
+      "appArgument": ""
+    },
+    "appleWebApp": {
+      "title": "APP_NAME",
+      "capable": true,
+      "statusBarStyle": "default"
+    },
+    "robots": {
+      "index": true,
+      "follow": true,
+      "nocache": true,
+      "googleBot": {
+        "index": true,
+        "follow": true,
+        "noimageindex": true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1
+      }
+    },
+    "formatDetection": {
+      "email": true,
+      "address": true,
+      "telephone": true
+    },
+    "other": {
+      "base": "/",
+      "mobile-web-app-capable": "yes"
+    }
+  },
+  "ar": {
+    "title": {
+      "default": "APP_NAME | شراء وإيجار عقارات",
+      "template": "APP_NAME | %s | شراء وإيجار عقارات"
+    },
+    "author": {
+      "name": "نصر الدين",
+      "url": "APP_BASE_URL"
+    },
+    "creator": "نصر الدين",
+    "description": "ابحث عن عقارات للايجار بافضل المناطق والاسعار. ابحث على الخريطة وتصفح الصور والاسعار وتواصل مع المالك وارسل استفساراتك.",
+    "keywords": "إعلانات العقارات, عقارات للإيجار, شراء منزل, إيجار شقق, البحث عن منزل, عقارات للبيع, عقارات للإيجار, البحث عن عقارات, منازل للإيجار, بروبرتي فايندر",
+    "openGraph": {
+      "title": "APP_NAME | شراء وإيجار عقارات",
+      "description": "ابحث عن عقارات للايجار بافضل المناطق والاسعار. ابحث على الخريطة وتصفح الصور والاسعار وتواصل مع المالك وارسل استفساراتك.",
+      "url": "APP_BASE_URL",
+      "siteName": "APP_NAME",
+      "images": [
+        {
+          "url": "APP_BASE_URL/screenshots/screen.png"
+        }
+      ],
+      "locale": "ar",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "APP_NAME",
+      "description": "ابحث عن عقارات للايجار بافضل المناطق والاسعار. ابحث على الخريطة وتصفح الصور والاسعار وتواصل مع المالك وارسل استفساراتك.",
+      "creator": "@_nasraldin",
+      "siteId": "ajrlyapp",
+      "site": "@ajrlyapp",
+      "images": ["APP_BASE_URL/screenshots/screen.png"]
+    },
+    "appleWebApp": {
+      "startupImage": [
+        "/images/ar/apple-touch-startup-image-768x1004.png",
+        {
+          "url": "/images/ar/apple-touch-startup-image-1536x2008.png",
+          "media": "(device-width: 768px) and (device-height: 1024px)"
+        }
+      ]
+    }
+  },
+  "en": {
+    "title": {
+      "default": "APP_NAME | Property Finder",
+      "template": "APP_NAME | %s - Real Estate Search"
+    },
+    "author": {
+      "name": "Nasr Aldin",
+      "url": "APP_BASE_URL"
+    },
+    "creator": "Nasr Aldin",
+    "description": "Explore the largest inventory of residential properties and commercial real estate for sale and rent. Find your dream home with advanced search filters and direct contact with property owners.",
+    "keywords": "property listings, real estate, buy home, apartment rental, house finder, rental properties, home search, property for sale, property for rent, property finder",
+    "openGraph": {
+      "title": "APP_NAME | Property Finder",
+      "description": "Browse thousands of properties for rent and sale. Find apartments, villas, houses, and commercial properties easily.",
+      "url": "APP_BASE_URL",
+      "siteName": "APP_NAME",
+      "images": [
+        {
+          "url": "APP_BASE_URL/screenshots/screen.png",
+          "alt": "APP_NAME - Real Estate Search"
+        }
+      ],
+      "locale": "en",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "APP_NAME | Property Finder",
+      "description": "Browse properties for rent and sale. Find homes, apartments, and villas quickly and easily.",
+      "creator": "@_nasraldin",
+      "siteId": "ajrlyapp",
+      "site": "@ajrlyapp",
+      "images": ["APP_BASE_URL/screenshots/screen.png"]
+    },
+    "appleWebApp": {
+      "startupImage": [
+        "/images/apple-touch-startup-image-768x1004.png",
+        {
+          "url": "/images/apple-touch-startup-image-1536x2008.png",
+          "media": "(device-width: 768px) and (device-height: 1024px)"
+        }
+      ]
+    }
+  }
+}

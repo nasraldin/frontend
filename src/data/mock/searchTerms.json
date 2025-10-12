@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-06-15",
+    "languages": ["en", "ar"]
+  },
+  "connectors": {
+    "en": ["in", "at", "near", "with", "for", "by", "from", "to"],
+    "ar": ["في", "عند", "قرب", "مع", "ل", "من", "إلى", "بواسطة"]
+  },
+  "terms": [
+    {
+      "text": {
+        "en": "bedroom",
+        "ar": "غرفة نوم"
+      },
+      "variations": {
+        "en": ["bed", "beds", "bedrooms", "room", "rooms", "bhk"],
+        "ar": ["غرفة", "غرف", "غرف نوم", "غرفتين", "ثلاث غرف", "اربع غرف"]
+      },
+      "priority": 100,
+      "isNumeric": true
+    },
+    {
+      "text": {
+        "en": "studio",
+        "ar": "استوديو"
+      },
+      "variations": {
+        "en": ["studio apartment", "studio flat"],
+        "ar": ["شقة استوديو", "استوديو مفروش"]
+      },
+      "priority": 80
+    },
+    {
+      "text": {
+        "en": "apartment",
+        "ar": "شقة"
+      },
+      "variations": {
+        "en": ["flat", "unit", "apartments"],
+        "ar": ["شقق", "وحدة", "شقة سكنية"]
+      },
+      "priority": 85
+    },
+    {
+      "text": {
+        "en": "villa",
+        "ar": "فيلا"
+      },
+      "variations": {
+        "en": ["villas", "house", "houses"],
+        "ar": ["فيلات", "منزل", "منازل"]
+      },
+      "priority": 85
+    },
+    {
+      "text": {
+        "en": "dubai",
+        "ar": "دبي"
+      },
+      "variations": {
+        "en": ["dubai city", "dubai uae", "dubai emirates"],
+        "ar": ["مدينة دبي", "امارة دبي", "دبي الامارات"]
+      },
+      "priority": 95
+    },
+    {
+      "text": {
+        "en": "abu dhabi",
+        "ar": "ابوظبي"
+      },
+      "variations": {
+        "en": ["dhabi", "abudhabi", "abu dhabi city", "abudhabi uae"],
+        "ar": ["مدينة ابوظبي", "ابوظبي الامارات", "امارة ابوظبي"]
+      },
+      "priority": 95
+    },
+    {
+      "text": {
+        "en": "for rent",
+        "ar": "للإيجار"
+      },
+      "variations": {
+        "en": ["rent", "rental", "available for rent"],
+        "ar": ["تأجير", "متاح للإيجار", "للايجار"]
+      },
+      "priority": 80
+    },
+    {
+      "text": {
+        "en": "for sale",
+        "ar": "للبيع"
+      },
+      "variations": {
+        "en": ["sale", "buy", "available for sale"],
+        "ar": ["بيع", "متاح للبيع", "شراء"]
+      },
+      "priority": 80
+    },
+    {
+      "text": {
+        "en": "luxury",
+        "ar": "فاخر"
+      },
+      "variations": {
+        "en": ["luxurious", "premium", "high-end"],
+        "ar": ["فاخر", "مميز", "مرتفع المستوى"]
+      },
+      "priority": 75
+    },
+    {
+      "text": {
+        "en": "furnished",
+        "ar": "مفروش"
+      },
+      "variations": {
+        "en": ["fully furnished", "furnished apartment", "furnished villa"],
+        "ar": ["مفروش كليا", "شقة مفروش", "فيلة مفروش"]
+      },
+      "priority": 70
+    },
+    {
+      "text": {
+        "en": "unfurnished",
+        "ar": "غير مفروش"
+      },
+      "variations": {
+        "en": ["unfurnished apartment", "unfurnished villa"],
+        "ar": ["شقة غير مفروش", "فيلة غير مفروش"]
+      },
+      "priority": 70
+    },
+    {
+      "text": {
+        "en": "pet friendly",
+        "ar": "للحيوانات"
+      },
+      "variations": {
+        "en": ["pets allowed", "pet friendly apartment", "pet friendly villa"],
+        "ar": ["مسموح بالحيوانات", "شقة للحيوانات", "فيلة للحيوانات"]
+      },
+      "priority": 65
+    },
+    {
+      "text": {
+        "en": "beachfront",
+        "ar": "شاطئ البحر"
+      },
+      "variations": {
+        "en": ["beach", "beach front", "beach view", "beach side"],
+        "ar": ["بحر", "شاطئ البحر", "إطلالة شاطئ البحر", "جانب شاطئ البحر"]
+      },
+      "priority": 75
+    },
+    {
+      "text": {
+        "en": "sea view",
+        "ar": "إطلالة بحرية"
+      },
+      "variations": {
+        "en": ["sea", "sea view apartment", "sea view villa", "sea facing"],
+        "ar": ["إطلالة بحرية شقة", "إطلالة بحرية فيلة", "إطلالة بحرية علوية"]
+      },
+      "priority": 75
+    },
+    {
+      "text": {
+        "en": "garden",
+        "ar": "حديقة"
+      },
+      "variations": {
+        "en": ["private garden", "garden villa", "garden apartment"],
+        "ar": ["حديقة خاصة", "حديقة فيلة", "حديقة شقة"]
+      },
+      "priority": 70
+    },
+    {
+      "text": {
+        "en": "pool",
+        "ar": "مسبح"
+      },
+      "variations": {
+        "en": ["swimming pool", "private pool", "pool villa"],
+        "ar": ["مسبح سباحة", "مسبح خاص", "مسبح فيلة"]
+      },
+      "priority": 70
+    },
+    {
+      "text": {
+        "en": "gym",
+        "ar": "ملعب رياضي"
+      },
+      "variations": {
+        "en": ["fitness center", "fitness facility", "gym access"],
+        "ar": ["ملعب رياضي", "مركز رياضي", "دخول ملعب رياضي"]
+      },
+      "priority": 65
+    },
+    {
+      "text": {
+        "en": "parking",
+        "ar": "موقف سيارات"
+      },
+      "variations": {
+        "en": ["car parking", "parking space", "covered parking"],
+        "ar": ["موقف سيارات", "مكان موقف سيارات", "موقف سيارات مغطى"]
+      },
+      "priority": 65
+    },
+    {
+      "text": {
+        "en": "balcony",
+        "ar": "درجة"
+      },
+      "variations": {
+        "en": ["balconies", "terrace", "private balcony"],
+        "ar": ["درجات", "ميدان", "درجة خاصة"]
+      },
+      "priority": 65
+    }
+  ]
+}

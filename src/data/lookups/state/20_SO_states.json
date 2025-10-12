@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 304,
+      "name": "Awdal",
+      "code": "SO-AW",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 10.5827,
+      "longitude": 43.2845,
+      "translations": { "ar": { "name": "أودال" } }
+    },
+    {
+      "id": 305,
+      "name": "Bakool",
+      "code": "SO-BK",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 4.0579,
+      "longitude": 43.8979,
+      "translations": { "ar": { "name": "باكول" } }
+    },
+    {
+      "id": 306,
+      "name": "Banaadir",
+      "code": "SO-BN",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 2.0469,
+      "longitude": 45.3182,
+      "translations": { "ar": { "name": "بنادير" } }
+    },
+    {
+      "id": 307,
+      "name": "Bari",
+      "code": "SO-BR",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 11.2852,
+      "longitude": 50.9672,
+      "translations": { "ar": { "name": "باري" } }
+    },
+    {
+      "id": 308,
+      "name": "Bay",
+      "code": "SO-BY",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 2.7853,
+      "longitude": 42.9287,
+      "translations": { "ar": { "name": "باي" } }
+    },
+    {
+      "id": 309,
+      "name": "Galguduud",
+      "code": "SO-GA",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 5.1521,
+      "longitude": 46.1996,
+      "translations": { "ar": { "name": "غلغدود" } }
+    },
+    {
+      "id": 310,
+      "name": "Gedo",
+      "code": "SO-GE",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 3.5266,
+      "longitude": 42.217,
+      "translations": { "ar": { "name": "جدو" } }
+    },
+    {
+      "id": 311,
+      "name": "Hiiraan",
+      "code": "SO-HI",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 4.7358,
+      "longitude": 45.2039,
+      "translations": { "ar": { "name": "هيران" } }
+    },
+    {
+      "id": 312,
+      "name": "Lower Juba",
+      "code": "SO-JD",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": -0.3582,
+      "longitude": 42.5454,
+      "translations": { "ar": { "name": "جوبا السفلى" } }
+    },
+    {
+      "id": 313,
+      "name": "Lower Shabelle",
+      "code": "SO-SH",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 1.827,
+      "longitude": 44.7769,
+      "translations": { "ar": { "name": "شبيلي السفلى" } }
+    },
+    {
+      "id": 314,
+      "name": "Middle Juba",
+      "code": "SO-JM",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 0.7922,
+      "longitude": 42.7752,
+      "translations": { "ar": { "name": "جوبا الوسطى" } }
+    },
+    {
+      "id": 315,
+      "name": "Middle Shebelle",
+      "code": "SO-SA",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 2.925,
+      "longitude": 45.904,
+      "translations": { "ar": { "name": "شبيلي الوسطى" } }
+    },
+    {
+      "id": 316,
+      "name": "Mudug",
+      "code": "SO-MU",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 6.7697,
+      "longitude": 47.4308,
+      "translations": { "ar": { "name": "مدج" } }
+    },
+    {
+      "id": 317,
+      "name": "Nugal",
+      "code": "SO-NU",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 8.4085,
+      "longitude": 49.0832,
+      "translations": { "ar": { "name": "نوغال" } }
+    },
+    {
+      "id": 318,
+      "name": "Sahil",
+      "code": "SO-SL",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 8.4085,
+      "longitude": 49.0832,
+      "translations": { "ar": { "name": "الساحل" } }
+    },
+    {
+      "id": 319,
+      "name": "Sanaag",
+      "code": "SO-SN",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 10.6891,
+      "longitude": 47.3416,
+      "translations": { "ar": { "name": "سناج" } }
+    },
+    {
+      "id": 320,
+      "name": "Sool",
+      "code": "SO-SO",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 8.7222,
+      "longitude": 47.7638,
+      "translations": { "ar": { "name": "صول" } }
+    },
+    {
+      "id": 321,
+      "name": "Togdheer",
+      "code": "SO-TO",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 9.4942,
+      "longitude": 45.5646,
+      "translations": { "ar": { "name": "توجدير" } }
+    },
+    {
+      "id": 322,
+      "name": "Woqooyi Galbeed (Maroodi Jeex)",
+      "code": "SO-WO",
+      "countryCode": "SO",
+      "country": 203,
+      "latitude": 9.56,
+      "longitude": 44.0653,
+      "translations": { "ar": { "name": "مرودي جيح" } }
+    }
+  ]
+}

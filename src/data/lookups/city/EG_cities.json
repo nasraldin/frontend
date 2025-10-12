@@ -1,0 +1,3038 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "city",
+  "queryField": "id",
+  "data": [
+    {
+      "id": 108,
+      "name": "6 October",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "٦ أكتوبر" } }
+    },
+    {
+      "id": 109,
+      "name": "10th of Ramadan",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العاشر من رمضان" } }
+    },
+    {
+      "id": 110,
+      "name": "15 May",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "١٥ مايو" } }
+    },
+    {
+      "id": 111,
+      "name": "Abdeen",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "عابدين" } }
+    },
+    {
+      "id": 112,
+      "name": "Abnub",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبنوب" } }
+    },
+    {
+      "id": 113,
+      "name": "Abu El Matamir",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو المطامير" } }
+    },
+    {
+      "id": 114,
+      "name": "Abu Hammad",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو حماد" } }
+    },
+    {
+      "id": 115,
+      "name": "Abu Hummus",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو حمص" } }
+    },
+    {
+      "id": 116,
+      "name": "Abu Kebir",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو كبير" } }
+    },
+    {
+      "id": 117,
+      "name": "Abu Qir",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو قير" } }
+    },
+    {
+      "id": 118,
+      "name": "Abu Qirqas",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو قرقاص" } }
+    },
+    {
+      "id": 119,
+      "name": "Abu Radis",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "أبو رديس" } }
+    },
+    {
+      "id": 120,
+      "name": "Abu Simbel",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو سمبل" } }
+    },
+    {
+      "id": 121,
+      "name": "Abu Tig",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو تيج" } }
+    },
+    {
+      "id": 122,
+      "name": "Abu Tisht",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أبو تشت" } }
+    },
+    {
+      "id": 123,
+      "name": "Abu Zenima",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "أبو زنيمة" } }
+    },
+    {
+      "id": 124,
+      "name": "Agami",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "العجمي" } }
+    },
+    {
+      "id": 125,
+      "name": "Aga",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أجا" } }
+    },
+    {
+      "id": 126,
+      "name": "Agouza",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العجوزة" } }
+    },
+    {
+      "id": 127,
+      "name": "Ain Shams",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "عين شمس" } }
+    },
+    {
+      "id": 128,
+      "name": "Akhmim",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أخميم" } }
+    },
+    {
+      "id": 129,
+      "name": "Alexandria",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "p",
+      "translations": { "ar": { "name": "الإسكندرية" } }
+    },
+    {
+      "id": 130,
+      "name": "Amreya",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العامرية" } }
+    },
+    {
+      "id": 131,
+      "name": "Arish",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العريش" } }
+    },
+    {
+      "id": 132,
+      "name": "Armant",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أرمنت" } }
+    },
+    {
+      "id": 133,
+      "name": "Ashmoun",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أشمون" } }
+    },
+    {
+      "id": 134,
+      "name": "Aswan",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أسوان" } }
+    },
+    {
+      "id": 135,
+      "name": "Asyut",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "أسيوط" } }
+    },
+    {
+      "id": 136,
+      "name": "Ataka",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "عتاقة" } }
+    },
+    {
+      "id": 137,
+      "name": "Atfih",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أطفيح" } }
+    },
+    {
+      "id": 138,
+      "name": "Awlad Saqr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أولاد صقر" } }
+    },
+    {
+      "id": 139,
+      "name": "Awsim",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "أوسيم" } }
+    },
+    {
+      "id": 140,
+      "name": "Azbakeya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الأزبكية" } }
+    },
+    {
+      "id": 141,
+      "name": "Bab El Sharia",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "باب الشعرية" } }
+    },
+    {
+      "id": 142,
+      "name": "Bab Sharq",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "باب شرق" } }
+    },
+    {
+      "id": 143,
+      "name": "Badr",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بدر" } }
+    },
+    {
+      "id": 144,
+      "name": "Banha",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بنها" } }
+    },
+    {
+      "id": 145,
+      "name": "Baris Shurta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "باريس" } }
+    },
+    {
+      "id": 146,
+      "name": "Basyoun",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بسيون" } }
+    },
+    {
+      "id": 147,
+      "name": "Beni Ebeid",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بني عبيد" } }
+    },
+    {
+      "id": 148,
+      "name": "Beni Mazar",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بني مزار" } }
+    },
+    {
+      "id": 149,
+      "name": "Beni Suef",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بني سويف" } }
+    },
+    {
+      "id": 150,
+      "name": "Biba",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ببا" } }
+    },
+    {
+      "id": 151,
+      "name": "Bilbeis",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بلبيس" } }
+    },
+    {
+      "id": 152,
+      "name": "Bilqas",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بلقاس" } }
+    },
+    {
+      "id": 153,
+      "name": "Bir El Abd",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بئر العبد" } }
+    },
+    {
+      "id": 154,
+      "name": "Birket El Sab",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بركة السبع" } }
+    },
+    {
+      "id": 155,
+      "name": "Biyala",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "بيلا" } }
+    },
+    {
+      "id": 156,
+      "name": "Borg El Arab",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "برج العرب" } }
+    },
+    {
+      "id": 157,
+      "name": "Bulaq",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بولاق" } }
+    },
+    {
+      "id": 158,
+      "name": "Bulaq El Dakrur",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بولاق الدكرور" } }
+    },
+    {
+      "id": 159,
+      "name": "Burullus",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "برلس" } }
+    },
+    {
+      "id": 160,
+      "name": "Cairo",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القاهرة" } }
+    },
+    {
+      "id": 161,
+      "name": "Dahab",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "دهب" } }
+    },
+    {
+      "id": 162,
+      "name": "Dairut",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ديروط" } }
+    },
+    {
+      "id": 163,
+      "name": "Damanhur",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "دمنهور" } }
+    },
+    {
+      "id": 164,
+      "name": "Damietta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "دمياط" } }
+    },
+    {
+      "id": 165,
+      "name": "Dar El Salam",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "دار السلام" } }
+    },
+    {
+      "id": 166,
+      "name": "Daraw",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "دراو" } }
+    },
+    {
+      "id": 167,
+      "name": "Deir Mawas",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ديرمواس" } }
+    },
+    {
+      "id": 168,
+      "name": "Dekernes",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "دكرنس" } }
+    },
+    {
+      "id": 169,
+      "name": "Dekhela",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الدخيلة" } }
+    },
+    {
+      "id": 170,
+      "name": "Desouk",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "دسوق" } }
+    },
+    {
+      "id": 171,
+      "name": "Dishna",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "دشنا" } }
+    },
+    {
+      "id": 172,
+      "name": "Diyarb Negm",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ديرب نجم" } }
+    },
+    {
+      "id": 173,
+      "name": "Dokki",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الدقي" } }
+    },
+    {
+      "id": 174,
+      "name": "Edfu",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إدفو" } }
+    },
+    {
+      "id": 175,
+      "name": "Edku",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إدكو" } }
+    },
+    {
+      "id": 176,
+      "name": "El Ahram",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الأهرام" } }
+    },
+    {
+      "id": 177,
+      "name": "El Arab",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العرب" } }
+    },
+    {
+      "id": 178,
+      "name": "El Arbein",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الأربعين" } }
+    },
+    {
+      "id": 179,
+      "name": "El Atareen",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العطارين" } }
+    },
+    {
+      "id": 180,
+      "name": "El Ayyat",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "العياط" } }
+    },
+    {
+      "id": 181,
+      "name": "El Badari",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "البداري" } }
+    },
+    {
+      "id": 182,
+      "name": "El Badrashein",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "البدرشين" } }
+    },
+    {
+      "id": 183,
+      "name": "El Bagour",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الباجور" } }
+    },
+    {
+      "id": 184,
+      "name": "El Balyana",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "البلينا" } }
+    },
+    {
+      "id": 185,
+      "name": "El Basal Port",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "ميناء البصل" } }
+    },
+    {
+      "id": 186,
+      "name": "El Basatin",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "البساتين" } }
+    },
+    {
+      "id": 187,
+      "name": "El Dabaa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الضبعة" } }
+    },
+    {
+      "id": 188,
+      "name": "El Darb El Ahmar",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الدرب الأحمر" } }
+    },
+    {
+      "id": 189,
+      "name": "El Dawahy",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الدواوي" } }
+    },
+    {
+      "id": 190,
+      "name": "El Delengat",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الدلنجات" } }
+    },
+    {
+      "id": 191,
+      "name": "El Fashn",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الفشن" } }
+    },
+    {
+      "id": 192,
+      "name": "El Fath",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الفتح" } }
+    },
+    {
+      "id": 193,
+      "name": "El Gamaliya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الجمالية" } }
+    },
+    {
+      "id": 194,
+      "name": "El Ganayin",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الجناين" } }
+    },
+    {
+      "id": 195,
+      "name": "El Ghanayem",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الغنايم" } }
+    },
+    {
+      "id": 196,
+      "name": "El Gomrok",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الجمرك" } }
+    },
+    {
+      "id": 197,
+      "name": "El Hamam",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الحمام" } }
+    },
+    {
+      "id": 198,
+      "name": "El Hamool",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الحمول" } }
+    },
+    {
+      "id": 199,
+      "name": "El Hassana",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الحسنة" } }
+    },
+    {
+      "id": 200,
+      "name": "El Hawamdiya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الحوامدية" } }
+    },
+    {
+      "id": 201,
+      "name": "El Husseiniya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الحسينية" } }
+    },
+    {
+      "id": 202,
+      "name": "El Ibrahimiya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الإبراهيمية" } }
+    },
+    {
+      "id": 203,
+      "name": "El Idwa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الإدوة" } }
+    },
+    {
+      "id": 204,
+      "name": "El Kawsar",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الكوثر" } }
+    },
+    {
+      "id": 205,
+      "name": "El Khalifa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الخليفة" } }
+    },
+    {
+      "id": 206,
+      "name": "El Labban",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "اللبان" } }
+    },
+    {
+      "id": 207,
+      "name": "El Mahalla El Kubra",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "المحلة الكبرى" } }
+    },
+    {
+      "id": 208,
+      "name": "El Mahmoudia",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "المحمودية" } }
+    },
+    {
+      "id": 209,
+      "name": "El Manakh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المناخ" } }
+    },
+    {
+      "id": 210,
+      "name": "El Manasra",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المناصرة" } }
+    },
+    {
+      "id": 211,
+      "name": "El Mansha",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "المنشأة" } }
+    },
+    {
+      "id": 212,
+      "name": "El Mansheya",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المنشية" } }
+    },
+    {
+      "id": 213,
+      "name": "El Manzala",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "المنزلة" } }
+    },
+    {
+      "id": 214,
+      "name": "El Maragha",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "المراغة" } }
+    },
+    {
+      "id": 215,
+      "name": "El Marg",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المرج" } }
+    },
+    {
+      "id": 216,
+      "name": "El Matareya",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المطرية" } }
+    },
+    {
+      "id": 217,
+      "name": "El Muski",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الموسكي" } }
+    },
+    {
+      "id": 218,
+      "name": "El Nozha",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "النزهة" } }
+    },
+    {
+      "id": 219,
+      "name": "El Omraniya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العمرانية" } }
+    },
+    {
+      "id": 220,
+      "name": "Al Qanatir Al Khayriyyah",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "القناطر الخيرية" } }
+    },
+    {
+      "id": 221,
+      "name": "El Qanayat",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القنايات" } }
+    },
+    {
+      "id": 222,
+      "name": "El Qantara",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "القنطرة" } }
+    },
+    {
+      "id": 223,
+      "name": "El Qantara El Sharqiya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القنطرة شرق" } }
+    },
+    {
+      "id": 224,
+      "name": "El Qoseir",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القصير" } }
+    },
+    {
+      "id": 225,
+      "name": "El Qurein",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القرين" } }
+    },
+    {
+      "id": 226,
+      "name": "El Qusiya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "القوصية" } }
+    },
+    {
+      "id": 227,
+      "name": "El Rahmaniya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الرحمانية" } }
+    },
+    {
+      "id": 228,
+      "name": "El Raml",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الرمل" } }
+    },
+    {
+      "id": 229,
+      "name": "El Reyad",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الرياض" } }
+    },
+    {
+      "id": 230,
+      "name": "El Saff",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الصف" } }
+    },
+    {
+      "id": 231,
+      "name": "El Salam",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "السلام" } }
+    },
+    {
+      "id": 232,
+      "name": "El Santa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "السنطة" } }
+    },
+    {
+      "id": 233,
+      "name": "El Sayeda Zeinab",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "السيدة زينب" } }
+    },
+    {
+      "id": 234,
+      "name": "El Segil",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "السجيل" } }
+    },
+    {
+      "id": 235,
+      "name": "El Senbellawein",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "السنبلاوين" } }
+    },
+    {
+      "id": 236,
+      "name": "El Sharabiya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الشرابية" } }
+    },
+    {
+      "id": 237,
+      "name": "El Sharq",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الشرق" } }
+    },
+    {
+      "id": 238,
+      "name": "El Shohada",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الشهداء" } }
+    },
+    {
+      "id": 239,
+      "name": "El Shorouk",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الشروق" } }
+    },
+    {
+      "id": 240,
+      "name": "El Tebbin",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "التبين" } }
+    },
+    {
+      "id": 241,
+      "name": "El Tor",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الطور" } }
+    },
+    {
+      "id": 242,
+      "name": "El Usayrat",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الأصيرات" } }
+    },
+    {
+      "id": 243,
+      "name": "El Wahat El Bahariya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "واحة البحرية" } }
+    },
+    {
+      "id": 244,
+      "name": "El Wahat El Khariga",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "واحة الخارجة" } }
+    },
+    {
+      "id": 245,
+      "name": "El Waqf",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الوقف" } }
+    },
+    {
+      "id": 246,
+      "name": "El Warraq",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الوراق" } }
+    },
+    {
+      "id": 247,
+      "name": "El Wasta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الواسطى" } }
+    },
+    {
+      "id": 248,
+      "name": "El Weili",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الويلي" } }
+    },
+    {
+      "id": 249,
+      "name": "El Zaher",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الظاهر" } }
+    },
+    {
+      "id": 250,
+      "name": "El Zarqa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الزرقا" } }
+    },
+    {
+      "id": 251,
+      "name": "El Zawya El Hamra",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الزاوية الحمراء" } }
+    },
+    {
+      "id": 252,
+      "name": "El Zohur",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الزهور" } }
+    },
+    {
+      "id": 253,
+      "name": "Esna",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إسنا" } }
+    },
+    {
+      "id": 254,
+      "name": "Faisal",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "فيصل" } }
+    },
+    {
+      "id": 255,
+      "name": "Faiyum",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الفيوم" } }
+    },
+    {
+      "id": 256,
+      "name": "Faqous",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "فاقوس" } }
+    },
+    {
+      "id": 257,
+      "name": "Faraskur",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "فارسكور" } }
+    },
+    {
+      "id": 258,
+      "name": "Farshut",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "فرشوط" } }
+    },
+    {
+      "id": 259,
+      "name": "Fayed",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "فايد" } }
+    },
+    {
+      "id": 260,
+      "name": "Fustat",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الفسطاط" } }
+    },
+    {
+      "id": 261,
+      "name": "Fuwa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "فوه" } }
+    },
+    {
+      "id": 262,
+      "name": "Gamasa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "جمصة" } }
+    },
+    {
+      "id": 263,
+      "name": "Ganoubi",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الجنوبي" } }
+    },
+    {
+      "id": 264,
+      "name": "Gharb Nubariya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "غرب نوبارية" } }
+    },
+    {
+      "id": 265,
+      "name": "Girga",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "جرجا" } }
+    },
+    {
+      "id": 266,
+      "name": "Giza",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الجيزة" } }
+    },
+    {
+      "id": 267,
+      "name": "Hadayek Al Qobbah",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "حدائق القبة" } }
+    },
+    {
+      "id": 268,
+      "name": "Hala'ib",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "حلايب" } }
+    },
+    {
+      "id": 269,
+      "name": "Heliopolis",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مصر الجديدة" } }
+    },
+    {
+      "id": 270,
+      "name": "Helwan",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "حلوان" } }
+    },
+    {
+      "id": 271,
+      "name": "Hihya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ههيا" } }
+    },
+    {
+      "id": 272,
+      "name": "Hosh Essa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "حوش عيسى" } }
+    },
+    {
+      "id": 273,
+      "name": "Hurghada",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الغردقة" } }
+    },
+    {
+      "id": 274,
+      "name": "Ibsheway",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إبشواي" } }
+    },
+    {
+      "id": 275,
+      "name": "Ihnasiya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إهناسيا" } }
+    },
+    {
+      "id": 276,
+      "name": "Imbaba",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إمبابة" } }
+    },
+    {
+      "id": 277,
+      "name": "Ismailia",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الإسماعيلية" } }
+    },
+    {
+      "id": 278,
+      "name": "Itay El Barud",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إيتاي البارود" } }
+    },
+    {
+      "id": 279,
+      "name": "Itsa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "إطسا" } }
+    },
+    {
+      "id": 280,
+      "name": "Juhayna El Gharbiyah",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "جهينة الغربية" } }
+    },
+    {
+      "id": 281,
+      "name": "Kafr El Dawwar",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كفر الدوار" } }
+    },
+    {
+      "id": 282,
+      "name": "Kafr El Sheikh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كفر الشيخ" } }
+    },
+    {
+      "id": 283,
+      "name": "Kafr El Zayat",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كفر الزيات" } }
+    },
+    {
+      "id": 284,
+      "name": "Kafr Saad",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كفر سعد" } }
+    },
+    {
+      "id": 285,
+      "name": "Kafr Saqr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كفر صقر" } }
+    },
+    {
+      "id": 286,
+      "name": "Kafr Shukr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كفر شكر" } }
+    },
+    {
+      "id": 287,
+      "name": "Karmoz",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "كرموز" } }
+    },
+    {
+      "id": 288,
+      "name": "Kerdasa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كرداسة" } }
+    },
+    {
+      "id": 289,
+      "name": "Khanka",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الخانكة" } }
+    },
+    {
+      "id": 290,
+      "name": "Khusus",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الخصوص" } }
+    },
+    {
+      "id": 291,
+      "name": "Kom Hamada",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كوم حمادة" } }
+    },
+    {
+      "id": 292,
+      "name": "Kom Ombo",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كوم أمبو" } }
+    },
+    {
+      "id": 293,
+      "name": "Kotoor",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "كتور" } }
+    },
+    {
+      "id": 294,
+      "name": "Luxor",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الأقصر" } }
+    },
+    {
+      "id": 295,
+      "name": "Maadi",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المعادي" } }
+    },
+    {
+      "id": 296,
+      "name": "Maghaghah",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "مغاغة" } }
+    },
+    {
+      "id": 297,
+      "name": "Mahallat Dimna",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "محلة دمنة" } }
+    },
+    {
+      "id": 298,
+      "name": "Mallawi",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ملوي" } }
+    },
+    {
+      "id": 299,
+      "name": "Manfalut",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "منفلوط" } }
+    },
+    {
+      "id": 300,
+      "name": "Mansoura",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المنصورة" } }
+    },
+    {
+      "id": 301,
+      "name": "Marina El Alamein",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مرينا العلمين" } }
+    },
+    {
+      "id": 302,
+      "name": "Marsa Alam",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مرسى علم" } }
+    },
+    {
+      "id": 303,
+      "name": "Mashtool El Souk",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "مشتول السوق" } }
+    },
+    {
+      "id": 304,
+      "name": "Matay",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "مطاي" } }
+    },
+    {
+      "id": 305,
+      "name": "Menouf",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "منوف" } }
+    },
+    {
+      "id": 306,
+      "name": "Mersa Matruh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مرسى مطروح" } }
+    },
+    {
+      "id": 307,
+      "name": "Metoubes",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "متوبس" } }
+    },
+    {
+      "id": 308,
+      "name": "Minya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "المنيا" } }
+    },
+    {
+      "id": 309,
+      "name": "Minya El Qamh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "منيا القمح" } }
+    },
+    {
+      "id": 310,
+      "name": "Minyet El Nasr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "منيت النصر" } }
+    },
+    {
+      "id": 311,
+      "name": "Mit Ghamr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "ميت غمر" } }
+    },
+    {
+      "id": 312,
+      "name": "Mit Salsil",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ميت سلسيل" } }
+    },
+    {
+      "id": 313,
+      "name": "Moharam Bek",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "محرم بك" } }
+    },
+    {
+      "id": 314,
+      "name": "Monshat El Nasr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "منشأة النصر" } }
+    },
+    {
+      "id": 315,
+      "name": "Montaza",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "المنتزه" } }
+    },
+    {
+      "id": 316,
+      "name": "Musturud",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مسترد" } }
+    },
+    {
+      "id": 317,
+      "name": "Mubarak Sharq El Tafrea",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مبارك شرق التفريعة" } }
+    },
+    {
+      "id": 318,
+      "name": "Nabaroh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "نبروه" } }
+    },
+    {
+      "id": 319,
+      "name": "Nag Hammadi",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "نجع حمادي" } }
+    },
+    {
+      "id": 320,
+      "name": "Nakhl",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "نخل" } }
+    },
+    {
+      "id": 321,
+      "name": "Naqada",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "نقادة" } }
+    },
+    {
+      "id": 322,
+      "name": "Nasir Bush",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ناصر بوش" } }
+    },
+    {
+      "id": 323,
+      "name": "Nasr",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "نصر" } }
+    },
+    {
+      "id": 324,
+      "name": "Nasr City",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "مدينة نصر" } }
+    },
+    {
+      "id": 325,
+      "name": "New Administrative Capital",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "العاصمة الإدارية الجديدة" } }
+    },
+    {
+      "id": 326,
+      "name": "New Akhmim",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "أخميم الجديدة" } }
+    },
+    {
+      "id": 327,
+      "name": "New Aswan",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "أسوان الجديدة" } }
+    },
+    {
+      "id": 328,
+      "name": "New Asyut",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "أسيوط الجديدة" } }
+    },
+    {
+      "id": 329,
+      "name": "New Beni Suef",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بني سويف الجديدة" } }
+    },
+    {
+      "id": 330,
+      "name": "New Borg El Arab",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "برج العرب الجديد" } }
+    },
+    {
+      "id": 331,
+      "name": "New Cairo",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القاهرة الجديدة" } }
+    },
+    {
+      "id": 332,
+      "name": "New Damietta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "دمياط الجديدة" } }
+    },
+    {
+      "id": 333,
+      "name": "New Faiyum",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "الفيوم الجديدة" } }
+    },
+    {
+      "id": 334,
+      "name": "New Minya",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "المنيا الجديدة" } }
+    },
+    {
+      "id": 335,
+      "name": "New Qena",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "قنا الجديدة" } }
+    },
+    {
+      "id": 336,
+      "name": "New Salhia",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الصالحية الجديدة" } }
+    },
+    {
+      "id": 337,
+      "name": "New Sohag",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "سوهاج الجديدة" } }
+    },
+    {
+      "id": 338,
+      "name": "New Toshka",
+      "stateCode": "EG-ASN",
+      "countryCode": "EG",
+      "state": 9,
+      "country": 65,
+      "type": "n",
+      "translations": { "ar": { "name": "توشكى الجديدة" } }
+    },
+    {
+      "id": 339,
+      "name": "North Coast ",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": ")",
+      "translations": { "ar": { "name": "الساحل الشمالي" } }
+    },
+    {
+      "id": 340,
+      "name": "North Coast",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الساحل الشمالي" } }
+    },
+    {
+      "id": 341,
+      "name": "Nuweiba",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "نويبع" } }
+    },
+    {
+      "id": 342,
+      "name": "Obour",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "العبور" } }
+    },
+    {
+      "id": 343,
+      "name": "Old Cairo",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القاهرة القديمة" } }
+    },
+    {
+      "id": 344,
+      "name": "Port Fuad",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "بورفؤاد" } }
+    },
+    {
+      "id": 345,
+      "name": "Port Said",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "p",
+      "translations": { "ar": { "name": "بورسعيد" } }
+    },
+    {
+      "id": 346,
+      "name": "Qaha",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "قها" } }
+    },
+    {
+      "id": 347,
+      "name": "Qallin",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "قلين" } }
+    },
+    {
+      "id": 348,
+      "name": "Qalyub",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "قليوب" } }
+    },
+    {
+      "id": 349,
+      "name": "Qasr El Nil",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "قصر النيل" } }
+    },
+    {
+      "id": 350,
+      "name": "Qena",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "قنا" } }
+    },
+    {
+      "id": 351,
+      "name": "Qift",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "قفط" } }
+    },
+    {
+      "id": 352,
+      "name": "Quesna",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "قويسنا" } }
+    },
+    {
+      "id": 353,
+      "name": "Qus",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "قوص" } }
+    },
+    {
+      "id": 354,
+      "name": "Rafah",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "رفح" } }
+    },
+    {
+      "id": 355,
+      "name": "Ras El Bar",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "رأس البر" } }
+    },
+    {
+      "id": 356,
+      "name": "Ras Gharib",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "رأس غارب" } }
+    },
+    {
+      "id": 357,
+      "name": "Ras Sidr",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "رأس سدر" } }
+    },
+    {
+      "id": 358,
+      "name": "Rod El Farag",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "روض الفرج" } }
+    },
+    {
+      "id": 359,
+      "name": "Rosetta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "رشيد" } }
+    },
+    {
+      "id": 360,
+      "name": "Sadat City",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "مدينة السادات" } }
+    },
+    {
+      "id": 361,
+      "name": "Safaga",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سفاجا" } }
+    },
+    {
+      "id": 362,
+      "name": "Sahil Salim",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ساحل سليم" } }
+    },
+    {
+      "id": 363,
+      "name": "Saint Catherine",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سانت كاترين" } }
+    },
+    {
+      "id": 364,
+      "name": "Sallum",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "السلوم" } }
+    },
+    {
+      "id": 365,
+      "name": "Samalut",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سمالوط" } }
+    },
+    {
+      "id": 366,
+      "name": "Samanoud",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سمنود" } }
+    },
+    {
+      "id": 367,
+      "name": "Saqultah",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "ساقلته" } }
+    },
+    {
+      "id": 368,
+      "name": "Sers El Lyan",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سرس الليان" } }
+    },
+    {
+      "id": 369,
+      "name": "Shalateen",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الشلاتين" } }
+    },
+    {
+      "id": 370,
+      "name": "Sharm El Sheikh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "شرم الشيخ" } }
+    },
+    {
+      "id": 371,
+      "name": "Sheikh Zayed",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الشيخ زايد" } }
+    },
+    {
+      "id": 372,
+      "name": "Sheikh Zuweid",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الشيخ زويد" } }
+    },
+    {
+      "id": 373,
+      "name": "Shibin El Kom",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "شبين الكوم" } }
+    },
+    {
+      "id": 374,
+      "name": "Shibin El Qanatir",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "شبين القناطر" } }
+    },
+    {
+      "id": 375,
+      "name": "Shirbin",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "شربين" } }
+    },
+    {
+      "id": 376,
+      "name": "Shubra",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "شبرا" } }
+    },
+    {
+      "id": 377,
+      "name": "Shubra El Kheima",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "شبرا الخيمة" } }
+    },
+    {
+      "id": 378,
+      "name": "Shubrakhit",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "شبراخيت" } }
+    },
+    {
+      "id": 379,
+      "name": "El Dakhla",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الداخلة" } }
+    },
+    {
+      "id": 380,
+      "name": "El Farafra",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الفرافرة" } }
+    },
+    {
+      "id": 381,
+      "name": "El Qasima",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "القسيمة" } }
+    },
+    {
+      "id": 382,
+      "name": "Rumana",
+      "stateCode": "EG-SIN",
+      "countryCode": "EG",
+      "state": 26,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "رمانة" } }
+    },
+    {
+      "id": 383,
+      "name": "Sidfa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سدفا" } }
+    },
+    {
+      "id": 384,
+      "name": "Sidi Bishr",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سيدي بشر" } }
+    },
+    {
+      "id": 385,
+      "name": "Sidi Barrani",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سيدي براني" } }
+    },
+    {
+      "id": 386,
+      "name": "Sidi Gaber",
+      "stateCode": "EG-ALX",
+      "countryCode": "EG",
+      "state": 8,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سيدى جابر" } }
+    },
+    {
+      "id": 387,
+      "name": "Sidi Salem",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سيدي سالم" } }
+    },
+    {
+      "id": 388,
+      "name": "Sinnuris",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سنورس" } }
+    },
+    {
+      "id": 389,
+      "name": "Siwa",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "سيوة" } }
+    },
+    {
+      "id": 390,
+      "name": "Sohag",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سوهاج" } }
+    },
+    {
+      "id": 391,
+      "name": "Suez",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "السويس" } }
+    },
+    {
+      "id": 392,
+      "name": "Sumusta El Waqf",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "سموستا الوقف" } }
+    },
+    {
+      "id": 393,
+      "name": "Taba",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "طابا" } }
+    },
+    {
+      "id": 394,
+      "name": "Tahta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "طهطا" } }
+    },
+    {
+      "id": 395,
+      "name": "Tala",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طلا" } }
+    },
+    {
+      "id": 396,
+      "name": "Talkha",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طلخا" } }
+    },
+    {
+      "id": 397,
+      "name": "Tamiya",
+      "stateCode": "EG-FYM",
+      "countryCode": "EG",
+      "state": 16,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طامية" } }
+    },
+    {
+      "id": 398,
+      "name": "Tanta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طنطا" } }
+    },
+    {
+      "id": 399,
+      "name": "Tell El Kebir",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "تل الكبير" } }
+    },
+    {
+      "id": 400,
+      "name": "Tibah",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طيبة" } }
+    },
+    {
+      "id": 401,
+      "name": "Tima",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طيما" } }
+    },
+    {
+      "id": 402,
+      "name": "Timay El Imdid",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "تمي الإمديد" } }
+    },
+    {
+      "id": 403,
+      "name": "Tukh",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "طوخ" } }
+    },
+    {
+      "id": 404,
+      "name": "Tura",
+      "stateCode": "EG-C",
+      "countryCode": "EG",
+      "state": 13,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "طرة" } }
+    },
+    {
+      "id": 405,
+      "name": "Wadi El Natrun",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "وادي النطرون" } }
+    },
+    {
+      "id": 406,
+      "name": "Yousef El Seddik",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "يوسف الصديق" } }
+    },
+    {
+      "id": 407,
+      "name": "Zagazig",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "الزقازيق" } }
+    },
+    {
+      "id": 408,
+      "name": "Zamalek",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الزمالك" } }
+    },
+    {
+      "id": 409,
+      "name": "Zefta",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "m",
+      "translations": { "ar": { "name": "زفتى" } }
+    },
+    {
+      "id": 410,
+      "name": "Zeitoun",
+      "stateCode": null,
+      "countryCode": "EG",
+      "state": null,
+      "country": 65,
+      "type": "k",
+      "translations": { "ar": { "name": "الزيتون" } }
+    }
+  ]
+}

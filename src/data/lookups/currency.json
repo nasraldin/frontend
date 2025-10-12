@@ -1,0 +1,1736 @@
+{
+  "version": 1,
+  "lastUpdated": "09-08-2025",
+  "contentType": "currency",
+  "queryField": "code",
+  "data": [
+    {
+      "name": "Afghan Afghani",
+      "code": "AFN",
+      "symbol": "؋",
+      "popularity": 162,
+      "flag": {
+        "svg": "https://flagcdn.com/af.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/af.png"
+      },
+      "translations": { "ar": { "name": "أفغاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Albanian Lek",
+      "code": "ALL",
+      "symbol": "Lek",
+      "popularity": 77,
+      "flag": {
+        "svg": "https://flagcdn.com/al.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/al.png"
+      },
+      "translations": { "ar": { "name": "ليك ألباني" } },
+      "isActive": true
+    },
+    {
+      "name": "Algerian Dinar",
+      "code": "DZD",
+      "symbol": "دج",
+      "popularity": 56,
+      "flag": {
+        "svg": "https://flagcdn.com/dz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/dz.png"
+      },
+      "translations": { "ar": { "name": "دينار جزائري" } },
+      "isActive": true
+    },
+    {
+      "name": "Angolan Kwanza",
+      "code": "AOA",
+      "symbol": "Kz",
+      "popularity": 114,
+      "flag": {
+        "svg": "https://flagcdn.com/ao.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ao.png"
+      },
+      "translations": { "ar": { "name": "كوانزا أنغولي" } },
+      "isActive": true
+    },
+    {
+      "name": "Argentine Peso",
+      "code": "ARS",
+      "symbol": "$",
+      "popularity": 32,
+      "flag": {
+        "svg": "https://flagcdn.com/ar.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ar.png"
+      },
+      "translations": { "ar": { "name": "بيزو أرجنتيني" } },
+      "isActive": true
+    },
+    {
+      "name": "Armenian Dram",
+      "code": "AMD",
+      "symbol": "֏",
+      "popularity": 126,
+      "flag": {
+        "svg": "https://flagcdn.com/am.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/am.png"
+      },
+      "translations": { "ar": { "name": "درام أرميني" } },
+      "isActive": true
+    },
+    {
+      "name": "Aruban Florin",
+      "code": "AWG",
+      "symbol": "ƒ",
+      "popularity": 125,
+      "flag": {
+        "svg": "https://flagcdn.com/aw.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/aw.png"
+      },
+      "translations": { "ar": { "name": "فلورن أروبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Australian Dollar",
+      "code": "AUD",
+      "symbol": "$",
+      "popularity": 5,
+      "flag": {
+        "svg": "https://flagcdn.com/au.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/au.png"
+      },
+      "translations": { "ar": { "name": "دولار أسترالي" } },
+      "isActive": true
+    },
+    {
+      "name": "Azerbaijani Manat",
+      "code": "AZN",
+      "symbol": "₼",
+      "popularity": 163,
+      "flag": {
+        "svg": "https://flagcdn.com/az.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/az.png"
+      },
+      "translations": { "ar": { "name": "مانات أذربيجاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Bahamian Dollar",
+      "code": "BSD",
+      "symbol": "$",
+      "popularity": 76,
+      "flag": {
+        "svg": "https://flagcdn.com/bs.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bs.png"
+      },
+      "translations": { "ar": { "name": "دولار بهامي" } },
+      "isActive": true
+    },
+    {
+      "name": "Bahraini Dinar",
+      "code": "BHD",
+      "symbol": ".د.ب",
+      "popularity": 54,
+      "flag": {
+        "svg": "https://flagcdn.com/bh.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bh.png"
+      },
+      "translations": { "ar": { "name": "دينار بحريني" } },
+      "isActive": true
+    },
+    {
+      "name": "Bajan dollar",
+      "code": "BBD",
+      "symbol": "$",
+      "popularity": 70,
+      "flag": {
+        "svg": "https://flagcdn.com/bb.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bb.png"
+      },
+      "translations": { "ar": { "name": "دولار بربادوسي" } },
+      "isActive": true
+    },
+    {
+      "name": "Bangladeshi Taka",
+      "code": "BDT",
+      "symbol": "Tk",
+      "popularity": 55,
+      "flag": {
+        "svg": "https://flagcdn.com/bd.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bd.png"
+      },
+      "translations": { "ar": { "name": "تاكا بنغلاديشي" } },
+      "isActive": true
+    },
+    {
+      "name": "Belarusian Ruble",
+      "code": "BYN",
+      "symbol": "Br",
+      "popularity": 123,
+      "flag": {
+        "svg": "https://flagcdn.com/by.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/by.png"
+      },
+      "translations": { "ar": { "name": "روبل بلاروسي" } },
+      "isActive": true
+    },
+    {
+      "name": "Belize Dollar",
+      "code": "BZD",
+      "symbol": "BZ$",
+      "popularity": 164,
+      "flag": {
+        "svg": "https://flagcdn.com/bz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bz.png"
+      },
+      "translations": { "ar": { "name": "دولار بليزي" } },
+      "isActive": true
+    },
+    {
+      "name": "Bermuda Dollar",
+      "code": "BMD",
+      "symbol": "$",
+      "popularity": 79,
+      "flag": {
+        "svg": "https://flagcdn.com/bm.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bm.png"
+      },
+      "translations": { "ar": { "name": "دولار برمودي" } },
+      "isActive": true
+    },
+    {
+      "name": "Bhutanese Ngultrum",
+      "code": "BTN",
+      "symbol": "Nu.",
+      "popularity": 139,
+      "flag": {
+        "svg": "https://flagcdn.com/bt.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bt.png"
+      },
+      "translations": { "ar": { "name": "نغولتروم بوتاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Bitcoin",
+      "code": "BTC",
+      "symbol": "₿",
+      "popularity": 171,
+      "flag": {
+        "svg": "https://flagcdn.com/bt.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bt.png"
+      },
+      "translations": { "ar": { "name": "بيتكوين" } },
+      "isActive": true
+    },
+    {
+      "name": "Bolivian boliviano",
+      "code": "BOB",
+      "symbol": "$b",
+      "popularity": 85,
+      "flag": {
+        "svg": "https://flagcdn.com/bo.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bo.png"
+      },
+      "translations": { "ar": { "name": "بوليفيانو بوليفي" } },
+      "isActive": true
+    },
+    {
+      "name": "Bosnia-Herzegovina Convertible Marka",
+      "code": "BAM",
+      "symbol": "KM",
+      "popularity": 44,
+      "flag": {
+        "svg": "https://flagcdn.com/ba.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ba.png"
+      },
+      "translations": { "ar": { "name": "مارك بوسني قابل للتحويل" } },
+      "isActive": true
+    },
+    {
+      "name": "Botswanan Pula",
+      "code": "BWP",
+      "symbol": "P",
+      "popularity": 84,
+      "flag": {
+        "svg": "https://flagcdn.com/bw.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bw.png"
+      },
+      "translations": { "ar": { "name": "بولا بوتسواني" } },
+      "isActive": true
+    },
+    {
+      "name": "Brazilian Real",
+      "code": "BRL",
+      "symbol": "R$",
+      "popularity": 24,
+      "flag": {
+        "svg": "https://flagcdn.com/br.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/br.png"
+      },
+      "translations": { "ar": { "name": "ريال برازيلي" } },
+      "isActive": true
+    },
+    {
+      "name": "Brunei Dollar",
+      "code": "BND",
+      "symbol": "B$",
+      "popularity": 110,
+      "flag": {
+        "svg": "https://flagcdn.com/bn.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bn.png"
+      },
+      "translations": { "ar": { "name": "دولار بروني" } },
+      "isActive": true
+    },
+    {
+      "name": "Bulgarian Lev",
+      "code": "BGN",
+      "symbol": "Лв.",
+      "popularity": 12,
+      "flag": {
+        "svg": "https://flagcdn.com/bg.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bg.png"
+      },
+      "translations": { "ar": { "name": "ليف بلغاري" } },
+      "isActive": true
+    },
+    {
+      "name": "Burundian Franc",
+      "code": "BIF",
+      "symbol": "Franc",
+      "popularity": 132,
+      "flag": {
+        "svg": "https://flagcdn.com/bi.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/bi.png"
+      },
+      "translations": { "ar": { "name": "فرنك بوروندي" } },
+      "isActive": true
+    },
+    {
+      "name": "CFP Franc",
+      "code": "XPF",
+      "symbol": "Franc",
+      "popularity": 67,
+      "flag": {
+        "svg": "https://flagcdn.com/xp.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/xp.png"
+      },
+      "translations": { "ar": { "name": "فرنك باسيفيكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Cambodian riel",
+      "code": "KHR",
+      "symbol": "៛",
+      "popularity": 111,
+      "flag": {
+        "svg": "https://flagcdn.com/kh.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/kh.png"
+      },
+      "translations": { "ar": { "name": "ريال كمبودي" } },
+      "isActive": true
+    },
+    {
+      "name": "Canadian Dollar",
+      "code": "CAD",
+      "symbol": "$",
+      "popularity": 4,
+      "flag": {
+        "svg": "https://flagcdn.com/ca.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ca.png"
+      },
+      "translations": { "ar": { "name": "دولار كندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Cape Verdean Escudo",
+      "code": "CVE",
+      "symbol": "$",
+      "popularity": 100,
+      "flag": {
+        "svg": "https://flagcdn.com/cv.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cv.png"
+      },
+      "translations": { "ar": { "name": "إيسكودو جزر الرأس الأخضر" } },
+      "isActive": true
+    },
+    {
+      "name": "Cayman Islands Dollar",
+      "code": "KYD",
+      "symbol": "CI$",
+      "popularity": 98,
+      "flag": {
+        "svg": "https://flagcdn.com/ky.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ky.png"
+      },
+      "translations": { "ar": { "name": "دولار جزر كايمان" } },
+      "isActive": true
+    },
+    {
+      "name": "Central African CFA franc",
+      "code": "XAF",
+      "symbol": "FCFA",
+      "popularity": 73,
+      "flag": {
+        "svg": "https://flagcdn.com/xa.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/xa.png"
+      },
+      "translations": { "ar": { "name": "فرنك وسط أفريقي" } },
+      "isActive": true
+    },
+    {
+      "name": "Chilean Peso",
+      "code": "CLP",
+      "symbol": "$",
+      "popularity": 33,
+      "flag": {
+        "svg": "https://flagcdn.com/cl.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cl.png"
+      },
+      "translations": { "ar": { "name": "بيزو تشيلي" } },
+      "isActive": true
+    },
+    {
+      "name": "Chilean Unit of Account (UF)",
+      "code": "CLF",
+      "symbol": "CLF",
+      "popularity": 144,
+      "flag": {
+        "svg": "https://flagcdn.com/cl.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cl.png"
+      },
+      "translations": { "ar": { "name": "CLF" } },
+      "isActive": true
+    },
+    {
+      "name": "Chinese Yuan",
+      "code": "CNY",
+      "symbol": "¥",
+      "popularity": 18,
+      "flag": {
+        "svg": "https://flagcdn.com/cn.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cn.png"
+      },
+      "translations": { "ar": { "name": "رنمينبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Colombian Peso",
+      "code": "COP",
+      "symbol": "$",
+      "popularity": 39,
+      "flag": {
+        "svg": "https://flagcdn.com/co.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/co.png"
+      },
+      "translations": { "ar": { "name": "بيزو كولومبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Comorian Franc",
+      "code": "KMF",
+      "symbol": "CF",
+      "popularity": 154,
+      "flag": {
+        "svg": "https://flagcdn.com/km.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/km.png"
+      },
+      "translations": { "ar": { "name": "فرنك قمري" } },
+      "isActive": true
+    },
+    {
+      "name": "Congolese Franc",
+      "code": "CDF",
+      "symbol": "FC",
+      "popularity": 143,
+      "flag": {
+        "svg": "https://flagcdn.com/cd.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cd.png"
+      },
+      "translations": { "ar": { "name": "فرنك كونغولي" } },
+      "isActive": true
+    },
+    {
+      "name": "Costa Rican Colón",
+      "code": "CRC",
+      "symbol": "₡",
+      "popularity": 53,
+      "flag": {
+        "svg": "https://flagcdn.com/cr.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cr.png"
+      },
+      "translations": { "ar": { "name": "كولون كوستاريكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Cuban Peso",
+      "code": "CUP",
+      "symbol": "₱",
+      "popularity": 86,
+      "flag": {
+        "svg": "https://flagcdn.com/cu.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cu.png"
+      },
+      "translations": { "ar": { "name": "بيزو كوبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Czech Koruna",
+      "code": "CZK",
+      "symbol": "Kč",
+      "popularity": 27,
+      "flag": {
+        "svg": "https://flagcdn.com/cz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/cz.png"
+      },
+      "translations": { "ar": { "name": "كرونة تشيكية" } },
+      "isActive": true
+    },
+    {
+      "name": "Danish Krone",
+      "code": "DKK",
+      "symbol": "Kr.",
+      "popularity": 21,
+      "flag": {
+        "svg": "https://flagcdn.com/dk.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/dk.png"
+      },
+      "translations": { "ar": { "name": "كرونة دنماركية" } },
+      "isActive": true
+    },
+    {
+      "name": "Djiboutian Franc",
+      "code": "DJF",
+      "symbol": "Fdj",
+      "popularity": 133,
+      "flag": {
+        "svg": "https://flagcdn.com/dj.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/dj.png"
+      },
+      "translations": { "ar": { "name": "فرنك جيبوتي" } },
+      "isActive": true
+    },
+    {
+      "name": "Dominican Peso",
+      "code": "DOP",
+      "symbol": "RD$",
+      "popularity": 51,
+      "flag": {
+        "svg": "https://flagcdn.com/do.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/do.png"
+      },
+      "translations": { "ar": { "name": "بيزو دومنيكاني" } },
+      "isActive": true
+    },
+    {
+      "name": "East Caribbean Dollar",
+      "code": "XCD",
+      "symbol": "EC$",
+      "popularity": 64,
+      "flag": {
+        "svg": "https://flagcdn.com/xc.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/xc.png"
+      },
+      "translations": { "ar": { "name": "دولار شرق الكاريبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Egyptian Pound",
+      "code": "EGP",
+      "symbol": "ج.م",
+      "popularity": 34,
+      "flag": {
+        "svg": "https://flagcdn.com/eg.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/eg.png"
+      },
+      "translations": { "ar": { "name": "جنيه مصري" } },
+      "isActive": true
+    },
+    {
+      "name": "Ethiopian Birr",
+      "code": "ETB",
+      "symbol": "Br",
+      "popularity": 106,
+      "flag": {
+        "svg": "https://flagcdn.com/et.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/et.png"
+      },
+      "translations": { "ar": { "name": "بير إثيوبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Euro",
+      "code": "EUR",
+      "symbol": "€",
+      "popularity": 2,
+      "flag": {
+        "svg": "https://flagcdn.com/eu.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/eu.png"
+      },
+      "translations": { "ar": { "name": "يورو" } },
+      "isActive": true
+    },
+    {
+      "name": "Fijian Dollar",
+      "code": "FJD",
+      "symbol": "FJ$",
+      "popularity": 42,
+      "flag": {
+        "svg": "https://flagcdn.com/fj.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/fj.png"
+      },
+      "translations": { "ar": { "name": "دولار فيجي" } },
+      "isActive": true
+    },
+    {
+      "name": "Gambian Dalasi",
+      "code": "GMD",
+      "symbol": "D",
+      "popularity": 124,
+      "flag": {
+        "svg": "https://flagcdn.com/gm.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/gm.png"
+      },
+      "translations": { "ar": { "name": "دالاسي غامبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Georgian Lari",
+      "code": "GEL",
+      "symbol": "₾",
+      "popularity": 105,
+      "flag": {
+        "svg": "https://flagcdn.com/ge.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ge.png"
+      },
+      "translations": { "ar": { "name": "لاري جورجي" } },
+      "isActive": true
+    },
+    {
+      "name": "Ghanaian Cedi",
+      "code": "GHS",
+      "symbol": "GH₵",
+      "popularity": 166,
+      "flag": {
+        "svg": "https://flagcdn.com/gh.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/gh.png"
+      },
+      "translations": { "ar": { "name": "سيدي غاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Guatemalan Quetzal",
+      "code": "GTQ",
+      "symbol": "Q",
+      "popularity": 82,
+      "flag": {
+        "svg": "https://flagcdn.com/gt.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/gt.png"
+      },
+      "translations": { "ar": { "name": "كتزال غواتيمالي" } },
+      "isActive": true
+    },
+    {
+      "name": "Guinean Franc",
+      "code": "GNF",
+      "symbol": "FG",
+      "popularity": 122,
+      "flag": {
+        "svg": "https://flagcdn.com/gn.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/gn.png"
+      },
+      "translations": { "ar": { "name": "فرنك غيني" } },
+      "isActive": true
+    },
+    {
+      "name": "Guyanese dollar",
+      "code": "GYD",
+      "symbol": "GY$",
+      "popularity": 97,
+      "flag": {
+        "svg": "https://flagcdn.com/gy.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/gy.png"
+      },
+      "translations": { "ar": { "name": "دولار غياني" } },
+      "isActive": true
+    },
+    {
+      "name": "Haitian Gourde",
+      "code": "HTG",
+      "symbol": "G",
+      "popularity": 94,
+      "flag": {
+        "svg": "https://flagcdn.com/ht.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ht.png"
+      },
+      "translations": { "ar": { "name": "جوردة هايتية" } },
+      "isActive": true
+    },
+    {
+      "name": "Honduran Lempira",
+      "code": "HNL",
+      "symbol": "L",
+      "popularity": 88,
+      "flag": {
+        "svg": "https://flagcdn.com/hn.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/hn.png"
+      },
+      "translations": { "ar": { "name": "لمبيرة هندوراسية" } },
+      "isActive": true
+    },
+    {
+      "name": "Hong Kong Dollar",
+      "code": "HKD",
+      "symbol": "HK$",
+      "popularity": 14,
+      "flag": {
+        "svg": "https://flagcdn.com/hk.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/hk.png"
+      },
+      "translations": { "ar": { "name": "دولار هونغ كونغ" } },
+      "isActive": true
+    },
+    {
+      "name": "Hungarian Forint",
+      "code": "HUF",
+      "symbol": "Ft",
+      "popularity": 17,
+      "flag": {
+        "svg": "https://flagcdn.com/hu.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/hu.png"
+      },
+      "translations": { "ar": { "name": "فورنت مجري" } },
+      "isActive": true
+    },
+    {
+      "name": "Icelandic Króna",
+      "code": "ISK",
+      "symbol": "kr",
+      "popularity": 45,
+      "flag": {
+        "svg": "https://flagcdn.com/is.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/is.png"
+      },
+      "translations": { "ar": { "name": "كرونة آيسلندية" } },
+      "isActive": true
+    },
+    {
+      "name": "Indian Rupee",
+      "code": "INR",
+      "symbol": "₹",
+      "popularity": 7,
+      "flag": {
+        "svg": "https://flagcdn.com/in.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/in.png"
+      },
+      "translations": { "ar": { "name": "روبية هندية" } },
+      "isActive": true
+    },
+    {
+      "name": "Indonesian Rupiah",
+      "code": "IDR",
+      "symbol": "Rp",
+      "popularity": 26,
+      "flag": {
+        "svg": "https://flagcdn.com/id.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/id.png"
+      },
+      "translations": { "ar": { "name": "روبية إندونيسية" } },
+      "isActive": true
+    },
+    {
+      "name": "Iranian Rial",
+      "code": "IRR",
+      "symbol": "﷼",
+      "popularity": 63,
+      "flag": {
+        "svg": "https://flagcdn.com/ir.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ir.png"
+      },
+      "translations": { "ar": { "name": "ريال إيراني" } },
+      "isActive": true
+    },
+    {
+      "name": "Iraqi Dinar",
+      "code": "IQD",
+      "symbol": "د.ع",
+      "popularity": 40,
+      "flag": {
+        "svg": "https://flagcdn.com/iq.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/iq.png"
+      },
+      "translations": { "ar": { "name": "دينار عراقي" } },
+      "isActive": true
+    },
+    {
+      "name": "Israeli New Shekel",
+      "code": "ILS",
+      "symbol": "₪",
+      "popularity": 31,
+      "flag": {
+        "svg": "https://flagcdn.com/il.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/il.png"
+      },
+      "translations": { "ar": { "name": "شيكل إسرائيلي جديد" } },
+      "isActive": true
+    },
+    {
+      "name": "Jamaican Dollar",
+      "code": "JMD",
+      "symbol": "J$",
+      "popularity": 49,
+      "flag": {
+        "svg": "https://flagcdn.com/jm.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/jm.png"
+      },
+      "translations": { "ar": { "name": "دولار جامايكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Japanese Yen",
+      "code": "JPY",
+      "symbol": "¥",
+      "popularity": 6,
+      "flag": {
+        "svg": "https://flagcdn.com/jp.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/jp.png"
+      },
+      "translations": { "ar": { "name": "ين ياباني" } },
+      "isActive": true
+    },
+    {
+      "name": "Jordanian Dinar",
+      "code": "JOD",
+      "symbol": "د.ا",
+      "popularity": 50,
+      "flag": {
+        "svg": "https://flagcdn.com/jo.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/jo.png"
+      },
+      "translations": { "ar": { "name": "دينار أردني" } },
+      "isActive": true
+    },
+    {
+      "name": "Kazakhstani Tenge",
+      "code": "KZT",
+      "symbol": "₸",
+      "popularity": 117,
+      "flag": {
+        "svg": "https://flagcdn.com/kz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/kz.png"
+      },
+      "translations": { "ar": { "name": "تينغ كازاخستاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Kenyan Shilling",
+      "code": "KES",
+      "symbol": "KSh",
+      "popularity": 57,
+      "flag": {
+        "svg": "https://flagcdn.com/ke.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ke.png"
+      },
+      "translations": { "ar": { "name": "شيلينغ كيني" } },
+      "isActive": true
+    },
+    {
+      "name": "Kuwaiti Dinar",
+      "code": "KWD",
+      "symbol": "د.ك",
+      "popularity": 43,
+      "flag": {
+        "svg": "https://flagcdn.com/kw.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/kw.png"
+      },
+      "translations": { "ar": { "name": "دينار كويتي" } },
+      "isActive": true
+    },
+    {
+      "name": "Kyrgystani Som",
+      "code": "KGS",
+      "symbol": "лв",
+      "popularity": 138,
+      "flag": {
+        "svg": "https://flagcdn.com/kg.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/kg.png"
+      },
+      "translations": { "ar": { "name": "سوم قيرغيزستاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Laotian Kip",
+      "code": "LAK",
+      "symbol": "₭",
+      "popularity": 128,
+      "flag": {
+        "svg": "https://flagcdn.com/la.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/la.png"
+      },
+      "translations": { "ar": { "name": "كيب لاوي" } },
+      "isActive": true
+    },
+    {
+      "name": "Lebanese pound",
+      "code": "LBP",
+      "symbol": "ل.ل",
+      "popularity": 72,
+      "flag": {
+        "svg": "https://flagcdn.com/lb.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/lb.png"
+      },
+      "translations": { "ar": { "name": "ليرة لبنانية" } },
+      "isActive": true
+    },
+    {
+      "name": "Lesotho Loti",
+      "code": "LSL",
+      "symbol": "L",
+      "popularity": 151,
+      "flag": {
+        "svg": "https://flagcdn.com/ls.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ls.png"
+      },
+      "translations": { "ar": { "name": "لوتي ليسوتو" } },
+      "isActive": true
+    },
+    {
+      "name": "Liberian Dollar",
+      "code": "LRD",
+      "symbol": "L$",
+      "popularity": 150,
+      "flag": {
+        "svg": "https://flagcdn.com/lr.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/lr.png"
+      },
+      "translations": { "ar": { "name": "دولار ليبيري" } },
+      "isActive": true
+    },
+    {
+      "name": "Libyan Dinar",
+      "code": "LYD",
+      "symbol": "ل.د",
+      "popularity": 120,
+      "flag": {
+        "svg": "https://flagcdn.com/ly.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ly.png"
+      },
+      "translations": { "ar": { "name": "دينار ليبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Macanese Pataca",
+      "code": "MOP",
+      "symbol": "MOP$",
+      "popularity": 118,
+      "flag": {
+        "svg": "https://flagcdn.com/mo.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mo.png"
+      },
+      "translations": { "ar": { "name": "باتاكا ماكاوية" } },
+      "isActive": true
+    },
+    {
+      "name": "Macedonian Denar",
+      "code": "MKD",
+      "symbol": "ден",
+      "popularity": 113,
+      "flag": {
+        "svg": "https://flagcdn.com/mk.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mk.png"
+      },
+      "translations": { "ar": { "name": "دينار مقدوني" } },
+      "isActive": true
+    },
+    {
+      "name": "Malagasy Ariary",
+      "code": "MGA",
+      "symbol": "Ar",
+      "popularity": 104,
+      "flag": {
+        "svg": "https://flagcdn.com/mg.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mg.png"
+      },
+      "translations": { "ar": { "name": "أرياري مدغشقري" } },
+      "isActive": true
+    },
+    {
+      "name": "Malawian Kwacha",
+      "code": "MWK",
+      "symbol": "MK",
+      "popularity": 130,
+      "flag": {
+        "svg": "https://flagcdn.com/mw.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mw.png"
+      },
+      "translations": { "ar": { "name": "كواشا ملاوية" } },
+      "isActive": true
+    },
+    {
+      "name": "Malaysian Ringgit",
+      "code": "MYR",
+      "symbol": "RM",
+      "popularity": 22,
+      "flag": {
+        "svg": "https://flagcdn.com/my.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/my.png"
+      },
+      "translations": { "ar": { "name": "رينغيت ماليزي" } },
+      "isActive": true
+    },
+    {
+      "name": "Maldivian Rufiyaa",
+      "code": "MVR",
+      "symbol": "Rf",
+      "popularity": 144,
+      "flag": {
+        "svg": "https://flagcdn.com/mv.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mv.png"
+      },
+      "translations": { "ar": { "name": "روفيا مالديفية" } },
+      "isActive": true
+    },
+    {
+      "name": "Mauritian Rupee",
+      "code": "MUR",
+      "symbol": "₨",
+      "popularity": 74,
+      "flag": {
+        "svg": "https://flagcdn.com/mu.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mu.png"
+      },
+      "translations": { "ar": { "name": "روبي موريشي" } },
+      "isActive": true
+    },
+    {
+      "name": "Mexican Peso",
+      "code": "MXN",
+      "symbol": "$",
+      "popularity": 20,
+      "flag": {
+        "svg": "https://flagcdn.com/mx.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mx.png"
+      },
+      "translations": { "ar": { "name": "بيزو مكسيكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Moldovan Leu",
+      "code": "MDL",
+      "symbol": "Leu",
+      "popularity": 107,
+      "flag": {
+        "svg": "https://flagcdn.com/md.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/md.png"
+      },
+      "translations": { "ar": { "name": "ليو مولدوفي" } },
+      "isActive": true
+    },
+    {
+      "name": "Moroccan Dirham",
+      "code": "MAD",
+      "symbol": "د.م.",
+      "popularity": 46,
+      "flag": {
+        "svg": "https://flagcdn.com/ma.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ma.png"
+      },
+      "translations": { "ar": { "name": "درهم مغربي" } },
+      "isActive": true
+    },
+    {
+      "name": "Mozambican metical",
+      "code": "MZN",
+      "symbol": "MT",
+      "popularity": 119,
+      "flag": {
+        "svg": "https://flagcdn.com/mz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mz.png"
+      },
+      "translations": { "ar": { "name": "متكال موزمبيقي" } },
+      "isActive": true
+    },
+    {
+      "name": "Myanmar Kyat",
+      "code": "MMK",
+      "symbol": "K",
+      "popularity": 116,
+      "flag": {
+        "svg": "https://flagcdn.com/mm.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/mm.png"
+      },
+      "translations": { "ar": { "name": "كيات ميانماري" } },
+      "isActive": true
+    },
+    {
+      "name": "Namibian Dollar",
+      "code": "NAD",
+      "symbol": "N$",
+      "popularity": 112,
+      "flag": {
+        "svg": "https://flagcdn.com/na.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/na.png"
+      },
+      "translations": { "ar": { "name": "دولار ناميبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Nepalese Rupee",
+      "code": "NPR",
+      "symbol": "₨",
+      "popularity": 93,
+      "flag": {
+        "svg": "https://flagcdn.com/np.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/np.png"
+      },
+      "translations": { "ar": { "name": "روبية نيبالية" } },
+      "isActive": true
+    },
+    {
+      "name": "Netherlands Antillean Guilder",
+      "code": "ANG",
+      "symbol": "ƒ",
+      "popularity": 102,
+      "flag": {
+        "svg": "https://flagcdn.com/an.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/an.png"
+      },
+      "translations": { "ar": { "name": "غيلدر الأنتيل الهولندية" } },
+      "isActive": true
+    },
+    {
+      "name": "New Taiwan dollar",
+      "code": "TWD",
+      "symbol": "NT$",
+      "popularity": 29,
+      "flag": {
+        "svg": "https://flagcdn.com/tw.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tw.png"
+      },
+      "translations": { "ar": { "name": "دولار تايواني جديد" } },
+      "isActive": true
+    },
+    {
+      "name": "New Zealand Dollar",
+      "code": "NZD",
+      "symbol": "NZ$",
+      "popularity": 8,
+      "flag": {
+        "svg": "https://flagcdn.com/nz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/nz.png"
+      },
+      "translations": { "ar": { "name": "دولار نيوزيلندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Nicaraguan Córdoba",
+      "code": "NIO",
+      "symbol": "C$",
+      "popularity": 91,
+      "flag": {
+        "svg": "https://flagcdn.com/ni.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ni.png"
+      },
+      "translations": { "ar": { "name": "كوردبا نيكاراغوا" } },
+      "isActive": true
+    },
+    {
+      "name": "Nigerian Naira",
+      "code": "NGN",
+      "symbol": "₦",
+      "popularity": 71,
+      "flag": {
+        "svg": "https://flagcdn.com/ng.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ng.png"
+      },
+      "translations": { "ar": { "name": "نيرة نيجيرية" } },
+      "isActive": true
+    },
+    {
+      "name": "Norwegian Krone",
+      "code": "NOK",
+      "symbol": "kr",
+      "popularity": 19,
+      "flag": {
+        "svg": "https://flagcdn.com/no.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/no.png"
+      },
+      "translations": { "ar": { "name": "كرونة نروجية" } },
+      "isActive": true
+    },
+    {
+      "name": "Omani Rial",
+      "code": "OMR",
+      "symbol": "ر.ع",
+      "popularity": 60,
+      "flag": {
+        "svg": "https://flagcdn.com/om.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/om.png"
+      },
+      "translations": { "ar": { "name": "ريال عماني" } },
+      "isActive": true
+    },
+    {
+      "name": "Pakistani Rupee",
+      "code": "PKR",
+      "symbol": "₨",
+      "popularity": 38,
+      "flag": {
+        "svg": "https://flagcdn.com/pk.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/pk.png"
+      },
+      "translations": { "ar": { "name": "روبية باكستانية" } },
+      "isActive": true
+    },
+    {
+      "name": "Panamanian Balboa",
+      "code": "PAB",
+      "symbol": "PAB",
+      "popularity": 95,
+      "flag": {
+        "svg": "https://flagcdn.com/pa.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/pa.png"
+      },
+      "translations": { "ar": { "name": "بالبوا بنمي" } },
+      "isActive": true
+    },
+    {
+      "name": "Papua New Guinean Kina",
+      "code": "PGK",
+      "symbol": "kina",
+      "popularity": 115,
+      "flag": {
+        "svg": "https://flagcdn.com/pg.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/pg.png"
+      },
+      "translations": { "ar": { "name": "كينا بابوا غينيا الجديدة" } },
+      "isActive": true
+    },
+    {
+      "name": "Paraguayan Guarani",
+      "code": "PYG",
+      "symbol": "₲",
+      "popularity": 87,
+      "flag": {
+        "svg": "https://flagcdn.com/py.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/py.png"
+      },
+      "translations": { "ar": { "name": "غواراني باراغواي" } },
+      "isActive": true
+    },
+    {
+      "name": "Philippine peso",
+      "code": "PHP",
+      "symbol": "₱",
+      "popularity": 25,
+      "flag": {
+        "svg": "https://flagcdn.com/ph.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ph.png"
+      },
+      "translations": { "ar": { "name": "بيسو فلبيني" } },
+      "isActive": true
+    },
+    {
+      "name": "Polish Zloty",
+      "code": "PLN",
+      "symbol": "zł",
+      "popularity": 23,
+      "flag": {
+        "svg": "https://flagcdn.com/pl.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/pl.png"
+      },
+      "translations": { "ar": { "name": "زلوتي بولندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Pound sterling",
+      "code": "GBP",
+      "symbol": "£",
+      "popularity": 3,
+      "flag": {
+        "svg": "https://flagcdn.com/gb.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/gb.png"
+      },
+      "translations": { "ar": { "name": "جنيه إسترليني" } },
+      "isActive": true
+    },
+    {
+      "name": "Qatari Riyal",
+      "code": "QAR",
+      "symbol": "ر.ق",
+      "popularity": 61,
+      "flag": {
+        "svg": "https://flagcdn.com/qa.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/qa.png"
+      },
+      "translations": { "ar": { "name": "ريال قطري" } },
+      "isActive": true
+    },
+    {
+      "name": "Romanian Leu",
+      "code": "RON",
+      "symbol": "lei",
+      "popularity": 36,
+      "flag": {
+        "svg": "https://flagcdn.com/ro.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ro.png"
+      },
+      "translations": { "ar": { "name": "ليو روماني" } },
+      "isActive": true
+    },
+    {
+      "name": "Russian Ruble",
+      "code": "RUB",
+      "symbol": "₽",
+      "popularity": 11,
+      "flag": {
+        "svg": "https://flagcdn.com/ru.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ru.png"
+      },
+      "translations": { "ar": { "name": "روبل روسي" } },
+      "isActive": true
+    },
+    {
+      "name": "Rwandan Franc",
+      "code": "RWF",
+      "symbol": "FRw",
+      "popularity": 142,
+      "flag": {
+        "svg": "https://flagcdn.com/rw.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/rw.png"
+      },
+      "translations": { "ar": { "name": "فرنك رواندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Salvadoran Colón",
+      "code": "SVC",
+      "symbol": "₡",
+      "popularity": 96,
+      "flag": {
+        "svg": "https://flagcdn.com/sv.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sv.png"
+      },
+      "translations": { "ar": { "name": "كولون سلفادوري" } },
+      "isActive": true
+    },
+    {
+      "name": "Saudi Riyal",
+      "code": "SAR",
+      "symbol": "﷼",
+      "popularity": 37,
+      "flag": {
+        "svg": "https://flagcdn.com/sa.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sa.png"
+      },
+      "translations": { "ar": { "name": "ريال سعودي" } },
+      "isActive": true
+    },
+    {
+      "name": "Serbian Dinar",
+      "code": "RSD",
+      "symbol": "din",
+      "popularity": 92,
+      "flag": {
+        "svg": "https://flagcdn.com/rs.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/rs.png"
+      },
+      "translations": { "ar": { "name": "دينار صربي" } },
+      "isActive": true
+    },
+    {
+      "name": "Seychellois Rupee",
+      "code": "SCR",
+      "symbol": "SRe",
+      "popularity": 137,
+      "flag": {
+        "svg": "https://flagcdn.com/sc.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sc.png"
+      },
+      "translations": { "ar": { "name": "روبية سيشلية" } },
+      "isActive": true
+    },
+    {
+      "name": "Singapore Dollar",
+      "code": "SGD",
+      "symbol": "S$",
+      "popularity": 13,
+      "flag": {
+        "svg": "https://flagcdn.com/sg.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sg.png"
+      },
+      "translations": { "ar": { "name": "دولار سنغافوري" } },
+      "isActive": true
+    },
+    {
+      "name": "Sol",
+      "code": "PEN",
+      "symbol": "Sol",
+      "popularity": 52,
+      "flag": {
+        "svg": "https://flagcdn.com/pe.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/pe.png"
+      },
+      "translations": { "ar": { "name": "سول بيروفي" } },
+      "isActive": true
+    },
+    {
+      "name": "Solomon Islands Dollar",
+      "code": "SBD",
+      "symbol": "SI$",
+      "popularity": 140,
+      "flag": {
+        "svg": "https://flagcdn.com/sb.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sb.png"
+      },
+      "translations": { "ar": { "name": "دولار جزر سليمان" } },
+      "isActive": true
+    },
+    {
+      "name": "Somali Shilling",
+      "code": "SOS",
+      "symbol": "Sh.So.",
+      "popularity": 147,
+      "flag": {
+        "svg": "https://flagcdn.com/so.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/so.png"
+      },
+      "translations": { "ar": { "name": "شلن صومالي" } },
+      "isActive": true
+    },
+    {
+      "name": "South African Rand",
+      "code": "ZAR",
+      "symbol": "R",
+      "popularity": 10,
+      "flag": {
+        "svg": "https://flagcdn.com/za.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/za.png"
+      },
+      "translations": { "ar": { "name": "راند جنوب أفريقي" } },
+      "isActive": true
+    },
+    {
+      "name": "South Korean won",
+      "code": "KRW",
+      "symbol": "₩",
+      "popularity": 30,
+      "flag": {
+        "svg": "https://flagcdn.com/kr.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/kr.png"
+      },
+      "translations": { "ar": { "name": "وون كوري جنوبي" } },
+      "isActive": true
+    },
+    {
+      "name": "Sovereign Bolivar",
+      "code": "VES",
+      "symbol": "Bs",
+      "popularity": 30,
+      "flag": {
+        "svg": "https://flagcdn.com/ve.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ve.png"
+      },
+      "translations": { "ar": { "name": "بوليفار فنزويلي" } },
+      "isActive": true
+    },
+    {
+      "name": "Sri Lankan Rupee",
+      "code": "LKR",
+      "symbol": "Rs",
+      "popularity": 59,
+      "flag": {
+        "svg": "https://flagcdn.com/lk.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/lk.png"
+      },
+      "translations": { "ar": { "name": "روبية سريلانكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Sudanese pound",
+      "code": "SDG",
+      "symbol": "ج.س",
+      "popularity": 167,
+      "flag": {
+        "svg": "https://flagcdn.com/sd.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sd.png"
+      },
+      "translations": { "ar": { "name": "جنيه سوداني" } },
+      "isActive": true
+    },
+    {
+      "name": "Suriname Dollar",
+      "code": "SRD",
+      "symbol": "$",
+      "popularity": 157,
+      "flag": {
+        "svg": "https://flagcdn.com/sr.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sr.png"
+      },
+      "translations": { "ar": { "name": "دولار سورينامي" } },
+      "isActive": true
+    },
+    {
+      "name": "Swazi Lilangeni",
+      "code": "SZL",
+      "symbol": "E",
+      "popularity": 148,
+      "flag": {
+        "svg": "https://flagcdn.com/sz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sz.png"
+      },
+      "translations": { "ar": { "name": "ليلانغيني سوازيلندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Swedish Krona",
+      "code": "SEK",
+      "symbol": "kr",
+      "popularity": 15,
+      "flag": {
+        "svg": "https://flagcdn.com/se.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/se.png"
+      },
+      "translations": { "ar": { "name": "كرونة سويدية" } },
+      "isActive": true
+    },
+    {
+      "name": "Swiss Franc",
+      "code": "CHF",
+      "symbol": "CHf",
+      "popularity": 9,
+      "flag": {
+        "svg": "https://flagcdn.com/ch.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ch.png"
+      },
+      "translations": { "ar": { "name": "فرنك سويسري" } },
+      "isActive": true
+    },
+    {
+      "name": "Syrian Pound",
+      "code": "SYP",
+      "symbol": "LS",
+      "popularity": 109,
+      "flag": {
+        "svg": "https://flagcdn.com/sy.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/sy.png"
+      },
+      "translations": { "ar": { "name": "ليرة سورية" } },
+      "isActive": true
+    },
+    {
+      "name": "Tajikistani Somoni",
+      "code": "TJS",
+      "symbol": "SM",
+      "popularity": 149,
+      "flag": {
+        "svg": "https://flagcdn.com/tj.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tj.png"
+      },
+      "translations": { "ar": { "name": "ساماني طاجيكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Tanzanian Shilling",
+      "code": "TZS",
+      "symbol": "TSh",
+      "popularity": 99,
+      "flag": {
+        "svg": "https://flagcdn.com/tz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tz.png"
+      },
+      "translations": { "ar": { "name": "شلن تنزاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Thai Baht",
+      "code": "THB",
+      "symbol": "฿",
+      "popularity": 16,
+      "flag": {
+        "svg": "https://flagcdn.com/th.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/th.png"
+      },
+      "translations": { "ar": { "name": "بات تايلاندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Tongan Paʻanga",
+      "code": "TOP",
+      "symbol": "T$",
+      "popularity": 136,
+      "flag": {
+        "svg": "https://flagcdn.com/to.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/to.png"
+      },
+      "translations": { "ar": { "name": "بانغا تونغي" } },
+      "isActive": true
+    },
+    {
+      "name": "Trinidad and Tobago Dollar",
+      "code": "TTD",
+      "symbol": "TT$",
+      "popularity": 66,
+      "flag": {
+        "svg": "https://flagcdn.com/tt.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tt.png"
+      },
+      "translations": { "ar": { "name": "دولار ترينيداد وتوباغو" } },
+      "isActive": true
+    },
+    {
+      "name": "Tunisian Dinar",
+      "code": "TND",
+      "symbol": "د.ت",
+      "popularity": 65,
+      "flag": {
+        "svg": "https://flagcdn.com/tn.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tn.png"
+      },
+      "translations": { "ar": { "name": "دينار تونسي" } },
+      "isActive": true
+    },
+    {
+      "name": "Turkish lira",
+      "code": "TRY",
+      "symbol": "₺",
+      "popularity": 35,
+      "flag": {
+        "svg": "https://flagcdn.com/tr.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tr.png"
+      },
+      "translations": { "ar": { "name": "ليرة تركية" } },
+      "isActive": true
+    },
+    {
+      "name": "Turkmenistani Manat",
+      "code": "TMT",
+      "symbol": "m",
+      "popularity": 156,
+      "flag": {
+        "svg": "https://flagcdn.com/tm.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/tm.png"
+      },
+      "translations": { "ar": { "name": "منات تركمانستاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Ugandan Shilling",
+      "code": "UGX",
+      "symbol": "USh",
+      "popularity": 103,
+      "flag": {
+        "svg": "https://flagcdn.com/ug.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ug.png"
+      },
+      "translations": { "ar": { "name": "شيلينغ أوغندي" } },
+      "isActive": true
+    },
+    {
+      "name": "Ukrainian hryvnia",
+      "code": "UAH",
+      "symbol": "₴",
+      "popularity": 81,
+      "flag": {
+        "svg": "https://flagcdn.com/ua.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ua.png"
+      },
+      "translations": { "ar": { "name": "هريفنا أوكرانية" } },
+      "isActive": true
+    },
+    {
+      "name": "United Arab Emirates Dirham",
+      "code": "AED",
+      "symbol": "إ.د",
+      "popularity": 28,
+      "flag": {
+        "svg": "https://flagcdn.com/ae.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ae.png"
+      },
+      "translations": { "ar": { "name": "درهم إماراتي" } },
+      "isActive": true
+    },
+    {
+      "name": "United States Dollar",
+      "code": "USD",
+      "symbol": "$",
+      "popularity": 1,
+      "flag": {
+        "svg": "https://flagcdn.com/us.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/us.png"
+      },
+      "translations": { "ar": { "name": "دولار أمريكي" } },
+      "isActive": true
+    },
+    {
+      "name": "Uruguayan peso",
+      "code": "UYU",
+      "symbol": "$U",
+      "popularity": 78,
+      "flag": {
+        "svg": "https://flagcdn.com/uy.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/uy.png"
+      },
+      "translations": { "ar": { "name": "بيزو أوروغواي" } },
+      "isActive": true
+    },
+    {
+      "name": "Uzbekistani Som",
+      "code": "UZS",
+      "symbol": "лв",
+      "popularity": 135,
+      "flag": {
+        "svg": "https://flagcdn.com/uz.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/uz.png"
+      },
+      "translations": { "ar": { "name": "سوم أوزبكستاني" } },
+      "isActive": true
+    },
+    {
+      "name": "Vietnamese dong",
+      "code": "VND",
+      "symbol": "₫",
+      "popularity": 48,
+      "flag": {
+        "svg": "https://flagcdn.com/vn.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/vn.png"
+      },
+      "translations": { "ar": { "name": "دونغ فيتنامي" } },
+      "isActive": true
+    },
+    {
+      "name": "West African CFA franc",
+      "code": "XOF",
+      "symbol": "F CFA",
+      "popularity": 48,
+      "flag": {
+        "svg": "https://flagcdn.com/xo.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/xo.png"
+      },
+      "translations": { "ar": { "name": "فرنك غرب أفريقي" } },
+      "isActive": true
+    },
+    {
+      "name": "Yemeni Rial",
+      "code": "YER",
+      "symbol": "﷼",
+      "popularity": 127,
+      "flag": {
+        "svg": "https://flagcdn.com/ye.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/ye.png"
+      },
+      "translations": { "ar": { "name": "ريال يمني" } },
+      "isActive": true
+    },
+    {
+      "name": "Zambian Kwacha",
+      "code": "ZMW",
+      "symbol": "ZK",
+      "popularity": 69,
+      "flag": {
+        "svg": "https://flagcdn.com/zm.svg",
+        "png": "https://flagcdn.com/{FLAG_SIZE}/zm.png"
+      },
+      "translations": { "ar": { "name": "كواشا زامبي" } },
+      "isActive": true
+    }
+  ]
+}

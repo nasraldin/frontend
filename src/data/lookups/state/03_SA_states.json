@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "contentType": "state",
+  "tableName": "states",
+  "queryField": "name",
+  "enabled": true,
+  "batchInsertMode": false,
+  "data": [
+    {
+      "id": 35,
+      "name": "Riyadh",
+      "code": "SA-RUH",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 24.7136,
+      "longitude": 46.6753,
+      "translations": { "ar": { "name": "الرياض" } }
+    },
+    {
+      "id": 36,
+      "name": "Makkah",
+      "code": "SA-MK",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 21.3891,
+      "longitude": 39.8579,
+      "translations": { "ar": { "name": "مكة" } }
+    },
+    {
+      "id": 37,
+      "name": "Medina",
+      "code": "SA-MD",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 24.4709,
+      "longitude": 39.6122,
+      "translations": { "ar": { "name": "المدينة" } }
+    },
+    {
+      "id": 38,
+      "name": "Qassim",
+      "code": "SA-QS",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 26.0,
+      "longitude": 43.0,
+      "translations": { "ar": { "name": "القصيم" } }
+    },
+    {
+      "id": 39,
+      "name": "Eastern Province",
+      "code": "SA-EP",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 26.4207,
+      "longitude": 50.0888,
+      "translations": { "ar": { "name": "المنطقة الشرقية" } }
+    },
+    {
+      "id": 40,
+      "name": "Asir",
+      "code": "SA-AS",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 19.0,
+      "longitude": 42.0,
+      "translations": { "ar": { "name": "عسير" } }
+    },
+    {
+      "id": 41,
+      "name": "Tabuk",
+      "code": "SA-TB",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 28.3835,
+      "longitude": 36.5662,
+      "translations": { "ar": { "name": "تبوك" } }
+    },
+    {
+      "id": 42,
+      "name": "Hail",
+      "code": "SA-HL",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 27.5152,
+      "longitude": 41.6907,
+      "translations": { "ar": { "name": "حائل" } }
+    },
+    {
+      "id": 43,
+      "name": "Northern Borders",
+      "code": "SA-NB",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 30.1975,
+      "longitude": 41.8175,
+      "translations": { "ar": { "name": "الحدود الشمالية" } }
+    },
+    {
+      "id": 44,
+      "name": "Jizan",
+      "code": "SA-JZ",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 16.8892,
+      "longitude": 42.5617,
+      "translations": { "ar": { "name": "جازان" } }
+    },
+    {
+      "id": 45,
+      "name": "Najran",
+      "code": "SA-NJ",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 17.4924,
+      "longitude": 44.1277,
+      "translations": { "ar": { "name": "نجران" } }
+    },
+    {
+      "id": 46,
+      "name": "Al Bahah",
+      "code": "SA-BH",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 20.0,
+      "longitude": 41.4667,
+      "translations": { "ar": { "name": "الباحة" } }
+    },
+    {
+      "id": 47,
+      "name": "Jawf",
+      "code": "SA-JF",
+      "countryCode": "SA",
+      "country": 194,
+      "latitude": 29.8027,
+      "longitude": 39.7348,
+      "translations": { "ar": { "name": "الجوف" } }
+    }
+  ]
+}

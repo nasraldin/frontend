@@ -1,0 +1,35 @@
+{
+  "appId": "a7d2f928-4bbf-4303-b796-214c2c51e93e",
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-11T00:00:00Z",
+  "appName": {
+    "ar": "أجرلي",
+    "en": "Ajrly"
+  },
+  "allowedDomains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com"],
+  "mimeTypes": {
+    "view": {
+      "file": ["application/pdf"],
+      "image": ["image/jpeg", "image/png"],
+      "video": ["video/mp4"]
+    },
+    "upload": {
+      "file": [
+        "application/pdf",
+        "image/jpeg",
+        "image/png",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "text/csv",
+        "video/mp4"
+      ],
+      "image": ["image/jpeg", "image/png"],
+      "video": ["video/mp4"]
+    },
+    "allowedExtension": {
+      "file": ["pdf", "doc", "docx", "xls", "xlsx", "csv"],
+      "image": ["jpg", "jpeg", "png"],
+      "video": ["mp4"]
+    }
+  }
+}
