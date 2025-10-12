@@ -8,6 +8,7 @@
  */
 
 import { isBrowser } from '~/utils/env';
+import { isBoolean } from '~/utils/helpers';
 
 /**
  * Get environment variable with fallback
@@ -37,7 +38,7 @@ function getEnvNumber(key: string, fallback = 0): number {
 function getEnvBoolean(key: string, fallback = false): boolean {
   const value = getEnvVar(key);
   if (!value) return fallback;
-  return value.toLowerCase() === 'true' || value === '1';
+  return isBoolean(value);
 }
 
 /**
@@ -82,13 +83,13 @@ export const clientEnv = {
  * Environment constants for server-side use
  */
 export const serverEnv = {
-  NODE_ENV: getEnvVar('NODE_ENV', 'development') as
+  NODE_ENV: getEnvVar('NODE_ENV', 'production') as
     | 'development'
     | 'production'
     | 'test'
     | 'staging'
     | 'uat',
-  HOST: getEnvVar('HOST', 'localhost'),
+  HOST: getEnvVar('HOST', '0.0.0.0'),
   PORT: getEnvNumber('PORT', 3000),
 
   // Auth
