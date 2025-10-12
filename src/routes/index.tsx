@@ -9,7 +9,6 @@ export default function Home() {
     <main>
       <Title>Hello World</Title>
       <h1 class={cn('text-4xl text-red-500')}>Hello world!</h1>
-
       <Counter />
       <p>
         Visit{' '}

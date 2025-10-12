@@ -6,7 +6,8 @@ const noDirectProcessEnvRule = {
       description: 'Disallow direct process.env usage',
     },
     messages: {
-      noProcessEnv: 'Direct process.env usage is not allowed.',
+      noProcessEnv:
+        'Direct process.env usage is not allowed. Use env from ~/env or clientEnv, serverEnv, instead.',
     },
     schema: [],
   },

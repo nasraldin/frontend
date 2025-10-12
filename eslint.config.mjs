@@ -96,6 +96,7 @@ const eslintConfig = [
       '**/__tests__/__mocks__/**/*.{js,mjs,ts,tsx}',
       'src/lib/hello.ts',
       'src/utils/env.ts',
+      'src/env/**/*.{js,mjs,ts,tsx}',
       'src/utils/error/initializeErrorHandlers.ts',
     ],
     rules: {

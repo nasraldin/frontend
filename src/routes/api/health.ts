@@ -5,6 +5,7 @@ import {
   HttpHeaderName,
   HttpRequestMethodName,
 } from '~/constants';
+import { env } from '~/env';
 import { createRequestLogger } from '~/utils/logger';
 
 export async function GET() {
@@ -12,8 +13,8 @@ export async function GET() {
   logger.info('Health check requested');
 
   try {
-    const commitsCheckUrl = process.env.COMMITS_CHECK_URL;
-    const commitsCheckAccessToken = process.env.COMMITS_CHECK_ACCESS_TOKEN;
+    const commitsCheckUrl = env.COMMITS_CHECK_URL;
+    const commitsCheckAccessToken = env.COMMITS_CHECK_ACCESS_TOKEN;
 
     let lastCommit = null;
 
@@ -44,7 +45,7 @@ export async function GET() {
       JSON.stringify({
         app: siteConfig.appName,
         version: siteConfig.appVersion,
-        environment: process.env.NODE_ENV,
+        environment: env.NODE_ENV,
         status: '✅ Healthy',
         isHealthy: true,
         timestamp: new Date(Date.now()),
