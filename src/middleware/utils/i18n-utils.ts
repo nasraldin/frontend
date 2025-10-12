@@ -70,7 +70,11 @@ export function handleLocaleRedirect(
       // For non-default locale, redirect to /ar (or other locale)
       const url = new URL(event.request.url);
       url.pathname = localePrefix;
-      return Response.redirect(url, 307); // 307 to ensure proper redirection
+      const redirectResponse = Response.redirect(url, 307); // 307 to ensure proper redirection
+
+      // Mark that we've set a response to prevent further processing
+      event.response = redirectResponse;
+      return redirectResponse;
     }
   }
 
@@ -106,7 +110,11 @@ export function handleLocaleRedirect(
     'handleLocaleRedirect',
   );
 
-  return Response.redirect(url, 307);
+  const redirectResponse = Response.redirect(url, 307);
+
+  // Mark that we've set a response to prevent further processing
+  event.response = redirectResponse;
+  return redirectResponse;
 }
 
 // Set the locale in both the request and response headers

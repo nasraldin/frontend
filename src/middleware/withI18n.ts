@@ -89,6 +89,8 @@ export function createI18nMiddleware(config?: I18nConfig): SolidMiddleware {
       if (redirectResponse) {
         // If we have a redirect response, use it
         event.response = redirectResponse;
+        // Mark that we've set a response to prevent further processing
+        setRequestContext(event, 'responseSet', true);
         return;
       }
     }

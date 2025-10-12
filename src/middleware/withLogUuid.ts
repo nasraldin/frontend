@@ -36,8 +36,18 @@ export function createLogUuidMiddleware(config?: {
       setLogUuidCookie(event, logUuid, cookieName, cookieTtl, domain);
     }
 
-    // Set response header
-    event.response.headers.set(cookieName, logUuid);
+    // Set response header (with error handling for immutable headers)
+    try {
+      event.response.headers.set(cookieName, logUuid);
+    } catch (error) {
+      logger.warn(
+        {
+          error: error instanceof Error ? error.message : 'Unknown error',
+          url: event.request.url,
+        },
+        'Failed to set log UUID header (headers may be immutable)',
+      );
+    }
 
     // Store in request context for other middleware to access
     setRequestContext(event, 'logUuid', logUuid);
