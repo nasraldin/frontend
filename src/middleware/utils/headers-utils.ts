@@ -57,10 +57,20 @@ export function setCORSHeaders(event: FetchEvent, origin: string | null) {
     import.meta.env.VITE_ALLOWED_HEADERS ||
     'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization, X-Api-Key, X-Auth-Token, Locale, LogUuid, Origin, X-Request-Id, X-Session-Id, X-User-Id, X-CORS-Error';
 
-  response.headers.set('Access-Control-Allow-Origin', origin || '*');
-  response.headers.set('Access-Control-Allow-Methods', allowedMethods);
-  response.headers.set('Access-Control-Allow-Headers', allowedHeaders);
-  response.headers.set('Access-Control-Allow-Credentials', 'true');
+  try {
+    response.headers.set('Access-Control-Allow-Origin', origin || '*');
+    response.headers.set('Access-Control-Allow-Methods', allowedMethods);
+    response.headers.set('Access-Control-Allow-Headers', allowedHeaders);
+    response.headers.set('Access-Control-Allow-Credentials', 'true');
+  } catch (error) {
+    logger.warn(
+      {
+        error: error instanceof Error ? error.message : 'Unknown error',
+        url: event.request.url,
+      },
+      'Failed to set CORS headers (headers may be immutable)',
+    );
+  }
 }
 
 // Helper function to get the origin from the request

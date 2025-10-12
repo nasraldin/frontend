@@ -76,11 +76,34 @@ export function createHeadersMiddleware(): SolidMiddleware {
 
     // If the request is to an API endpoint, set the Content-Type to JSON
     if (apiRegex.test(pathname)) {
-      event.response.headers.set(HttpHeaderName.ContentType, ContentType.JSON_UTF8);
+      try {
+        event.response.headers.set(
+          HttpHeaderName.ContentType,
+          ContentType.JSON_UTF8,
+        );
+      } catch (error) {
+        logger.warn(
+          {
+            error: error instanceof Error ? error.message : 'Unknown error',
+            url: event.request.url,
+          },
+          'Failed to set Content-Type header (headers may be immutable)',
+        );
+      }
     }
 
     // Add the Vary header for caching based on origin
-    event.response.headers.append('Vary', 'Origin');
+    try {
+      event.response.headers.append('Vary', 'Origin');
+    } catch (error) {
+      logger.warn(
+        {
+          error: error instanceof Error ? error.message : 'Unknown error',
+          url: event.request.url,
+        },
+        'Failed to set Vary header (headers may be immutable)',
+      );
+    }
   };
 }
 

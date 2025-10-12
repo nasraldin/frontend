@@ -67,14 +67,19 @@ export function handleLocaleRedirect(
         'handleLocaleRedirect',
       );
 
-      // For non-default locale, redirect to /ar (or other locale)
-      const url = new URL(event.request.url);
-      url.pathname = localePrefix;
-      const redirectResponse = Response.redirect(url, 307); // 307 to ensure proper redirection
+      // For non-default locale, we should redirect to /ar/ but since locale routes
+      // don't exist in this app, we'll just continue processing without redirect
+      // This prevents 503 errors when redirecting to non-existent routes
+      logger.info(
+        {
+          pathname,
+          locale,
+          message: 'Locale route does not exist, continuing without redirect',
+        },
+        'handleLocaleRedirect: No redirect for non-existent locale route',
+      );
 
-      // Mark that we've set a response to prevent further processing
-      event.response = redirectResponse;
-      return redirectResponse;
+      return null; // Continue processing without redirect
     }
   }
 
@@ -120,7 +125,19 @@ export function handleLocaleRedirect(
 // Set the locale in both the request and response headers
 export function setLocaleHeaders(event: FetchEvent, locale: AppLocale) {
   event.request.headers.set(LOCALE_COOKIE_NAME, locale);
-  event.response.headers.set(LOCALE_COOKIE_NAME, locale);
+
+  // Set response header with error handling for immutable headers
+  try {
+    event.response.headers.set(LOCALE_COOKIE_NAME, locale);
+  } catch (error) {
+    logger.warn(
+      {
+        error: error instanceof Error ? error.message : 'Unknown error',
+        url: event.request.url,
+      },
+      'Failed to set locale header (headers may be immutable)',
+    );
+  }
 }
 
 // Dummy function to simulate login check (can be implemented later)

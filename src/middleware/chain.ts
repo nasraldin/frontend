@@ -30,6 +30,7 @@ export function createMiddlewareChain(
             total: middlewares.length,
             url: event.request.url,
             method: event.request.method,
+            responseSet: true,
           },
           'Middleware::chain: Skipping middleware - response already set',
         );
