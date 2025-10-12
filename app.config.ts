@@ -1,10 +1,9 @@
 import { defineConfig } from '@solidjs/start/config';
 import tailwindcss from '@tailwindcss/vite';
-/* @ts-expect-error mdx is a valid plugin */
-import pkg from '@vinxi/plugin-mdx';
+import mdxPlugin from '@vinxi/plugin-mdx';
 import { VitePWA } from 'vite-plugin-pwa';
 
-const { default: mdx } = pkg;
+const { default: mdx } = mdxPlugin;
 
 export default defineConfig({
   extensions: ['mdx', 'md'],
