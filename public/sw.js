@@ -103,5 +103,5 @@ self.addEventListener('push', function (event) {
 self.addEventListener('notificationclick', function (event) {
   console.log('Notification click received.');
   event.notification.close();
-  event.waitUntil(self.clients.openWindow(process.env.NEXT_PUBLIC_APP_URL));
+  event.waitUntil(self.clients.openWindow(process.env.VITE_APP_URL));
 });

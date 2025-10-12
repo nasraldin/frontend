@@ -11,7 +11,7 @@ import pluginTailwind from 'eslint-plugin-tailwindcss';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-import noDirectProcess from './scripts/no-direct-process.mjs';
+import noDirectProcessEnv from './scripts/no-direct-process.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -48,7 +48,7 @@ const eslintConfig = [
       solid: pluginSolid,
       'custom-rules': {
         rules: {
-          'no-direct-process': noDirectProcess,
+          'no-direct-process-env': noDirectProcessEnv,
         },
       },
     },
@@ -83,14 +83,13 @@ const eslintConfig = [
         },
       ],
       'no-restricted-globals': ['error', 'process'],
-      'custom-rules/no-direct-process': 'error',
+      'custom-rules/no-direct-process-env': 'error',
     },
   },
   {
     // Allow process.env in environment configuration files
     files: [
       'scripts/**/*.{js,mjs,ts,tsx}',
-      'src/env/**/*.{js,mjs,ts,tsx}',
       'public/sw.js',
       '*.config.{js,mjs,ts}',
       '**/__tests__/__fixtures__/**/*.{js,mjs,ts,tsx}',
@@ -102,7 +101,7 @@ const eslintConfig = [
     rules: {
       'no-console': 'off',
       'no-restricted-globals': 'off',
-      'custom-rules/no-direct-process': 'off',
+      'custom-rules/no-direct-process-env': 'off',
       '@typescript-eslint/no-misused-promises': 'off',
     },
   },

@@ -138,5 +138,5 @@ export default defineConfig({
       crawlLinks: false,
     },
   },
-  middleware: 'src/middleware.ts',
+  middleware: 'src/middleware/index.ts',
 });

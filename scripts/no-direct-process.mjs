@@ -1,12 +1,12 @@
 /** @type {import('eslint').Rule.RuleModule} */
-const noDirectProcessRule = {
+const noDirectProcessEnvRule = {
   meta: {
     type: 'problem',
     docs: {
-      description: 'Disallow direct process. usage',
+      description: 'Disallow direct process.env usage',
     },
     messages: {
-      noProcessEnv: 'Direct process. usage is not allowed.',
+      noProcessEnv: 'Direct process.env usage is not allowed.',
     },
     schema: [],
   },
@@ -21,7 +21,7 @@ const noDirectProcessRule = {
         ) {
           context.report({
             node,
-            messageId: 'noDirectProcess',
+            messageId: 'noProcessEnv',
           });
         }
       },
@@ -29,4 +29,4 @@ const noDirectProcessRule = {
   },
 };
 
-export default noDirectProcessRule;
+export default noDirectProcessEnvRule;
