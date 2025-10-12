@@ -64,6 +64,7 @@
     "lucide-solid": "0.545.0",
     "marked": "16.4.0",
     "mime-types": "3.0.1",
+    "nanoid": "5.1.6",
     "negotiator": "1.0.0",
     "nuqs": "2.7.1",
     "pino": "10.0.0",
@@ -138,7 +139,8 @@
   "engines": {
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm",
-    "pnpm": ">=10.x"
+    "pnpm": ">=10.x",
+    "node": ">=22.x"
   },
   "author": "Nasr Aldin <ns@nasraldin.com> (https://nasraldin.com)",
   "license": "UNLICENSED",
