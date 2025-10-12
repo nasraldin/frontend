@@ -1,4 +1,3 @@
-import { env } from 'process';
 import { type FetchEvent } from '@solidjs/start/server';
 import { customAlphabet } from 'nanoid';
 import { getCookie, setCookie } from 'vinxi/http';
@@ -9,6 +8,7 @@ import {
   LOG_UUID_COOKIE_KEY,
   LOG_UUID_COOKIE_TTL,
 } from '~/constants';
+import { env } from '~/env';
 import { isProd } from '~/utils/env';
 import { createRequestLogger } from '~/utils/logger';
 
