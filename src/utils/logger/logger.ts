@@ -7,7 +7,7 @@ import { isDev } from '~/utils/env';
  * @returns The logger
  */
 export const logger = pino({
-  level: import.meta.env.VITE_LOG_LEVEL,
+  level: import.meta.env.VITE_LOG_LEVEL || 'info',
   transport: isDev
     ? {
         target: 'pino-pretty',
