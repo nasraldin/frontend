@@ -39,6 +39,7 @@
     "isolatedModules": true,
     "types": [
       "vinxi/types/client",
+      "@solidjs/start/env",
       "vitest/globals",
       "@testing-library/jest-dom",
       "vite-plugin-pwa/solid"

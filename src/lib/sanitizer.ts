@@ -116,26 +116,26 @@ export const getPasswordCriteria = (): PasswordCriteria[] => [
     test: (password: string) => password.length <= PasswordLength.Max,
     key: 'maxLength',
   },
-  {
-    label: 'passwordValidation.criteria.uppercase',
-    test: (password: string) => AppRegex.PasswordUppercase.test(password),
-    key: 'uppercase',
-  },
-  {
-    label: 'passwordValidation.criteria.lowercase',
-    test: (password: string) => AppRegex.PasswordLowercase.test(password),
-    key: 'lowercase',
-  },
-  {
-    label: 'passwordValidation.criteria.number',
-    test: (password: string) => AppRegex.PasswordNumber.test(password),
-    key: 'number',
-  },
-  {
-    label: 'passwordValidation.criteria.special',
-    test: (password: string) => AppRegex.PasswordSpecial.test(password),
-    key: 'special',
-  },
+  // {
+  //   label: 'passwordValidation.criteria.uppercase',
+  //   test: (password: string) => AppRegex.PasswordUppercase.test(password),
+  //   key: 'uppercase',
+  // },
+  // {
+  //   label: 'passwordValidation.criteria.lowercase',
+  //   test: (password: string) => AppRegex.PasswordLowercase.test(password),
+  //   key: 'lowercase',
+  // },
+  // {
+  //   label: 'passwordValidation.criteria.number',
+  //   test: (password: string) => AppRegex.PasswordNumber.test(password),
+  //   key: 'number',
+  // },
+  // {
+  //   label: 'passwordValidation.criteria.special',
+  //   test: (password: string) => AppRegex.PasswordSpecial.test(password),
+  //   key: 'special',
+  // },
 ];
 
 /**

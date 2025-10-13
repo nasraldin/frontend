@@ -15,3 +15,12 @@ export const META_THEME_COLORS = {
   light: '#ffffff',
   dark: '#1E2226', // #09090b
 };
+
+export const LOG_LEVEL = {
+  DEBUG: 'debug',
+  INFO: 'info',
+  WARN: 'warn',
+  ERROR: 'error',
+  FATAL: 'fatal',
+  TRACE: 'trace',
+} as const;

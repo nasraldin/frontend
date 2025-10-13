@@ -8,6 +8,5 @@ export * from './nonce';
 export * from './object';
 export * from './randoms';
 export * from './replacesrs';
-export * from './sanitizer';
 export * from './waitFor';
 export * from './web-storage';

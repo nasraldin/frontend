@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Husky post-commit hook with versioning
+# This runs after every commit
+
+# Get the project root directory
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+cd "$PROJECT_ROOT"
+
+# Run version update
+echo "🚀 Running post-commit version update..."
+if [ -f "scripts/auto-version.sh" ]; then
+    bash scripts/auto-version.sh
+fi

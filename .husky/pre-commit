@@ -1,1 +1,18 @@
+#!/bin/bash
+
+# Husky pre-commit hook with linting and versioning
+# This runs before every commit
+
+# Get the project root directory
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
+cd "$PROJECT_ROOT"
+
+# Run lint-staged first (format and lint files)
+echo "🔧 Running lint-staged..."
 npx --no -- lint-staged
+
+# Run version update
+echo "🔧 Running pre-commit version update..."
+if [ -f "scripts/auto-version.sh" ]; then
+    bash scripts/auto-version.sh --pre-commit
+fi

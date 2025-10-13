@@ -1,0 +1,71 @@
+import * as v from 'valibot';
+
+import { LOG_LEVEL } from '~/constants/global';
+import { validators } from '~/lib/validators';
+import { ENV } from '~/utils/env';
+
+export const serverScheme = v.object({
+  NODE_ENV: v.enum(ENV),
+  AUTH_URL: validators.appDomain(),
+  AUTH_SECRET: v.pipe(v.string(), v.base64()),
+  AUTH_KEYCLOAK_REALM: v.pipe(v.string(), v.minLength(4), v.maxLength(64)),
+  AUTH_KEYCLOAK_ADMIN_CLIENT_ID: v.pipe(
+    v.string(),
+    v.minLength(4),
+    v.maxLength(64),
+  ),
+  AUTH_KEYCLOAK_ADMIN_CLIENT_SECRET: v.pipe(
+    v.string(),
+    v.minLength(4),
+    v.maxLength(64),
+  ),
+  AUTH_KEYCLOAK_SCOPE: v.pipe(v.string(), v.minLength(4), v.maxLength(64)),
+  AUTH_TRUST_HOST: v.optional(v.boolean()),
+  AUTH_DEBUG: v.optional(v.boolean()),
+  X_API_KEY: v.pipe(v.string(), v.uuid()),
+  CACHE_ADAPTER: v.optional(v.pipe(v.string(), v.minLength(4), v.maxLength(10))),
+  UPSTASH_REDIS_REST_URL: v.optional(v.pipe(v.string(), v.url())),
+  UPSTASH_REDIS_REST_TOKEN: v.optional(v.pipe(v.string(), v.base64())),
+  SMTP_HOST: v.optional(v.string()),
+  SMTP_PORT: v.optional(v.number()),
+  SMTP_USERNAME: v.optional(v.string()),
+  SMTP_PASSWORD: v.optional(v.string()),
+  EMAIL_FROM: v.optional(v.string()),
+  EMAIL_REPLY_TO: v.optional(v.string()),
+  RESEND_API_KEY: v.optional(v.string()),
+  JSON_BODY_LIMIT: v.optional(v.string()),
+  FORM_BODY_LIMIT: v.optional(v.string()),
+  TEXT_BODY_LIMIT: v.optional(v.string()),
+  CORS_WHITELIST: v.optional(v.string()),
+  ALLOWED_DOMAINS: v.optional(v.string()),
+  ALLOWED_METHODS: v.optional(v.string()),
+  ALLOWED_HEADERS: v.optional(v.string()),
+  VAPID_PRIVATE_KEY: v.optional(v.string()),
+  CSP_REPORT_URI: v.optional(v.string()),
+  ENABLE_CSP_REPORTING: v.optional(v.boolean()),
+  ALLOW_ANALYTICS: v.optional(v.boolean()),
+  STRICT_CSP: v.optional(v.boolean()),
+  MINIFY_DICTIONARY: v.optional(v.boolean()),
+  COMMITS_CHECK_URL: v.optional(v.string()),
+  COMMITS_CHECK_ACCESS_TOKEN: v.optional(v.string()),
+});
+
+export const clientScheme = v.object({
+  VITE_LOG_LEVEL: v.optional(v.enum(LOG_LEVEL), LOG_LEVEL.INFO),
+  VITE_APP_URL: validators.appDomain(),
+  VITE_API_URL: validators.appDomainWithPath(),
+  VITE_APP_DOMAIN: validators.appDomain(),
+  VITE_AUTH_KEYCLOAK_CLIENT_ID: v.pipe(v.string(), v.minLength(4), v.maxLength(32)),
+  VITE_AUTH_KEYCLOAK_ISSUER: v.pipe(v.string(), v.url()),
+  VITE_KEYCLOAK_URL: validators.appDomain(),
+  VITE_BACKEND_URL: validators.appDomain(),
+  VITE_X_API_KEY_NAME: v.pipe(v.string(), v.minLength(4), v.maxLength(32)),
+  VITE_GOOGLE_MAPS_API_KEY: v.optional(v.string()),
+  VITE_GOOGLE_MAP_ID: v.optional(v.string()),
+  VITE_RATE_LIMIT_DURATION: v.optional(v.string()),
+  VITE_ANALYTICS_ID: v.optional(v.string()),
+  VITE_GTM_ID: v.optional(v.string()),
+  VITE_GTM_AUTH: v.optional(v.string()),
+  VITE_GTM_PREVIEW: v.optional(v.string()),
+  VITE_VAPID_PUBLIC_KEY: v.optional(v.string()),
+});
