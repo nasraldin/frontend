@@ -5,6 +5,36 @@ All notable changes to the Ajrly Platform will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and
 this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.3] - 2025-10-14
+
+**Author:** Nasr Aldin
+
+### chore
+
+chore: added more regex, validators, upgrade pkgs and auto-version
+
+### File Changed
+
+- .husky/post-commit
+- .husky/pre-commit
+- bun.lock
+- docs/auto-version.md
+- package.json
+- pnpm-lock.yaml
+- scripts/auto-version.sh
+- src/app.tsx
+- src/constants/global.ts
+- src/constants/regex.ts
+- src/env/schema.ts
+- src/global.d.ts
+- src/lib/sanitizer.ts
+- src/lib/validators.ts
+- src/utils/helpers/index.ts
+- src/utils/helpers/sanitizer.ts
+- tsconfig.json
+
+---
+
 ## [Unreleased]
 
 ### Added
