@@ -222,7 +222,7 @@ const ServerHead = ({
       <link rel="dns-prefetch" href="//fonts.gstatic.com" />
 
       {/* Critical Resource Preloading */}
-      <link
+      {/* <link
         rel="preload"
         href="https://www.googletagmanager.com/gtm.js?id=GTM-WN5ZS8W"
         as="script"
@@ -233,7 +233,7 @@ const ServerHead = ({
         href="https://www.googletagmanager.com/gtag/js?id=G-1V0YWBCMDX"
         as="script"
         crossOrigin="anonymous"
-      />
+      /> */}
 
       {/* Structured Data */}
       <script

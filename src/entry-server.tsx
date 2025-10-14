@@ -1,7 +1,7 @@
 // @refresh reload
 import { createHandler, StartServer } from '@solidjs/start/server';
 
-// import ServerHead from '~/components/ServerHead';
+import ServerHead from '~/components/ServerHead';
 import { initializeSecurity } from '~/lib/security-init';
 import { initializeErrorHandlers } from '~/utils/error/initializeErrorHandlers';
 
@@ -14,7 +14,7 @@ export default createHandler(() => (
     document={({ assets, children, scripts }) => (
       <html lang="en" dir="ltr">
         <head>
-          {/* <ServerHead /> */}
+          <ServerHead />
           {assets}
         </head>
         <body id="app-body" class="antialiased">

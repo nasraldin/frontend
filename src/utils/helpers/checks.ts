@@ -1,5 +1,3 @@
-import { logger } from '~/utils/logger';
-
 /**
  * Checks if a value is a boolean or a string representation of a boolean.
  *
@@ -32,7 +30,8 @@ export const isBoolean = (value: unknown): boolean => {
       return value.toLowerCase() === 'true';
     }
   } catch (err) {
-    logger.error({ err }, 'Error in isBoolean check');
+    // eslint-disable-next-line no-console
+    console.error('Error in isBoolean check:', err);
     return false;
   }
   return false;

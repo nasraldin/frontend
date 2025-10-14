@@ -3,7 +3,6 @@ import {
   DEFAULT_LOCALE,
   LOCALE_COOKIE_NAME,
 } from '~/i18n/config';
-import { CookieUtil } from '~/lib/storage';
 import { isSSR } from '~/utils/env';
 
 import { isLocaleSupported } from './isLocaleSupported';
@@ -15,7 +14,17 @@ import { isLocaleSupported } from './isLocaleSupported';
 export function getUserLocale(): AppLocale {
   if (isSSR) return DEFAULT_LOCALE;
 
-  const localeFromCookie = CookieUtil.get(LOCALE_COOKIE_NAME);
+  // Use browser's document.cookie directly to avoid server-side dependencies
+  const cookies = document.cookie.split(';');
+  let localeFromCookie: string | null = null;
+
+  for (const cookie of cookies) {
+    const [name, value] = cookie.trim().split('=');
+    if (name === LOCALE_COOKIE_NAME) {
+      localeFromCookie = value;
+      break;
+    }
+  }
 
   return (
     isLocaleSupported(localeFromCookie) ? localeFromCookie : DEFAULT_LOCALE
@@ -31,7 +40,9 @@ export const updateLocale = (locale: string) => {
   if (!isLocaleSupported(locale)) return;
 
   try {
-    CookieUtil.set(LOCALE_COOKIE_NAME, locale, DEFAULT_COOKIE_OPTIONS);
+    // Use browser's document.cookie directly to avoid server-side dependencies
+    const cookieString = `${LOCALE_COOKIE_NAME}=${locale}; path=${DEFAULT_COOKIE_OPTIONS.path}; max-age=${DEFAULT_COOKIE_OPTIONS.maxAge || 31536000}; ${DEFAULT_COOKIE_OPTIONS.secure ? 'secure; ' : ''}${DEFAULT_COOKIE_OPTIONS.sameSite || 'strict'}`;
+    document.cookie = cookieString;
   } catch (err) {
     // Silently handle cookie setting errors
   }
