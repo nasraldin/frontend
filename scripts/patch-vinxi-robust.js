@@ -5,18 +5,10 @@ import { join } from 'path';
 console.log('🔧 Applying Vinxi manifest path fix...');
 
 try {
-  // Find the Vinxi build.js file in node_modules
-  const findVinxiBuildPath = () => {
+  // Find all Vinxi build.js files in node_modules
+  const findAllVinxiBuildPaths = () => {
     const nodeModulesPath = 'node_modules';
-
-    // Try the direct path first (current structure)
-    const directPath = join(
-      nodeModulesPath,
-      '.pnpm/vinxi@0.5.8_@types+node@18.19.129_db0@0.3.4_ioredis@5.8.1_jiti@2.6.1_lightningcss@1.30.1_terser@5.44.0_yaml@2.8.1/node_modules/vinxi/lib/build.js',
-    );
-    if (existsSync(directPath)) {
-      return directPath;
-    }
+    const buildPaths = [];
 
     // Search for any vinxi package in .pnpm
     const pnpmPath = join(nodeModulesPath, '.pnpm');
@@ -26,7 +18,7 @@ try {
         if (dir.startsWith('vinxi@')) {
           const buildPath = join(pnpmPath, dir, 'node_modules/vinxi/lib/build.js');
           if (existsSync(buildPath)) {
-            return buildPath;
+            buildPaths.push(buildPath);
           }
         }
       }
@@ -35,46 +27,58 @@ try {
     // Fallback to regular node_modules
     const regularPath = join(nodeModulesPath, 'vinxi/lib/build.js');
     if (existsSync(regularPath)) {
-      return regularPath;
+      buildPaths.push(regularPath);
     }
 
-    return null;
+    return buildPaths;
   };
 
-  const buildPath = findVinxiBuildPath();
+  const buildPaths = findAllVinxiBuildPaths();
 
-  if (!buildPath) {
+  if (buildPaths.length === 0) {
     console.log(
-      '❌ Vinxi build.js not found. Make sure dependencies are installed.',
+      '❌ No Vinxi build.js files found. Make sure dependencies are installed.',
     );
     process.exit(1);
   }
 
-  console.log(`📁 Found Vinxi build.js at: ${buildPath}`);
+  console.log(`📁 Found ${buildPaths.length} Vinxi build.js file(s):`);
+  buildPaths.forEach((path, index) => {
+    console.log(`   ${index + 1}. ${path}`);
+  });
 
-  let buildContent = readFileSync(buildPath, 'utf-8');
+  let patchedCount = 0;
+  let alreadyPatchedCount = 0;
 
-  // Check if already patched
-  if (buildContent.includes('Fix for Vinxi 0.5.8 manifest path bug')) {
-    console.log('✅ Vinxi is already patched');
-    process.exit(0);
-  }
+  // Process each Vinxi build.js file
+  for (const buildPath of buildPaths) {
+    console.log(`\n🔧 Processing: ${buildPath}`);
 
-  // Apply the import fix
-  if (!buildContent.includes('existsSync')) {
-    buildContent = buildContent.replace(
-      'import { readdirSync, statSync, writeFileSync } from "node:fs";',
-      'import { readdirSync, statSync, writeFileSync, readFileSync, existsSync } from "node:fs";',
-    );
-  }
+    let buildContent = readFileSync(buildPath, 'utf-8');
 
-  // Apply the first manifest path fix
-  const firstPattern =
-    /const bundlerManifest = JSON\.parse\(\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\);/;
-  if (firstPattern.test(buildContent)) {
-    buildContent = buildContent.replace(
-      firstPattern,
-      `// Fix for Vinxi 0.5.8 manifest path bug
+    // Check if already patched
+    if (buildContent.includes('Fix for Vinxi 0.5.8 manifest path bug')) {
+      console.log('   ✅ Already patched');
+      // eslint-disable-next-line no-plusplus
+      alreadyPatchedCount++;
+      continue;
+    }
+
+    // Apply the import fix
+    if (!buildContent.includes('existsSync')) {
+      buildContent = buildContent.replace(
+        'import { readdirSync, statSync, writeFileSync } from "node:fs";',
+        'import { readdirSync, statSync, writeFileSync, readFileSync, existsSync } from "node:fs";',
+      );
+    }
+
+    // Apply the first manifest path fix
+    const firstPattern =
+      /const bundlerManifest = JSON\.parse\(\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\);/;
+    if (firstPattern.test(buildContent)) {
+      buildContent = buildContent.replace(
+        firstPattern,
+        `// Fix for Vinxi 0.5.8 manifest path bug
 \t\t\t\t\tlet manifestPath = viteManifestPath(router);
 \t\t\t\t\tif (!existsSync(manifestPath)) {
 \t\t\t\t\t\t// Try the .vite subdirectory
@@ -86,16 +90,16 @@ try {
 \t\t\t\t\tconst bundlerManifest = JSON.parse(
 \t\t\t\t\t\treadFileSync(manifestPath, "utf-8"),
 \t\t\t\t\t);`,
-    );
-  }
+      );
+    }
 
-  // Apply the second manifest path fix
-  const secondPattern =
-    /const bundlerManifest = JSON\.parse\(\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\);/;
-  if (secondPattern.test(buildContent)) {
-    buildContent = buildContent.replace(
-      secondPattern,
-      `// Fix for Vinxi 0.5.8 manifest path bug
+    // Apply the second manifest path fix
+    const secondPattern =
+      /const bundlerManifest = JSON\.parse\(\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\);/;
+    if (secondPattern.test(buildContent)) {
+      buildContent = buildContent.replace(
+        secondPattern,
+        `// Fix for Vinxi 0.5.8 manifest path bug
 \t\t\t\t\t\tlet manifestPath = viteManifestPath(router);
 \t\t\t\t\t\tif (!existsSync(manifestPath)) {
 \t\t\t\t\t\t\t// Try the .vite subdirectory
@@ -107,11 +111,25 @@ try {
 \t\t\t\t\t\tconst bundlerManifest = JSON.parse(
 \t\t\t\t\t\t\treadFileSync(manifestPath, "utf-8"),
 \t\t\t\t\t\t);`,
-    );
+      );
+    }
+
+    writeFileSync(buildPath, buildContent);
+    console.log('   ✅ Patched successfully');
+    // eslint-disable-next-line no-plusplus
+    patchedCount++;
   }
 
-  writeFileSync(buildPath, buildContent);
-  console.log('✅ Vinxi patched successfully');
+  console.log(`\n📊 Summary:`);
+  console.log(`   • Patched: ${patchedCount} file(s)`);
+  console.log(`   • Already patched: ${alreadyPatchedCount} file(s)`);
+  console.log(`   • Total processed: ${buildPaths.length} file(s)`);
+
+  if (patchedCount > 0) {
+    console.log('✅ Vinxi patching completed successfully');
+  } else {
+    console.log('✅ All Vinxi installations are already patched');
+  }
 } catch (error) {
   console.error('❌ Failed to patch Vinxi:', error.message);
   process.exit(1);
