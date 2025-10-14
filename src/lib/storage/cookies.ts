@@ -1,7 +1,71 @@
-import { isBrowser } from '~/utils/env';
+import {
+  CookieSerializeOptions,
+  deleteCookie as deleteCookieHttp,
+  getCookie as getCookieHttp,
+  setCookie as setCookieHttp,
+} from 'vinxi/http';
+
 import { logger } from '~/utils/logger';
 
-export type SameSiteType = true | false | 'lax' | 'strict' | 'none' | undefined;
+// Security constants
+const MAX_COOKIE_NAME_LENGTH = 4096;
+const MAX_COOKIE_VALUE_LENGTH = 4096;
+const SAFE_COOKIE_NAME_REGEX = /^[a-zA-Z0-9._-]+$/;
+const SAFE_COOKIE_VALUE_REGEX = /^[a-zA-Z0-9._~!$&'()*+,;=:@/?-]*$/;
+
+// Secure default options
+const SECURE_DEFAULT_OPTIONS: CookieSerializeOptions = {
+  httpOnly: true,
+  secure: true,
+  sameSite: 'strict',
+  path: '/',
+};
+
+/**
+ * Validates and sanitizes cookie name
+ * @param name The cookie name to validate
+ * @returns Sanitized cookie name or null if invalid
+ */
+const validateCookieName = (name: string): string | null => {
+  if (!name || typeof name !== 'string') {
+    return null;
+  }
+
+  const trimmedName = name.trim();
+
+  if (trimmedName.length === 0 || trimmedName.length > MAX_COOKIE_NAME_LENGTH) {
+    return null;
+  }
+
+  if (!SAFE_COOKIE_NAME_REGEX.test(trimmedName)) {
+    return null;
+  }
+
+  return trimmedName;
+};
+
+/**
+ * Validates and sanitizes cookie value
+ * @param value The cookie value to validate
+ * @returns Sanitized cookie value or null if invalid
+ */
+const validateCookieValue = (value: string): string | null => {
+  if (value === null || value === undefined) {
+    return null;
+  }
+
+  const stringValue = String(value);
+
+  if (stringValue.length > MAX_COOKIE_VALUE_LENGTH) {
+    return null;
+  }
+
+  if (!SAFE_COOKIE_VALUE_REGEX.test(stringValue)) {
+    return null;
+  }
+
+  return stringValue;
+};
 
 /**
  * Retrieves the value of a cookie by its name.
@@ -9,15 +73,15 @@ export type SameSiteType = true | false | 'lax' | 'strict' | 'none' | undefined;
  * @returns The value of the cookie if found, or null if not found.
  */
 export const getCookie = (name: string): string | null => {
-  if (!isBrowser) return null;
+  const validatedName = validateCookieName(name);
+  if (!validatedName) {
+    logger.warn({ name }, 'getCookie: Invalid cookie name');
+    return null;
+  }
 
-  const cookies = document.cookie.split(';');
-
-  for (const cookie of cookies) {
-    const [key, value] = cookie.trim().split('=');
-    if (key === name) {
-      return decodeURIComponent(value);
-    }
+  const value = getCookieHttp(validatedName);
+  if (value) {
+    return decodeURIComponent(value);
   }
   return null;
 };
@@ -31,42 +95,26 @@ export const getCookie = (name: string): string | null => {
 export const setCookie = (
   name: string,
   value: string,
-  options: {
-    maxAge?: number;
-    expires?: Date;
-    path?: string;
-    domain?: string;
-    secure?: boolean;
-    sameSite?: SameSiteType;
-    httpOnly?: boolean;
-  } = {},
+  options?: CookieSerializeOptions,
 ): void => {
-  if (!isBrowser) return;
+  const validatedName = validateCookieName(name);
+  const validatedValue = validateCookieValue(value);
 
-  let cookieString = `${encodeURIComponent(name)}=${encodeURIComponent(value)}`;
-
-  if (options.expires instanceof Date) {
-    cookieString += `; expires=${options.expires.toUTCString()}`;
+  if (!validatedName || !validatedValue) {
+    logger.warn(
+      { name, value, options },
+      'setCookie: Invalid cookie name or value',
+    );
+    return;
   }
 
-  if (options.path) {
-    cookieString += `; path=${options.path}`;
-  }
+  // Merge with secure defaults, allowing overrides
+  const secureOptions: CookieSerializeOptions = {
+    ...SECURE_DEFAULT_OPTIONS,
+    ...options,
+  };
 
-  if (options.domain) {
-    cookieString += `; domain=${options.domain}`;
-  }
-
-  if (options.secure) {
-    cookieString += '; secure';
-  }
-
-  if (options.sameSite) {
-    cookieString += `; samesite=${options.sameSite}`;
-  }
-
-  document.cookie = cookieString;
-  logger.info({ cookieString }, 'cookies'); // Log the cookie set action (useful for debugging)
+  setCookieHttp(validatedName, validatedValue, secureOptions);
 };
 
 /**
@@ -76,27 +124,49 @@ export const setCookie = (
  */
 export const deleteCookie = (
   name: string,
-  options: { path?: string; domain?: string } = {},
+  options?: CookieSerializeOptions,
 ): void => {
-  if (!isBrowser) return;
+  const validatedName = validateCookieName(name);
+  if (!validatedName) {
+    logger.warn({ name, options }, 'deleteCookie: Invalid cookie name');
+    return;
+  }
 
-  const deletedOptions = { ...options, expires: new Date(0) };
-  setCookie(name, '', deletedOptions);
-  logger.info({ action: 'deleted', cookie: name }, 'cookies');
+  deleteCookieHttp(validatedName, options);
 };
 
 /**
  * Clears all cookies accessible from the current page.
  */
 export const clearCookies = (): void => {
-  if (!isBrowser) return;
+  try {
+    if (typeof document === 'undefined') {
+      logger.warn('clearCookies: document is not available (server-side)');
+      return;
+    }
 
-  const cookies = document.cookie.split(';');
-  for (const cookie of cookies) {
-    const name = cookie.split('=')[0].trim();
-    deleteCookie(name); // Delete each cookie by name
+    const cookies = document.cookie.split(';');
+    let clearedCount = 0;
+
+    for (const cookie of cookies) {
+      try {
+        const trimmedCookie = cookie.trim();
+        if (trimmedCookie) {
+          const name = trimmedCookie.split('=')[0].trim();
+          if (name && validateCookieName(name)) {
+            deleteCookie(name);
+            clearedCount += 1;
+          }
+        }
+      } catch (error) {
+        logger.warn({ cookie, error }, 'Failed to clear malformed cookie');
+      }
+    }
+
+    logger.info({ action: 'cleared', count: clearedCount }, 'cookies');
+  } catch (error) {
+    logger.error({ error }, 'Failed to clear cookies');
   }
-  logger.info({ action: 'cleared' }, 'cookies');
 };
 
 /**

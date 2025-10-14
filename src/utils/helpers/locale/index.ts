@@ -1,4 +1,3 @@
-export * from './getLocaleFromPathname';
-export * from './getLocaleFromRequest';
+export * from './getLocale';
 export * from './isLocaleSupported';
 export * from './userLocale';

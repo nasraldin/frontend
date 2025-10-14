@@ -1,3 +1,5 @@
+import { toBase64URL } from './converts';
+
 /**
  * Generates a random 16-byte string encoded in base64 format.
  *
@@ -69,4 +71,16 @@ export const randomNumber = (min: number, max: number, seed?: number): number =>
   }
 
   return Math.floor(random * (max - min + 1)) + min;
+};
+
+/**
+ * Generates a cryptographically secure random nonce string for use in CSP headers
+ * Uses Web Crypto API to generate 16 bytes (128 bits) of random data
+ * Returns a base64url encoded string prefixed with 'nonce-'
+ *
+ * @returns {string} A CSP-compatible nonce string
+ * @throws {Error} If crypto.getRandomValues is not available
+ */
+export const generateNonce = (): string => {
+  return `nonce-${toBase64URL(random16Bytes())}`;
 };
