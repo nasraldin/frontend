@@ -45,7 +45,7 @@
     "@solidjs/meta": "0.29.4",
     "@solidjs/router": "0.15.3",
     "@solidjs/start": "1.2.0",
-    "@tanstack/solid-query": "5.90.3",
+    "@tanstack/solid-query": "5.90.4",
     "@upstash/ratelimit": "2.0.6",
     "@upstash/redis": "1.35.5",
     "@vinxi/plugin-mdx": "3.7.2",

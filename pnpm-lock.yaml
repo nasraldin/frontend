@@ -44,8 +44,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.5)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       '@tanstack/solid-query':
-        specifier: 5.90.3
-        version: 5.90.3(solid-js@1.9.9)
+        specifier: 5.90.4
+        version: 5.90.4(solid-js@1.9.9)
       '@upstash/ratelimit':
         specifier: 2.0.6
         version: 2.0.6(@upstash/redis@1.35.5)
@@ -184,7 +184,7 @@ importers:
         version: 5.91.0(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
       '@tanstack/solid-query-devtools':
         specifier: 5.90.3
-        version: 5.90.3(@tanstack/solid-query@5.90.3(solid-js@1.9.9))(solid-js@1.9.9)
+        version: 5.90.3(@tanstack/solid-query@5.90.4(solid-js@1.9.9))(solid-js@1.9.9)
       '@testing-library/jest-dom':
         specifier: 6.9.1
         version: 6.9.1
@@ -3150,10 +3150,10 @@ packages:
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  '@tanstack/query-core@5.90.2':
+  '@tanstack/query-core@5.90.3':
     resolution:
       {
-        integrity: sha512-k/TcR3YalnzibscALLwxeiLUub6jN5EDLwKDiO7q5f4ICEoptJ+n9+7vcEFy5/x/i6Q+Lb/tXrsKCggf5uQJXQ==,
+        integrity: sha512-HtPOnCwmx4dd35PfXU8jjkhwYrsHfuqgC8RCJIwWglmhIUIlzPP0ZcEkDAc+UtAWCiLm7T8rxeEfHZlz3hYMCA==,
       }
 
   '@tanstack/query-devtools@5.90.1':
@@ -3185,10 +3185,10 @@ packages:
       '@tanstack/solid-query': ^5.90.3
       solid-js: ^1.6.0
 
-  '@tanstack/solid-query@5.90.3':
+  '@tanstack/solid-query@5.90.4':
     resolution:
       {
-        integrity: sha512-XEP+fzZYes+GLA4HSvmitj2NCC7o9iwMvwdkI5R7YSQD08jd1rA9p4KUYWvcu8VfMD+jodOCn/iMHmPz8zV3qw==,
+        integrity: sha512-82nMtkIYFNGMAi5aPRFKxAQAZYpC/7MFii0vJ5RR8EaiuHbkn4y3KKBYVaaY01zWdTVgJ8cTWnwr5xhd0y1JTg==,
       }
     peerDependencies:
       solid-js: ^1.6.0
@@ -13226,7 +13226,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tanstack/query-core@5.90.2': {}
+  '@tanstack/query-core@5.90.3': {}
 
   '@tanstack/query-devtools@5.90.1': {}
 
@@ -13259,15 +13259,15 @@ snapshots:
       - supports-color
       - vite
 
-  '@tanstack/solid-query-devtools@5.90.3(@tanstack/solid-query@5.90.3(solid-js@1.9.9))(solid-js@1.9.9)':
+  '@tanstack/solid-query-devtools@5.90.3(@tanstack/solid-query@5.90.4(solid-js@1.9.9))(solid-js@1.9.9)':
     dependencies:
       '@tanstack/query-devtools': 5.90.1
-      '@tanstack/solid-query': 5.90.3(solid-js@1.9.9)
+      '@tanstack/solid-query': 5.90.4(solid-js@1.9.9)
       solid-js: 1.9.9
 
-  '@tanstack/solid-query@5.90.3(solid-js@1.9.9)':
+  '@tanstack/solid-query@5.90.4(solid-js@1.9.9)':
     dependencies:
-      '@tanstack/query-core': 5.90.2
+      '@tanstack/query-core': 5.90.3
       solid-js: 1.9.9
 
   '@testing-library/dom@10.4.1':
