@@ -1,5 +1,3 @@
-import { logger } from '~/utils/logger';
-
 /**
  * Converts any input value into an array safely, handling various edge cases.
  *
@@ -82,7 +80,8 @@ export function safeArray(args: unknown): unknown[] {
     try {
       return [args];
     } catch (error) {
-      logger.error({ error }, 'Error converting object to array');
+      // eslint-disable-next-line no-console
+      console.error('Error in isBoolean check:', error);
       return [`[Unprocessable object: ${typeof args}]`];
     }
   }

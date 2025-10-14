@@ -1,14 +1,20 @@
 // @refresh reload
 import { createHandler, StartServer } from '@solidjs/start/server';
 
-import AppHead from '~/components/Head';
+import ServerHead from '~/components/ServerHead';
+import { initializeSecurity } from '~/lib/security-init';
+import { initializeErrorHandlers } from '~/utils/error/initializeErrorHandlers';
+
+// Initialize error handlers and security. this it should be on top.
+initializeErrorHandlers();
+initializeSecurity();
 
 export default createHandler(() => (
   <StartServer
     document={({ assets, children, scripts }) => (
       <html lang="en" dir="ltr">
         <head>
-          <AppHead />
+          <ServerHead />
           {assets}
         </head>
         <body id="app-body" class="antialiased">

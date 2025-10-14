@@ -2,7 +2,7 @@ import type { FetchEvent } from '@solidjs/start/server';
 
 import { AppRoutes } from '~/config';
 import { DEFAULT_LOCALE, LOCALE_COOKIE_NAME } from '~/i18n/config';
-import { getLocaleFromRequest } from '~/utils/helpers/locale/getLocaleFromRequest';
+import { getLocaleFromRequest } from '~/utils/helpers/locale';
 import { logger } from '~/utils/logger';
 
 // Helper function to check if the request is an app route
