@@ -23,14 +23,14 @@ importers:
         specifier: 2.6.2
         version: 2.6.2
       '@keycloak/keycloak-admin-client':
-        specifier: 26.4.0
-        version: 26.4.0
+        specifier: 26.4.1
+        version: 26.4.1
       '@mdx-js/mdx':
         specifier: 3.1.1
         version: 3.1.1
       '@solid-mediakit/auth':
         specifier: 3.1.3
-        version: 3.1.3(@auth/core@0.38.0)(@solidjs/meta@0.29.4(solid-js@1.9.9))(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))(rollup@4.52.4)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+        version: 3.1.3(@auth/core@0.38.0)(@solidjs/meta@0.29.4(solid-js@1.9.9))(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))(rollup@4.52.4)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       '@solid-primitives/i18n':
         specifier: 2.2.1
         version: 2.2.1(solid-js@1.9.9)
@@ -42,10 +42,10 @@ importers:
         version: 0.15.3(solid-js@1.9.9)
       '@solidjs/start':
         specifier: 1.2.0
-        version: 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+        version: 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       '@tanstack/solid-query':
-        specifier: 5.90.4
-        version: 5.90.4(solid-js@1.9.9)
+        specifier: 5.90.5
+        version: 5.90.5(solid-js@1.9.9)
       '@upstash/ratelimit':
         specifier: 2.0.6
         version: 2.0.6(@upstash/redis@1.35.6)
@@ -92,8 +92,8 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       lucide-solid:
-        specifier: 0.545.0
-        version: 0.545.0(solid-js@1.9.9)
+        specifier: 0.546.0
+        version: 0.546.0(solid-js@1.9.9)
       marked:
         specifier: 16.4.0
         version: 16.4.0
@@ -107,8 +107,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       nuqs:
-        specifier: 2.7.1
-        version: 2.7.1(react@19.2.0)
+        specifier: 2.7.2
+        version: 2.7.2(react@19.2.0)
       pino:
         specifier: 10.0.0
         version: 10.0.0
@@ -129,13 +129,13 @@ importers:
         version: 1.9.9
       solid-mdx:
         specifier: 0.0.7
-        version: 0.0.7(solid-js@1.9.9)(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+        version: 0.0.7(solid-js@1.9.9)(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       solid-theme-provider:
         specifier: 0.10.1
         version: 0.10.1(solid-js@1.9.9)
       start-oauth:
         specifier: 1.3.0
-        version: 1.3.0(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))
+        version: 1.3.0(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))
       tailwind-variants:
         specifier: 3.1.1
         version: 3.1.1(tailwind-merge@3.3.1)(tailwindcss@4.1.14)
@@ -150,11 +150,11 @@ importers:
         version: 1.1.0(typescript@5.9.3)
       vinxi:
         specifier: 0.5.8
-        version: 0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+        version: 0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
     devDependencies:
       '@commitlint/cli':
         specifier: 20.1.0
-        version: 20.1.0(@types/node@24.7.2)(typescript@5.9.3)
+        version: 20.1.0(@types/node@24.8.0)(typescript@5.9.3)
       '@commitlint/config-conventional':
         specifier: 20.0.0
         version: 20.0.0
@@ -178,13 +178,13 @@ importers:
         version: 0.5.19(tailwindcss@4.1.14)
       '@tailwindcss/vite':
         specifier: 4.1.14
-        version: 4.1.14(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+        version: 4.1.14(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       '@tanstack/eslint-plugin-query':
-        specifier: 5.91.1
-        version: 5.91.1(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
+        specifier: 5.91.2
+        version: 5.91.2(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
       '@tanstack/solid-query-devtools':
-        specifier: 5.90.3
-        version: 5.90.3(@tanstack/solid-query@5.90.4(solid-js@1.9.9))(solid-js@1.9.9)
+        specifier: 5.90.4
+        version: 5.90.4(@tanstack/solid-query@5.90.5(solid-js@1.9.9))(solid-js@1.9.9)
       '@testing-library/jest-dom':
         specifier: 6.9.1
         version: 6.9.1
@@ -207,8 +207,8 @@ importers:
         specifier: 0.6.4
         version: 0.6.4
       '@types/node':
-        specifier: 24.7.2
-        version: 24.7.2
+        specifier: 24.8.0
+        version: 24.8.0
       '@vitest/ui':
         specifier: 3.2.4
         version: 3.2.4(vitest@3.2.4)
@@ -241,7 +241,7 @@ importers:
         version: 27.0.0(postcss@8.5.6)
       knip:
         specifier: 5.65.0
-        version: 5.65.0(@types/node@24.7.2)(typescript@5.9.3)
+        version: 5.65.0(@types/node@24.8.0)(typescript@5.9.3)
       lint-staged:
         specifier: 16.2.4
         version: 16.2.4
@@ -280,7 +280,7 @@ importers:
         version: 4.1.14
       ts-node:
         specifier: 10.9.2
-        version: 10.9.2(@types/node@24.7.2)(typescript@5.9.3)
+        version: 10.9.2(@types/node@24.8.0)(typescript@5.9.3)
       tw-animate-css:
         specifier: 1.4.0
         version: 1.4.0
@@ -292,16 +292,16 @@ importers:
         version: 8.46.1(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
       vite:
         specifier: 7.1.10
-        version: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+        version: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
       vite-plugin-pwa:
         specifier: 1.1.0
-        version: 1.1.0(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(workbox-build@7.3.0(@types/babel__core@7.20.5))(workbox-window@7.3.0)
+        version: 1.1.0(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(workbox-build@7.3.0(@types/babel__core@7.20.5))(workbox-window@7.3.0)
       vite-plugin-solid:
         specifier: 2.11.9
-        version: 2.11.9(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+        version: 2.11.9(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       vitest:
         specifier: 3.2.4
-        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.7.2)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@27.0.0(postcss@8.5.6))(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.8.0)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@27.0.0(postcss@8.5.6))(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
       workbox-window:
         specifier: 7.3.0
         version: 7.3.0
@@ -2108,10 +2108,10 @@ packages:
         integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==,
       }
 
-  '@keycloak/keycloak-admin-client@26.4.0':
+  '@keycloak/keycloak-admin-client@26.4.1':
     resolution:
       {
-        integrity: sha512-EQ4GFkb0mW5JssDPUW6Gm0z7vaNQDayQG/hF2YCPmC/gi1xNGhcwd1yZ+0e5xKy3l9U5fCkVKLuxKmGUzDxZ8A==,
+        integrity: sha512-xJkU4eNkVaHBolNMnR5lWWEX3nXBjGUJblGnRSOpzn4QKr3HDu67s590a7db4CCQYHzyTj21kuD/i6DqNTxXbQ==,
       }
     engines: { node: '>=18' }
 
@@ -3142,18 +3142,18 @@ packages:
     peerDependencies:
       vite: 7.1.10
 
-  '@tanstack/eslint-plugin-query@5.91.1':
+  '@tanstack/eslint-plugin-query@5.91.2':
     resolution:
       {
-        integrity: sha512-qbOAm0p7RCEVW5ZyJrqu2sed8hq6YbVqZmfG+C5IZSVOd9GL4XgK8XvF9QsEbaqUzxQrIjw4EEWnYlaYYNd42A==,
+        integrity: sha512-UPeWKl/Acu1IuuHJlsN+eITUHqAaa9/04geHHPedY8siVarSaWprY0SVMKrkpKfk5ehRT7+/MZ5QwWuEtkWrFw==,
       }
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0
 
-  '@tanstack/query-core@5.90.3':
+  '@tanstack/query-core@5.90.4':
     resolution:
       {
-        integrity: sha512-HtPOnCwmx4dd35PfXU8jjkhwYrsHfuqgC8RCJIwWglmhIUIlzPP0ZcEkDAc+UtAWCiLm7T8rxeEfHZlz3hYMCA==,
+        integrity: sha512-+IbzYym9wonJss2+ZXrQqdGhPozHV8BzgZRRHxkLtL2Oq+/wAuwkLMKXk6NbAbbj+Ipgd/kMjUenjGWfwKYDwA==,
       }
 
   '@tanstack/query-devtools@5.90.1':
@@ -3176,19 +3176,19 @@ packages:
       }
     engines: { node: '>=12' }
 
-  '@tanstack/solid-query-devtools@5.90.3':
+  '@tanstack/solid-query-devtools@5.90.4':
     resolution:
       {
-        integrity: sha512-UWb2/tHgHrMetOHrQFCzpivCJyttG7vb6axav/aiih9CN5PArxb6um1/7eOuWTb43vSRaMt2LP2Dj3fhixtDZA==,
+        integrity: sha512-ygyAiXZ+NR1tw33jVibpjiWB1IoAQWCeqSLmO/6PoSWrI9yDTwaPNAXheniEMrO6/a/vTQq2tB4N+FPNjhGaNw==,
       }
     peerDependencies:
-      '@tanstack/solid-query': ^5.90.3
+      '@tanstack/solid-query': ^5.90.4
       solid-js: ^1.6.0
 
-  '@tanstack/solid-query@5.90.4':
+  '@tanstack/solid-query@5.90.5':
     resolution:
       {
-        integrity: sha512-82nMtkIYFNGMAi5aPRFKxAQAZYpC/7MFii0vJ5RR8EaiuHbkn4y3KKBYVaaY01zWdTVgJ8cTWnwr5xhd0y1JTg==,
+        integrity: sha512-WqH55WEaGvoT7zFORdV1BFsojDHdoZ16rDHwQcPTApdhPOaZiw7vcTlUXnSnugKv7G7XH/0dglYugpUu4e3eCg==,
       }
     peerDependencies:
       solid-js: ^1.6.0
@@ -3408,10 +3408,10 @@ packages:
         integrity: sha512-elf6BsTq+AkyNsb2h5cGNst2Mc7dPliVoAPm1fXglC/BM3f2pFA40BaSSv3E5lyHteEawVKLP+8TwiY1DMNb3A==,
       }
 
-  '@types/node@24.7.2':
+  '@types/node@24.8.0':
     resolution:
       {
-        integrity: sha512-/NbVmcGTP+lj5oa4yiYxxeBjRivKQ5Ns1eSZeB99ExsEQ6rX5XYU1Zy/gGxY/ilqtD4Etx9mKyrPxZRetiahhA==,
+        integrity: sha512-5x08bUtU8hfboMTrJ7mEO4CpepS9yBwAqcL52y86SWNmbPX8LVbNs3EP4cNrIZgdjk2NAlP2ahNihozpoZIxSg==,
       }
 
   '@types/prismjs@1.26.5':
@@ -4630,10 +4630,10 @@ packages:
       }
     engines: { node: ^12.20.0 || ^14.13.1 || >=16.0.0 }
 
-  caniuse-lite@1.0.30001750:
+  caniuse-lite@1.0.30001751:
     resolution:
       {
-        integrity: sha512-cuom0g5sdX6rw00qOoLNSFCJ9/mYIsuSOA+yzpDw8eopiFqcVwQvZHqov0vmEighRxX++cfC0Vg1G+1Iy/mSpQ==,
+        integrity: sha512-A0QJhug0Ly64Ii3eIqHu5X51ebln3k4yTUkY1j8drqpWHVreg/VLijN48cZ1bYPiqOQuqpkIKnzr/Ul8V+p6Cw==,
       }
 
   ccount@2.0.1:
@@ -7564,10 +7564,10 @@ packages:
         integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==,
       }
 
-  lucide-solid@0.545.0:
+  lucide-solid@0.546.0:
     resolution:
       {
-        integrity: sha512-VAzoU/4aLECC/9yGg0RfYPPtgbwpu+DVo5EysU64pGuDT6n59NRIAZanu8O9D4xlcyW3PcigvZv7kBHPN7JItQ==,
+        integrity: sha512-zJX9x7rlOwqsB6eNMWOrzS+vuvZThPFksPVryiXMmC6QGAD6vRihEZHe+r4JSppAGhOaPRBnMhg8XNZ/qLslvA==,
       }
     peerDependencies:
       solid-js: ^1.4.7
@@ -8191,10 +8191,10 @@ packages:
       }
     engines: { node: ^12.20.0 || ^14.13.1 || >=16.0.0 }
 
-  nuqs@2.7.1:
+  nuqs@2.7.2:
     resolution:
       {
-        integrity: sha512-3WDgrOZWat0QyOheyljTlXK4TGFh1JKSLvXMgusMDcTyMJXe1xL8+q3zuQ6ke1vyeGnpJwztlZl2aDkMW2eIUg==,
+        integrity: sha512-wOPJoz5om7jMJQick9zU1S/Q+joL+B2DZTZxfCleHEcUzjUnPoujGod4+nAmUWb+G9TwZnyv+mfNqlyfEi8Zag==,
       }
     peerDependencies:
       '@remix-run/react': '>=2'
@@ -9144,10 +9144,10 @@ packages:
         integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==,
       }
 
-  rollup-plugin-visualizer@6.0.4:
+  rollup-plugin-visualizer@6.0.5:
     resolution:
       {
-        integrity: sha512-q8Q7J/6YofkmaGW1sH/fPRAz37x/+pd7VBuaUU7lwvOS/YikuiiEU9jeb9PH8XHiq50XFrUsBbOxeAMYQ7KZkg==,
+        integrity: sha512-9+HlNgKCVbJDs8tVtjQ43US12eqaiHyyiLMdBwQ7vSZPiHMysGNo2E88TAp1si5wx8NAoYriI2A5kuKfIakmJg==,
       }
     engines: { node: '>=18' }
     hasBin: true
@@ -12110,11 +12110,11 @@ snapshots:
     dependencies:
       mime: 3.0.0
 
-  '@commitlint/cli@20.1.0(@types/node@24.7.2)(typescript@5.9.3)':
+  '@commitlint/cli@20.1.0(@types/node@24.8.0)(typescript@5.9.3)':
     dependencies:
       '@commitlint/format': 20.0.0
       '@commitlint/lint': 20.0.0
-      '@commitlint/load': 20.1.0(@types/node@24.7.2)(typescript@5.9.3)
+      '@commitlint/load': 20.1.0(@types/node@24.8.0)(typescript@5.9.3)
       '@commitlint/read': 20.0.0
       '@commitlint/types': 20.0.0
       tinyexec: 1.0.1
@@ -12161,7 +12161,7 @@ snapshots:
       '@commitlint/rules': 20.0.0
       '@commitlint/types': 20.0.0
 
-  '@commitlint/load@20.1.0(@types/node@24.7.2)(typescript@5.9.3)':
+  '@commitlint/load@20.1.0(@types/node@24.8.0)(typescript@5.9.3)':
     dependencies:
       '@commitlint/config-validator': 20.0.0
       '@commitlint/execute-rule': 20.0.0
@@ -12169,7 +12169,7 @@ snapshots:
       '@commitlint/types': 20.0.0
       chalk: 5.6.2
       cosmiconfig: 9.0.0(typescript@5.9.3)
-      cosmiconfig-typescript-loader: 6.2.0(@types/node@24.7.2)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3)
+      cosmiconfig-typescript-loader: 6.2.0(@types/node@24.8.0)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -12589,7 +12589,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@keycloak/keycloak-admin-client@26.4.0':
+  '@keycloak/keycloak-admin-client@26.4.1':
     dependencies:
       camelize-ts: 3.0.0
       url-join: 5.0.0
@@ -13033,17 +13033,17 @@ snapshots:
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
-  '@solid-mediakit/auth@3.1.3(@auth/core@0.38.0)(@solidjs/meta@0.29.4(solid-js@1.9.9))(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))(rollup@4.52.4)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@solid-mediakit/auth@3.1.3(@auth/core@0.38.0)(@solidjs/meta@0.29.4(solid-js@1.9.9))(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)))(rollup@4.52.4)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@auth/core': 0.38.0
       '@solid-mediakit/shared': 0.0.6(rollup@4.52.4)
       '@solidjs/meta': 0.29.4(solid-js@1.9.9)
       '@solidjs/router': 0.15.3(solid-js@1.9.9)
-      '@solidjs/start': 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@solidjs/start': 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       cookie: 1.0.2
       set-cookie-parser: 2.7.1
       solid-js: 1.9.9
-      vinxi: 0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vinxi: 0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -13072,11 +13072,11 @@ snapshots:
     dependencies:
       solid-js: 1.9.9
 
-  '@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
-      '@tanstack/server-functions-plugin': 1.121.21(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
-      '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
-      '@vinxi/server-components': 0.5.1(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@tanstack/server-functions-plugin': 1.121.21(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@vinxi/server-components': 0.5.1(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       cookie-es: 2.0.0
       defu: 6.1.4
       error-stack-parser: 2.1.4
@@ -13088,8 +13088,8 @@ snapshots:
       source-map-js: 1.2.1
       terracotta: 1.0.6(solid-js@1.9.9)
       tinyglobby: 0.2.15
-      vinxi: 0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
-      vite-plugin-solid: 2.11.9(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      vinxi: 0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite-plugin-solid: 2.11.9(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - solid-js
@@ -13192,14 +13192,14 @@ snapshots:
       postcss-selector-parser: 6.0.10
       tailwindcss: 4.1.14
 
-  '@tailwindcss/vite@4.1.14(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@tailwindcss/vite@4.1.14(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@tailwindcss/node': 4.1.14
       '@tailwindcss/oxide': 4.1.14
       tailwindcss: 4.1.14
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
-  '@tanstack/directive-functions-plugin@1.121.21(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@tanstack/directive-functions-plugin@1.121.21(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.28.4
@@ -13208,11 +13208,11 @@ snapshots:
       '@tanstack/router-utils': 1.133.3
       babel-dead-code-elimination: 1.0.10
       tiny-invariant: 1.3.3
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@tanstack/eslint-plugin-query@5.91.1(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)':
+  '@tanstack/eslint-plugin-query@5.91.2(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
       '@typescript-eslint/utils': 8.46.1(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
       eslint: 9.37.0(jiti@2.6.1)
@@ -13220,7 +13220,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tanstack/query-core@5.90.3': {}
+  '@tanstack/query-core@5.90.4': {}
 
   '@tanstack/query-devtools@5.90.1': {}
 
@@ -13237,7 +13237,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tanstack/server-functions-plugin@1.121.21(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@tanstack/server-functions-plugin@1.121.21(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.28.4
@@ -13246,22 +13246,22 @@ snapshots:
       '@babel/template': 7.27.2
       '@babel/traverse': 7.28.4
       '@babel/types': 7.28.4
-      '@tanstack/directive-functions-plugin': 1.121.21(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@tanstack/directive-functions-plugin': 1.121.21(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       babel-dead-code-elimination: 1.0.10
       tiny-invariant: 1.3.3
     transitivePeerDependencies:
       - supports-color
       - vite
 
-  '@tanstack/solid-query-devtools@5.90.3(@tanstack/solid-query@5.90.4(solid-js@1.9.9))(solid-js@1.9.9)':
+  '@tanstack/solid-query-devtools@5.90.4(@tanstack/solid-query@5.90.5(solid-js@1.9.9))(solid-js@1.9.9)':
     dependencies:
       '@tanstack/query-devtools': 5.90.1
-      '@tanstack/solid-query': 5.90.4(solid-js@1.9.9)
+      '@tanstack/solid-query': 5.90.5(solid-js@1.9.9)
       solid-js: 1.9.9
 
-  '@tanstack/solid-query@5.90.4(solid-js@1.9.9)':
+  '@tanstack/solid-query@5.90.5(solid-js@1.9.9)':
     dependencies:
-      '@tanstack/query-core': 5.90.3
+      '@tanstack/query-core': 5.90.4
       solid-js: 1.9.9
 
   '@testing-library/dom@10.4.1':
@@ -13332,7 +13332,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 24.7.2
+      '@types/node': 24.8.0
 
   '@types/debug@4.1.12':
     dependencies:
@@ -13389,7 +13389,7 @@ snapshots:
 
   '@types/negotiator@0.6.4': {}
 
-  '@types/node@24.7.2':
+  '@types/node@24.8.0':
     dependencies:
       undici-types: 7.14.0
 
@@ -13554,7 +13554,7 @@ snapshots:
       untun: 0.1.3
       uqr: 0.1.2
 
-  '@vinxi/plugin-directives@0.5.1(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@vinxi/plugin-directives@0.5.1(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@babel/parser': 7.28.4
       acorn: 8.15.0
@@ -13565,7 +13565,7 @@ snapshots:
       magicast: 0.2.11
       recast: 0.23.11
       tslib: 2.8.1
-      vinxi: 0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vinxi: 0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
   '@vinxi/plugin-mdx@3.7.2(@mdx-js/mdx@3.1.1)':
     dependencies:
@@ -13576,16 +13576,16 @@ snapshots:
       unified: 9.2.2
       vfile: 5.3.7
 
-  '@vinxi/server-components@0.5.1(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@vinxi/server-components@0.5.1(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
-      '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       acorn: 8.15.0
       acorn-loose: 8.5.2
       acorn-typescript: 1.4.13(acorn@8.15.0)
       astring: 1.9.0
       magicast: 0.2.11
       recast: 0.23.11
-      vinxi: 0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vinxi: 0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
   '@vitest/expect@3.2.4':
     dependencies:
@@ -13595,13 +13595,13 @@ snapshots:
       chai: 5.3.3
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.4(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
+  '@vitest/mocker@3.2.4(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 3.2.4
       estree-walker: 3.0.3
       magic-string: 0.30.19
     optionalDependencies:
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
   '@vitest/pretty-format@3.2.4':
     dependencies:
@@ -13632,7 +13632,7 @@ snapshots:
       sirv: 3.0.2
       tinyglobby: 0.2.15
       tinyrainbow: 2.0.0
-      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@24.7.2)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@27.0.0(postcss@8.5.6))(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vitest: 3.2.4(@types/debug@4.1.12)(@types/node@24.8.0)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@27.0.0(postcss@8.5.6))(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
   '@vitest/utils@3.2.4':
     dependencies:
@@ -14410,7 +14410,7 @@ snapshots:
   browserslist@4.26.3:
     dependencies:
       baseline-browser-mapping: 2.8.16
-      caniuse-lite: 1.0.30001750
+      caniuse-lite: 1.0.30001751
       electron-to-chromium: 1.5.237
       node-releases: 2.0.25
       update-browserslist-db: 1.1.3(browserslist@4.26.3)
@@ -14490,7 +14490,7 @@ snapshots:
 
   camelize-ts@3.0.0: {}
 
-  caniuse-lite@1.0.30001750: {}
+  caniuse-lite@1.0.30001751: {}
 
   ccount@2.0.1: {}
 
@@ -14632,9 +14632,9 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@6.2.0(@types/node@24.7.2)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3):
+  cosmiconfig-typescript-loader@6.2.0(@types/node@24.8.0)(cosmiconfig@9.0.0(typescript@5.9.3))(typescript@5.9.3):
     dependencies:
-      '@types/node': 24.7.2
+      '@types/node': 24.8.0
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 2.6.1
       typescript: 5.9.3
@@ -16005,10 +16005,10 @@ snapshots:
 
   klona@2.0.6: {}
 
-  knip@5.65.0(@types/node@24.7.2)(typescript@5.9.3):
+  knip@5.65.0(@types/node@24.8.0)(typescript@5.9.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
-      '@types/node': 24.7.2
+      '@types/node': 24.8.0
       fast-glob: 3.3.3
       formatly: 0.3.0
       jiti: 2.6.1
@@ -16194,7 +16194,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-solid@0.545.0(solid-js@1.9.9):
+  lucide-solid@0.546.0(solid-js@1.9.9):
     dependencies:
       solid-js: 1.9.9
 
@@ -16680,7 +16680,7 @@ snapshots:
       pretty-bytes: 7.1.0
       radix3: 1.1.2
       rollup: 4.52.4
-      rollup-plugin-visualizer: 6.0.4(rollup@4.52.4)
+      rollup-plugin-visualizer: 6.0.5(rollup@4.52.4)
       scule: 1.3.0
       semver: 7.7.3
       serve-placeholder: 2.0.2
@@ -16757,7 +16757,7 @@ snapshots:
     dependencies:
       path-key: 4.0.0
 
-  nuqs@2.7.1(react@19.2.0):
+  nuqs@2.7.2(react@19.2.0):
     dependencies:
       '@standard-schema/spec': 1.0.0
       react: 19.2.0
@@ -17334,7 +17334,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rollup-plugin-visualizer@6.0.4(rollup@4.52.4):
+  rollup-plugin-visualizer@6.0.5(rollup@4.52.4):
     dependencies:
       open: 8.4.2
       picomatch: 4.0.3
@@ -17635,10 +17635,10 @@ snapshots:
       seroval: 1.3.2
       seroval-plugins: 1.3.3(seroval@1.3.2)
 
-  solid-mdx@0.0.7(solid-js@1.9.9)(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)):
+  solid-mdx@0.0.7(solid-js@1.9.9)(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)):
     dependencies:
       solid-js: 1.9.9
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
   solid-refresh@0.6.3(solid-js@1.9.9):
     dependencies:
@@ -17688,10 +17688,10 @@ snapshots:
 
   standard-as-callback@2.1.0: {}
 
-  start-oauth@1.3.0(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))):
+  start-oauth@1.3.0(@solidjs/router@0.15.3(solid-js@1.9.9))(@solidjs/start@1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))):
     dependencies:
       '@solidjs/router': 0.15.3(solid-js@1.9.9)
-      '@solidjs/start': 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@solidjs/start': 1.2.0(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
 
   statuses@2.0.1: {}
 
@@ -18072,14 +18072,14 @@ snapshots:
     dependencies:
       typescript: 5.9.3
 
-  ts-node@10.9.2(@types/node@24.7.2)(typescript@5.9.3):
+  ts-node@10.9.2(@types/node@24.8.0)(typescript@5.9.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 24.7.2
+      '@types/node': 24.8.0
       acorn: 8.15.0
       acorn-walk: 8.3.4
       arg: 4.1.3
@@ -18401,7 +18401,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vinxi@0.5.8(@types/node@24.7.2)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
+  vinxi@0.5.8(@types/node@24.8.0)(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       '@babel/core': 7.28.4
       '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.28.4)
@@ -18435,7 +18435,7 @@ snapshots:
       unctx: 2.4.1
       unenv: 1.10.0
       unstorage: 1.17.1(@upstash/redis@1.35.6)(db0@0.3.4)(ioredis@5.8.1)
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
       zod: 3.25.76
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -18482,13 +18482,13 @@ snapshots:
       - xml2js
       - yaml
 
-  vite-node@3.2.4(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
+  vite-node@3.2.4(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -18503,18 +18503,18 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-pwa@1.1.0(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(workbox-build@7.3.0(@types/babel__core@7.20.5))(workbox-window@7.3.0):
+  vite-plugin-pwa@1.1.0(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))(workbox-build@7.3.0(@types/babel__core@7.20.5))(workbox-window@7.3.0):
     dependencies:
       debug: 4.4.3
       pretty-bytes: 6.1.1
       tinyglobby: 0.2.15
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
       workbox-build: 7.3.0(@types/babel__core@7.20.5)
       workbox-window: 7.3.0
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-solid@2.11.9(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)):
+  vite-plugin-solid@2.11.9(@testing-library/jest-dom@6.9.1)(solid-js@1.9.9)(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)):
     dependencies:
       '@babel/core': 7.28.4
       '@types/babel__core': 7.20.5
@@ -18522,14 +18522,14 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.9
       solid-refresh: 0.6.3(solid-js@1.9.9)
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
-      vitefu: 1.1.1(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vitefu: 1.1.1(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
     optionalDependencies:
       '@testing-library/jest-dom': 6.9.1
     transitivePeerDependencies:
       - supports-color
 
-  vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
+  vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -18538,22 +18538,22 @@ snapshots:
       rollup: 4.52.4
       tinyglobby: 0.2.15
     optionalDependencies:
-      '@types/node': 24.7.2
+      '@types/node': 24.8.0
       fsevents: 2.3.3
       jiti: 2.6.1
       lightningcss: 1.30.1
       terser: 5.44.0
       yaml: 2.8.1
 
-  vitefu@1.1.1(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)):
+  vitefu@1.1.1(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)):
     optionalDependencies:
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
 
-  vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.7.2)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@27.0.0(postcss@8.5.6))(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
+  vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.8.0)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@27.0.0(postcss@8.5.6))(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
-      '@vitest/mocker': 3.2.4(vite@7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
+      '@vitest/mocker': 3.2.4(vite@7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1))
       '@vitest/pretty-format': 3.2.4
       '@vitest/runner': 3.2.4
       '@vitest/snapshot': 3.2.4
@@ -18571,12 +18571,12 @@ snapshots:
       tinyglobby: 0.2.15
       tinypool: 1.1.1
       tinyrainbow: 2.0.0
-      vite: 7.1.10(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
-      vite-node: 3.2.4(@types/node@24.7.2)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.10(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
+      vite-node: 3.2.4(@types/node@24.8.0)(jiti@2.6.1)(lightningcss@1.30.1)(terser@5.44.0)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/debug': 4.1.12
-      '@types/node': 24.7.2
+      '@types/node': 24.8.0
       '@vitest/ui': 3.2.4(vitest@3.2.4)
       jsdom: 27.0.0(postcss@8.5.6)
     transitivePeerDependencies:
