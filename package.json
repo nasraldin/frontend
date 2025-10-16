@@ -35,7 +35,7 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@ark-ui/solid": "5.26.0",
+    "@ark-ui/solid": "5.26.1",
     "@formatjs/intl-localematcher": "0.6.2",
     "@googlemaps/markerclusterer": "2.6.2",
     "@keycloak/keycloak-admin-client": "26.4.0",
@@ -92,7 +92,7 @@
     "@tailwindcss/forms": "0.5.10",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "4.1.14",
-    "@tanstack/eslint-plugin-query": "5.91.0",
+    "@tanstack/eslint-plugin-query": "5.91.1",
     "@tanstack/solid-query-devtools": "5.90.3",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/user-event": "14.6.1",
