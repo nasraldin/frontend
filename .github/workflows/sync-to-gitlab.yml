@@ -1,0 +1,14 @@
+name: Sync to GitLab
+
+on: push
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync to GitLab
+        uses: kujov/gitlab-sync@2.1.0
+        with:
+          gitlab_url: https://gitlab.com/AJRLY/frontend.git
+          username: ${{ github.actor }}
+          gitlab_pat: ${{ secrets.GITLAB_PAT }}
