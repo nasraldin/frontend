@@ -72,13 +72,25 @@ try {
       );
     }
 
-    // Apply the first manifest path fix
-    const firstPattern =
-      /const bundlerManifest = JSON\.parse\(\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\);/;
-    if (firstPattern.test(buildContent)) {
-      buildContent = buildContent.replace(
-        firstPattern,
-        `// Fix for Vinxi 0.5.8 manifest path bug
+    // Apply manifest path fixes - handle multi-line patterns
+    // Pattern to match: const bundlerManifest = JSON.parse(\n\t\t\treadFileSync(...)\n\t\t\t);
+    // This pattern matches multi-line JSON.parse with readFileSync
+    const manifestPattern =
+      /const bundlerManifest = JSON\.parse\(\s*\n\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\n\s*\);/g;
+
+    // Replace all occurrences - we'll detect the indentation level from context
+    let matchCount = 0;
+    let wasPatched = false;
+    buildContent = buildContent.replace(manifestPattern, () => {
+      // eslint-disable-next-line no-plusplus
+      matchCount++;
+      wasPatched = true;
+
+      // Determine replacement based on which occurrence this is
+      // First occurrence is typically around line 161, second around line 256
+      if (matchCount === 1) {
+        // First occurrence - use 5 tabs
+        return `// Fix for Vinxi 0.5.8 manifest path bug
 \t\t\t\t\tlet manifestPath = viteManifestPath(router);
 \t\t\t\t\tif (!existsSync(manifestPath)) {
 \t\t\t\t\t\t// Try the .vite subdirectory
@@ -89,17 +101,10 @@ try {
 \t\t\t\t\t}
 \t\t\t\t\tconst bundlerManifest = JSON.parse(
 \t\t\t\t\t\treadFileSync(manifestPath, "utf-8"),
-\t\t\t\t\t);`,
-      );
-    }
-
-    // Apply the second manifest path fix
-    const secondPattern =
-      /const bundlerManifest = JSON\.parse\(\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\);/;
-    if (secondPattern.test(buildContent)) {
-      buildContent = buildContent.replace(
-        secondPattern,
-        `// Fix for Vinxi 0.5.8 manifest path bug
+\t\t\t\t\t);`;
+      }
+      // Second occurrence - use 6 tabs
+      return `// Fix for Vinxi 0.5.8 manifest path bug
 \t\t\t\t\t\tlet manifestPath = viteManifestPath(router);
 \t\t\t\t\t\tif (!existsSync(manifestPath)) {
 \t\t\t\t\t\t\t// Try the .vite subdirectory
@@ -110,8 +115,15 @@ try {
 \t\t\t\t\t\t}
 \t\t\t\t\t\tconst bundlerManifest = JSON.parse(
 \t\t\t\t\t\t\treadFileSync(manifestPath, "utf-8"),
-\t\t\t\t\t\t);`,
-      );
+\t\t\t\t\t\t);`;
+    });
+
+    // Only write if we actually made replacements
+    if (!wasPatched) {
+      console.log('   ⚠️  No manifest patterns found to patch');
+      // eslint-disable-next-line no-plusplus
+      alreadyPatchedCount++;
+      continue;
     }
 
     writeFileSync(buildPath, buildContent);
