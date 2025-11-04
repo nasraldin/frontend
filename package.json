@@ -1,6 +1,6 @@
 {
   "name": "ajrly-frontend",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "type": "module",
   "description": "Frontend application build with solidjs",
   "scripts": {
