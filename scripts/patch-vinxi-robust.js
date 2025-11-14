@@ -56,12 +56,82 @@ try {
 
     let buildContent = readFileSync(buildPath, 'utf-8');
 
-    // Check if already patched
-    if (buildContent.includes('Fix for Vinxi 0.5.8 manifest path bug')) {
-      console.log('   ✅ Already patched');
-      // eslint-disable-next-line no-plusplus
-      alreadyPatchedCount++;
-      continue;
+    // Check if already patched - but verify it's correctly patched
+    // If it has the patch but still has the original pattern, it needs re-patching
+    const hasPatchComment = buildContent.includes(
+      'Fix for Vinxi 0.5.8 manifest path bug',
+    );
+    const hasOriginalPattern = buildContent.includes(
+      'readFileSync(viteManifestPath(router), "utf-8")',
+    );
+    const hasPatchedPattern = buildContent.includes(
+      'readFileSync(manifestPath, "utf-8")',
+    );
+
+    // If it has the patch comment but still has the original pattern, it wasn't fully patched
+    // If it has the patch comment and patched pattern but no original, check indentation
+    if (hasPatchComment && !hasOriginalPattern && hasPatchedPattern) {
+      // Verify the indentation is correct by checking the structure
+      // The "let manifestPath" should be at the same level as "const bundlerManifest"
+      // and "readFileSync(manifestPath" should be indented one level more
+      const manifestPathMatch = buildContent.match(
+        /(\s+)let manifestPath = viteManifestPath\(router\);/,
+      );
+      const bundlerMatch = buildContent.match(
+        /(\s+)const bundlerManifest = JSON\.parse\(/,
+      );
+      const readFileMatch = buildContent.match(
+        /(\s+)readFileSync\(manifestPath, "utf-8"\),/,
+      );
+
+      if (
+        manifestPathMatch &&
+        bundlerMatch &&
+        readFileMatch &&
+        manifestPathMatch[1] === bundlerMatch[1] &&
+        readFileMatch[1].length > bundlerMatch[1].length
+      ) {
+        // Indentation looks correct
+        console.log('   ✅ Already patched');
+        // eslint-disable-next-line no-plusplus
+        alreadyPatchedCount++;
+        continue;
+      }
+    }
+
+    // If it was patched incorrectly before, restore the original pattern
+    if (hasPatchComment && hasPatchedPattern) {
+      console.log('   🔄 Re-patching (fixing incorrect previous patch)...');
+      // Use a very flexible pattern that matches from the comment to the closing paren
+      // This handles corrupted files with extra newlines
+      const restorePattern =
+        /\/\/ Fix for Vinxi 0\.5\.8 manifest path bug[\s\S]*?const bundlerManifest = JSON\.parse\([\s\S]*?readFileSync\(manifestPath, "utf-8"\),[\s\S]*?\);/g;
+
+      buildContent = buildContent.replace(restorePattern, (match) => {
+        // Extract the indentation from the const bundlerManifest line
+        const constMatch = match.match(
+          /(\s+)const bundlerManifest = JSON\.parse\(/,
+        );
+        if (!constMatch) {
+          // Fallback: try to find any const bundlerManifest in the match
+          const altMatch = match.match(/const bundlerManifest = JSON\.parse\(/);
+          if (altMatch) {
+            // Find the line before it to get context
+            const beforeConst = match.substring(0, altMatch.index);
+            const lastNewline = beforeConst.lastIndexOf('\n');
+            const lineBefore = beforeConst.substring(lastNewline + 1);
+            const indentMatch = lineBefore.match(/^(\s*)/);
+            const constIndent = indentMatch ? indentMatch[1] : '\t\t\t\t\t';
+            const readFileIndent = constIndent + '\t';
+            return `${constIndent}const bundlerManifest = JSON.parse(\n${readFileIndent}readFileSync(viteManifestPath(router), "utf-8"),\n${constIndent});`;
+          }
+          return match; // Can't fix it, return as-is
+        }
+        const constIndent = constMatch[1];
+        const readFileIndent = constIndent + '\t';
+
+        return `${constIndent}const bundlerManifest = JSON.parse(\n${readFileIndent}readFileSync(viteManifestPath(router), "utf-8"),\n${constIndent});`;
+      });
     }
 
     // Apply the import fix
@@ -72,51 +142,39 @@ try {
       );
     }
 
-    // Apply manifest path fixes - handle multi-line patterns
-    // Pattern to match: const bundlerManifest = JSON.parse(\n\t\t\treadFileSync(...)\n\t\t\t);
-    // This pattern matches multi-line JSON.parse with readFileSync
-    const manifestPattern =
-      /const bundlerManifest = JSON\.parse\(\s*\n\s*readFileSync\(viteManifestPath\(router\), "utf-8"\),\s*\n\s*\);/g;
+    // Apply manifest path fixes - handle all patterns flexibly
+    // Pattern to match: const bundlerManifest = JSON.parse(\n\t*readFileSync(viteManifestPath(router), "utf-8"),\n\t*);
+    // This matches multi-line JSON.parse with readFileSync, capturing indentation
+    // We need to capture the indentation before "const" and before "readFileSync"
+    const flexiblePattern =
+      /(\s+)const bundlerManifest = JSON\.parse\(\s*\n(\s+)readFileSync\(viteManifestPath\(router\),\s*"utf-8"\),\s*\n(\s+)\);/g;
 
-    // Replace all occurrences - we'll detect the indentation level from context
-    let matchCount = 0;
     let wasPatched = false;
-    buildContent = buildContent.replace(manifestPattern, () => {
-      // eslint-disable-next-line no-plusplus
-      matchCount++;
-      wasPatched = true;
+    buildContent = buildContent.replace(
+      flexiblePattern,
+      (match, constIndent, readFileIndent, closingIndent) => {
+        wasPatched = true;
+        // constIndent is the indentation of the "const bundlerManifest" line
+        // readFileIndent is the indentation of the "readFileSync" line (usually one tab more)
+        // Use constIndent for variable declarations at the same level
+        const varIndent = constIndent;
+        const blockIndent = constIndent + '\t';
+        const innerIndent = blockIndent + '\t';
 
-      // Determine replacement based on which occurrence this is
-      // First occurrence is typically around line 161, second around line 256
-      if (matchCount === 1) {
-        // First occurrence - use 5 tabs
-        return `// Fix for Vinxi 0.5.8 manifest path bug
-\t\t\t\t\tlet manifestPath = viteManifestPath(router);
-\t\t\t\t\tif (!existsSync(manifestPath)) {
-\t\t\t\t\t\t// Try the .vite subdirectory
-\t\t\t\t\t\tconst vitePath = join(router.outDir, router.base, ".vite", "manifest.json");
-\t\t\t\t\t\tif (existsSync(vitePath)) {
-\t\t\t\t\t\t\tmanifestPath = vitePath;
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t\tconst bundlerManifest = JSON.parse(
-\t\t\t\t\t\treadFileSync(manifestPath, "utf-8"),
-\t\t\t\t\t);`;
-      }
-      // Second occurrence - use 6 tabs
-      return `// Fix for Vinxi 0.5.8 manifest path bug
-\t\t\t\t\t\tlet manifestPath = viteManifestPath(router);
-\t\t\t\t\t\tif (!existsSync(manifestPath)) {
-\t\t\t\t\t\t\t// Try the .vite subdirectory
-\t\t\t\t\t\t\tconst vitePath = join(router.outDir, router.base, ".vite", "manifest.json");
-\t\t\t\t\t\t\tif (existsSync(vitePath)) {
-\t\t\t\t\t\t\t\tmanifestPath = vitePath;
-\t\t\t\t\t\t\t}
-\t\t\t\t\t\t}
-\t\t\t\t\t\tconst bundlerManifest = JSON.parse(
-\t\t\t\t\t\t\treadFileSync(manifestPath, "utf-8"),
-\t\t\t\t\t\t);`;
-    });
+        return `${varIndent}// Fix for Vinxi 0.5.8 manifest path bug
+${varIndent}let manifestPath = viteManifestPath(router);
+${varIndent}if (!existsSync(manifestPath)) {
+${blockIndent}// Try the .vite subdirectory
+${blockIndent}const vitePath = join(router.outDir, router.base, ".vite", "manifest.json");
+${blockIndent}if (existsSync(vitePath)) {
+${innerIndent}manifestPath = vitePath;
+${blockIndent}}
+${varIndent}}
+${varIndent}const bundlerManifest = JSON.parse(
+${readFileIndent}readFileSync(manifestPath, "utf-8"),
+${closingIndent});`;
+      },
+    );
 
     // Only write if we actually made replacements
     if (!wasPatched) {
