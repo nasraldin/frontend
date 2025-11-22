@@ -5,6 +5,28 @@ All notable changes to the Ajrly Platform will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and
 this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.12] - 2025-11-22
+
+**Author:** Nasr Aldin
+
+### chore
+
+chore: added sonar
+
+### File Changed
+
+- .gitignore
+- .husky/install.mjs
+- .nvmrc
+- .vscode/settings.json
+- bun.lock
+- package.json
+- pnpm-lock.yaml
+- pnpm-workspace.yaml
+- sonar-project.properties
+
+---
+
 ## [0.3.11] - 2025-11-15
 
 **Author:** Nasr Aldin
