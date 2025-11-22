@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "ESLint": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./node_modules/@eslint/mcp/src/mcp-cli.js"],
+      "cwd": "/Users/nasr/Sources/ajrly/nest-backend"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "sonarqube": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--name",
+        "sonarqube-mcp-server",
+        "--rm",
+        "--network",
+        "dev-network",
+        "-e",
+        "SONARQUBE_TOKEN",
+        "-e",
+        "SONARQUBE_URL",
+        "mcp/sonarqube"
+      ],
+      "env": {
+        "SONARQUBE_TOKEN": "sqp_e08f0f4efdc726be4055262cb709eaa47e5a109b",
+        "SONARQUBE_URL": "http://sonarqube:9000"
+      }
+    }
+  }
+}
