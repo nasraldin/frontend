@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'node:fs';
 
 // Skip Husky install in production and CI
 if (process.env.NODE_ENV === 'production' || process.env.CI === 'true') {
@@ -13,8 +13,16 @@ const isDevelopment =
   process.env.NODE_ENV === 'dev';
 
 if (isDevelopment) {
-  fs.copyFileSync('.env.development', '.env');
-  console.log('✅ Copied .env.development to .env');
+  if (fs.existsSync('.env.development')) {
+    if (fs.existsSync('.env')) {
+      console.log('ℹ️ .env already exists, skipping copy.');
+    } else {
+      fs.copyFileSync('.env.development', '.env');
+      console.log('✅ Copied .env.development to .env');
+    }
+  } else {
+    console.log('ℹ️ Skipping .env copy; .env.development not found.');
+  }
 }
 
 const husky = (await import('husky')).default;

@@ -51,5 +51,9 @@
     ".vscode": true,
     ".husky": true,
     "pnpm-lock.yaml": true
+  },
+  "sonarlint.connectedMode.project": {
+    "connectionId": "http-sonarqube-test",
+    "projectKey": "Frontend"
   }
 }

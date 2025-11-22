@@ -93,3 +93,6 @@ public/atom.xml
 
 # Million Lint
 .million
+
+# SonarQube
+.scannerwork
