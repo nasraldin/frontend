@@ -7,11 +7,16 @@ export default defineConfig({
     conditions: ['development', 'browser'],
   },
   test: {
-    // Generate JUnit XML report for SonarQube
-    reporters: ['default', 'junit'],
-    outputFile: {
-      junit: 'test-results/junit.xml',
-    },
+    // Generate SonarQube-compatible test execution report
+    reporters: [
+      'default',
+      [
+        'vitest-sonar-reporter',
+        {
+          outputFile: 'test-results/sonar-report.xml',
+        },
+      ],
+    ],
     // Coverage configuration
     coverage: {
       provider: 'v8',

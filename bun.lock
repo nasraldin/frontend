@@ -105,6 +105,7 @@
         "vite-plugin-pwa": "1.1.0",
         "vite-plugin-solid": "2.11.10",
         "vitest": "4.0.13",
+        "vitest-sonar-reporter": "3.0.0",
         "workbox-window": "7.4.0",
       },
     },
@@ -2834,6 +2835,8 @@
     "vitefu": ["vitefu@1.1.1", "", { "optionalDependencies": { "vite": "7.2.4" } }, "sha512-B/Fegf3i8zh0yFbpzZ21amWzHmuNlLlmJT6n7bu5e+pCHUKQIfXSYokrqOBGEMMe9UG2sostKQF9mml/vYaWJQ=="],
 
     "vitest": ["vitest@4.0.13", "", { "dependencies": { "@vitest/expect": "4.0.13", "@vitest/mocker": "4.0.13", "@vitest/pretty-format": "4.0.13", "@vitest/runner": "4.0.13", "@vitest/snapshot": "4.0.13", "@vitest/spy": "4.0.13", "@vitest/utils": "4.0.13", "debug": "4.4.3", "es-module-lexer": "1.7.0", "expect-type": "1.2.2", "magic-string": "0.30.21", "pathe": "2.0.3", "picomatch": "4.0.3", "std-env": "3.10.0", "tinybench": "2.9.0", "tinyexec": "0.3.2", "tinyglobby": "0.2.15", "tinyrainbow": "3.0.3", "vite": "7.2.4", "why-is-node-running": "2.3.0" }, "optionalDependencies": { "@types/debug": "4.1.12", "@types/node": "24.10.1", "@vitest/ui": "4.0.13", "jsdom": "27.2.0" }, "bin": { "vitest": "vitest.mjs" } }, "sha512-QSD4I0fN6uZQfftryIXuqvqgBxTvJ3ZNkF6RWECd82YGAYAfhcppBLFXzXJHQAAhVFyYEuFTrq6h0hQqjB7jIQ=="],
+
+    "vitest-sonar-reporter": ["vitest-sonar-reporter@3.0.0", "", { "peerDependencies": { "vitest": ">=3" } }, "sha512-QRT5m9Z/3Kt0WVDVcFHm5LC9Ba89yDP4twlX2QUAJ9PdqfJBkLAh/kXj7m6U3i0k6GxnIEiwCc295bmAYokmZg=="],
 
     "w3c-xmlserializer": ["w3c-xmlserializer@5.0.0", "", { "dependencies": { "xml-name-validator": "5.0.0" } }, "sha512-o8qghlI8NZHU1lLPrpi2+Uq7abh4GGPpYANlalzWxyWteJOCsr/P+oPBA49TOLu5FTZO4d3F9MnWJfiMo4BkmA=="],
 

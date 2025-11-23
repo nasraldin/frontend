@@ -136,6 +136,7 @@
     "vite-plugin-pwa": "1.1.0",
     "vite-plugin-solid": "2.11.10",
     "vitest": "4.0.13",
+    "vitest-sonar-reporter": "3.0.0",
     "workbox-window": "7.4.0"
   },
   "packageManager": "pnpm@10.23.0",
