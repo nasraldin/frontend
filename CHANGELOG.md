@@ -5,6 +5,69 @@ All notable changes to the Ajrly Platform will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and
 this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.19] - 2025-11-23
+
+**Author:** Nasr Aldin
+
+### fix
+
+fix: sonar 101
+
+### File Changed
+
+- docs/api.tst
+- docs/auth.txt
+- docs/loadDictionary.txt
+- docs/types.txt
+- pnpm-lock.yaml
+- scripts/build-dictionary.mjs
+- scripts/patch-vinxi-robust.js
+- src/components/Head.tsx
+- src/components/ServerHead.tsx
+- src/components/animations/FadeInSection.tsx
+- src/components/animations/MagneticButton.tsx
+- src/components/animations/ParallaxScroll.tsx
+- src/components/animations/ScaleIn.tsx
+- src/components/animations/ShowOffers.tsx
+- src/components/animations/SlideIn.tsx
+- src/components/animations/StaggerAnimation.tsx
+- src/components/animations/TypingAnimation.tsx
+- src/constants/regex.ts
+- src/env/index.ts
+- src/i18n/dictionary/loadDictionary.ts
+- src/i18n/dictionary/types.ts
+- src/lib/api.ts
+- src/lib/cache/adapters/upstashRedisAdapter.ts
+- src/lib/cache/cacheAdapterFactory.ts
+- src/lib/hello.ts
+- src/lib/sanitizer.ts
+- src/lib/security.ts
+- src/lib/storage/indexedDB.ts
+- src/lib/storage/localstorage.ts
+- src/middleware/chain.ts
+- src/middleware/utils/headers-utils.ts
+- src/middleware/withAuth.ts
+- src/middleware/withCSP.ts
+- src/middleware/withHeaders.ts
+- src/routes/api/csp-report.ts
+- src/routes/ui/animations.tsx
+- src/routes/ui/icons.tsx
+- src/routes/ui/index.tsx
+- src/types/genericTypes.ts
+- src/utils/css.ts
+- src/utils/date.ts
+- src/utils/env.ts
+- src/utils/helpers/converts.ts
+- src/utils/helpers/document.ts
+- src/utils/helpers/locale/getLocale.ts
+- src/utils/helpers/locale/userLocale.ts
+- src/utils/helpers/nameOf.ts
+- src/utils/helpers/randoms.ts
+- src/utils/helpers/replacesrs.ts
+- src/utils/helpers/web-storage.ts
+
+---
+
 ## [0.3.18] - 2025-11-23
 
 **Author:** Nasr Aldin
