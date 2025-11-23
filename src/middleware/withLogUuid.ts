@@ -3,7 +3,6 @@ import { customAlphabet } from 'nanoid';
 import { getCookie, setCookie } from 'vinxi/http';
 
 import {
-  BLOWFISH_SECRET,
   HttpHeaderName,
   LOG_UUID_COOKIE_KEY,
   LOG_UUID_COOKIE_TTL,
@@ -12,7 +11,7 @@ import { env } from '~/env';
 import { isProd } from '~/utils/env';
 import { createRequestLogger } from '~/utils/logger';
 
-const generateLogUuid = customAlphabet(BLOWFISH_SECRET, 10);
+const generateLogUuid = customAlphabet(env.BLOWFISH_SECRET, 10);
 
 /**
  * Creates a logging middleware that generates and tracks unique request IDs

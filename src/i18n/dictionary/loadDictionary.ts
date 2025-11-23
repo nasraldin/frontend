@@ -81,8 +81,8 @@ export const loadDictionary = (
 
     // At this point, translation is guaranteed to be a string
     if (params && Object.entries(params).length) {
-      const parts = translation.split(/(\{[^}]+\})/g);
-      const paramRegex = /^\{([^}]+)\}$/;
+      const parts = translation.split(/(\{[^}]{1,100}\})/g);
+      const paramRegex = /^\{([^}]{1,100})\}$/;
       const result = parts.map((part) => {
         const match = paramRegex.exec(part);
         if (match) {

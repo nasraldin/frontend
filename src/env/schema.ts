@@ -48,6 +48,8 @@ export const serverScheme = v.object({
   MINIFY_DICTIONARY: v.optional(v.boolean()),
   COMMITS_CHECK_URL: v.optional(v.string()),
   COMMITS_CHECK_ACCESS_TOKEN: v.optional(v.string()),
+  BLOWFISH_SECRET: v.optional(v.string()),
+  FIFTYONE_DEGREES_KEY: v.optional(v.string()),
 });
 
 export const clientScheme = v.object({

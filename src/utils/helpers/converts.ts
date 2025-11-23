@@ -165,5 +165,8 @@ export function safeStringify(obj: unknown, redactedWord?: string): string {
  * @returns {string} The base64url formatted string
  */
 export const toBase64URL = (base64: string): string => {
-  return base64.replaceAll('+', '-').replaceAll('/', '_').replace(/=+$/, '');
+  return base64
+    .replaceAll('+', '-')
+    .replaceAll('/', '_')
+    .replace(/={1,2}$/, '');
 };

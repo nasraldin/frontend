@@ -84,6 +84,8 @@ interface ServerEnvironment {
   readonly MINIFY_DICTIONARY: boolean;
   readonly COMMITS_CHECK_URL: string;
   readonly COMMITS_CHECK_ACCESS_TOKEN: string;
+  readonly BLOWFISH_SECRET: string;
+  readonly FIFTYONE_DEGREES_KEY: string;
 }
 
 // Combined environment interface for ProcessEnv (server-side)

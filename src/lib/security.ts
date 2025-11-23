@@ -1,4 +1,4 @@
-import { BLOWFISH_SECRET, HttpHeaderName } from '~/constants';
+import { HttpHeaderName } from '~/constants';
 import { env } from '~/env';
 import { logger } from '~/utils/logger';
 
@@ -88,7 +88,7 @@ export function sanitizeForLogging(data: unknown): unknown {
 
 // Generate secure random string
 export async function generateSecureRandom(length = 32): Promise<string> {
-  const chars = BLOWFISH_SECRET;
+  const chars = env.BLOWFISH_SECRET;
   let result = '';
 
   if (typeof globalThis !== 'undefined' && globalThis.window?.crypto) {

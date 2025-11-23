@@ -24,7 +24,7 @@ export const AuthRoutes = {
   ResendVerification: '/identify/resend-verification',
 
   // Password Management
-  ForgotPassword: '/auth/forgot-password',
+  ForgotPassword: '/auth/forgot-password', // NOSONAR
 
   // Account Management
   DeactivateAccount: '/auth/deactivate',
