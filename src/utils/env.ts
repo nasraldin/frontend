@@ -56,8 +56,7 @@ export const ENV = {
  * Check if code is running in a browser environment.
  * @returns {boolean} true if browser, otherwise false.
  */
-export const isBrowser =
-  typeof window !== 'undefined' && typeof document !== 'undefined';
+export const isBrowser = globalThis.window !== undefined && document !== undefined;
 
 /**
  * Check if code is running on the server.
@@ -72,7 +71,7 @@ export const isServer = !isBrowser;
  */
 export const isDev =
   (typeof process !== 'undefined' && process.env?.NODE_ENV === ENV.Development) ||
-  (isBrowser && window.location?.hostname === 'localhost');
+  (isBrowser && globalThis.window.location?.hostname === 'localhost');
 
 /**
  * Check current environment is production.
@@ -107,13 +106,11 @@ export const isUat = process.env.NODE_ENV === ENV.UAT;
  *
  * @returns {boolean}: true if server-side rendering, else false.
  */
-export const isSSR =
-  typeof window === 'undefined' || typeof document === 'undefined';
+export const isSSR = globalThis.window === undefined || document === undefined;
 
 /**
  * Check if the current execution is happening on the client during CSR.
  *
  * @returns {boolean}: true if client-side rendering, else false.
  */
-export const isCSR =
-  typeof window !== 'undefined' && typeof document !== 'undefined';
+export const isCSR = globalThis.window !== undefined && document !== undefined;

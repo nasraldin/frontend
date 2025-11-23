@@ -3,7 +3,7 @@ import type { FetchEvent } from '@solidjs/start/server';
 import { ContentType, HttpHeaderName } from '~/constants';
 import { logger } from '~/utils/logger';
 
-import { setRequestContext } from './context';
+import { getRequestContextValueTyped, setRequestContext } from './context';
 import type { SolidMiddleware } from './types';
 import {
   createCORSErrorResponse,
@@ -15,6 +15,82 @@ import {
 } from './utils/headers-utils';
 
 /**
+ * Handles preflight OPTIONS requests
+ */
+function handlePreflightRequest(event: FetchEvent, origin: string | null): void {
+  logger.info('Middleware::OPTIONS request received');
+
+  if (origin && isOriginAllowed(origin)) {
+    event.response = createPreflightResponse(event, origin);
+    setRequestContext(event, 'responseSet', true);
+  } else {
+    logger.error(
+      {
+        isMiddleware: true,
+      },
+      `CORS error::OPTIONS:: Origin ${origin} is not allowed`,
+    );
+    event.response = createCORSErrorResponse('Not allowed by CORS');
+    setRequestContext(event, 'responseSet', true);
+  }
+}
+
+/**
+ * Handles CORS headers for regular requests
+ */
+function handleCORSHeaders(event: FetchEvent, origin: string | null): void {
+  if (origin && isOriginAllowed(origin)) {
+    setCORSHeaders(event, origin);
+  } else {
+    logger.error(
+      {
+        isMiddleware: true,
+      },
+      `CORS error: Origin ${origin} is not allowed`,
+    );
+    event.response = createCORSErrorResponse('Not allowed by CORS');
+    setRequestContext(event, 'responseSet', true);
+  }
+}
+
+/**
+ * Sets Content-Type header for API routes
+ */
+function setAPIContentType(event: FetchEvent, pathname: string): void {
+  const apiRegex = /\/api\//;
+  if (apiRegex.test(pathname)) {
+    try {
+      event.response.headers.set(HttpHeaderName.ContentType, ContentType.JSON_UTF8);
+    } catch (error) {
+      logger.warn(
+        {
+          error: error instanceof Error ? error.message : 'Unknown error',
+          url: event.request.url,
+        },
+        'Failed to set Content-Type header (headers may be immutable)',
+      );
+    }
+  }
+}
+
+/**
+ * Sets Vary header for caching
+ */
+function setVaryHeader(event: FetchEvent): void {
+  try {
+    event.response.headers.append('Vary', 'Origin');
+  } catch (error) {
+    logger.warn(
+      {
+        error: error instanceof Error ? error.message : 'Unknown error',
+        url: event.request.url,
+      },
+      'Failed to set Vary header (headers may be immutable)',
+    );
+  }
+}
+
+/**
  * Creates a headers middleware for SolidJS Start
  * @param config CORS configuration
  * @returns SolidJS Start middleware function
@@ -23,7 +99,6 @@ export function createHeadersMiddleware(): SolidMiddleware {
   return async (event: FetchEvent) => {
     const { pathname } = new URL(event.request.url);
     const origin = getOriginFromRequest(event);
-    const apiRegex = new RegExp(/\/api\//); // Match API routes
 
     logger.info(
       {
@@ -36,74 +111,21 @@ export function createHeadersMiddleware(): SolidMiddleware {
 
     // Handle OPTIONS request (preflight request)
     if (isPreflightRequest(event)) {
-      logger.info('Middleware::OPTIONS request received');
-
-      // Check if the origin is allowed before responding to OPTIONS request
-      if (origin && isOriginAllowed(origin)) {
-        event.response = createPreflightResponse(event, origin);
-        // Mark that we've set a response to prevent further processing
-        setRequestContext(event, 'responseSet', true);
-        return;
-      } else {
-        logger.error(
-          {
-            isMiddleware: true,
-          },
-          `CORS error::OPTIONS:: Origin ${origin} is not allowed`,
-        );
-        event.response = createCORSErrorResponse('Not allowed by CORS');
-        // Mark that we've set a response to prevent further processing
-        setRequestContext(event, 'responseSet', true);
-        return;
-      }
+      handlePreflightRequest(event, origin);
+      return;
     }
 
     // Set CORS headers based on whitelist
-    if (origin && isOriginAllowed(origin)) {
-      setCORSHeaders(event, origin);
-    } else {
-      logger.error(
-        {
-          isMiddleware: true,
-        },
-        `CORS error: Origin ${origin} is not allowed`,
-      );
-      event.response = createCORSErrorResponse('Not allowed by CORS');
-      // Mark that we've set a response to prevent further processing
-      setRequestContext(event, 'responseSet', true);
+    handleCORSHeaders(event, origin);
+    if (getRequestContextValueTyped(event, 'responseSet', false)) {
       return;
     }
 
     // If the request is to an API endpoint, set the Content-Type to JSON
-    if (apiRegex.test(pathname)) {
-      try {
-        event.response.headers.set(
-          HttpHeaderName.ContentType,
-          ContentType.JSON_UTF8,
-        );
-      } catch (error) {
-        logger.warn(
-          {
-            error: error instanceof Error ? error.message : 'Unknown error',
-            url: event.request.url,
-          },
-          'Failed to set Content-Type header (headers may be immutable)',
-        );
-      }
-    }
+    setAPIContentType(event, pathname);
 
     // Add the Vary header for caching based on origin
-    try {
-      event.response.headers.append('Vary', 'Origin');
-    } catch (error) {
-      logger.warn(
-        {
-          error: error instanceof Error ? error.message : 'Unknown error',
-          url: event.request.url,
-        },
-        'Failed to set Vary header (headers may be immutable)',
-      );
-    }
+    setVaryHeader(event);
   };
 }
 
@@ -150,7 +172,6 @@ export function createCORSMiddleware(): SolidMiddleware {
       setCORSHeaders(event, origin);
     } else {
       event.response = createCORSErrorResponse('Not allowed by CORS');
-      return;
     }
   };
 }
@@ -219,7 +240,7 @@ export function createCacheControlMiddleware(maxAge = 3600): SolidMiddleware {
         event.response.headers.set('Expires', '0');
       } else if (
         pathname.startsWith('/static/') ||
-        pathname.match(/\.(js|css|png|jpg|jpeg|gif|svg|ico)$/)
+        /\.(js|css|png|jpg|jpeg|gif|svg|ico)$/.exec(pathname)
       ) {
         // Static assets can be cached
         event.response.headers.set('Cache-Control', `public, max-age=${maxAge}`);

@@ -92,7 +92,7 @@ export const classAssigned = (
 
   // Use requestAnimationFrame to batch DOM updates
   requestAnimationFrame(() => {
-    classes.forEach(({ elId, classes: classValues }) => {
+    for (const { elId, classes: classValues } of classes) {
       const element = document.getElementById(elId);
       if (element && classValues) {
         const classString = clsx(classValues);
@@ -100,6 +100,6 @@ export const classAssigned = (
           element.classList.add(...classString.split(' '));
         }
       }
-    });
+    }
   });
 };

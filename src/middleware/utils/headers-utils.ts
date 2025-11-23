@@ -9,13 +9,13 @@ export function createWhitelistRegex(whitelist: string): RegExp[] {
     const domain = raw.trim();
     // Support subdomain wildcard while allowing apex too, e.g., '*.example.com'
     if (domain.startsWith('*.')) {
-      const base = domain.slice(2).replace(/\./g, '\\.');
+      const base = domain.slice(2).replaceAll('.', String.raw`\.`);
       const pattern = `^https?://([a-z0-9-]+\\.)?${base}$`;
       logger.info({ domain, pattern }, 'Middleware::createWhitelistRegex');
       return new RegExp(pattern);
     }
     // Exact host match
-    const escaped = domain.replace(/\./g, '\\.');
+    const escaped = domain.replaceAll('.', String.raw`\.`);
     const pattern = `^https?://${escaped}$`;
     logger.info({ domain, pattern }, 'Middleware::createWhitelistRegex');
     return new RegExp(pattern);

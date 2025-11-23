@@ -27,7 +27,7 @@ interface ScaleInProps {
   trigger?: 'scroll' | 'hover' | 'click';
 }
 
-export function ScaleIn(props: ScaleInProps) {
+export function ScaleIn(props: Readonly<ScaleInProps>) {
   const {
     children,
     className = '',
@@ -110,6 +110,15 @@ export function ScaleIn(props: ScaleInProps) {
     }
   };
 
+  const handleKeyDown = (
+    e: KeyboardEvent & { currentTarget: HTMLDivElement; target: Element },
+  ) => {
+    if (trigger === 'click' && (e.key === 'Enter' || e.key === ' ')) {
+      e.preventDefault();
+      handleInteraction();
+    }
+  };
+
   createEffect(() => {
     if (trigger !== 'scroll') return;
 
@@ -151,9 +160,12 @@ export function ScaleIn(props: ScaleInProps) {
         transition: `all ${duration}s ${getEasingFunction()} ${delay}s`,
         'will-change': 'transform, opacity',
       }}
+      role={trigger === 'click' ? 'button' : undefined}
+      tabIndex={trigger === 'click' ? 0 : undefined}
       onMouseEnter={trigger === 'hover' ? handleInteraction : undefined}
       onMouseLeave={trigger === 'hover' ? handleMouseLeave : undefined}
       onClick={trigger === 'click' ? handleInteraction : undefined}
+      onKeyDown={trigger === 'click' ? handleKeyDown : undefined}
     >
       {children}
     </div>

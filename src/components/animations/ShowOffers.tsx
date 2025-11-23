@@ -17,19 +17,19 @@ type OfferAnimation =
 type OfferSize = 'small' | 'medium' | 'large';
 
 interface ShowOffersProps {
-  children: JSX.Element;
-  className?: string;
-  animation?: OfferAnimation;
-  size?: OfferSize;
-  duration?: number;
-  delay?: number;
-  intensity?: 'low' | 'medium' | 'high';
-  trigger?: 'scroll' | 'hover' | 'always';
-  threshold?: number;
-  once?: boolean;
+  readonly children: JSX.Element;
+  readonly className?: string;
+  readonly animation?: OfferAnimation;
+  readonly size?: OfferSize;
+  readonly duration?: number;
+  readonly delay?: number;
+  readonly intensity?: 'low' | 'medium' | 'high';
+  readonly trigger?: 'scroll' | 'hover' | 'always';
+  readonly threshold?: number;
+  readonly once?: boolean;
 }
 
-export function ShowOffers(props: ShowOffersProps) {
+export function ShowOffers(props: Readonly<ShowOffersProps>) {
   const {
     children,
     className = '',
@@ -72,11 +72,6 @@ export function ShowOffers(props: ShowOffersProps) {
     const multiplier = getIntensityMultiplier();
 
     switch (animation) {
-      case 'pulse':
-        return {
-          animation: `offer-pulse ${duration}s ease-in-out infinite`,
-          'animation-delay': `${delay}s`,
-        };
       case 'glow':
         return {
           animation: `offer-glow ${duration}s ease-in-out infinite`,
@@ -147,6 +142,7 @@ export function ShowOffers(props: ShowOffersProps) {
           'animation-delay': `${delay}s`,
           'box-shadow': `0 0 ${30 * multiplier}px rgba(255, 105, 180, 0.8)`,
         };
+      case 'pulse':
       default:
         return {
           animation: `offer-pulse ${duration}s ease-in-out infinite`,

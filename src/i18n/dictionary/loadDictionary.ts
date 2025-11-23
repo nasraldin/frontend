@@ -5,7 +5,6 @@ import {
   DefaultDictionary,
   Dictionary,
   JsonDictionary,
-  TranslationKey,
   TranslationParams,
 } from './types';
 
@@ -32,7 +31,7 @@ const getNestedValue = (
  *
  * @param {AppLocale} locale - The locale for which to load the dictionary.
  * @param {Dictionary} dictionaryObj - The dictionary object containing translations for all locales.
- * @returns {(key: TranslationKey, params?: TranslationParams)} A function that retrieves translations.
+ * @returns {(key: string, params?: TranslationParams)} A function that retrieves translations.
  *
  * @remarks
  * - The returned function uses caching to optimize performance for repeated translations.
@@ -49,7 +48,6 @@ const getNestedValue = (
  *
  * @see AppLocale - The type definition for valid locales.
  * @see Dictionary - The type definition for the dictionary object.
- * @see TranslationKey - The type for translation keys.
  * @see TranslationParams - The type for translation parameters.
  * @see DEFAULT_LOCALE - The default locale used if none is specified.
  * @see JsonDictionary - The default dictionary object.
@@ -57,15 +55,12 @@ const getNestedValue = (
 export const loadDictionary = (
   locale: AppLocale = DEFAULT_LOCALE,
   dictionaryObj: Dictionary = JsonDictionary,
-): ((key: TranslationKey, params?: TranslationParams) => string | SolidNode[]) => {
+): ((key: string, params?: TranslationParams) => string | SolidNode[]) => {
   // Retrieve the dictionary for the specified locale
   const dictionary = dictionaryObj[locale] as DefaultDictionary;
 
   // Define a translation function that accepts a key and optional parameters for string formatting
-  return (
-    key: TranslationKey,
-    params?: TranslationParams,
-  ): string | SolidNode[] => {
+  return (key: string, params?: TranslationParams): string | SolidNode[] => {
     // Optimize performance by caching keys
     // Create cache key without stringifying the entire params object
     const cacheKey = `${locale}:${key}:${params ? Object.keys(params).join(',') : ''}`;
@@ -87,12 +82,13 @@ export const loadDictionary = (
     // At this point, translation is guaranteed to be a string
     if (params && Object.entries(params).length) {
       const parts = translation.split(/(\{[^}]+\})/g);
+      const paramRegex = /^\{([^}]+)\}$/;
       const result = parts.map((part) => {
-        const match = part.match(/^\{([^}]+)\}$/);
+        const match = paramRegex.exec(part);
         if (match) {
           const paramKey = match[1];
           const paramValue = params[paramKey];
-          return paramValue !== undefined ? paramValue : part;
+          return paramValue === undefined ? part : paramValue;
         }
         return part;
       });

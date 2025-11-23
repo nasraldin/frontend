@@ -1,4 +1,4 @@
-import { createEffect, createSignal } from 'solid-js';
+import { createEffect, createSignal, onCleanup, onMount } from 'solid-js';
 
 import { cn } from '~/utils';
 
@@ -6,14 +6,14 @@ type TypingSpeed = 'slow' | 'normal' | 'fast' | 'instant';
 type CursorStyle = 'block' | 'line' | 'underline' | 'none';
 
 interface TypingAnimationProps {
-  text: string;
-  className?: string;
-  speed?: TypingSpeed;
-  cursor?: CursorStyle;
-  delay?: number;
-  loop?: boolean;
-  pauseOnHover?: boolean;
-  onComplete?: () => void;
+  readonly text: string;
+  readonly className?: string;
+  readonly speed?: TypingSpeed;
+  readonly cursor?: CursorStyle;
+  readonly delay?: number;
+  readonly loop?: boolean;
+  readonly pauseOnHover?: boolean;
+  readonly onComplete?: () => void;
 }
 
 export function TypingAnimation(props: TypingAnimationProps) {
@@ -23,7 +23,6 @@ export function TypingAnimation(props: TypingAnimationProps) {
     speed = 'normal',
     cursor = 'line',
     delay = 0,
-    loop = false,
     pauseOnHover = false,
     onComplete,
   } = props;
@@ -32,6 +31,9 @@ export function TypingAnimation(props: TypingAnimationProps) {
   const [isTyping, setIsTyping] = createSignal(false);
   const [isPaused, setIsPaused] = createSignal(false);
   let timeoutId: ReturnType<typeof setTimeout> | undefined;
+  let delayTimeoutId: ReturnType<typeof setTimeout> | undefined;
+  let loopTimeoutId: ReturnType<typeof setTimeout> | undefined;
+  let isLooping = false;
 
   const getTypingSpeed = () => {
     switch (speed) {
@@ -61,30 +63,74 @@ export function TypingAnimation(props: TypingAnimationProps) {
     }
   };
 
+  const clearAllTimeouts = () => {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+      timeoutId = undefined;
+    }
+    if (delayTimeoutId) {
+      clearTimeout(delayTimeoutId);
+      delayTimeoutId = undefined;
+    }
+    if (loopTimeoutId) {
+      clearTimeout(loopTimeoutId);
+      loopTimeoutId = undefined;
+    }
+  };
+
+  const restartLoop = () => {
+    setDisplayedText('');
+    setIsPaused(false);
+    setIsTyping(true);
+    typeText();
+  };
+
   const typeText = () => {
     if (isPaused()) return;
 
     const currentText = displayedText();
-    if (currentText.length < text.length) {
-      setDisplayedText(text.slice(0, currentText.length + 1));
+    const currentTextProp = text;
+    if (currentText.length < currentTextProp.length) {
+      setDisplayedText(currentTextProp.slice(0, currentText.length + 1));
       timeoutId = setTimeout(typeText, getTypingSpeed());
     } else {
+      // Typing is complete
       setIsTyping(false);
       onComplete?.();
 
-      if (loop) {
-        setTimeout(() => {
-          setDisplayedText('');
-          setIsTyping(true);
-          typeText();
+      // Check if we should loop - access props.loop directly for reactivity
+      const shouldLoop = props.loop;
+      if (shouldLoop) {
+        isLooping = true;
+        // Clear any existing loop timeout before setting a new one
+        if (loopTimeoutId) {
+          clearTimeout(loopTimeoutId);
+          loopTimeoutId = undefined;
+        }
+        // Set timeout to restart the animation
+        loopTimeoutId = setTimeout(() => {
+          restartLoop();
         }, 2000);
+      } else {
+        isLooping = false;
       }
     }
   };
 
   const startTyping = () => {
+    // Don't restart if we're in the middle of a loop
+    if (isLooping) {
+      return;
+    }
+
+    clearAllTimeouts();
+    setDisplayedText('');
+    setIsTyping(false);
+    setIsPaused(false);
+    isLooping = false;
+
     if (delay > 0) {
-      setTimeout(() => {
+      delayTimeoutId = setTimeout(() => {
         setIsTyping(true);
         typeText();
       }, delay);
@@ -99,6 +145,7 @@ export function TypingAnimation(props: TypingAnimationProps) {
       setIsPaused(true);
       if (timeoutId) {
         clearTimeout(timeoutId);
+        timeoutId = undefined;
       }
     }
   };
@@ -110,21 +157,36 @@ export function TypingAnimation(props: TypingAnimationProps) {
     }
   };
 
-  createEffect(() => {
-    startTyping();
+  // Track text changes and restart animation
+  let previousText = text;
 
-    return () => {
-      if (timeoutId) {
-        clearTimeout(timeoutId);
-      }
-    };
+  onMount(() => {
+    startTyping();
+  });
+
+  createEffect(() => {
+    const currentText = text;
+    // Only restart if text actually changed and we're not looping
+    if (currentText !== previousText && !isLooping) {
+      previousText = currentText;
+      startTyping();
+    }
+  });
+
+  // Cleanup on unmount
+  onCleanup(() => {
+    clearAllTimeouts();
   });
 
   return (
     <span
       class={cn('typing-animation', className)}
-      onMouseEnter={pauseTyping}
-      onMouseLeave={resumeTyping}
+      {...(pauseOnHover
+        ? {
+            onMouseEnter: pauseTyping,
+            onMouseLeave: resumeTyping,
+          }
+        : {})}
     >
       {displayedText()}
       {isTyping() && (

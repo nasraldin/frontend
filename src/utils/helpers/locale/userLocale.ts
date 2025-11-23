@@ -4,6 +4,7 @@ import {
   LOCALE_COOKIE_NAME,
 } from '~/i18n/config';
 import { isSSR } from '~/utils/env';
+import { logger } from '~/utils/logger';
 
 import { isLocaleSupported } from './isLocaleSupported';
 
@@ -45,5 +46,8 @@ export const updateLocale = (locale: string) => {
     document.cookie = cookieString;
   } catch (err) {
     // Silently handle cookie setting errors
+    if (err instanceof Error) {
+      logger.warn({ error: err.message }, 'Failed to set locale cookie');
+    }
   }
 };

@@ -31,7 +31,7 @@ export const random16Bytes = (): string => {
   try {
     const array = new Uint8Array(16);
     crypto.getRandomValues(array);
-    return btoa(String.fromCharCode(...array));
+    return btoa(String.fromCodePoint(...array));
   } catch (error) {
     throw new Error(`Failed to generate nonce: ${JSON.stringify(error)}`);
   }

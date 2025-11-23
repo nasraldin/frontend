@@ -238,7 +238,7 @@ const AppHead = ({
         innerHTML={JSON.stringify(structuredData)}
       />
 
-      {assets && assets}
+      {assets}
     </>
   );
 };

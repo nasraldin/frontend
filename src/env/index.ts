@@ -28,8 +28,8 @@ function getEnvVar(key: string, fallback = ''): string {
  */
 function getEnvNumber(key: string, fallback = 0): number {
   const value = getEnvVar(key);
-  const parsed = parseInt(value, 10);
-  return isNaN(parsed) ? fallback : parsed;
+  const parsed = Number.parseInt(value, 10);
+  return Number.isNaN(parsed) ? fallback : parsed;
 }
 
 /**

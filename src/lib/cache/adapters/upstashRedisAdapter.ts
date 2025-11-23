@@ -4,7 +4,7 @@ import { CachedData } from '../cachedData';
 import { CacheAdapter } from './cacheAdapter';
 
 export class UpstashRedisAdapter implements CacheAdapter {
-  private client: Redis;
+  private readonly client: Redis;
 
   constructor(url: string, token: string) {
     this.client = new Redis({

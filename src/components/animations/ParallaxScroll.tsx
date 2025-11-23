@@ -5,15 +5,15 @@ import { cn } from '~/utils';
 type ParallaxDirection = 'up' | 'down' | 'left' | 'right';
 
 interface ParallaxScrollProps {
-  children: JSX.Element;
-  className?: string;
-  speed?: number;
-  direction?: ParallaxDirection;
-  offset?: number;
-  disabled?: boolean;
+  readonly children: JSX.Element;
+  readonly className?: string;
+  readonly speed?: number;
+  readonly direction?: ParallaxDirection;
+  readonly offset?: number;
+  readonly disabled?: boolean;
 }
 
-export function ParallaxScroll(props: ParallaxScrollProps) {
+export function ParallaxScroll(props: Readonly<ParallaxScrollProps>) {
   const {
     children,
     className = '',
@@ -45,27 +45,35 @@ export function ParallaxScroll(props: ParallaxScrollProps) {
     const isInViewport = elementBottom > viewportTop && elementTop < viewportBottom;
     if (!isInViewport) return 'translate3d(0, 0, 0)';
 
-    // Calculate the parallax offset with much more conservative values
-    const scrolled = currentScrollY - elementTop + windowHeight;
-    const rate = scrolled * speed * 0.2; // Much more conservative speed
+    // Calculate parallax offset based on scroll position relative to element
+    const elementCenter = elementTop + elementHeight / 2;
+    const viewportCenter = currentScrollY + windowHeight / 2;
+    const distanceFromCenter = viewportCenter - elementCenter;
+
+    // Apply speed multiplier - removed the 0.2 reduction to make it more noticeable
+    const rate = distanceFromCenter * speed;
 
     let translateX = 0;
     let translateY = 0;
 
-    // Much stricter bounds checking to prevent vibration
-    const maxOffset = 30; // Much smaller maximum offset to prevent eye strain
+    // Increased max offset to make direction differences clearly visible
+    const maxOffset = 100; // Increased from 30 to make movement more noticeable
 
     switch (direction) {
       case 'up':
+        // Moves up (negative Y) as you scroll down
         translateY = Math.max(-maxOffset, Math.min(maxOffset, -rate + offset));
         break;
       case 'down':
+        // Moves down (positive Y) as you scroll down
         translateY = Math.max(-maxOffset, Math.min(maxOffset, rate + offset));
         break;
       case 'left':
+        // Moves left (negative X) as you scroll down
         translateX = Math.max(-maxOffset, Math.min(maxOffset, -rate + offset));
         break;
       case 'right':
+        // Moves right (positive X) as you scroll down
         translateX = Math.max(-maxOffset, Math.min(maxOffset, rate + offset));
         break;
     }
@@ -77,7 +85,7 @@ export function ParallaxScroll(props: ParallaxScrollProps) {
   let lastScrollY = 0;
 
   const handleScroll = () => {
-    if (typeof window !== 'undefined') {
+    if (globalThis.window !== undefined) {
       const currentScrollY = window.scrollY;
 
       // Only update if scroll position changed significantly to reduce vibration
@@ -97,7 +105,7 @@ export function ParallaxScroll(props: ParallaxScrollProps) {
   };
 
   createEffect(() => {
-    if (disabled || typeof window === 'undefined') return;
+    if (disabled || globalThis.window === undefined) return;
 
     // Set up intersection observer to only animate when in view
     observer = new IntersectionObserver(
@@ -131,7 +139,7 @@ export function ParallaxScroll(props: ParallaxScrollProps) {
       style={{
         transform: getTransform(),
         'will-change': 'transform',
-        transition: 'transform 0.2s ease-out',
+        // Removed transition to make parallax movement more immediate and noticeable
         'backface-visibility': 'hidden',
         perspective: '1000px',
       }}

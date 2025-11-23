@@ -124,7 +124,6 @@ export type NonEmptyString<T> = T extends '' ? never : T;
  * const profileGreeting = translations.profile.greeting.replace("{name}", "Alice");
  * const errorMessage = translations.errors.notFound;
  */
-// export type TranslationKey = { [key: string]: TranslationValue };
 export type TranslationKey = {
   [K in string as NonEmptyString<K>]: TranslationValue;
 };
@@ -133,7 +132,6 @@ export type SolidNode =
   | JSX.Element
   | string
   | number
-  | boolean
   | null
   | undefined
   | SolidNode[];

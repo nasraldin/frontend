@@ -60,5 +60,3 @@ const ROCKET = String.fromCodePoint(0x1f680);
     selfXss,
   );
 })();
-
-export {};

@@ -17,7 +17,7 @@ interface StaggerAnimationProps {
   once?: boolean;
 }
 
-export function StaggerAnimation(props: StaggerAnimationProps) {
+export function StaggerAnimation(props: Readonly<StaggerAnimationProps>) {
   const {
     children,
     className = '',

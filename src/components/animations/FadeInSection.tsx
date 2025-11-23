@@ -5,16 +5,16 @@ import { cn } from '~/utils';
 type Direction = 'up' | 'down' | 'left' | 'right';
 
 interface FadeInSectionProps {
-  children: JSX.Element;
-  className?: string;
-  delay?: number;
-  direction?: Direction;
-  duration?: number;
-  threshold?: number;
-  once?: boolean;
+  readonly children: JSX.Element;
+  readonly className?: string;
+  readonly delay?: number;
+  readonly direction?: Direction;
+  readonly duration?: number;
+  readonly threshold?: number;
+  readonly once?: boolean;
 }
 
-export function FadeInSection(props: FadeInSectionProps) {
+export function FadeInSection(props: Readonly<FadeInSectionProps>) {
   const {
     children,
     className = '',
@@ -28,23 +28,20 @@ export function FadeInSection(props: FadeInSectionProps) {
   const [isInView, setIsInView] = createSignal(false);
   let ref: HTMLDivElement | undefined;
 
-  // Memoize animation values so they're stable across renders
   const animationValues = createMemo(() => {
-    const distance = 20; // pixels to move
-
-    // Extract nested ternary into explicit statements to satisfy Sonar rule
+    const distance = 50; // Increased from 20 to make movement more noticeable
     let y = 0;
     if (direction === 'up') {
-      y = distance;
+      y = distance; // Starts below, moves up
     } else if (direction === 'down') {
-      y = -distance;
+      y = -distance; // Starts above, moves down
     }
 
     let x = 0;
     if (direction === 'left') {
-      x = distance;
+      x = distance; // Starts to the right, moves left
     } else if (direction === 'right') {
-      x = -distance;
+      x = -distance; // Starts to the left, moves right
     }
 
     return {
@@ -84,16 +81,19 @@ export function FadeInSection(props: FadeInSectionProps) {
     };
   });
 
-  // Create CSS transition styles with smoother easing
   const getTransitionStyle = () => {
     const values = animationValues();
     const currentValues = isInView() ? values.visible : values.hidden;
+    const isVisible = isInView();
 
     return {
       opacity: currentValues.opacity,
       transform: `translate3d(${currentValues.x}px, ${currentValues.y}px, 0)`,
-      transition: `all ${duration}s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s`,
-      'will-change': 'transform, opacity',
+      // Only apply transition when becoming visible to avoid initial flash
+      transition: isVisible
+        ? `all ${duration}s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s`
+        : 'none',
+      'will-change': isVisible ? 'transform, opacity' : 'auto',
     };
   };
 

@@ -30,6 +30,7 @@ export function _nameOf<T extends object>(
     return nameOrFunction;
   }
 
-  const match = nameOrFunction.toString().match(/(?<=\.|\s)\w+(?=[\s,]*$)/);
+  const regex = /(?<=\.|\s)\w+(?=[\s,]*$)/;
+  const match = regex.exec(nameOrFunction.toString());
   return match ? match[0] : '';
 }

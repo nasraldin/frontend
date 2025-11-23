@@ -91,16 +91,16 @@ export async function generateSecureRandom(length = 32): Promise<string> {
   const chars = BLOWFISH_SECRET;
   let result = '';
 
-  if (typeof window !== 'undefined' && window.crypto) {
+  if (typeof globalThis !== 'undefined' && globalThis.window?.crypto) {
     // Browser environment
     const array = new Uint8Array(length);
-    window.crypto.getRandomValues(array);
+    globalThis.window.crypto.getRandomValues(array);
     for (let i = 0; i < length; i++) {
       result += chars[array[i] % chars.length];
     }
   } else {
     // Node.js environment
-    const crypto = await import('crypto');
+    const crypto = await import('node:crypto');
     const randomBytes = crypto.randomBytes(length);
     for (let i = 0; i < length; i++) {
       result += chars[randomBytes[i] % chars.length];
@@ -137,7 +137,7 @@ export function isTrustedOrigin(origin: string, allowedOrigins: string[]): boole
 
   return allowedOrigins.some((allowedOrigin) => {
     if (allowedOrigin.includes('*')) {
-      const pattern = allowedOrigin.replace(/\*/g, '.*');
+      const pattern = allowedOrigin.replaceAll('*', '.*');
       return new RegExp(`^${pattern}$`).test(origin);
     }
     return origin === allowedOrigin;
@@ -157,8 +157,8 @@ export const SECURITY_HEADERS = {
 
 // Apply security headers to response
 export function applySecurityHeaders(response: Response): Response {
-  Object.entries(SECURITY_HEADERS).forEach(([key, value]) => {
+  for (const [key, value] of Object.entries(SECURITY_HEADERS)) {
     response.headers.set(key, value);
-  });
+  }
   return response;
 }

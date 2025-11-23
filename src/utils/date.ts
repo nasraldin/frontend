@@ -20,8 +20,8 @@ import {
  */
 export const humanDate = (dateString: string): string => {
   const date = parseISO(dateString);
-  if (isNaN(date.getTime())) {
-    throw new Error('Invalid date string provided');
+  if (Number.isNaN(date.getTime())) {
+    throw new TypeError('Invalid date string provided');
   }
   return format(date, 'LLLL d, yyyy');
 };
@@ -39,8 +39,8 @@ export const humanDate = (dateString: string): string => {
  */
 export const parseDateUTC = (dateString: string): string => {
   const date = parseISO(dateString);
-  if (isNaN(date.getTime())) {
-    throw new Error('Invalid date string provided');
+  if (Number.isNaN(date.getTime())) {
+    throw new TypeError('Invalid date string provided');
   }
   return date.toUTCString();
 };
@@ -58,8 +58,8 @@ export const parseDateUTC = (dateString: string): string => {
  */
 export const isEnded = (endDateString: string): boolean => {
   const endDate = parseISO(endDateString);
-  if (isNaN(endDate.getTime())) {
-    throw new Error('Invalid date string provided');
+  if (Number.isNaN(endDate.getTime())) {
+    throw new TypeError('Invalid date string provided');
   }
   return isAfter(new Date(), endDate);
 };
@@ -82,8 +82,8 @@ export const daysBetween = (
 ): number => {
   const startDate = parseISO(startDateString);
   const endDate = parseISO(endDateString);
-  if (isNaN(startDate.getTime()) || isNaN(endDate.getTime())) {
-    throw new Error('Invalid date string provided');
+  if (Number.isNaN(startDate.getTime()) || Number.isNaN(endDate.getTime())) {
+    throw new TypeError('Invalid date string provided');
   }
   return differenceInDays(endDate, startDate);
 };
@@ -110,11 +110,11 @@ export const isDateInRange = (
   const startDate = parseISO(startDateString);
   const endDate = parseISO(endDateString);
   if (
-    isNaN(date.getTime()) ||
-    isNaN(startDate.getTime()) ||
-    isNaN(endDate.getTime())
+    Number.isNaN(date.getTime()) ||
+    Number.isNaN(startDate.getTime()) ||
+    Number.isNaN(endDate.getTime())
   ) {
-    throw new Error('Invalid date string provided');
+    throw new TypeError('Invalid date string provided');
   }
   return isAfter(date, startDate) && isBefore(date, endDate);
 };
@@ -133,8 +133,8 @@ export const isDateInRange = (
  */
 export const addDaysToDate = (dateString: string, days: number): string => {
   const date = parseISO(dateString);
-  if (isNaN(date.getTime())) {
-    throw new Error('Invalid date string provided');
+  if (Number.isNaN(date.getTime())) {
+    throw new TypeError('Invalid date string provided');
   }
   return addDays(date, days).toISOString();
 };

@@ -6,15 +6,15 @@ type MagneticStrength = 'weak' | 'medium' | 'strong';
 type MagneticEasing = 'ease' | 'ease-out' | 'spring';
 
 interface MagneticButtonProps {
-  children: JSX.Element;
-  className?: string;
-  strength?: MagneticStrength;
-  easing?: MagneticEasing;
-  disabled?: boolean;
-  onClick?: () => void;
+  readonly children: JSX.Element;
+  readonly className?: string;
+  readonly strength?: MagneticStrength;
+  readonly easing?: MagneticEasing;
+  readonly disabled?: boolean;
+  readonly onClick?: () => void;
 }
 
-export function MagneticButton(props: MagneticButtonProps) {
+export function MagneticButton(props: Readonly<MagneticButtonProps>) {
   const {
     children,
     className = '',
@@ -57,8 +57,7 @@ export function MagneticButton(props: MagneticButtonProps) {
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
 
-    // Reduce the magnetic effect for more subtle interaction
-    const strength = getStrength() * 0.6; // Reduce strength for more natural feel
+    const strength = getStrength() * 0.6;
     const deltaX = (event.clientX - centerX) * strength;
     const deltaY = (event.clientY - centerY) * strength;
 
@@ -73,7 +72,6 @@ export function MagneticButton(props: MagneticButtonProps) {
   const handleMouseLeave = () => {
     if (disabled) return;
     setIsHovering(false);
-    // Smoothly return to center position
     setTimeout(() => {
       setMousePosition({ x: 0, y: 0 });
     }, 50);

@@ -131,7 +131,6 @@ export function createChainBreaker(
       // In SolidJS Start, we can't directly break the chain like in Next.js
       // Instead, we can set a flag in the context to indicate early termination
       setRequestContext(event, 'chainBroken', true);
-      return;
     }
   };
 }

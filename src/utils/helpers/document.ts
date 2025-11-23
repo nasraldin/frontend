@@ -1,29 +1,6 @@
 import { AppRegex, DirectionType, SideDirectionType } from '~/constants';
 import { Direction } from '~/types';
 
-// import { getFontclass } from '~/utils/fonts';
-// import { getDir } from '~/utils/i18n';
-
-// /**
-//  * Utility function to update HTML document attributes
-//  * @param locale
-//  * @returns
-//  */
-// export const updateDocumentAttributes = (locale: string): void => {
-//   if (isSSR) return;
-
-//   const html = document.documentElement;
-//   const dir = getDir(locale);
-//   const fontclass = getFontclass(locale);
-
-//   // Update language and direction
-//   html.setAttribute('lang', locale);
-//   html.setAttribute('dir', dir);
-
-//   // Update font classes
-//   document.body.classList.add(fontclass);
-// };
-
 /**
  * Checks if a given locale represents an Arabic language or script.
  *
@@ -31,19 +8,7 @@ import { Direction } from '~/types';
  * @returns {boolean} - True if the locale is Arabic, false otherwise.
  */
 export const isArabic = (locale: string): boolean => {
-  return Boolean(locale?.trim().match(AppRegex.Arabic));
-};
-
-/**
- * Determines the text direction (LTR or RTL) based on the provided Direction flag.
- *
- * @param {boolean} isRtl
- * - A flag indicating whether the text should be in right-to-left (RTL) direction.
- * @returns {Direction}
- * - The text direction: 'ltr' (left-to-right) or 'rtl' (right-to-left).
- */
-export const checkDir = (isRtl: boolean): Direction => {
-  return isRtl ? DirectionType.RTL : DirectionType.LTR;
+  return Boolean(AppRegex.Arabic.exec(locale?.trim()));
 };
 
 /**
@@ -53,7 +18,7 @@ export const checkDir = (isRtl: boolean): Direction => {
  * @returns {Direction} - The text direction: 'ltr' (left-to-right) or 'rtl' (right-to-left).
  */
 export const getDir = (locale: string): Direction => {
-  return checkDir(Boolean(locale?.trim().match(AppRegex.Arabic)));
+  return isArabic(locale) ? DirectionType.RTL : DirectionType.LTR;
 };
 
 /**

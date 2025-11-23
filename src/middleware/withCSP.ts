@@ -53,7 +53,7 @@ export function withCSP(event: FetchEvent) {
           base-uri 'none';
           frame-ancestors 'none';
           form-action 'self';
-        `.replace(/\s+/g, ' ');
+        `.replaceAll(/\s+/g, ' ');
 
     event.response.headers.set(HttpHeaderName.ContentSecurityPolicy, csp);
 

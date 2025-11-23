@@ -15,7 +15,7 @@ const langDirs = readdirSync(dictionaryDir, { withFileTypes: true })
   .filter((dirent) => dirent.isDirectory())
   .map((dirent) => dirent.name);
 
-langDirs.forEach((lang) => {
+for (const lang of langDirs) {
   const langFile = `${lang}.json`;
   const langPath = join(dictionaryDir, lang);
   const combinedDictionary = {};
@@ -25,20 +25,18 @@ langDirs.forEach((lang) => {
     .filter((file) => file.isFile() && extname(file.name) === '.json')
     .map((file) => file.name);
 
-  files.forEach((file) => {
+  for (const file of files) {
     if (file !== langFile) {
       // Skip the combined file if it exists
       const filePath = join(langPath, file);
       try {
         const content = JSON.parse(readFileSync(filePath, 'utf8'));
-        // const fileName = basename(file, '.json');
-        // combinedDictionary[fileName] = content;
         Object.assign(combinedDictionary, content);
       } catch (error) {
         console.error(`❌ Error processing ${filePath}:`, error.message);
       }
     }
-  });
+  }
 
   const outputPath = join(langPath, langFile);
 
@@ -55,6 +53,6 @@ langDirs.forEach((lang) => {
     writeFileSync(outputPath, prettyJson);
     console.log(`🗒️ Combined dictionary for ${lang} created successfully.`);
   }
-});
+}
 
 console.log('✅ All combined dictionaries created successfully.');

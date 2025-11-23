@@ -116,7 +116,7 @@ export async function POST({ request }: { request: Request }) {
 
     // Check content length to prevent oversized requests
     const contentLength = request.headers.get('content-length');
-    if (contentLength && parseInt(contentLength) > 10 * 1024) {
+    if (contentLength && Number.parseInt(contentLength) > 10 * 1024) {
       // 10KB limit
       return new Response(JSON.stringify({ message: 'Request too large' }), {
         status: 413,
@@ -218,30 +218,25 @@ export async function OPTIONS() {
   });
 }
 
-// Prevent other HTTP methods
-export async function GET() {
+// Helper function to return method not allowed response
+function methodNotAllowed() {
   return new Response(JSON.stringify({ message: 'Method not allowed' }), {
     status: 405,
     headers: {
       'Content-Type': 'application/json',
     },
   });
+}
+
+// Prevent other HTTP methods
+export async function GET() {
+  return methodNotAllowed();
 }
 
 export async function PUT() {
-  return new Response(JSON.stringify({ message: 'Method not allowed' }), {
-    status: 405,
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
+  return methodNotAllowed();
 }
 
 export async function DELETE() {
-  return new Response(JSON.stringify({ message: 'Method not allowed' }), {
-    status: 405,
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
+  return methodNotAllowed();
 }

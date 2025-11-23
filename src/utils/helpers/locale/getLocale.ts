@@ -16,8 +16,7 @@ export const getLocaleFromPathname = (pathname: string): string | undefined => {
     return undefined;
   }
 
-  const parts = pathname.trim().toLowerCase().split('/').filter(Boolean);
-  const potentialLocale = parts[0];
+  const potentialLocale = pathname.trim().toLowerCase().split('/').find(Boolean);
 
   if (!potentialLocale) return undefined;
 

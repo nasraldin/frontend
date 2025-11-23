@@ -1,5 +1,7 @@
 import { isBrowser } from '~/utils/env';
 
+import { logger } from '../logger';
+
 /**
  * Checks if the browser's localStorage is available and functioning.
  *
@@ -63,7 +65,7 @@ export const isLocalStorageAvailable = () => {
 
     const testKey = '__storage_test__';
     try {
-      const storage = window.localStorage;
+      const storage = globalThis.localStorage;
       storage.setItem(testKey, testKey);
       storage.removeItem(testKey);
       result = true;
@@ -72,8 +74,8 @@ export const isLocalStorageAvailable = () => {
         // use helper instead of direct `code` checks
         isQuotaExceededError(e) &&
         // acknowledge QuotaExceededError only if there's something already stored
-        window.localStorage &&
-        window.localStorage.length !== 0;
+        globalThis.localStorage &&
+        globalThis.localStorage.length !== 0;
     }
 
     return result;
@@ -128,6 +130,11 @@ export const isIndexedDBAvailable = () => {
         result = false;
       };
     } catch (e) {
+      // IndexedDB is not available or failed to initialize
+      // Log error for debugging purposes while gracefully handling the failure
+      if (e instanceof Error) {
+        logger.debug({ error: e }, 'IndexedDB availability check failed:');
+      }
       result = false;
     }
 
@@ -176,7 +183,7 @@ export const isSessionStorageAvailable = () => {
 
     const testKey = '__session_storage_test__';
     try {
-      const storage = window.sessionStorage;
+      const storage = globalThis.sessionStorage;
       storage.setItem(testKey, testKey);
       storage.removeItem(testKey);
       result = true;
@@ -185,8 +192,8 @@ export const isSessionStorageAvailable = () => {
         // use helper instead of direct `code` checks
         isQuotaExceededError(e) &&
         // acknowledge QuotaExceededError only if there's something already stored
-        window.sessionStorage &&
-        window.sessionStorage.length !== 0;
+        globalThis.sessionStorage &&
+        globalThis.sessionStorage.length !== 0;
     }
 
     return result;
@@ -234,10 +241,15 @@ export const isCookiesAvailable = () => {
     const testKey = '__cookie_test__';
     try {
       document.cookie = `${testKey}=1`;
-      const cookiesEnabled = document.cookie.indexOf(`${testKey}=`) !== -1;
+      const cookiesEnabled = document.cookie.includes(`${testKey}=`);
       document.cookie = `${testKey}=1; expires=Thu, 01 Jan 1970 00:00:00 UTC`;
       result = cookiesEnabled;
     } catch (e) {
+      // Cookies are not available or failed to set/read
+      // Log error for debugging purposes while gracefully handling the failure
+      if (e instanceof Error) {
+        logger.debug({ error: e }, 'Cookie availability check failed:');
+      }
       result = false;
     }
 

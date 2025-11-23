@@ -241,7 +241,7 @@ const ServerHead = ({
         innerHTML={JSON.stringify(structuredData)}
       />
 
-      {assets && assets}
+      {assets}
     </>
   );
 };

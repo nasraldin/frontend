@@ -100,7 +100,7 @@ export const migrations: Record<
       const cursor = (event.target as IDBRequest<IDBCursorWithValue>).result;
       if (cursor) {
         const item = cursor.value.data;
-        if (!Object.prototype.hasOwnProperty.call(item, 'isActive')) {
+        if (!Object.hasOwn(item, 'isActive')) {
           item.isActive = true; // Add default 'isActive' field
         }
         cursor.update(cursor.value);
@@ -160,25 +160,6 @@ export const openIDB = (
         }
       }
     };
-
-    // request.onupgradeneeded = (event) => {
-    //   const db = (event.target as IDBRequest).result;
-    //   const oldVersion = db.version;
-
-    //   // Log migration step
-    //   logger.info(`Upgrading database from version ${oldVersion} to ${version}`);
-
-    //   // Apply migrations based on version
-    //   try {
-    //     for (let i = oldVersion + 1; i <= version; i++) {
-    //       if (migrations[i]) {
-    //         migrations[i](db, storeName); // Pass the object store name to migration
-    //       }
-    //     }
-    //   } catch (error) {
-    //     logger.error(`Error applying migrations:`, { error });
-    //   }
-    // };
   });
 };
 

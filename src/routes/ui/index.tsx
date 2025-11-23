@@ -9,13 +9,13 @@ import {
 
 export default function UiIndex() {
   return (
-    <main class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <main class="min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       <Title>UI Components Showcase</Title>
 
       {/* Hero Section */}
       <section class="relative flex h-screen items-center justify-center overflow-hidden">
         <ParallaxScroll speed={0.05} direction="up" className="absolute inset-0">
-          <div class="h-full w-full bg-gradient-to-r from-blue-600/20 to-purple-600/20" />
+          <div class="h-full w-full bg-linear-to-r from-blue-600/20 to-purple-600/20" />
         </ParallaxScroll>
 
         <div class="relative z-10 text-center">
@@ -24,6 +24,7 @@ export default function UiIndex() {
             speed="normal"
             cursor="line"
             className="mb-4 text-4xl font-bold md:text-6xl"
+            loop={true}
           />
           <FadeInSection
             delay={1}
@@ -49,7 +50,7 @@ export default function UiIndex() {
               <FadeInSection
                 direction="up"
                 delay={0.1}
-                className="group cursor-pointer rounded-lg bg-gradient-to-br from-blue-500/20 to-purple-500/20 p-8 transition-all duration-300 hover:scale-105 hover:bg-gradient-to-br hover:from-blue-500/30 hover:to-purple-500/30"
+                className="group cursor-pointer rounded-lg bg-linear-to-br from-blue-500/20 to-purple-500/20 p-8 transition-all duration-300 hover:scale-105 hover:bg-linear-to-br hover:from-blue-500/30 hover:to-purple-500/30"
               >
                 <div class="mb-4 text-4xl">🎬</div>
                 <h3 class="mb-2 text-2xl font-bold">Animations</h3>
@@ -84,7 +85,7 @@ export default function UiIndex() {
               <FadeInSection
                 direction="up"
                 delay={0.2}
-                className="group cursor-pointer rounded-lg bg-gradient-to-br from-green-500/20 to-emerald-500/20 p-8 transition-all duration-300 hover:scale-105 hover:bg-gradient-to-br hover:from-green-500/30 hover:to-emerald-500/30"
+                className="group cursor-pointer rounded-lg bg-linear-to-br from-green-500/20 to-emerald-500/20 p-8 transition-all duration-300 hover:scale-105 hover:bg-linear-to-br hover:from-green-500/30 hover:to-emerald-500/30"
               >
                 <div class="mb-4 text-4xl">🎨</div>
                 <h3 class="mb-2 text-2xl font-bold">Icons</h3>
@@ -115,7 +116,7 @@ export default function UiIndex() {
             <FadeInSection
               direction="up"
               delay={0.3}
-              className="rounded-lg bg-gradient-to-br from-gray-500/20 to-slate-500/20 p-8 opacity-75"
+              className="rounded-lg bg-linear-to-br from-gray-500/20 to-slate-500/20 p-8 opacity-75"
             >
               <div class="mb-4 text-4xl">🚀</div>
               <h3 class="mb-2 text-2xl font-bold">More Components</h3>

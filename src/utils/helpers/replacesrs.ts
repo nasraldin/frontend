@@ -55,6 +55,31 @@ export function replacePlaceholder<T extends Record<string, unknown>>(
 }
 
 /**
+ * Replaces placeholders in a string value based on the placeholder map.
+ *
+ * @param value - The string value to process.
+ * @param placeholderMap - An object mapping placeholders to their replacements.
+ * @returns The replaced value.
+ */
+function replaceStringPlaceholders(
+  value: string,
+  placeholderMap: Record<string, unknown>,
+): unknown {
+  let newValue: unknown = value;
+  for (const [placeholder, replacement] of Object.entries(placeholderMap)) {
+    if (typeof replacement === 'string') {
+      const regex = new RegExp(`\\b${placeholder}\\b`, 'g');
+      newValue = (newValue as string).replace(regex, replacement);
+    }
+    if (value === placeholder) {
+      newValue = replacement;
+      break;
+    }
+  }
+  return newValue;
+}
+
+/**
  * Recursively replaces multiple placeholders in an object with their corresponding replacements.
  *
  * This function traverses through all properties of an object (including nested objects)
@@ -104,18 +129,10 @@ export function replacePlaceholders<T>(
     if (typeof value === 'object' && value !== null) {
       replacePlaceholders(value as Record<string, unknown>, placeholderMap);
     } else if (typeof value === 'string') {
-      let newValue: unknown = value;
-      for (const [placeholder, replacement] of Object.entries(placeholderMap)) {
-        if (typeof replacement === 'string') {
-          const regex = new RegExp(`\\b${placeholder}\\b`, 'g');
-          newValue = (newValue as string).replace(regex, replacement);
-        }
-        if (value === placeholder) {
-          newValue = replacement;
-          break;
-        }
-      }
-      (obj as Record<string, unknown>)[key] = newValue;
+      (obj as Record<string, unknown>)[key] = replaceStringPlaceholders(
+        value,
+        placeholderMap,
+      );
     }
   }
 }
@@ -176,7 +193,7 @@ export function deepReplaceKeys(
   const newObj: Record<string, unknown> = {};
 
   for (const key in obj as Record<string, unknown>) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+    if (Object.hasOwn(obj, key)) {
       const lowerKey = key.toLowerCase();
       const replacer = replacers.find((r) => r.key.toLowerCase() === lowerKey);
       const newKey = replacer ? replacer.replacer : key;

@@ -17,11 +17,11 @@ import { AppRegex, PasswordLength } from '~/constants';
  * formatCountWithPlusSign(40, 20); // Returns: "40+"
  */
 export function formatCountWithPlusSign(count: number, range = 10): string {
-  if (typeof count !== 'number' || isNaN(count)) {
-    throw new Error('formatCountWithPlusSign: Invalid count');
+  if (typeof count !== 'number' || Number.isNaN(count)) {
+    throw new TypeError('formatCountWithPlusSign: Invalid count');
   }
 
-  if (typeof range !== 'number' || isNaN(range) || range <= 0) {
+  if (typeof range !== 'number' || Number.isNaN(range) || range <= 0) {
     throw new Error('formatCountWithPlusSign: Invalid range');
   }
 
@@ -71,11 +71,18 @@ export function imgAltSanitizer(
   // Trim whitespace
   let sanitized = alt.trim();
 
-  // Remove HTML tags
-  sanitized = sanitized.replace(/<[^>]*>/g, '');
+  // Remove HTML tags (requires regex pattern for complex matching)
+  // NOSONAR: replace() with regex is necessary here as replaceAll() only works with string literals
+  sanitized = sanitized.replace(/<[^>]*>/g, ''); // NOSONAR
 
   // Replace multiple spaces with a single space
-  sanitized = sanitized.replace(/\s+/g, ' ');
+  // First normalize common whitespace patterns, then collapse multiple spaces
+  sanitized = sanitized.replaceAll('\t', ' ').replaceAll('\n', ' ');
+
+  // Collapse multiple consecutive spaces into a single space
+  while (sanitized.includes('  ')) {
+    sanitized = sanitized.replaceAll('  ', ' ');
+  }
 
   // If after sanitization the string is empty, return the default
   if (sanitized === '') {
@@ -89,11 +96,11 @@ export function imgAltSanitizer(
 
   // Escape special characters
   sanitized = sanitized
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
 
   return sanitized;
 }

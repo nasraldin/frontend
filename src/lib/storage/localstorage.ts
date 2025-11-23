@@ -17,11 +17,16 @@ const serializeValue = (value: unknown): string => {
     return String(value); // Primitives (null, boolean, number) just convert to string
   }
 
+  if (typeof value === 'string') {
+    return value; // Strings are already strings
+  }
+
   if (typeof value === 'object' || Array.isArray(value)) {
     return JSON.stringify(value); // Objects and arrays need to be stringified
   }
 
-  return String(value); // Any other value (string or unknown type) is converted to string
+  // For any other unknown type, use JSON.stringify to avoid '[object Object]'
+  return JSON.stringify(value);
 };
 
 /**
