@@ -1,6 +1,6 @@
 {
   "name": "ajrly-frontend",
-  "version": "0.3.13",
+  "version": "0.3.17",
   "type": "module",
   "description": "Frontend application build with solidjs",
   "scripts": {
@@ -12,6 +12,7 @@
     "build:dictionary": "node scripts/build-dictionary.mjs",
     "i18n-check": "npx @lingual/i18n-check@latest --source en --locales messages --unused",
     "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
     "test-watch": "vitest",
     "test-ui": "vitest --ui",
     "webhint": "npx hint http://localhost:3000",
@@ -103,6 +104,7 @@
     "@types/mime-types": "3.0.1",
     "@types/negotiator": "0.6.4",
     "@types/node": "24.10.1",
+    "@vitest/coverage-v8": "4.0.13",
     "@vitest/ui": "4.0.13",
     "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
